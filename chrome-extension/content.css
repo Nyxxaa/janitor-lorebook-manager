@@ -1,0 +1,80 @@
+#jlm-panel {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 2147483647;
+  width: 380px;
+  max-height: 76vh;
+  overflow: auto;
+  border: 1px solid #344453;
+  border-radius: 8px;
+  background: #101418;
+  color: #eef2f5;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.45);
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+}
+
+#jlm-panel header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 12px;
+  border-bottom: 1px solid #26323d;
+}
+
+#jlm-panel h2 {
+  margin: 0;
+  font-size: 15px;
+}
+
+#jlm-panel button {
+  padding: 7px 9px;
+  border: 1px solid #465666;
+  border-radius: 6px;
+  background: #243140;
+  color: #fff;
+  cursor: pointer;
+}
+
+#jlm-panel button:hover {
+  background: #2f4052;
+}
+
+#jlm-panel .jlm-body {
+  padding: 10px 12px 12px;
+}
+
+#jlm-panel .jlm-row {
+  display: flex;
+  gap: 8px;
+  margin: 8px 0;
+}
+
+#jlm-panel .jlm-row button {
+  flex: 1;
+}
+
+#jlm-panel .jlm-status {
+  color: #b8c4cf;
+  margin-bottom: 8px;
+}
+
+#jlm-panel pre {
+  max-height: 260px;
+  overflow: auto;
+  margin: 8px 0 0;
+  padding: 8px;
+  border-radius: 6px;
+  background: #07090b;
+  color: #d9e2ec;
+  white-space: pre-wrap;
+}
+
+#jlm-panel .jlm-warn {
+  color: #ffd27a;
+}
+
+#jlm-panel .jlm-error {
+  color: #ff9b9b;
+}

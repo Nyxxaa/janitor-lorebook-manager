@@ -1,0 +1,2808 @@
+{
+  "generated": "2026-07-20",
+  "sources": {
+    "official_databank": "https://www.starwars.com/databank/",
+    "official_news": "https://www.starwars.com/news",
+    "wookieepedia": "https://starwars.fandom.com/"
+  },
+  "changes": [
+    {
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Adi Gallia operational profile",
+      "continuity": "canon/legends",
+      "keys": [
+        "Adi Gallia profile",
+        "Adi Gallia"
+      ]
+    },
+    {
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Agent Terex operational profile",
+      "continuity": "canon",
+      "keys": [
+        "Agent Terex profile",
+        "Terex operational"
+      ]
+    },
+    {
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "AP-5 operational profile",
+      "continuity": "canon",
+      "keys": [
+        "AP-5 profile",
+        "AP-5"
+      ]
+    },
+    {
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Bib Fortuna operational profile",
+      "continuity": "canon/legends",
+      "keys": [
+        "Bib Fortuna profile",
+        "Bib Fortuna"
+      ]
+    },
+    {
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Bossk operational profile",
+      "continuity": "canon/legends",
+      "keys": [
+        "Bossk profile",
+        "Bossk operational"
+      ]
+    },
+    {
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Commander Cody operational profile",
+      "continuity": "canon/legends",
+      "keys": [
+        "Commander Cody profile",
+        "CC-2224"
+      ]
+    },
+    {
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Cham Syndulla operational profile",
+      "continuity": "canon/legends",
+      "keys": [
+        "Cham Syndulla profile",
+        "Cham operational"
+      ]
+    },
+    {
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Ciena Ree operational profile",
+      "continuity": "canon",
+      "keys": [
+        "Ciena Ree profile",
+        "Ciena operational"
+      ]
+    },
+    {
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Cobb Vanth operational profile",
+      "continuity": "canon",
+      "keys": [
+        "Cobb Vanth profile",
+        "Marshal Vanth"
+      ]
+    },
+    {
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Depa Billaba operational profile",
+      "continuity": "canon/legends",
+      "keys": [
+        "Depa Billaba profile",
+        "Depa operational"
+      ]
+    },
+    {
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Dexter Jettster operational profile",
+      "continuity": "canon/legends",
+      "keys": [
+        "Dexter Jettster profile",
+        "Dex operational"
+      ]
+    },
+    {
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Embo operational profile",
+      "continuity": "canon/legends",
+      "keys": [
+        "Embo profile",
+        "Embo operational"
+      ]
+    },
+    {
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Gar Saxon operational profile",
+      "continuity": "canon",
+      "keys": [
+        "Gar Saxon profile",
+        "Gar Saxon"
+      ]
+    },
+    {
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Hera Syndulla operational profile",
+      "continuity": "canon",
+      "keys": [
+        "Hera Syndulla profile",
+        "Hera operational"
+      ]
+    },
+    {
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "IG-88 operational profile",
+      "continuity": "canon/legends",
+      "keys": [
+        "IG-88 profile",
+        "IG-88"
+      ]
+    },
+    {
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Jango Fett contract profile",
+      "continuity": "canon/legends",
+      "keys": [
+        "Jango contract profile",
+        "Kamino template contract"
+      ]
+    },
+    {
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Jar Jar Binks operational profile",
+      "continuity": "canon",
+      "keys": [
+        "Jar Jar profile",
+        "Jar Jar operational"
+      ]
+    },
+    {
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Jocasta Nu operational profile",
+      "continuity": "canon/legends",
+      "keys": [
+        "Jocasta Nu profile",
+        "Jedi archivist"
+      ]
+    },
+    {
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Jyn Erso operational profile",
+      "continuity": "canon",
+      "keys": [
+        "Jyn Erso profile",
+        "Jyn operational"
+      ]
+    },
+    {
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Ketsu Onyo operational profile",
+      "continuity": "canon",
+      "keys": [
+        "Ketsu Onyo profile",
+        "Ketsu operational"
+      ]
+    },
+    {
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Black Krrsantan operational profile",
+      "continuity": "canon/legends",
+      "keys": [
+        "Black Krrsantan profile",
+        "Krrsantan operational"
+      ]
+    },
+    {
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Lama Su operational profile",
+      "continuity": "canon/legends",
+      "keys": [
+        "Lama Su profile",
+        "Lama Su operational"
+      ]
+    },
+    {
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Lobot operational profile",
+      "continuity": "canon/legends",
+      "keys": [
+        "Lobot profile",
+        "Lobot operational"
+      ]
+    },
+    {
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Lor San Tekka operational profile",
+      "continuity": "canon",
+      "keys": [
+        "Lor San Tekka profile",
+        "San Tekka operational"
+      ]
+    },
+    {
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Max Rebo operational profile",
+      "continuity": "canon/legends",
+      "keys": [
+        "Max Rebo profile",
+        "Max Rebo"
+      ]
+    },
+    {
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Nala Se operational profile",
+      "continuity": "canon",
+      "keys": [
+        "Nala Se profile",
+        "Nala Se operational"
+      ]
+    },
+    {
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Omega operational profile",
+      "continuity": "canon",
+      "keys": [
+        "Omega profile",
+        "Omega clone"
+      ]
+    },
+    {
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Plo Koon operational profile",
+      "continuity": "canon/legends",
+      "keys": [
+        "Plo Koon profile",
+        "Plo operational"
+      ]
+    },
+    {
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Pre Vizsla operational profile",
+      "continuity": "canon",
+      "keys": [
+        "Pre Vizsla profile",
+        "Pre Vizsla"
+      ]
+    },
+    {
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Satine Kryze operational profile",
+      "continuity": "canon",
+      "keys": [
+        "Satine Kryze profile",
+        "Satine operational"
+      ]
+    },
+    {
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Shara Bey operational profile",
+      "continuity": "canon",
+      "keys": [
+        "Shara Bey profile",
+        "Shara operational"
+      ]
+    },
+    {
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Shmi Skywalker operational profile",
+      "continuity": "canon",
+      "keys": [
+        "Shmi Skywalker profile",
+        "Shmi operational"
+      ]
+    },
+    {
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Syril Karn operational profile",
+      "continuity": "canon",
+      "keys": [
+        "Syril Karn profile",
+        "Syril operational"
+      ]
+    },
+    {
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Tarfful operational profile",
+      "continuity": "canon/legends",
+      "keys": [
+        "Tarfful profile",
+        "Tarfful operational"
+      ]
+    },
+    {
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Tech operational profile",
+      "continuity": "canon",
+      "keys": [
+        "Tech clone profile",
+        "Clone Force 99 Tech"
+      ]
+    },
+    {
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Trilla Suduri operational profile",
+      "continuity": "canon",
+      "keys": [
+        "Trilla profile",
+        "Second Sister profile"
+      ]
+    },
+    {
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Watto operational profile",
+      "continuity": "canon",
+      "keys": [
+        "Watto profile",
+        "Watto operational"
+      ]
+    },
+    {
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Wedge Antilles operational profile",
+      "continuity": "canon/legends",
+      "keys": [
+        "Wedge Antilles profile",
+        "Wedge operational"
+      ]
+    },
+    {
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Zam Wesell operational profile",
+      "continuity": "canon/legends",
+      "keys": [
+        "Zam Wesell profile",
+        "Zam operational"
+      ]
+    },
+    {
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "desert bandit clans",
+      "continuity": "setting baseline",
+      "keys": [
+        "Desert bandit clan",
+        "wasteland raiders"
+      ]
+    },
+    {
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "antiquities offices",
+      "continuity": "canon/legends",
+      "keys": [
+        "Antiquities office",
+        "relic permit"
+      ]
+    },
+    {
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "beast handler guilds",
+      "continuity": "canon/legends",
+      "keys": [
+        "Beast handler guild",
+        "beast trainer guild"
+      ]
+    },
+    {
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "black-market clinic networks",
+      "continuity": "canon/legends",
+      "keys": [
+        "Black-market clinic network",
+        "illegal medical network"
+      ]
+    },
+    {
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "bounty clearinghouses",
+      "continuity": "canon/legends",
+      "keys": [
+        "Bounty clearinghouse",
+        "bounty broker"
+      ]
+    },
+    {
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "cargo inspectorates",
+      "continuity": "setting baseline",
+      "keys": [
+        "Cargo inspectorate",
+        "freight inspector"
+      ]
+    },
+    {
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "corporate ecology boards",
+      "continuity": "setting baseline",
+      "keys": [
+        "Corporate ecology board",
+        "pollution board"
+      ]
+    },
+    {
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "Vader cults",
+      "continuity": "canon/legends",
+      "keys": [
+        "Vader cult",
+        "cult of Vader"
+      ]
+    },
+    {
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "droid chop shops",
+      "continuity": "canon/legends",
+      "keys": [
+        "Droid chop shop",
+        "illegal droid shop"
+      ]
+    },
+    {
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "free-trader leagues",
+      "continuity": "canon/legends",
+      "keys": [
+        "Free-trader league",
+        "free trader league"
+      ]
+    },
+    {
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "HoloNet pirates",
+      "continuity": "canon/legends",
+      "keys": [
+        "HoloNet pirate",
+        "pirate broadcast"
+      ]
+    },
+    {
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "kajidic courts",
+      "continuity": "canon/legends",
+      "keys": [
+        "Kajidic court",
+        "Hutt arbitration"
+      ]
+    },
+    {
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "local Force shrines",
+      "continuity": "canon/legends",
+      "keys": [
+        "Local Force shrine",
+        "lay Force community"
+      ]
+    },
+    {
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "migrant convoys",
+      "continuity": "canon/legends",
+      "keys": [
+        "Migrant convoy",
+        "refugee convoy"
+      ]
+    },
+    {
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "night markets",
+      "continuity": "canon/legends",
+      "keys": [
+        "Night market",
+        "illegal market"
+      ]
+    },
+    {
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "orbital worker unions",
+      "continuity": "setting baseline",
+      "keys": [
+        "Orbital worker union",
+        "dockworker union"
+      ]
+    },
+    {
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "patrol contractors",
+      "continuity": "canon/legends",
+      "keys": [
+        "Patrol contractor",
+        "security contractor"
+      ]
+    },
+    {
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "relic hunter crews",
+      "continuity": "canon/legends",
+      "keys": [
+        "Relic hunter crew",
+        "artifact hunters"
+      ]
+    },
+    {
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "scrapper guilds",
+      "continuity": "canon/legends",
+      "keys": [
+        "Scrapper guild",
+        "salvage guild"
+      ]
+    },
+    {
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "sector health offices",
+      "continuity": "setting baseline",
+      "keys": [
+        "Sector health office",
+        "public health office"
+      ]
+    },
+    {
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "smuggler mutual-aid funds",
+      "continuity": "setting baseline",
+      "keys": [
+        "Smuggler mutual aid",
+        "crew death fund"
+      ]
+    },
+    {
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "tomb-raider cults",
+      "continuity": "canon/legends",
+      "keys": [
+        "Tomb-raider cult",
+        "relic cult"
+      ]
+    },
+    {
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "water-rights councils",
+      "continuity": "canon/legends",
+      "keys": [
+        "Water-rights council",
+        "vaporator council"
+      ]
+    },
+    {
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "Argai Minor",
+      "continuity": "legends primary",
+      "keys": [
+        "Argai Minor"
+      ]
+    },
+    {
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "Bimmisaari",
+      "continuity": "legends primary",
+      "keys": [
+        "Bimmisaari"
+      ]
+    },
+    {
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "Bpfassh",
+      "continuity": "legends primary",
+      "keys": [
+        "Bpfassh",
+        "Bpfasshi"
+      ]
+    },
+    {
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "Byss",
+      "continuity": "legends primary",
+      "keys": [
+        "Byss legends",
+        "Byss"
+      ]
+    },
+    {
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "Carida",
+      "continuity": "legends primary",
+      "keys": [
+        "Carida"
+      ]
+    },
+    {
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "Circumtore",
+      "continuity": "legends primary",
+      "keys": [
+        "Circumtore"
+      ]
+    },
+    {
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "Da Soocha V",
+      "continuity": "legends primary",
+      "keys": [
+        "Da Soocha",
+        "Da Soocha V"
+      ]
+    },
+    {
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "Dorin",
+      "continuity": "canon/legends",
+      "keys": [
+        "Dorin"
+      ]
+    },
+    {
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "Empress Teta",
+      "continuity": "legends primary",
+      "keys": [
+        "Empress Teta",
+        "Koros Major"
+      ]
+    },
+    {
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "Glee Anselm",
+      "continuity": "canon/legends",
+      "keys": [
+        "Glee Anselm"
+      ]
+    },
+    {
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "Khomm",
+      "continuity": "legends primary",
+      "keys": [
+        "Khomm"
+      ]
+    },
+    {
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "Kiffu",
+      "continuity": "canon/legends",
+      "keys": [
+        "Kiffu"
+      ]
+    },
+    {
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "Kiffex",
+      "continuity": "canon/legends",
+      "keys": [
+        "Kiffex"
+      ]
+    },
+    {
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "Lexrul",
+      "continuity": "legends primary",
+      "keys": [
+        "Lexrul"
+      ]
+    },
+    {
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "Mrlsst",
+      "continuity": "legends primary",
+      "keys": [
+        "Mrlsst"
+      ]
+    },
+    {
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "Myrkr forest zones",
+      "continuity": "legends primary",
+      "keys": [
+        "Myrkr forest",
+        "Myrkr wilds"
+      ]
+    },
+    {
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "Nirauan",
+      "continuity": "legends primary",
+      "keys": [
+        "Nirauan",
+        "Hand of Thrawn base"
+      ]
+    },
+    {
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "Onderon royal politics",
+      "continuity": "canon/legends",
+      "keys": [
+        "Onderon politics",
+        "Iziz court"
+      ]
+    },
+    {
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "Phindar",
+      "continuity": "legends primary",
+      "keys": [
+        "Phindar"
+      ]
+    },
+    {
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "Quarzite",
+      "continuity": "canon",
+      "keys": [
+        "Quarzite"
+      ]
+    },
+    {
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "Rhinnal",
+      "continuity": "legends primary",
+      "keys": [
+        "Rhinnal"
+      ]
+    },
+    {
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "Riflor",
+      "continuity": "legends primary",
+      "keys": [
+        "Riflor"
+      ]
+    },
+    {
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "Thyferra",
+      "continuity": "legends primary; canon references vary",
+      "keys": [
+        "Thyferra",
+        "bacta world"
+      ]
+    },
+    {
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "Tython legends",
+      "continuity": "legends primary; canon version differs",
+      "keys": [
+        "Tython legends",
+        "Je'daii Tython"
+      ]
+    },
+    {
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "Vortex",
+      "continuity": "legends primary",
+      "keys": [
+        "Vortex",
+        "Cathedral of Winds"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Abyssin",
+      "continuity": "legends primary",
+      "keys": [
+        "Abyssin",
+        "Abyssins"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Advozse",
+      "continuity": "canon/legends",
+      "keys": [
+        "Advozse"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Anzellans",
+      "continuity": "canon",
+      "keys": [
+        "Anzellan",
+        "Anzellans"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Aruzan",
+      "continuity": "legends primary",
+      "keys": [
+        "Aruzan",
+        "Aruzans"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Baragwin",
+      "continuity": "canon/legends",
+      "keys": [
+        "Baragwin"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Bimm",
+      "continuity": "legends primary",
+      "keys": [
+        "Bimm",
+        "Bimmisaari species"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "B'omarr monks",
+      "continuity": "canon/legends",
+      "keys": [
+        "B'omarr monk",
+        "B'omarr"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Colicoids",
+      "continuity": "canon/legends",
+      "keys": [
+        "Colicoid",
+        "Colicoids"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Coway",
+      "continuity": "legends primary",
+      "keys": [
+        "Coway",
+        "Mimban natives"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Dressellians",
+      "continuity": "canon/legends",
+      "keys": [
+        "Dressellian",
+        "Dressellians"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Drochs",
+      "continuity": "legends primary",
+      "keys": [
+        "Droch",
+        "Drochs"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Eloms",
+      "continuity": "legends primary",
+      "keys": [
+        "Elom",
+        "Eloms"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Elomin caste context",
+      "continuity": "legends primary",
+      "keys": [
+        "Elomin distinction",
+        "Elom and Elomin"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Frozian",
+      "continuity": "legends primary",
+      "keys": [
+        "Frozian",
+        "Frozians"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Givin vacuum limits",
+      "continuity": "canon/legends",
+      "keys": [
+        "Givin vacuum limits",
+        "Givin biology"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Gossam",
+      "continuity": "canon/legends",
+      "keys": [
+        "Gossam",
+        "Commerce Guild species"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Gotal sensory overload",
+      "continuity": "canon/legends",
+      "keys": [
+        "Gotal sensory overload",
+        "Gotal horns"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Ho'Din",
+      "continuity": "legends primary",
+      "keys": [
+        "Ho'Din",
+        "Ho Din"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Huk",
+      "continuity": "legends primary",
+      "keys": [
+        "Huk",
+        "Yam'rii"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Iktotchi vision stigma",
+      "continuity": "canon/legends",
+      "keys": [
+        "Iktotchi vision stigma",
+        "Iktotchi foresight"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Jabiimi",
+      "continuity": "canon/legends",
+      "keys": [
+        "Jabiimi",
+        "Jabiim locals"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Kadas'sa'Nikto",
+      "continuity": "canon/legends",
+      "keys": [
+        "Kadas'sa'Nikto",
+        "green Nikto"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Kage",
+      "continuity": "canon/legends",
+      "keys": [
+        "Kage",
+        "Kage warriors"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Kajain'sa'Nikto",
+      "continuity": "canon/legends",
+      "keys": [
+        "Kajain'sa'Nikto",
+        "red Nikto"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Kallerans",
+      "continuity": "canon",
+      "keys": [
+        "Kalleran",
+        "Kallerans"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Keshiri",
+      "continuity": "legends primary",
+      "keys": [
+        "Keshiri",
+        "Kesh"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Kowakian monkey-lizards",
+      "continuity": "canon/legends",
+      "keys": [
+        "Kowakian monkey-lizard",
+        "monkey-lizard"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Morseerians",
+      "continuity": "canon/legends",
+      "keys": [
+        "Morseerian",
+        "Morseerians"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Mrlssi",
+      "continuity": "legends primary",
+      "keys": [
+        "Mrlssi",
+        "Mrlsst"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Nimbanel",
+      "continuity": "canon/legends",
+      "keys": [
+        "Nimbanel"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Nothos",
+      "continuity": "legends primary",
+      "keys": [
+        "Nothos",
+        "Nothos species"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Ortolans",
+      "continuity": "canon/legends",
+      "keys": [
+        "Ortolan",
+        "Ortolans"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Pa'lowick",
+      "continuity": "canon/legends",
+      "keys": [
+        "Pa'lowick",
+        "Palowick"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Polis Massans",
+      "continuity": "canon/legends",
+      "keys": [
+        "Polis Massan",
+        "Polis Massans"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Quarren political culture",
+      "continuity": "canon/legends",
+      "keys": [
+        "Quarren politics",
+        "Quarren culture"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Rakata technology loss",
+      "continuity": "legends primary",
+      "keys": [
+        "Rakata technology loss",
+        "Rakata decline"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Sakiyans",
+      "continuity": "legends primary",
+      "keys": [
+        "Sakiyan",
+        "Sakiyans"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Sanyassan Marauders",
+      "continuity": "canon/legends",
+      "keys": [
+        "Sanyassan",
+        "Sanyassan Marauder"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Shistavanen",
+      "continuity": "canon/legends",
+      "keys": [
+        "Shistavanen",
+        "wolfman species"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Snivvians",
+      "continuity": "canon/legends",
+      "keys": [
+        "Snivvian",
+        "Snivvians"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Squibs",
+      "continuity": "legends primary",
+      "keys": [
+        "Squib",
+        "Squibs"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Stennes Shifters",
+      "continuity": "legends primary",
+      "keys": [
+        "Stennes Shifter",
+        "Stennes"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Sunesi",
+      "continuity": "legends primary",
+      "keys": [
+        "Sunesi"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Talz culture",
+      "continuity": "canon/legends",
+      "keys": [
+        "Talz culture",
+        "Talz sovereignty"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Togorians",
+      "continuity": "legends primary",
+      "keys": [
+        "Togorian",
+        "Togorians"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Trianii",
+      "continuity": "legends primary",
+      "keys": [
+        "Trianii",
+        "Trianii Rangers"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Ubese",
+      "continuity": "canon/legends",
+      "keys": [
+        "Ubese"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Weequay clan culture",
+      "continuity": "canon/legends",
+      "keys": [
+        "Weequay culture",
+        "Weequay clans"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Xexto",
+      "continuity": "canon/legends",
+      "keys": [
+        "Xexto"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Yam'rii",
+      "continuity": "legends primary",
+      "keys": [
+        "Yam'rii",
+        "Huk species"
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Yuzzum",
+      "continuity": "canon/legends",
+      "keys": [
+        "Yuzzum",
+        "Yuzzums"
+      ]
+    },
+    {
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "alienage districts",
+      "continuity": "canon/legends",
+      "keys": [
+        "Alienage district",
+        "alien quarter"
+      ]
+    },
+    {
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "amnesty programs",
+      "continuity": "canon/legends",
+      "keys": [
+        "Amnesty program",
+        "conditional amnesty"
+      ]
+    },
+    {
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "apprenticeship contracts",
+      "continuity": "canon/legends",
+      "keys": [
+        "Apprenticeship contract",
+        "training debt"
+      ]
+    },
+    {
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "arena economies",
+      "continuity": "canon/legends",
+      "keys": [
+        "Arena economy",
+        "gladiator betting"
+      ]
+    },
+    {
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "beskar provenance",
+      "continuity": "canon/legends",
+      "keys": [
+        "Beskar provenance",
+        "forged beskar"
+      ]
+    },
+    {
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "bounty hunter codes",
+      "continuity": "canon/legends",
+      "keys": [
+        "Bounty hunter code",
+        "hunter code"
+      ]
+    },
+    {
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "cantina neutrality",
+      "continuity": "setting baseline",
+      "keys": [
+        "Cantina neutrality",
+        "house rules cantina"
+      ]
+    },
+    {
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "asset forfeiture",
+      "continuity": "canon/legends",
+      "keys": [
+        "Asset forfeiture",
+        "seized ship"
+      ]
+    },
+    {
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "company towns",
+      "continuity": "canon/legends",
+      "keys": [
+        "Company town",
+        "corporate town"
+      ]
+    },
+    {
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "court interpreters",
+      "continuity": "setting baseline",
+      "keys": [
+        "Court interpreter",
+        "legal translator"
+      ]
+    },
+    {
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "dead-drop protocols",
+      "continuity": "setting baseline",
+      "keys": [
+        "Dead-drop protocol",
+        "dead drop tradecraft"
+      ]
+    },
+    {
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "deportation orders",
+      "continuity": "canon/legends",
+      "keys": [
+        "Deportation order",
+        "removal order"
+      ]
+    },
+    {
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "docking bonds",
+      "continuity": "setting baseline",
+      "keys": [
+        "Docking bond",
+        "port bond"
+      ]
+    },
+    {
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "evidence bounties",
+      "continuity": "setting baseline",
+      "keys": [
+        "Evidence bounty",
+        "information reward"
+      ]
+    },
+    {
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "false-flag attacks",
+      "continuity": "canon/legends",
+      "keys": [
+        "False-flag attack",
+        "staged attack"
+      ]
+    },
+    {
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "fence networks",
+      "continuity": "canon/legends",
+      "keys": [
+        "Fence network",
+        "stolen goods broker"
+      ]
+    },
+    {
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "fuel rationing",
+      "continuity": "canon/legends",
+      "keys": [
+        "Fuel rationing",
+        "fuel shortage"
+      ]
+    },
+    {
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "gambling debts",
+      "continuity": "canon/legends",
+      "keys": [
+        "Gambling debt",
+        "casino debt"
+      ]
+    },
+    {
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "hab-stack census",
+      "continuity": "setting baseline",
+      "keys": [
+        "Hab-stack census",
+        "residency check"
+      ]
+    },
+    {
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "identity forgery market",
+      "continuity": "canon/legends",
+      "keys": [
+        "Identity forgery market",
+        "fake chain code"
+      ]
+    },
+    {
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "witness and jury intimidation",
+      "continuity": "canon/legends",
+      "keys": [
+        "Jury intimidation",
+        "witness intimidation"
+      ]
+    },
+    {
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "kidnapping ransom customs",
+      "continuity": "canon/legends",
+      "keys": [
+        "Ransom custom",
+        "proof of life"
+      ]
+    },
+    {
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "strikebreaking",
+      "continuity": "canon/legends",
+      "keys": [
+        "Strikebreaking",
+        "labor crackdown"
+      ]
+    },
+    {
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "medical licenses",
+      "continuity": "setting baseline",
+      "keys": [
+        "Medical license",
+        "clinic permit"
+      ]
+    },
+    {
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "munitions taxes",
+      "continuity": "setting baseline",
+      "keys": [
+        "Munitions tax",
+        "ammo tax"
+      ]
+    },
+    {
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "local festivals",
+      "continuity": "canon/legends",
+      "keys": [
+        "Local festival",
+        "festival crowd"
+      ]
+    },
+    {
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "orphan creches",
+      "continuity": "canon/legends",
+      "keys": [
+        "Orphan creche",
+        "war orphanage"
+      ]
+    },
+    {
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "pawned droids",
+      "continuity": "setting baseline",
+      "keys": [
+        "Pawned droid",
+        "droid pawnshop"
+      ]
+    },
+    {
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "quarantine bribes",
+      "continuity": "setting baseline",
+      "keys": [
+        "Quarantine bribe",
+        "medical bribe"
+      ]
+    },
+    {
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "ration fraud",
+      "continuity": "canon/legends",
+      "keys": [
+        "Ration fraud",
+        "aid theft"
+      ]
+    },
+    {
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "rebel taxation",
+      "continuity": "canon/legends",
+      "keys": [
+        "Rebel tax",
+        "insurgent levy"
+      ]
+    },
+    {
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "safe-passage papers",
+      "continuity": "canon/legends",
+      "keys": [
+        "Safe-passage papers",
+        "travel writ"
+      ]
+    },
+    {
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "sensor warrants",
+      "continuity": "setting baseline",
+      "keys": [
+        "Sensor warrant",
+        "scan warrant"
+      ]
+    },
+    {
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "crew shares",
+      "continuity": "canon/legends",
+      "keys": [
+        "Crew share",
+        "ship shares"
+      ]
+    },
+    {
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "smuggler tithes",
+      "continuity": "canon/legends",
+      "keys": [
+        "Smuggler tithe",
+        "shadowport tithe"
+      ]
+    },
+    {
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "legal sponsorship",
+      "continuity": "setting baseline",
+      "keys": [
+        "Legal sponsor",
+        "local sponsor"
+      ]
+    },
+    {
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "union busting",
+      "continuity": "setting baseline",
+      "keys": [
+        "Union busting",
+        "labor spy"
+      ]
+    },
+    {
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "vehicle registration",
+      "continuity": "canon/legends",
+      "keys": [
+        "Vehicle registration",
+        "speeder registration"
+      ]
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "2-1B surgical droids",
+      "continuity": "canon/legends",
+      "keys": [
+        "2-1B droid",
+        "2-1B surgical droid"
+      ]
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "protocol droid bounty conversions",
+      "continuity": "canon/legends",
+      "keys": [
+        "Protocol droid bounty hunter",
+        "4-LOM type"
+      ]
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "A99 aquata breathers",
+      "continuity": "canon/legends",
+      "keys": [
+        "Aquata breather",
+        "A99 breather"
+      ]
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "AT-AP walkers",
+      "continuity": "canon/legends",
+      "keys": [
+        "AT-AP",
+        "AT-AP walker"
+      ]
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "AT-TE walkers",
+      "continuity": "canon/legends",
+      "keys": [
+        "AT-TE",
+        "AT-TE walker"
+      ]
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "BARC speeders",
+      "continuity": "canon/legends",
+      "keys": [
+        "BARC speeder",
+        "clone speeder bike"
+      ]
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "binary loadlifters",
+      "continuity": "canon/legends",
+      "keys": [
+        "Binary loadlifter",
+        "loadlifter droid"
+      ]
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "bowcasters",
+      "continuity": "canon/legends",
+      "keys": [
+        "Bowcaster",
+        "Wookiee bowcaster"
+      ]
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "camtonos",
+      "continuity": "canon",
+      "keys": [
+        "Camtono",
+        "camtono safe"
+      ]
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "coaxium refining",
+      "continuity": "canon",
+      "keys": [
+        "Coaxium refining",
+        "unstable coaxium"
+      ]
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "Marksman-H remotes",
+      "continuity": "canon/legends",
+      "keys": [
+        "Marksman-H remote",
+        "combat remote"
+      ]
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "datacards",
+      "continuity": "canon/legends",
+      "keys": [
+        "Datacard",
+        "data card"
+      ]
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "restraining bolt bypass",
+      "continuity": "canon/legends",
+      "keys": [
+        "Restraining bolt bypass",
+        "remove restraining bolt"
+      ]
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "fusioncutters",
+      "continuity": "canon/legends",
+      "keys": [
+        "Fusioncutter",
+        "fusion cutter"
+      ]
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "dejarik tables",
+      "continuity": "canon/legends",
+      "keys": [
+        "Dejarik",
+        "holochess"
+      ]
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "hyperspace beacons",
+      "continuity": "canon/legends",
+      "keys": [
+        "Hyperspace beacon",
+        "nav beacon"
+      ]
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "IG-series assassin droids",
+      "continuity": "canon/legends",
+      "keys": [
+        "IG-series assassin droid",
+        "IG assassin droid"
+      ]
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "Jedi comm codes",
+      "continuity": "canon/legends",
+      "keys": [
+        "Jedi comm code",
+        "Jedi distress code"
+      ]
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "Kihraxz fighters",
+      "continuity": "legends primary",
+      "keys": [
+        "Kihraxz",
+        "Kihraxz fighter"
+      ]
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "Lambda-class shuttles",
+      "continuity": "canon/legends",
+      "keys": [
+        "Lambda shuttle",
+        "Lambda-class"
+      ]
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "LAAT gunships",
+      "continuity": "canon/legends",
+      "keys": [
+        "LAAT gunship",
+        "Republic gunship"
+      ]
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "lightsaber pikes",
+      "continuity": "canon/legends",
+      "keys": [
+        "Lightsaber pike",
+        "saber pike"
+      ]
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "AJ^6 cyborg construct",
+      "continuity": "canon/legends",
+      "keys": [
+        "AJ6 cyborg construct",
+        "cyborg headgear"
+      ]
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "medpacs",
+      "continuity": "canon/legends",
+      "keys": [
+        "Medpac",
+        "medpack"
+      ]
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "mouse droid security routing",
+      "continuity": "canon/legends",
+      "keys": [
+        "Mouse droid route",
+        "MSE route"
+      ]
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "neural bands",
+      "continuity": "canon/legends",
+      "keys": [
+        "Neural band",
+        "neural restraint"
+      ]
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "R-series astromechs",
+      "continuity": "canon/legends",
+      "keys": [
+        "R-series astromech",
+        "R-series droid"
+      ]
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "sabacc decks",
+      "continuity": "canon/legends",
+      "keys": [
+        "Sabacc deck",
+        "sabacc"
+      ]
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "Separatist ordnance caches",
+      "continuity": "canon/legends",
+      "keys": [
+        "Separatist ordnance cache",
+        "droid army cache"
+      ]
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "wayfinder security",
+      "continuity": "canon",
+      "keys": [
+        "Sith wayfinder security",
+        "wayfinder route"
+      ]
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "slicer spikes",
+      "continuity": "canon/legends",
+      "keys": [
+        "Slicer spike",
+        "code spike"
+      ]
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "speeder transponder tags",
+      "continuity": "setting baseline",
+      "keys": [
+        "Speeder transponder",
+        "speeder tag"
+      ]
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "T-6 Jedi shuttles",
+      "continuity": "canon",
+      "keys": [
+        "T-6 shuttle",
+        "T-6 Jedi shuttle"
+      ]
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "Vulture droids",
+      "continuity": "canon/legends",
+      "keys": [
+        "Vulture droid",
+        "droid starfighter"
+      ]
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "wrist rockets",
+      "continuity": "canon/legends",
+      "keys": [
+        "Wrist rocket",
+        "wrist rockets"
+      ]
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "Blistmoks",
+      "continuity": "legends primary",
+      "keys": [
+        "Blistmok",
+        "Blistmoks"
+      ]
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "Boga",
+      "continuity": "canon",
+      "keys": [
+        "Boga",
+        "Obi-Wan varactyl"
+      ]
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "Bordok herds",
+      "continuity": "canon/legends",
+      "keys": [
+        "Bordok herd",
+        "Endor herd"
+      ]
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "Geonosian brain worms",
+      "continuity": "canon",
+      "keys": [
+        "Geonosian brain worm",
+        "brain worm"
+      ]
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "Cairnmogs",
+      "continuity": "legends primary",
+      "keys": [
+        "Cairnmog",
+        "Cairnmogs"
+      ]
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "Chirodactyls",
+      "continuity": "legends primary",
+      "keys": [
+        "Chirodactyl",
+        "Chirodactyls"
+      ]
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "Dragonsnake lairs",
+      "continuity": "canon/legends",
+      "keys": [
+        "Dragonsnake lair",
+        "swamp predator lair"
+      ]
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "Duracrete slugs",
+      "continuity": "setting-compatible",
+      "keys": [
+        "Duracrete slug",
+        "urban pipe slug"
+      ]
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "Gizka",
+      "continuity": "legends primary",
+      "keys": [
+        "Gizka",
+        "Gizka infestation"
+      ]
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "Grimtaash legends",
+      "continuity": "legends primary",
+      "keys": [
+        "Grimtaash"
+      ]
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "Gualaar",
+      "continuity": "canon/legends",
+      "keys": [
+        "Gualaar"
+      ]
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "Hssiss",
+      "continuity": "legends primary",
+      "keys": [
+        "Hssiss",
+        "dark side dragon"
+      ]
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "Kaanis",
+      "continuity": "legends primary",
+      "keys": [
+        "Kaanis"
+      ]
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "Kinrath",
+      "continuity": "legends primary",
+      "keys": [
+        "Kinrath",
+        "Kinrath egg"
+      ]
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "K'lor'slugs",
+      "continuity": "legends primary",
+      "keys": [
+        "K'lor'slug",
+        "Klor slug"
+      ]
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "Laigreks",
+      "continuity": "legends primary",
+      "keys": [
+        "Laigrek",
+        "Laigreks"
+      ]
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "Manka cats",
+      "continuity": "legends primary",
+      "keys": [
+        "Manka cat",
+        "Manka cats"
+      ]
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "Motts",
+      "continuity": "canon/legends",
+      "keys": [
+        "Mott",
+        "Motts"
+      ]
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "Rakghoul variants",
+      "continuity": "legends primary",
+      "keys": [
+        "Rakghoul variant",
+        "Rakghoul mutation"
+      ]
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "Nuna",
+      "continuity": "canon/legends",
+      "keys": [
+        "Nuna",
+        "Nunas"
+      ]
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "Peko-peko",
+      "continuity": "canon/legends",
+      "keys": [
+        "Peko-peko",
+        "Peko peko"
+      ]
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "Endangered beasts",
+      "continuity": "setting baseline",
+      "keys": [
+        "Endangered beast",
+        "trophy hunt"
+      ]
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "Reek stables",
+      "continuity": "canon/legends",
+      "keys": [
+        "Reek stable",
+        "arena beast stable"
+      ]
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "Robas",
+      "continuity": "legends primary",
+      "keys": [
+        "Roba",
+        "Robas"
+      ]
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "Shi'ido shapeshifter suspicion",
+      "continuity": "legends primary",
+      "keys": [
+        "Shi'ido suspicion",
+        "shapeshifter hunt"
+      ]
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "Skreevs",
+      "continuity": "legends primary",
+      "keys": [
+        "Skreev",
+        "Skreevs"
+      ]
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "Sleens",
+      "continuity": "canon/legends",
+      "keys": [
+        "Sleen",
+        "Sleens"
+      ]
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "Stintaril",
+      "continuity": "legends primary",
+      "keys": [
+        "Stintaril",
+        "Stintarils"
+      ]
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "Tach",
+      "continuity": "legends primary",
+      "keys": [
+        "Tach",
+        "Tachs"
+      ]
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "Tybis",
+      "continuity": "legends primary",
+      "keys": [
+        "Tybis"
+      ]
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "Uwari beetles",
+      "continuity": "legends primary",
+      "keys": [
+        "Uwari beetle",
+        "Uwari beetles"
+      ]
+    },
+    {
+      "file": "Kyber RPG 10 - Force Powers.json",
+      "name": "Force-enhanced reflexes",
+      "continuity": "canon/legends",
+      "keys": [
+        "Force-enhanced reflexes",
+        "Force reflexes"
+      ]
+    },
+    {
+      "file": "Kyber RPG 10 - Force Powers.json",
+      "name": "Farsight",
+      "continuity": "canon/legends",
+      "keys": [
+        "Farsight",
+        "Force farsight"
+      ]
+    },
+    {
+      "file": "Kyber RPG 10 - Force Powers.json",
+      "name": "Force flashbacks",
+      "continuity": "canon/legends",
+      "keys": [
+        "Force flashback",
+        "psychometric flashback"
+      ]
+    },
+    {
+      "file": "Kyber RPG 10 - Force Powers.json",
+      "name": "sever Force technique",
+      "continuity": "legends primary",
+      "keys": [
+        "Sever Force",
+        "cut off from the Force"
+      ]
+    },
+    {
+      "file": "Kyber RPG 10 - Force Powers.json",
+      "name": "instinctive astrogation",
+      "continuity": "canon/legends",
+      "keys": [
+        "Instinctive astrogation",
+        "Force astrogation"
+      ]
+    },
+    {
+      "file": "Kyber RPG 10 - Force Powers.json",
+      "name": "memory manipulation limits",
+      "continuity": "canon/legends",
+      "keys": [
+        "Memory manipulation limit",
+        "Force memory alter"
+      ]
+    },
+    {
+      "file": "Kyber RPG 11 - Force Orders.json",
+      "name": "Sith cult believers",
+      "continuity": "canon/legends",
+      "keys": [
+        "Sith cult believer",
+        "lay Sith cult"
+      ]
+    },
+    {
+      "file": "Kyber RPG 11 - Force Orders.json",
+      "name": "Crimson Nova bounty order",
+      "continuity": "legends primary",
+      "keys": [
+        "Crimson Nova",
+        "Jedi bounty hunters"
+      ]
+    },
+    {
+      "file": "Kyber RPG 11 - Force Orders.json",
+      "name": "Dagoyan Masters",
+      "continuity": "canon",
+      "keys": [
+        "Dagoyan Masters",
+        "Dagoyan Order"
+      ]
+    },
+    {
+      "file": "Kyber RPG 11 - Force Orders.json",
+      "name": "Gray Paladins",
+      "continuity": "legends primary",
+      "keys": [
+        "Gray Paladin",
+        "Gray Paladins"
+      ]
+    },
+    {
+      "file": "Kyber RPG 11 - Force Orders.json",
+      "name": "Je'daii rangers",
+      "continuity": "legends primary",
+      "keys": [
+        "Je'daii ranger",
+        "Je'daii"
+      ]
+    },
+    {
+      "file": "Kyber RPG 11 - Force Orders.json",
+      "name": "Mecrosa Order",
+      "continuity": "legends primary",
+      "keys": [
+        "Mecrosa Order",
+        "Mecrosa"
+      ]
+    },
+    {
+      "file": "Kyber RPG 11 - Force Orders.json",
+      "name": "Naddist cults",
+      "continuity": "legends primary",
+      "keys": [
+        "Naddist cult",
+        "Naddists"
+      ]
+    },
+    {
+      "file": "Kyber RPG 11 - Force Orders.json",
+      "name": "Tython Je'daii temples",
+      "continuity": "legends primary",
+      "keys": [
+        "Tython Je'daii temple",
+        "Je'daii temple"
+      ]
+    },
+    {
+      "file": "Kyber RPG 12 - Lightsabers and Kyber.json",
+      "name": "lightsaber blaster hybrids",
+      "continuity": "canon/legends",
+      "keys": [
+        "Lightsaber blaster hybrid",
+        "trick lightsaber"
+      ]
+    },
+    {
+      "file": "Kyber RPG 12 - Lightsabers and Kyber.json",
+      "name": "lightsaber canes",
+      "continuity": "canon/legends",
+      "keys": [
+        "Lightsaber cane",
+        "cane saber"
+      ]
+    },
+    {
+      "file": "Kyber RPG 12 - Lightsabers and Kyber.json",
+      "name": "cracked kyber crystals",
+      "continuity": "canon/legends",
+      "keys": [
+        "Cracked kyber",
+        "damaged kyber crystal"
+      ]
+    },
+    {
+      "file": "Kyber RPG 12 - Lightsabers and Kyber.json",
+      "name": "Darksaber political symbolism",
+      "continuity": "canon",
+      "keys": [
+        "Darksaber politics",
+        "Darksaber legitimacy"
+      ]
+    },
+    {
+      "file": "Kyber RPG 12 - Lightsabers and Kyber.json",
+      "name": "lightsaber dueling rings",
+      "continuity": "canon/legends",
+      "keys": [
+        "Lightsaber dueling ring",
+        "saber arena"
+      ]
+    },
+    {
+      "file": "Kyber RPG 12 - Lightsabers and Kyber.json",
+      "name": "focusing lenses",
+      "continuity": "canon/legends",
+      "keys": [
+        "Focusing lens",
+        "lightsaber lens"
+      ]
+    },
+    {
+      "file": "Kyber RPG 12 - Lightsabers and Kyber.json",
+      "name": "shoto lightsabers",
+      "continuity": "canon/legends",
+      "keys": [
+        "Shoto",
+        "shoto lightsaber"
+      ]
+    },
+    {
+      "file": "Kyber RPG 12 - Lightsabers and Kyber.json",
+      "name": "training remotes",
+      "continuity": "canon/legends",
+      "keys": [
+        "Training remote",
+        "remote droid training"
+      ]
+    },
+    {
+      "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+      "name": "artifact provenance",
+      "continuity": "canon/legends",
+      "keys": [
+        "Artifact provenance",
+        "relic provenance"
+      ]
+    },
+    {
+      "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+      "name": "Force binding vows",
+      "continuity": "canon/legends",
+      "keys": [
+        "Force binding vow",
+        "binding oath"
+      ]
+    },
+    {
+      "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+      "name": "crystal cave ecology",
+      "continuity": "canon/legends",
+      "keys": [
+        "Crystal cave ecology",
+        "kyber cave ecology"
+      ]
+    },
+    {
+      "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+      "name": "dead Jedi caches",
+      "continuity": "canon/legends",
+      "keys": [
+        "Dead Jedi cache",
+        "Jedi emergency cache"
+      ]
+    },
+    {
+      "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+      "name": "dream intrusion",
+      "continuity": "canon/legends",
+      "keys": [
+        "Dream intrusion",
+        "Force dream attack"
+      ]
+    },
+    {
+      "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+      "name": "Force-site guardian droids",
+      "continuity": "canon/legends",
+      "keys": [
+        "Force-site guardian droid",
+        "temple security droid"
+      ]
+    },
+    {
+      "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+      "name": "kyber smuggling",
+      "continuity": "canon/legends",
+      "keys": [
+        "Kyber smuggling",
+        "illegal kyber"
+      ]
+    },
+    {
+      "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+      "name": "light-side temptation",
+      "continuity": "canon/legends",
+      "keys": [
+        "Light-side temptation",
+        "reckless mercy"
+      ]
+    },
+    {
+      "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+      "name": "lost Padawan traces",
+      "continuity": "canon/legends",
+      "keys": [
+        "Lost Padawan trace",
+        "Padawan journal"
+      ]
+    },
+    {
+      "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+      "name": "ritual circles",
+      "continuity": "canon/legends",
+      "keys": [
+        "Ritual circle",
+        "Force ritual site"
+      ]
+    },
+    {
+      "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+      "name": "Force-silent rooms",
+      "continuity": "canon/legends",
+      "keys": [
+        "Force-silent room",
+        "Force blind room"
+      ]
+    },
+    {
+      "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+      "name": "Sith language inscriptions",
+      "continuity": "canon/legends",
+      "keys": [
+        "Sith language inscription",
+        "Sith text"
+      ]
+    },
+    {
+      "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+      "name": "temple map rooms",
+      "continuity": "canon/legends",
+      "keys": [
+        "Temple map room",
+        "Jedi map room"
+      ]
+    },
+    {
+      "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+      "name": "living vergence ecology",
+      "continuity": "canon/legends",
+      "keys": [
+        "Living vergence",
+        "verdant vergence"
+      ]
+    },
+    {
+      "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+      "name": "Force wound survivors",
+      "continuity": "canon/legends",
+      "keys": [
+        "Force wound survivor",
+        "wound in the Force survivor"
+      ]
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Arkanian offshoot lore",
+      "continuity": "legends primary",
+      "keys": [
+        "Arkanian offshoot",
+        "Arkanian genetics"
+      ]
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Bakura aftermath",
+      "continuity": "legends primary",
+      "keys": [
+        "Bakura aftermath",
+        "Bakura crisis"
+      ]
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Beldorion the Hutt",
+      "continuity": "legends primary",
+      "keys": [
+        "Beldorion",
+        "Force-sensitive Hutt"
+      ]
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Black Sun Vigos legends",
+      "continuity": "legends primary",
+      "keys": [
+        "Black Sun Vigo legends",
+        "Vigo council"
+      ]
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Borsk Fey'lya",
+      "continuity": "legends primary",
+      "keys": [
+        "Borsk Fey'lya",
+        "Fey'lya"
+      ]
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Darth Caedus war",
+      "continuity": "legends primary",
+      "keys": [
+        "Darth Caedus war",
+        "Caedus conflict"
+      ]
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Callista Ming",
+      "continuity": "legends primary",
+      "keys": [
+        "Callista Ming",
+        "Callista"
+      ]
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Caamasi memory shards",
+      "continuity": "legends primary",
+      "keys": [
+        "Caamasi memory",
+        "Caamas memory"
+      ]
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Celeste Morne",
+      "continuity": "legends primary",
+      "keys": [
+        "Celeste Morne"
+      ]
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Centerpoint crisis",
+      "continuity": "legends primary",
+      "keys": [
+        "Centerpoint crisis",
+        "Corellian crisis legends"
+      ]
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Corran Horn",
+      "continuity": "legends primary",
+      "keys": [
+        "Corran Horn"
+      ]
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Daala remnant politics",
+      "continuity": "legends primary",
+      "keys": [
+        "Daala remnant",
+        "Daala politics"
+      ]
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Dorsk 81",
+      "continuity": "legends primary",
+      "keys": [
+        "Dorsk 81",
+        "Khomm Jedi"
+      ]
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Imperial Knights doctrine",
+      "continuity": "legends primary",
+      "keys": [
+        "Imperial Knights doctrine",
+        "Fel knights"
+      ]
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Ganner Rhysode",
+      "continuity": "legends primary",
+      "keys": [
+        "Ganner Rhysode"
+      ]
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Garm Bel Iblis legends",
+      "continuity": "legends primary",
+      "keys": [
+        "Garm Bel Iblis",
+        "Bel Iblis"
+      ]
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Gilad Pellaeon",
+      "continuity": "legends primary",
+      "keys": [
+        "Gilad Pellaeon",
+        "Pellaeon detail"
+      ]
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Irek Ismaren and Roganda",
+      "continuity": "legends primary",
+      "keys": [
+        "Irek Ismaren",
+        "Roganda Ismaren"
+      ]
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Jaina Solo",
+      "continuity": "legends primary",
+      "keys": [
+        "Jaina Solo"
+      ]
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Jacen Solo",
+      "continuity": "legends primary",
+      "keys": [
+        "Jacen Solo"
+      ]
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Jagged Fel",
+      "continuity": "legends primary",
+      "keys": [
+        "Jagged Fel",
+        "Jag Fel"
+      ]
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Kyp Durron",
+      "continuity": "legends primary",
+      "keys": [
+        "Kyp Durron"
+      ]
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Lowbacca",
+      "continuity": "legends primary",
+      "keys": [
+        "Lowbacca"
+      ]
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Mirax Terrik",
+      "continuity": "legends primary",
+      "keys": [
+        "Mirax Terrik"
+      ]
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Lost City of the Jedi",
+      "continuity": "legends primary",
+      "keys": [
+        "Lost City of the Jedi",
+        "Jedi prince rumor"
+      ]
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Noghri honor debt",
+      "continuity": "legends primary",
+      "keys": [
+        "Noghri honor debt",
+        "Noghri clan debt"
+      ]
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Nom Anor",
+      "continuity": "legends primary",
+      "keys": [
+        "Nom Anor"
+      ]
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Yavin Praxeum students",
+      "continuity": "legends primary",
+      "keys": [
+        "Yavin Praxeum students",
+        "Jedi praxeum students"
+      ]
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Talon Karrde",
+      "continuity": "legends primary",
+      "keys": [
+        "Talon Karrde",
+        "Karrde"
+      ]
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Tenel Ka",
+      "continuity": "legends primary",
+      "keys": [
+        "Tenel Ka"
+      ]
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Tycho Celchu",
+      "continuity": "legends primary",
+      "keys": [
+        "Tycho Celchu"
+      ]
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Shamed Ones heresy",
+      "continuity": "legends primary",
+      "keys": [
+        "Shamed Ones heresy",
+        "Vong heresy"
+      ]
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Wes Janson legends",
+      "continuity": "legends primary",
+      "keys": [
+        "Wes Janson"
+      ]
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Winter Celchu",
+      "continuity": "legends primary",
+      "keys": [
+        "Winter Celchu",
+        "Winter Retrac"
+      ]
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Wraith Squadron culture",
+      "continuity": "legends primary",
+      "keys": [
+        "Wraith Squadron culture",
+        "Wraith misfits"
+      ]
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Yuuzhan Vong castes",
+      "continuity": "legends primary",
+      "keys": [
+        "Yuuzhan Vong castes",
+        "Vong caste"
+      ]
+    }
+  ]
+}

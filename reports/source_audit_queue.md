@@ -1,0 +1,395 @@
+# Source Audit Queue
+
+Purpose: track lore entries that should be checked against current canon/Legends source layering before further expansion.
+
+Entries queued: 372
+
+## Counts By File
+
+- Kyber RPG 01 - Core Continuity.json: 2
+- Kyber RPG 02 - Eras and History.json: 73
+- Kyber RPG 04 - Factions and Governments.json: 8
+- Kyber RPG 05 - Worlds and Regions.json: 33
+- Kyber RPG 06 - Species and Cultures.json: 44
+- Kyber RPG 08 - Technology Ships Gear.json: 18
+- Kyber RPG 09 - Creatures and Hazards.json: 37
+- Kyber RPG 10 - Force Powers.json: 21
+- Kyber RPG 11 - Force Orders.json: 26
+- Kyber RPG 12 - Lightsabers and Kyber.json: 5
+- Kyber RPG 13 - Force Metaphysics Artifacts.json: 6
+- Kyber RPG 14 - Legends Supplements.json: 99
+
+## Queue
+
+- Kyber RPG 01 - Core Continuity.json :: major historical eras :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 01 - Core Continuity.json :: lore retrieval index :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: old republic founding legends :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: force wars of tython :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: great hyperspace war legends :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: freedon nadd uprising :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: great sith war :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: mandalorian wars :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: jedi civil war :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: sith triumvirate war :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: great galactic war :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: cold war swtor :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: eternal empire conquest :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: new sith wars :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: battle of ruusan :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: battle of ton-falk :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: battle of derra iv :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: battle of bakura :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: x-wing rogue squadron campaign :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: capture of coruscant legends :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: krytos crisis :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: bacta war :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: zsinj campaign :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: thrawn campaign legends :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: dark empire crisis :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: jedi academy crisis :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: darksaber crisis legends :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: corellian crisis :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: hand of thrawn crisis :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: yuuzhan vong invasion :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: fall of coruscant yuuzhan vong :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: galactic alliance formation :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: swarm war :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: second galactic civil war :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: lost tribe crisis :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: one sith takeover :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: battle of coruscant legacy :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: duel on yavin iv legends :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: battle of hypori legends :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: rakatan infinite empire :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: je'daii order history :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: tales of the jedi hyperspace explorers :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: sith empire exile :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: krath conflict :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: ossus devastation :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: revan's redemption :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: malachor v catastrophe :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: jedi conclave on katarr :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: meetra surik restores jedi links :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: sacking of coruscant legends :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: treaty of coruscant legends :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: zakuul outlander uprising :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: brotherhood of darkness formed :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: army of light :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: bane destroys brotherhood :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: plagueis and sidious conspiracy legends :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: outbound flight disaster :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: imperial mission to honoghr :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: imperial warlord era legends :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: courtship of princess leia crisis :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: daala campaigns :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: destruction of carida legends :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: imperial reunification under pellaeon :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: caamas document crisis :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: new republic imperial peace treaty legends :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: vector prime invasion begins :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: battle of ithor vong :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: mission to myrkr :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: battle of borleias :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: battle of ebaq 9 :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: unifying force finale :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: jacen solo becomes darth caedus :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: abeloth emergence :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: ossus massacre legacy :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 02 - Eras and History.json :: cade skywalker rebellion :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 04 - Factions and Governments.json :: trade federation and corporate powers :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 04 - Factions and Governments.json :: omega squad :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 04 - Factions and Governments.json :: mandalorian military organization :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 04 - Factions and Governments.json :: hapan military :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 04 - Factions and Governments.json :: orbital bombardment :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 04 - Factions and Governments.json :: hutt kajidics :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 04 - Factions and Governments.json :: hapes consortium :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 04 - Factions and Governments.json :: zann consortium :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 05 - Worlds and Regions.json :: corellia :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 05 - Worlds and Regions.json :: zeltros :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 05 - Worlds and Regions.json :: onderon :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 05 - Worlds and Regions.json :: hapes cluster :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 05 - Worlds and Regions.json :: transitory mists :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 05 - Worlds and Regions.json :: korriban academy :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 05 - Worlds and Regions.json :: dromund kaas :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 05 - Worlds and Regions.json :: honoghr :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 05 - Worlds and Regions.json :: borleias :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 05 - Worlds and Regions.json :: ziost :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 05 - Worlds and Regions.json :: telos iv legends :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 05 - Worlds and Regions.json :: ansion :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 05 - Worlds and Regions.json :: giju :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 05 - Worlds and Regions.json :: haruun kal :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 05 - Worlds and Regions.json :: tund :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 05 - Worlds and Regions.json :: zakuul :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 05 - Worlds and Regions.json :: Bonadan :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 05 - Worlds and Regions.json :: Bimmisaari :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 05 - Worlds and Regions.json :: Bpfassh :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 05 - Worlds and Regions.json :: Byss :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 05 - Worlds and Regions.json :: Carida :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 05 - Worlds and Regions.json :: Circumtore :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 05 - Worlds and Regions.json :: Da Soocha V :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 05 - Worlds and Regions.json :: Empress Teta :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 05 - Worlds and Regions.json :: Khomm :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 05 - Worlds and Regions.json :: Lexrul :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 05 - Worlds and Regions.json :: Mrlsst :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 05 - Worlds and Regions.json :: Myrkr forest zones :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 05 - Worlds and Regions.json :: Nirauan :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 05 - Worlds and Regions.json :: Phindar :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 05 - Worlds and Regions.json :: Rhinnal :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 05 - Worlds and Regions.json :: Riflor :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 05 - Worlds and Regions.json :: Vortex :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: mandalorians :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels; many keys (9); check activation pressure
+- Kyber RPG 06 - Species and Cultures.json :: devaronians :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: ithorians :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: ryn :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: caamasi :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: celegians :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: draethos :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: fosh :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: neti :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: noghri :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: ssi-ruu :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: yuuzhan vong species :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: echani :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: elomin :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: jenet :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: lorrdians :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: miraluka :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: nagai :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: omwati :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: rakata survivors :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: sluissi :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: thakwaash :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: yinchorri :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: Abyssin :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: Aruzan :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: Bimm :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: Coway :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: Drochs :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: Eloms :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: Elomin caste context :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: Frozian :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: Ho'Din :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: Huk :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: Keshiri :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: Mrlssi :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: Nothos :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: Rakata technology loss :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: Sakiyans :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: Squibs :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: Stennes Shifters :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: Sunesi :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: Togorians :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: Trianii :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 06 - Species and Cultures.json :: Yam'rii :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 08 - Technology Ships Gear.json :: leviathan kotor :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 08 - Technology Ships Gear.json :: ebon hawk :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 08 - Technology Ships Gear.json :: dynamic-class freighter :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 08 - Technology Ships Gear.json :: ravager nihilus :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 08 - Technology Ships Gear.json :: harrower-class dreadnought :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 08 - Technology Ships Gear.json :: terminus-class destroyer :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 08 - Technology Ships Gear.json :: valor-class cruiser :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 08 - Technology Ships Gear.json :: eternal fleet ships :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 08 - Technology Ships Gear.json :: sun crusher :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 08 - Technology Ships Gear.json :: world devastators :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 08 - Technology Ships Gear.json :: galaxy gun :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 08 - Technology Ships Gear.json :: star forge :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 08 - Technology Ships Gear.json :: mass shadow generator :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 08 - Technology Ships Gear.json :: thought bomb artifact distinction :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 08 - Technology Ships Gear.json :: yvh battle droids :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 08 - Technology Ships Gear.json :: eclipse-class dreadnought :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 08 - Technology Ships Gear.json :: pazaak decks :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 08 - Technology Ships Gear.json :: Kihraxz fighters :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 09 - Creatures and Hazards.json :: vornskr :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 09 - Creatures and Hazards.json :: terentatek :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 09 - Creatures and Hazards.json :: sithspawn leviathan :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 09 - Creatures and Hazards.json :: kolto contamination :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 09 - Creatures and Hazards.json :: bando gora biohazards :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 09 - Creatures and Hazards.json :: bomas :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 09 - Creatures and Hazards.json :: cannoks :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 09 - Creatures and Hazards.json :: grallocs :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 09 - Creatures and Hazards.json :: shyracks :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 09 - Creatures and Hazards.json :: wraids :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 09 - Creatures and Hazards.json :: bursas :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 09 - Creatures and Hazards.json :: maalraas :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 09 - Creatures and Hazards.json :: murra :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 09 - Creatures and Hazards.json :: orbalisks :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 09 - Creatures and Hazards.json :: storm beasts :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 09 - Creatures and Hazards.json :: strills :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 09 - Creatures and Hazards.json :: tuk'ata :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 09 - Creatures and Hazards.json :: voxyn :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 09 - Creatures and Hazards.json :: ysalamiri handling hazards :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 09 - Creatures and Hazards.json :: Blistmoks :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 09 - Creatures and Hazards.json :: Cairnmogs :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 09 - Creatures and Hazards.json :: Chirodactyls :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 09 - Creatures and Hazards.json :: Gizka :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 09 - Creatures and Hazards.json :: Grimtaash legends :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 09 - Creatures and Hazards.json :: Hssiss :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 09 - Creatures and Hazards.json :: Kinrath :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 09 - Creatures and Hazards.json :: K'lor'slugs :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 09 - Creatures and Hazards.json :: Laigreks :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 09 - Creatures and Hazards.json :: Manka cats :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 09 - Creatures and Hazards.json :: Rakghoul variants :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 09 - Creatures and Hazards.json :: Robas :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 09 - Creatures and Hazards.json :: Shi'ido shapeshifter suspicion :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 09 - Creatures and Hazards.json :: Skreevs :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 09 - Creatures and Hazards.json :: Stintaril :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 09 - Creatures and Hazards.json :: Tach :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 09 - Creatures and Hazards.json :: Tybis :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 09 - Creatures and Hazards.json :: Uwari beetles :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 10 - Force Powers.json :: force chain legends :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 10 - Force Powers.json :: force meld :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 10 - Force Powers.json :: force whirlwind :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 10 - Force Powers.json :: force horror :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 10 - Force Powers.json :: doppleganger force technique :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 10 - Force Powers.json :: red force lightning legends :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 10 - Force Powers.json :: electric judgment distinction :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 10 - Force Powers.json :: force plague :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 10 - Force Powers.json :: death field :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 10 - Force Powers.json :: mechu-deru detail :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 10 - Force Powers.json :: force storm wormhole legends :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 10 - Force Powers.json :: fold space :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 10 - Force Powers.json :: flow-walking :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 10 - Force Powers.json :: force light :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 10 - Force Powers.json :: force harmony :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 10 - Force Powers.json :: morichro detail :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 10 - Force Powers.json :: art of the small :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 10 - Force Powers.json :: emerald lightning :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 10 - Force Powers.json :: echani martial philosophy :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 10 - Force Powers.json :: Force drain costs :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 10 - Force Powers.json :: sever Force technique :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 11 - Force Orders.json :: sith and dark side orders :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 11 - Force Orders.json :: murr talisman :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 11 - Force Orders.json :: aing-tii tradition :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 11 - Force Orders.json :: jal shey :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 11 - Force Orders.json :: matukai :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 11 - Force Orders.json :: shapers of kro var :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 11 - Force Orders.json :: wardens of the sky :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 11 - Force Orders.json :: emb ers of vahl :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 11 - Force Orders.json :: prophets of the dark side :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 11 - Force Orders.json :: lost tribe of the sith :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 11 - Force Orders.json :: one sith doctrine :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 11 - Force Orders.json :: brotherhood of darkness doctrine :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 11 - Force Orders.json :: new jedi order legends :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 11 - Force Orders.json :: imperial knights :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 11 - Force Orders.json :: valley of the jedi detail :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 11 - Force Orders.json :: Altisian Jedi :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 11 - Force Orders.json :: Disciples of Ragnos :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 11 - Force Orders.json :: Corellian Green Jedi :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 11 - Force Orders.json :: Kilian Rangers :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 11 - Force Orders.json :: Mind Walkers :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 11 - Force Orders.json :: Crimson Nova bounty order :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 11 - Force Orders.json :: Gray Paladins :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 11 - Force Orders.json :: Je'daii rangers :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 11 - Force Orders.json :: Mecrosa Order :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 11 - Force Orders.json :: Naddist cults :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 11 - Force Orders.json :: Tython Je'daii temples :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 12 - Lightsabers and Kyber.json :: lightsaber construction process :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 12 - Lightsabers and Kyber.json :: lightsaber marks of contact :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 12 - Lightsabers and Kyber.json :: sokan :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 12 - Lightsabers and Kyber.json :: trakata :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 12 - Lightsabers and Kyber.json :: form zero :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 13 - Force Metaphysics Artifacts.json :: unifying force legends :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 13 - Force Metaphysics Artifacts.json :: potentium view :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 13 - Force Metaphysics Artifacts.json :: void in the force :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 13 - Force Metaphysics Artifacts.json :: murr talisman detail :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 13 - Force Metaphysics Artifacts.json :: living planets :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 13 - Force Metaphysics Artifacts.json :: memory-rubbed ruins :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: celestials and architects :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: kwa and gree :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: pius dea crusades :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: great hyperspace war :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: exar kun and ulic qel-droma war :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: mandalorian wars :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: sith triumvirate :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: vitiate and eternal empire :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: hapes consortium :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: corporate sector authority legends :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: yevetha and black fleet crisis :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: warlord zsinj :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: zonama sekot :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: fel empire :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: jensaarai :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: adumar and starfighter diplomacy :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: alsakan conflicts :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: caamas document crisis :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: centerpoint station legends :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: courtship of princess leia crisis :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: crimson empire :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: natasi daala campaigns :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: galactic alliance legends :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: hand of thrawn crisis :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: jedi academy trilogy crisis :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: katana fleet :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: dark nest crisis :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: lost tribe of the sith legends :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: lusankya :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: maw installation :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: nagai and tof war :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: nomi sunrider :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: prince xizor :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: rogue squadron campaigns legends :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: senex-juvex sectors :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: tapani sector :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: yuuzhan vong biotechnology :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: wraith squadron :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: xim the despot :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: ysanne isard :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: zhell and taung :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: zsinj empire territory :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Sith species caste detail :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Celestial machines :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Dark Underlord :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Desann and Reborn :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Freedon Nadd legacy :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Golden Age of the Sith detail :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Hundred-Year Darkness :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Jaden Korr :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Karness Muur :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Kyle Katarn :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Lumiya :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Naga Sadow :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Canderous Ordo :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Marka Ragnos :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Sith purebloods :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Sunrider family :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Tales of the Jedi era :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Valley of the Jedi legends :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Vima-Da-Boda :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Mandalore title legends :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Xizor power base :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Arkanian offshoot lore :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Bakura aftermath :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Beldorion the Hutt :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Black Sun Vigos legends :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Borsk Fey'lya :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Darth Caedus war :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Callista Ming :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Caamasi memory shards :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Celeste Morne :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Centerpoint crisis :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Corran Horn :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Daala remnant politics :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Dorsk 81 :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Imperial Knights doctrine :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Ganner Rhysode :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Garm Bel Iblis legends :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Gilad Pellaeon :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Irek Ismaren and Roganda :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Jaina Solo :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Jacen Solo :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Jagged Fel :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Kyp Durron :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Lowbacca :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Mirax Terrik :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Lost City of the Jedi :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Noghri honor debt :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Nom Anor :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Yavin Praxeum students :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Talon Karrde :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Tenel Ka :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Tycho Celchu :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Shamed Ones heresy :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Wes Janson legends :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Winter Celchu :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Wraith Squadron culture :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels
+- Kyber RPG 14 - Legends Supplements.json :: Yuuzhan Vong castes :: Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels

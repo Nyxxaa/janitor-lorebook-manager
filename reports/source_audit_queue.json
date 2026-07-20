@@ -1,0 +1,4467 @@
+[
+  {
+    "file": "Kyber RPG 01 - Core Continuity.json",
+    "index": 5,
+    "name": "major historical eras",
+    "id": "86236295-c855-59af-bed9-56f983ead8f5",
+    "classification": "source_audit",
+    "estimated_tokens": 122,
+    "key_count": 3,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 01 - Core Continuity.json",
+    "index": 29,
+    "name": "lore retrieval index",
+    "id": "4ad825f3-5f00-5525-b336-a629f76a2210",
+    "classification": "source_audit",
+    "estimated_tokens": 120,
+    "key_count": 3,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 95,
+    "name": "old republic founding legends",
+    "id": "92e00121-6f3b-5dc3-9bfb-073446b627e1",
+    "classification": "source_audit",
+    "estimated_tokens": 57,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 96,
+    "name": "force wars of tython",
+    "id": "d8c48d22-b441-579e-80ca-06a5728e7ded",
+    "classification": "source_audit",
+    "estimated_tokens": 46,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 97,
+    "name": "great hyperspace war legends",
+    "id": "8b7f0dcc-7d6d-582a-ad5b-a3ba66be1e36",
+    "classification": "source_audit",
+    "estimated_tokens": 53,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 98,
+    "name": "freedon nadd uprising",
+    "id": "96dde258-25c7-5b6f-bd96-4ab71902b858",
+    "classification": "source_audit",
+    "estimated_tokens": 57,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 99,
+    "name": "great sith war",
+    "id": "7e43e3cf-4004-577b-9078-417282aaa575",
+    "classification": "source_audit",
+    "estimated_tokens": 58,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 100,
+    "name": "mandalorian wars",
+    "id": "b62308d2-82b5-561c-8f51-af122769444b",
+    "classification": "source_audit",
+    "estimated_tokens": 71,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 101,
+    "name": "jedi civil war",
+    "id": "31382456-e3ee-5749-9c2a-292eabdc7820",
+    "classification": "source_audit",
+    "estimated_tokens": 51,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 102,
+    "name": "sith triumvirate war",
+    "id": "8218b20b-2916-553b-b873-f1d0f5851794",
+    "classification": "source_audit",
+    "estimated_tokens": 54,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 103,
+    "name": "great galactic war",
+    "id": "902aefd3-c372-58f7-85da-1deb9c9e95d3",
+    "classification": "source_audit",
+    "estimated_tokens": 48,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 104,
+    "name": "cold war swtor",
+    "id": "4143bbba-eb31-583d-904f-e570f29e9bb0",
+    "classification": "source_audit",
+    "estimated_tokens": 53,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 105,
+    "name": "eternal empire conquest",
+    "id": "a7a8fba3-81a6-5bbf-b400-7879e049952a",
+    "classification": "source_audit",
+    "estimated_tokens": 52,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 106,
+    "name": "new sith wars",
+    "id": "e7b051e9-c532-52d5-8cbb-29c1a63a6e09",
+    "classification": "source_audit",
+    "estimated_tokens": 60,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 107,
+    "name": "battle of ruusan",
+    "id": "02ff5f8a-eccc-5ff9-9ab2-49d58d33cae8",
+    "classification": "source_audit",
+    "estimated_tokens": 56,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 111,
+    "name": "battle of ton-falk",
+    "id": "658c91e8-50e7-58aa-b7e4-001e4741a563",
+    "classification": "source_audit",
+    "estimated_tokens": 41,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 112,
+    "name": "battle of derra iv",
+    "id": "7664df12-2d43-5313-8740-b61da8d36b09",
+    "classification": "source_audit",
+    "estimated_tokens": 42,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 113,
+    "name": "battle of bakura",
+    "id": "9bdd4029-c190-5470-b8f1-e716a729f599",
+    "classification": "source_audit",
+    "estimated_tokens": 50,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 114,
+    "name": "x-wing rogue squadron campaign",
+    "id": "aa8ccd35-6a0c-58a7-aac8-bfd75f6b2418",
+    "classification": "source_audit",
+    "estimated_tokens": 57,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 115,
+    "name": "capture of coruscant legends",
+    "id": "0ac33433-0f0c-544d-80b8-9aec9356470f",
+    "classification": "source_audit",
+    "estimated_tokens": 49,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 116,
+    "name": "krytos crisis",
+    "id": "aa809552-569e-5d8b-a731-60163e0fde26",
+    "classification": "source_audit",
+    "estimated_tokens": 52,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 117,
+    "name": "bacta war",
+    "id": "b523cd0c-2e17-58f3-883b-c8100ef694b2",
+    "classification": "source_audit",
+    "estimated_tokens": 42,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 118,
+    "name": "zsinj campaign",
+    "id": "39dfa0bd-e54e-5f6b-a2bb-ce932a84f296",
+    "classification": "source_audit",
+    "estimated_tokens": 47,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 119,
+    "name": "thrawn campaign legends",
+    "id": "f46e4bdd-9058-55d9-84f3-4988eb08d0c5",
+    "classification": "source_audit",
+    "estimated_tokens": 56,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 120,
+    "name": "dark empire crisis",
+    "id": "12a7b870-236e-5dc2-8376-f350c8de05e5",
+    "classification": "source_audit",
+    "estimated_tokens": 58,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 121,
+    "name": "jedi academy crisis",
+    "id": "cd3a484b-7d4b-5dcb-8d56-b9a60844f651",
+    "classification": "source_audit",
+    "estimated_tokens": 46,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 122,
+    "name": "darksaber crisis legends",
+    "id": "f7f82568-fd8a-57b1-a635-254b3f87d18d",
+    "classification": "source_audit",
+    "estimated_tokens": 54,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 123,
+    "name": "corellian crisis",
+    "id": "e550b224-9b48-5f3c-9de8-0d674966b2ae",
+    "classification": "source_audit",
+    "estimated_tokens": 52,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 124,
+    "name": "hand of thrawn crisis",
+    "id": "427552d7-ecbf-5016-ac6f-b408a8a40525",
+    "classification": "source_audit",
+    "estimated_tokens": 52,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 125,
+    "name": "yuuzhan vong invasion",
+    "id": "b587c4b7-f962-52bc-80bc-11f303da660d",
+    "classification": "source_audit",
+    "estimated_tokens": 70,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 126,
+    "name": "fall of coruscant yuuzhan vong",
+    "id": "c2dc3ccf-0ce8-5b70-a987-632ef642537b",
+    "classification": "source_audit",
+    "estimated_tokens": 47,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 127,
+    "name": "galactic alliance formation",
+    "id": "c58e3b2f-141a-5d03-a4c9-dcc8b489c0db",
+    "classification": "source_audit",
+    "estimated_tokens": 60,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 128,
+    "name": "swarm war",
+    "id": "d0b694b8-e480-5363-9974-f3785ccfd6f4",
+    "classification": "source_audit",
+    "estimated_tokens": 46,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 129,
+    "name": "second galactic civil war",
+    "id": "5aa51103-6d84-55b6-9ac0-ec739eee80ed",
+    "classification": "source_audit",
+    "estimated_tokens": 55,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 130,
+    "name": "lost tribe crisis",
+    "id": "64f51ce9-4349-5fa3-964c-470f25ddbb7a",
+    "classification": "source_audit",
+    "estimated_tokens": 49,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 131,
+    "name": "one sith takeover",
+    "id": "491f1bb5-83f8-5cc0-b7a1-2ae9b9430988",
+    "classification": "source_audit",
+    "estimated_tokens": 54,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 132,
+    "name": "battle of coruscant legacy",
+    "id": "afc96380-456a-5549-92bc-6e92a807a7db",
+    "classification": "source_audit",
+    "estimated_tokens": 42,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 156,
+    "name": "duel on yavin iv legends",
+    "id": "251aa26a-f2f0-5172-bf3e-b90436f0366d",
+    "classification": "source_audit",
+    "estimated_tokens": 48,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 157,
+    "name": "battle of hypori legends",
+    "id": "5e8b7775-dbb5-5566-a638-19fc8f515e39",
+    "classification": "source_audit",
+    "estimated_tokens": 42,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 228,
+    "name": "rakatan infinite empire",
+    "id": "aae4a338-5ff9-5ddb-8959-7752892a60e1",
+    "classification": "source_audit",
+    "estimated_tokens": 55,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 229,
+    "name": "je'daii order history",
+    "id": "5ec27384-0676-5dc3-b796-fe6726cd8f76",
+    "classification": "source_audit",
+    "estimated_tokens": 48,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 230,
+    "name": "tales of the jedi hyperspace explorers",
+    "id": "9640c4ca-edae-5698-bf9e-f5c41a987ed5",
+    "classification": "source_audit",
+    "estimated_tokens": 50,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 231,
+    "name": "sith empire exile",
+    "id": "ac4f5ba3-0e59-5fc0-9b57-9de6446c7aec",
+    "classification": "source_audit",
+    "estimated_tokens": 54,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 232,
+    "name": "krath conflict",
+    "id": "efeb9023-d30f-5d6a-bc9e-b44b0fd75131",
+    "classification": "source_audit",
+    "estimated_tokens": 56,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 233,
+    "name": "ossus devastation",
+    "id": "851e0f9f-d4e4-5f2d-a0a2-e6bc27f9112f",
+    "classification": "source_audit",
+    "estimated_tokens": 58,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 234,
+    "name": "revan's redemption",
+    "id": "59f55656-eea5-5e80-a199-4d3a0ea2cd6d",
+    "classification": "source_audit",
+    "estimated_tokens": 51,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 235,
+    "name": "malachor v catastrophe",
+    "id": "1b35db09-a869-5175-9d32-049da7366e4b",
+    "classification": "source_audit",
+    "estimated_tokens": 48,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 236,
+    "name": "jedi conclave on katarr",
+    "id": "4cb016ac-5b33-55c7-9a72-2f3e57561784",
+    "classification": "source_audit",
+    "estimated_tokens": 48,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 237,
+    "name": "meetra surik restores jedi links",
+    "id": "ac7ddae0-712d-53ff-bae7-1d2cc8d188a2",
+    "classification": "source_audit",
+    "estimated_tokens": 46,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 238,
+    "name": "sacking of coruscant legends",
+    "id": "fb3f2ab8-1ca7-586c-abae-77ed99266483",
+    "classification": "source_audit",
+    "estimated_tokens": 48,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 239,
+    "name": "treaty of coruscant legends",
+    "id": "eadd44b4-a9b2-5e1b-8336-b90c16d3aeb4",
+    "classification": "source_audit",
+    "estimated_tokens": 46,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 240,
+    "name": "zakuul outlander uprising",
+    "id": "daf6593f-fc14-5a80-9226-21a14668269a",
+    "classification": "source_audit",
+    "estimated_tokens": 61,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 241,
+    "name": "brotherhood of darkness formed",
+    "id": "e363b683-d636-53e5-868e-fcf130b8d935",
+    "classification": "source_audit",
+    "estimated_tokens": 50,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 242,
+    "name": "army of light",
+    "id": "f3d4e535-ca87-5eed-9661-03bdee99b7e7",
+    "classification": "source_audit",
+    "estimated_tokens": 46,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 243,
+    "name": "bane destroys brotherhood",
+    "id": "e07f0c69-b4dd-5871-b4c2-b74718a73a7c",
+    "classification": "source_audit",
+    "estimated_tokens": 54,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 244,
+    "name": "plagueis and sidious conspiracy legends",
+    "id": "d8947ebc-88d3-5d01-9a56-51e8869bd427",
+    "classification": "source_audit",
+    "estimated_tokens": 64,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 245,
+    "name": "outbound flight disaster",
+    "id": "4693c8c1-6701-5b6e-b037-edfc3ab85fef",
+    "classification": "source_audit",
+    "estimated_tokens": 52,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 247,
+    "name": "imperial mission to honoghr",
+    "id": "3e549445-6dbb-556c-a9f8-3a7fa2c17199",
+    "classification": "source_audit",
+    "estimated_tokens": 53,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 250,
+    "name": "imperial warlord era legends",
+    "id": "d615e9fb-15d5-52d1-8fc4-789d9b3726af",
+    "classification": "source_audit",
+    "estimated_tokens": 54,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 251,
+    "name": "courtship of princess leia crisis",
+    "id": "b5a51981-f293-555c-a8d0-f59d1ba5315d",
+    "classification": "source_audit",
+    "estimated_tokens": 44,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 252,
+    "name": "daala campaigns",
+    "id": "220e66a7-a0bb-5bdc-87c6-ade97429a49c",
+    "classification": "source_audit",
+    "estimated_tokens": 47,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 253,
+    "name": "destruction of carida legends",
+    "id": "52983f5b-ba34-5e9b-afcf-2f2018d29008",
+    "classification": "source_audit",
+    "estimated_tokens": 44,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 254,
+    "name": "imperial reunification under pellaeon",
+    "id": "fae2070f-8da8-5ca5-b7fe-1fe68e9a4d60",
+    "classification": "source_audit",
+    "estimated_tokens": 54,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 255,
+    "name": "caamas document crisis",
+    "id": "e711571f-7728-50f2-87cc-9abcd217067b",
+    "classification": "source_audit",
+    "estimated_tokens": 58,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 256,
+    "name": "new republic imperial peace treaty legends",
+    "id": "120f809f-fb42-50d9-abfa-89edbbd3fce7",
+    "classification": "source_audit",
+    "estimated_tokens": 44,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 257,
+    "name": "vector prime invasion begins",
+    "id": "9fb48446-003d-5478-add5-1d22b5b7bd42",
+    "classification": "source_audit",
+    "estimated_tokens": 43,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 258,
+    "name": "battle of ithor vong",
+    "id": "6c9550fd-3acc-5e49-b2e3-80529967fabe",
+    "classification": "source_audit",
+    "estimated_tokens": 47,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 259,
+    "name": "mission to myrkr",
+    "id": "7f1c4d2c-917f-5efc-805c-382f90b0719a",
+    "classification": "source_audit",
+    "estimated_tokens": 47,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 260,
+    "name": "battle of borleias",
+    "id": "f3baf0fe-e85a-59a5-ba55-5c55792f0b1d",
+    "classification": "source_audit",
+    "estimated_tokens": 54,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 261,
+    "name": "battle of ebaq 9",
+    "id": "823aab7d-970b-5e5b-9361-753eb95f90ea",
+    "classification": "source_audit",
+    "estimated_tokens": 48,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 262,
+    "name": "unifying force finale",
+    "id": "347d2ddf-a199-5095-968c-5c56df315026",
+    "classification": "source_audit",
+    "estimated_tokens": 48,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 263,
+    "name": "jacen solo becomes darth caedus",
+    "id": "409b6d21-6a31-51bb-a3e9-1bd58c397c9a",
+    "classification": "source_audit",
+    "estimated_tokens": 49,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 264,
+    "name": "abeloth emergence",
+    "id": "63c72425-7c1b-562e-9fc4-31ceb7c3a3c1",
+    "classification": "source_audit",
+    "estimated_tokens": 61,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 265,
+    "name": "ossus massacre legacy",
+    "id": "390dabfd-cb1f-5892-8e65-ea13ae34e0ce",
+    "classification": "source_audit",
+    "estimated_tokens": 43,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 02 - Eras and History.json",
+    "index": 266,
+    "name": "cade skywalker rebellion",
+    "id": "c7272723-7c5c-5376-a7f1-fb8117f4f2ea",
+    "classification": "source_audit",
+    "estimated_tokens": 52,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 04 - Factions and Governments.json",
+    "index": 8,
+    "name": "trade federation and corporate powers",
+    "id": "aab0c6a8-8e22-524f-9be8-0e3229b80fa2",
+    "classification": "source_audit",
+    "estimated_tokens": 156,
+    "key_count": 6,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 04 - Factions and Governments.json",
+    "index": 33,
+    "name": "omega squad",
+    "id": "ece044bf-0d95-50cc-9c0a-2d791cb572f1",
+    "classification": "source_audit",
+    "estimated_tokens": 76,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 04 - Factions and Governments.json",
+    "index": 65,
+    "name": "mandalorian military organization",
+    "id": "c0def674-c28b-54b7-beba-e24612b30c78",
+    "classification": "source_audit",
+    "estimated_tokens": 99,
+    "key_count": 3,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 04 - Factions and Governments.json",
+    "index": 69,
+    "name": "hapan military",
+    "id": "2680914c-f334-5b80-8b45-0ef9aed3302f",
+    "classification": "source_audit",
+    "estimated_tokens": 82,
+    "key_count": 3,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 04 - Factions and Governments.json",
+    "index": 75,
+    "name": "orbital bombardment",
+    "id": "67cd0b8c-7065-5268-8826-5b40fd95f044",
+    "classification": "source_audit",
+    "estimated_tokens": 94,
+    "key_count": 3,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 04 - Factions and Governments.json",
+    "index": 107,
+    "name": "hutt kajidics",
+    "id": "f309b656-5341-58c4-9a47-5db647f24ee2",
+    "classification": "source_audit",
+    "estimated_tokens": 86,
+    "key_count": 3,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 04 - Factions and Governments.json",
+    "index": 117,
+    "name": "hapes consortium",
+    "id": "kyber-faction-hapes",
+    "classification": "source_audit",
+    "estimated_tokens": 68,
+    "key_count": 3,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 04 - Factions and Governments.json",
+    "index": 139,
+    "name": "zann consortium",
+    "id": "kyber-batch02-faction-zann-consortium",
+    "classification": "source_audit",
+    "estimated_tokens": 54,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 05 - Worlds and Regions.json",
+    "index": 9,
+    "name": "corellia",
+    "id": "b225de06-7f62-5e66-9bf7-9b2451db06eb",
+    "classification": "source_audit",
+    "estimated_tokens": 114,
+    "key_count": 5,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 05 - Worlds and Regions.json",
+    "index": 69,
+    "name": "zeltros",
+    "id": "6122f118-87f7-5794-bbf5-3dc46b1b1bac",
+    "classification": "source_audit",
+    "estimated_tokens": 50,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 05 - Worlds and Regions.json",
+    "index": 71,
+    "name": "onderon",
+    "id": "4614f3fd-6020-58a9-8cd8-189cf892248c",
+    "classification": "source_audit",
+    "estimated_tokens": 68,
+    "key_count": 3,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 05 - Worlds and Regions.json",
+    "index": 182,
+    "name": "hapes cluster",
+    "id": "88e9e2be-3c7f-5066-b036-9743d7c6a540",
+    "classification": "source_audit",
+    "estimated_tokens": 59,
+    "key_count": 3,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 05 - Worlds and Regions.json",
+    "index": 183,
+    "name": "transitory mists",
+    "id": "cf6ebd39-2d5e-5f98-8252-8423887e8cda",
+    "classification": "source_audit",
+    "estimated_tokens": 61,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 05 - Worlds and Regions.json",
+    "index": 214,
+    "name": "korriban academy",
+    "id": "a8537411-da9d-5a5f-b59d-41f9c764e7fa",
+    "classification": "source_audit",
+    "estimated_tokens": 61,
+    "key_count": 3,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 05 - Worlds and Regions.json",
+    "index": 215,
+    "name": "dromund kaas",
+    "id": "7b539e17-dad5-51f6-9348-ff2c314d949e",
+    "classification": "source_audit",
+    "estimated_tokens": 58,
+    "key_count": 3,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 05 - Worlds and Regions.json",
+    "index": 249,
+    "name": "honoghr",
+    "id": "kyber-world-honoghr",
+    "classification": "source_audit",
+    "estimated_tokens": 46,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 05 - Worlds and Regions.json",
+    "index": 251,
+    "name": "borleias",
+    "id": "kyber-world-borleias",
+    "classification": "source_audit",
+    "estimated_tokens": 51,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 05 - Worlds and Regions.json",
+    "index": 253,
+    "name": "ziost",
+    "id": "kyber-world-ziost",
+    "classification": "source_audit",
+    "estimated_tokens": 46,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 05 - Worlds and Regions.json",
+    "index": 255,
+    "name": "telos iv legends",
+    "id": "kyber-world-telos",
+    "classification": "source_audit",
+    "estimated_tokens": 53,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 05 - Worlds and Regions.json",
+    "index": 259,
+    "name": "ansion",
+    "id": "kyber-batch02-world-ansion",
+    "classification": "source_audit",
+    "estimated_tokens": 48,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 05 - Worlds and Regions.json",
+    "index": 264,
+    "name": "giju",
+    "id": "kyber-batch02-world-giju",
+    "classification": "source_audit",
+    "estimated_tokens": 41,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 05 - Worlds and Regions.json",
+    "index": 265,
+    "name": "haruun kal",
+    "id": "kyber-batch02-world-haruun-kal",
+    "classification": "source_audit",
+    "estimated_tokens": 44,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 05 - Worlds and Regions.json",
+    "index": 279,
+    "name": "tund",
+    "id": "kyber-batch02-world-tund",
+    "classification": "source_audit",
+    "estimated_tokens": 48,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 05 - Worlds and Regions.json",
+    "index": 281,
+    "name": "zakuul",
+    "id": "kyber-batch02-world-zakuul",
+    "classification": "source_audit",
+    "estimated_tokens": 43,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 05 - Worlds and Regions.json",
+    "index": 282,
+    "name": "Bonadan",
+    "id": "kyber-batch05-world-bonadan",
+    "classification": "source_audit",
+    "estimated_tokens": 42,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 05 - Worlds and Regions.json",
+    "index": 292,
+    "name": "Bimmisaari",
+    "id": "kyber-batch06-world-bimmisaari",
+    "classification": "source_audit",
+    "estimated_tokens": 39,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 05 - Worlds and Regions.json",
+    "index": 293,
+    "name": "Bpfassh",
+    "id": "kyber-batch06-world-bpfassh",
+    "classification": "source_audit",
+    "estimated_tokens": 36,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 05 - Worlds and Regions.json",
+    "index": 294,
+    "name": "Byss",
+    "id": "kyber-batch06-world-byss",
+    "classification": "source_audit",
+    "estimated_tokens": 42,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 05 - Worlds and Regions.json",
+    "index": 295,
+    "name": "Carida",
+    "id": "kyber-batch06-world-carida",
+    "classification": "source_audit",
+    "estimated_tokens": 42,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 05 - Worlds and Regions.json",
+    "index": 296,
+    "name": "Circumtore",
+    "id": "kyber-batch06-world-circumtore",
+    "classification": "source_audit",
+    "estimated_tokens": 36,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 05 - Worlds and Regions.json",
+    "index": 297,
+    "name": "Da Soocha V",
+    "id": "kyber-batch06-world-da-soocha",
+    "classification": "source_audit",
+    "estimated_tokens": 42,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 05 - Worlds and Regions.json",
+    "index": 299,
+    "name": "Empress Teta",
+    "id": "kyber-batch06-world-empress-teta",
+    "classification": "source_audit",
+    "estimated_tokens": 49,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 05 - Worlds and Regions.json",
+    "index": 301,
+    "name": "Khomm",
+    "id": "kyber-batch06-world-khomm",
+    "classification": "source_audit",
+    "estimated_tokens": 36,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 05 - Worlds and Regions.json",
+    "index": 304,
+    "name": "Lexrul",
+    "id": "kyber-batch06-world-lexrul",
+    "classification": "source_audit",
+    "estimated_tokens": 39,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 05 - Worlds and Regions.json",
+    "index": 305,
+    "name": "Mrlsst",
+    "id": "kyber-batch06-world-mrlsst",
+    "classification": "source_audit",
+    "estimated_tokens": 43,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 05 - Worlds and Regions.json",
+    "index": 306,
+    "name": "Myrkr forest zones",
+    "id": "kyber-batch06-world-myrkr-forests",
+    "classification": "source_audit",
+    "estimated_tokens": 40,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 05 - Worlds and Regions.json",
+    "index": 307,
+    "name": "Nirauan",
+    "id": "kyber-batch06-world-nirauan",
+    "classification": "source_audit",
+    "estimated_tokens": 38,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 05 - Worlds and Regions.json",
+    "index": 309,
+    "name": "Phindar",
+    "id": "kyber-batch06-world-phindar",
+    "classification": "source_audit",
+    "estimated_tokens": 38,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 05 - Worlds and Regions.json",
+    "index": 311,
+    "name": "Rhinnal",
+    "id": "kyber-batch06-world-rhinnal",
+    "classification": "source_audit",
+    "estimated_tokens": 36,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 05 - Worlds and Regions.json",
+    "index": 312,
+    "name": "Riflor",
+    "id": "kyber-batch06-world-riflor",
+    "classification": "source_audit",
+    "estimated_tokens": 39,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 05 - Worlds and Regions.json",
+    "index": 315,
+    "name": "Vortex",
+    "id": "kyber-batch06-world-vortex",
+    "classification": "source_audit",
+    "estimated_tokens": 37,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 0,
+    "name": "mandalorians",
+    "id": "bef26fcc-dd52-4874-8460-322c1ede1a21",
+    "classification": "source_audit",
+    "estimated_tokens": 154,
+    "key_count": 9,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels",
+      "many keys (9); check activation pressure"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 30,
+    "name": "devaronians",
+    "id": "7ad43b14-23cc-5a0e-9537-4671daf1b0fd",
+    "classification": "source_audit",
+    "estimated_tokens": 83,
+    "key_count": 3,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 31,
+    "name": "ithorians",
+    "id": "ce48de37-fbf5-5f00-9b05-73669810d195",
+    "classification": "source_audit",
+    "estimated_tokens": 82,
+    "key_count": 3,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 42,
+    "name": "ryn",
+    "id": "f86345fb-ab0f-5b09-bcc6-ceecb9344da2",
+    "classification": "source_audit",
+    "estimated_tokens": 74,
+    "key_count": 3,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 64,
+    "name": "caamasi",
+    "id": "kyber-species-caamasi",
+    "classification": "source_audit",
+    "estimated_tokens": 68,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 65,
+    "name": "celegians",
+    "id": "kyber-species-celegian",
+    "classification": "source_audit",
+    "estimated_tokens": 75,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 67,
+    "name": "draethos",
+    "id": "kyber-species-draethos",
+    "classification": "source_audit",
+    "estimated_tokens": 75,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 69,
+    "name": "fosh",
+    "id": "kyber-species-fosh",
+    "classification": "source_audit",
+    "estimated_tokens": 55,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 73,
+    "name": "neti",
+    "id": "kyber-species-neti",
+    "classification": "source_audit",
+    "estimated_tokens": 58,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 74,
+    "name": "noghri",
+    "id": "kyber-species-noghri",
+    "classification": "source_audit",
+    "estimated_tokens": 60,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 76,
+    "name": "ssi-ruu",
+    "id": "kyber-species-ssi-ruu",
+    "classification": "source_audit",
+    "estimated_tokens": 74,
+    "key_count": 3,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 78,
+    "name": "yuuzhan vong species",
+    "id": "kyber-species-yuuzhan-vong",
+    "classification": "source_audit",
+    "estimated_tokens": 83,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 85,
+    "name": "echani",
+    "id": "kyber-batch02-species-echani",
+    "classification": "source_audit",
+    "estimated_tokens": 59,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 86,
+    "name": "elomin",
+    "id": "kyber-batch02-species-elomin",
+    "classification": "source_audit",
+    "estimated_tokens": 52,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 90,
+    "name": "jenet",
+    "id": "kyber-batch02-species-jenet",
+    "classification": "source_audit",
+    "estimated_tokens": 51,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 96,
+    "name": "lorrdians",
+    "id": "kyber-batch02-species-lorrdian",
+    "classification": "source_audit",
+    "estimated_tokens": 59,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 98,
+    "name": "miraluka",
+    "id": "kyber-batch02-species-miraluka",
+    "classification": "source_audit",
+    "estimated_tokens": 54,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 99,
+    "name": "nagai",
+    "id": "kyber-batch02-species-nagai",
+    "classification": "source_audit",
+    "estimated_tokens": 51,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 101,
+    "name": "omwati",
+    "id": "kyber-batch02-species-omwati",
+    "classification": "source_audit",
+    "estimated_tokens": 53,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 104,
+    "name": "rakata survivors",
+    "id": "kyber-batch02-species-rakata-survivors",
+    "classification": "source_audit",
+    "estimated_tokens": 58,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 106,
+    "name": "sluissi",
+    "id": "kyber-batch02-species-sluissi",
+    "classification": "source_audit",
+    "estimated_tokens": 50,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 108,
+    "name": "thakwaash",
+    "id": "kyber-batch02-species-thakwaash",
+    "classification": "source_audit",
+    "estimated_tokens": 56,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 114,
+    "name": "yinchorri",
+    "id": "kyber-batch02-species-yinchorri",
+    "classification": "source_audit",
+    "estimated_tokens": 56,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 131,
+    "name": "Abyssin",
+    "id": "kyber-batch06-species-abyssin",
+    "classification": "source_audit",
+    "estimated_tokens": 48,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 134,
+    "name": "Aruzan",
+    "id": "kyber-batch06-species-aruzan",
+    "classification": "source_audit",
+    "estimated_tokens": 47,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 136,
+    "name": "Bimm",
+    "id": "kyber-batch06-species-bimm",
+    "classification": "source_audit",
+    "estimated_tokens": 44,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 139,
+    "name": "Coway",
+    "id": "kyber-batch06-species-coway",
+    "classification": "source_audit",
+    "estimated_tokens": 38,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 141,
+    "name": "Drochs",
+    "id": "kyber-batch06-species-droch",
+    "classification": "source_audit",
+    "estimated_tokens": 38,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 142,
+    "name": "Eloms",
+    "id": "kyber-batch06-species-elom",
+    "classification": "source_audit",
+    "estimated_tokens": 40,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 143,
+    "name": "Elomin caste context",
+    "id": "kyber-batch06-species-elomin2",
+    "classification": "source_audit",
+    "estimated_tokens": 45,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 144,
+    "name": "Frozian",
+    "id": "kyber-batch06-species-frozian",
+    "classification": "source_audit",
+    "estimated_tokens": 43,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 148,
+    "name": "Ho'Din",
+    "id": "kyber-batch06-species-ho-din",
+    "classification": "source_audit",
+    "estimated_tokens": 42,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 149,
+    "name": "Huk",
+    "id": "kyber-batch06-species-huk",
+    "classification": "source_audit",
+    "estimated_tokens": 39,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 156,
+    "name": "Keshiri",
+    "id": "kyber-batch06-species-keshiri",
+    "classification": "source_audit",
+    "estimated_tokens": 42,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 159,
+    "name": "Mrlssi",
+    "id": "kyber-batch06-species-mrlssi",
+    "classification": "source_audit",
+    "estimated_tokens": 40,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 161,
+    "name": "Nothos",
+    "id": "kyber-batch06-species-nothoiin",
+    "classification": "source_audit",
+    "estimated_tokens": 44,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 166,
+    "name": "Rakata technology loss",
+    "id": "kyber-batch06-species-rakata-tech-loss",
+    "classification": "source_audit",
+    "estimated_tokens": 46,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 167,
+    "name": "Sakiyans",
+    "id": "kyber-batch06-species-sakiyan",
+    "classification": "source_audit",
+    "estimated_tokens": 41,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 171,
+    "name": "Squibs",
+    "id": "kyber-batch06-species-squib",
+    "classification": "source_audit",
+    "estimated_tokens": 46,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 172,
+    "name": "Stennes Shifters",
+    "id": "kyber-batch06-species-stennes",
+    "classification": "source_audit",
+    "estimated_tokens": 47,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 173,
+    "name": "Sunesi",
+    "id": "kyber-batch06-species-sunesi",
+    "classification": "source_audit",
+    "estimated_tokens": 40,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 175,
+    "name": "Togorians",
+    "id": "kyber-batch06-species-togorian",
+    "classification": "source_audit",
+    "estimated_tokens": 41,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 176,
+    "name": "Trianii",
+    "id": "kyber-batch06-species-trianii",
+    "classification": "source_audit",
+    "estimated_tokens": 40,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 06 - Species and Cultures.json",
+    "index": 180,
+    "name": "Yam'rii",
+    "id": "kyber-batch06-species-yamrii",
+    "classification": "source_audit",
+    "estimated_tokens": 37,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 08 - Technology Ships Gear.json",
+    "index": 111,
+    "name": "leviathan kotor",
+    "id": "76e60330-5686-5da5-9876-bdd88d3f089d",
+    "classification": "source_audit",
+    "estimated_tokens": 42,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 08 - Technology Ships Gear.json",
+    "index": 112,
+    "name": "ebon hawk",
+    "id": "0e688210-54d5-52f1-86be-8ea4f520c3a0",
+    "classification": "source_audit",
+    "estimated_tokens": 54,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 08 - Technology Ships Gear.json",
+    "index": 113,
+    "name": "dynamic-class freighter",
+    "id": "b86c9a88-5159-5c1d-b17d-3f7de5286510",
+    "classification": "source_audit",
+    "estimated_tokens": 39,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 08 - Technology Ships Gear.json",
+    "index": 114,
+    "name": "ravager nihilus",
+    "id": "2c257035-2a7a-5c59-ae7f-b42d7a0995c5",
+    "classification": "source_audit",
+    "estimated_tokens": 52,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 08 - Technology Ships Gear.json",
+    "index": 115,
+    "name": "harrower-class dreadnought",
+    "id": "cd3dad92-45fa-5a09-8bc0-c58c9e024f02",
+    "classification": "source_audit",
+    "estimated_tokens": 49,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 08 - Technology Ships Gear.json",
+    "index": 116,
+    "name": "terminus-class destroyer",
+    "id": "320ea0c2-208e-55a7-9a96-726aca33923d",
+    "classification": "source_audit",
+    "estimated_tokens": 35,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 08 - Technology Ships Gear.json",
+    "index": 117,
+    "name": "valor-class cruiser",
+    "id": "baa24b01-39e4-5a94-bd5c-0067987842d9",
+    "classification": "source_audit",
+    "estimated_tokens": 40,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 08 - Technology Ships Gear.json",
+    "index": 118,
+    "name": "eternal fleet ships",
+    "id": "c52476db-917e-5545-b794-b1fa5c3b0239",
+    "classification": "source_audit",
+    "estimated_tokens": 64,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 08 - Technology Ships Gear.json",
+    "index": 119,
+    "name": "sun crusher",
+    "id": "02185b2d-57ac-5a37-9d95-4cb272042e27",
+    "classification": "source_audit",
+    "estimated_tokens": 52,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 08 - Technology Ships Gear.json",
+    "index": 120,
+    "name": "world devastators",
+    "id": "3ef6d8ee-4da6-5591-870f-956ec167e46e",
+    "classification": "source_audit",
+    "estimated_tokens": 62,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 08 - Technology Ships Gear.json",
+    "index": 121,
+    "name": "galaxy gun",
+    "id": "c902dc8f-d823-5549-a1cc-6e2d9fe6b538",
+    "classification": "source_audit",
+    "estimated_tokens": 48,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 08 - Technology Ships Gear.json",
+    "index": 123,
+    "name": "star forge",
+    "id": "2b5280e8-9205-54d1-883f-a8ed6faed866",
+    "classification": "source_audit",
+    "estimated_tokens": 64,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 08 - Technology Ships Gear.json",
+    "index": 124,
+    "name": "mass shadow generator",
+    "id": "08866b67-3f44-5f68-a0e6-988c82643da4",
+    "classification": "source_audit",
+    "estimated_tokens": 54,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 08 - Technology Ships Gear.json",
+    "index": 125,
+    "name": "thought bomb artifact distinction",
+    "id": "d968afb4-7185-5f75-a7f2-ad3896cb0144",
+    "classification": "source_audit",
+    "estimated_tokens": 63,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 08 - Technology Ships Gear.json",
+    "index": 255,
+    "name": "yvh battle droids",
+    "id": "kyber-tech-yvh-droid",
+    "classification": "source_audit",
+    "estimated_tokens": 64,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 08 - Technology Ships Gear.json",
+    "index": 256,
+    "name": "eclipse-class dreadnought",
+    "id": "kyber-tech-eclipse-dreadnought",
+    "classification": "source_audit",
+    "estimated_tokens": 60,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 08 - Technology Ships Gear.json",
+    "index": 293,
+    "name": "pazaak decks",
+    "id": "kyber-batch05-tech-pazaak",
+    "classification": "source_audit",
+    "estimated_tokens": 41,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 08 - Technology Ships Gear.json",
+    "index": 318,
+    "name": "Kihraxz fighters",
+    "id": "kyber-batch06-tech-kihraxz",
+    "classification": "source_audit",
+    "estimated_tokens": 42,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 09 - Creatures and Hazards.json",
+    "index": 36,
+    "name": "vornskr",
+    "id": "kyber-creature-vornskr",
+    "classification": "source_audit",
+    "estimated_tokens": 50,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 09 - Creatures and Hazards.json",
+    "index": 38,
+    "name": "terentatek",
+    "id": "kyber-creature-terentatek",
+    "classification": "source_audit",
+    "estimated_tokens": 47,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 09 - Creatures and Hazards.json",
+    "index": 39,
+    "name": "sithspawn leviathan",
+    "id": "kyber-creature-leviathan-kotor",
+    "classification": "source_audit",
+    "estimated_tokens": 54,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 09 - Creatures and Hazards.json",
+    "index": 40,
+    "name": "kolto contamination",
+    "id": "kyber-hazard-kolto-contamination",
+    "classification": "source_audit",
+    "estimated_tokens": 52,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 09 - Creatures and Hazards.json",
+    "index": 46,
+    "name": "bando gora biohazards",
+    "id": "kyber-batch02-creature-bando-gora-horror",
+    "classification": "source_audit",
+    "estimated_tokens": 65,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 09 - Creatures and Hazards.json",
+    "index": 48,
+    "name": "bomas",
+    "id": "kyber-batch02-creature-boma",
+    "classification": "source_audit",
+    "estimated_tokens": 42,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 09 - Creatures and Hazards.json",
+    "index": 50,
+    "name": "cannoks",
+    "id": "kyber-batch02-creature-cannok",
+    "classification": "source_audit",
+    "estimated_tokens": 51,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 09 - Creatures and Hazards.json",
+    "index": 62,
+    "name": "grallocs",
+    "id": "kyber-batch02-creature-gralloc",
+    "classification": "source_audit",
+    "estimated_tokens": 46,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 09 - Creatures and Hazards.json",
+    "index": 77,
+    "name": "shyracks",
+    "id": "kyber-batch02-creature-shyrack",
+    "classification": "source_audit",
+    "estimated_tokens": 40,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 09 - Creatures and Hazards.json",
+    "index": 79,
+    "name": "wraids",
+    "id": "kyber-batch02-creature-wraid",
+    "classification": "source_audit",
+    "estimated_tokens": 45,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 09 - Creatures and Hazards.json",
+    "index": 107,
+    "name": "bursas",
+    "id": "kyber-batch03-creature-bursa",
+    "classification": "source_audit",
+    "estimated_tokens": 46,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 09 - Creatures and Hazards.json",
+    "index": 108,
+    "name": "maalraas",
+    "id": "kyber-batch03-creature-maalraas",
+    "classification": "source_audit",
+    "estimated_tokens": 42,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 09 - Creatures and Hazards.json",
+    "index": 109,
+    "name": "murra",
+    "id": "kyber-batch03-creature-murra",
+    "classification": "source_audit",
+    "estimated_tokens": 42,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 09 - Creatures and Hazards.json",
+    "index": 111,
+    "name": "orbalisks",
+    "id": "kyber-batch03-creature-orbalisk",
+    "classification": "source_audit",
+    "estimated_tokens": 44,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 09 - Creatures and Hazards.json",
+    "index": 113,
+    "name": "storm beasts",
+    "id": "kyber-batch03-creature-storm-beast",
+    "classification": "source_audit",
+    "estimated_tokens": 42,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 09 - Creatures and Hazards.json",
+    "index": 114,
+    "name": "strills",
+    "id": "kyber-batch03-creature-strill",
+    "classification": "source_audit",
+    "estimated_tokens": 48,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 09 - Creatures and Hazards.json",
+    "index": 115,
+    "name": "tuk'ata",
+    "id": "kyber-batch03-creature-tukata",
+    "classification": "source_audit",
+    "estimated_tokens": 44,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 09 - Creatures and Hazards.json",
+    "index": 116,
+    "name": "voxyn",
+    "id": "kyber-batch03-creature-voxyn",
+    "classification": "source_audit",
+    "estimated_tokens": 45,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 09 - Creatures and Hazards.json",
+    "index": 117,
+    "name": "ysalamiri handling hazards",
+    "id": "kyber-batch03-creature-ysalamiri-counter",
+    "classification": "source_audit",
+    "estimated_tokens": 56,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 09 - Creatures and Hazards.json",
+    "index": 118,
+    "name": "Blistmoks",
+    "id": "kyber-batch06-creature-blistmok",
+    "classification": "source_audit",
+    "estimated_tokens": 41,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 09 - Creatures and Hazards.json",
+    "index": 122,
+    "name": "Cairnmogs",
+    "id": "kyber-batch06-creature-cairnmog",
+    "classification": "source_audit",
+    "estimated_tokens": 42,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 09 - Creatures and Hazards.json",
+    "index": 123,
+    "name": "Chirodactyls",
+    "id": "kyber-batch06-creature-chirodactyl",
+    "classification": "source_audit",
+    "estimated_tokens": 38,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 09 - Creatures and Hazards.json",
+    "index": 126,
+    "name": "Gizka",
+    "id": "kyber-batch06-creature-gizka",
+    "classification": "source_audit",
+    "estimated_tokens": 41,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 09 - Creatures and Hazards.json",
+    "index": 127,
+    "name": "Grimtaash legends",
+    "id": "kyber-batch06-creature-grimtaash",
+    "classification": "source_audit",
+    "estimated_tokens": 46,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 09 - Creatures and Hazards.json",
+    "index": 129,
+    "name": "Hssiss",
+    "id": "kyber-batch06-creature-hssiss",
+    "classification": "source_audit",
+    "estimated_tokens": 38,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 09 - Creatures and Hazards.json",
+    "index": 131,
+    "name": "Kinrath",
+    "id": "kyber-batch06-creature-kinrath",
+    "classification": "source_audit",
+    "estimated_tokens": 41,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 09 - Creatures and Hazards.json",
+    "index": 132,
+    "name": "K'lor'slugs",
+    "id": "kyber-batch06-creature-k'lor'slug",
+    "classification": "source_audit",
+    "estimated_tokens": 38,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 09 - Creatures and Hazards.json",
+    "index": 133,
+    "name": "Laigreks",
+    "id": "kyber-batch06-creature-laigrek",
+    "classification": "source_audit",
+    "estimated_tokens": 36,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 09 - Creatures and Hazards.json",
+    "index": 134,
+    "name": "Manka cats",
+    "id": "kyber-batch06-creature-manka-cat",
+    "classification": "source_audit",
+    "estimated_tokens": 35,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 09 - Creatures and Hazards.json",
+    "index": 136,
+    "name": "Rakghoul variants",
+    "id": "kyber-batch06-creature-mutated-rakghoul",
+    "classification": "source_audit",
+    "estimated_tokens": 46,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 09 - Creatures and Hazards.json",
+    "index": 141,
+    "name": "Robas",
+    "id": "kyber-batch06-creature-roba",
+    "classification": "source_audit",
+    "estimated_tokens": 39,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 09 - Creatures and Hazards.json",
+    "index": 142,
+    "name": "Shi'ido shapeshifter suspicion",
+    "id": "kyber-batch06-creature-shi'ido-hunt",
+    "classification": "source_audit",
+    "estimated_tokens": 50,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 09 - Creatures and Hazards.json",
+    "index": 143,
+    "name": "Skreevs",
+    "id": "kyber-batch06-creature-skreev",
+    "classification": "source_audit",
+    "estimated_tokens": 40,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 09 - Creatures and Hazards.json",
+    "index": 145,
+    "name": "Stintaril",
+    "id": "kyber-batch06-creature-stintaril",
+    "classification": "source_audit",
+    "estimated_tokens": 35,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 09 - Creatures and Hazards.json",
+    "index": 146,
+    "name": "Tach",
+    "id": "kyber-batch06-creature-tach",
+    "classification": "source_audit",
+    "estimated_tokens": 38,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 09 - Creatures and Hazards.json",
+    "index": 147,
+    "name": "Tybis",
+    "id": "kyber-batch06-creature-tybis",
+    "classification": "source_audit",
+    "estimated_tokens": 36,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 09 - Creatures and Hazards.json",
+    "index": 148,
+    "name": "Uwari beetles",
+    "id": "kyber-batch06-creature-uwari-beetle",
+    "classification": "source_audit",
+    "estimated_tokens": 40,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 10 - Force Powers.json",
+    "index": 41,
+    "name": "force chain legends",
+    "id": "abc6a849-e945-54ff-b199-3d33b4187980",
+    "classification": "source_audit",
+    "estimated_tokens": 36,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 10 - Force Powers.json",
+    "index": 43,
+    "name": "force meld",
+    "id": "ef724497-e37a-51a6-b90a-ad4f352309f0",
+    "classification": "source_audit",
+    "estimated_tokens": 44,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 10 - Force Powers.json",
+    "index": 49,
+    "name": "force whirlwind",
+    "id": "ac64b46a-1e88-5658-b45a-b2dce48a88f7",
+    "classification": "source_audit",
+    "estimated_tokens": 29,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 10 - Force Powers.json",
+    "index": 69,
+    "name": "force horror",
+    "id": "3b4965e0-468f-591b-b68d-fe11c04b99e5",
+    "classification": "source_audit",
+    "estimated_tokens": 24,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 10 - Force Powers.json",
+    "index": 75,
+    "name": "doppleganger force technique",
+    "id": "11e630bf-05ca-5030-ace0-ebc61a0cf8b4",
+    "classification": "source_audit",
+    "estimated_tokens": 33,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 10 - Force Powers.json",
+    "index": 84,
+    "name": "red force lightning legends",
+    "id": "fff9f303-1f71-57df-a050-f8402954fe10",
+    "classification": "source_audit",
+    "estimated_tokens": 37,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 10 - Force Powers.json",
+    "index": 85,
+    "name": "electric judgment distinction",
+    "id": "8e18b648-ea21-5ca3-914e-10c0b2029521",
+    "classification": "source_audit",
+    "estimated_tokens": 44,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 10 - Force Powers.json",
+    "index": 87,
+    "name": "force plague",
+    "id": "c2eeb884-b3c7-5c9b-9e83-1a826095e649",
+    "classification": "source_audit",
+    "estimated_tokens": 25,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 10 - Force Powers.json",
+    "index": 88,
+    "name": "death field",
+    "id": "f3297178-b47f-59b3-85cd-c6a3c5ce2a5e",
+    "classification": "source_audit",
+    "estimated_tokens": 21,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 10 - Force Powers.json",
+    "index": 89,
+    "name": "mechu-deru detail",
+    "id": "6c062e8f-d1a1-5a73-85ad-5837393d113e",
+    "classification": "source_audit",
+    "estimated_tokens": 35,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 10 - Force Powers.json",
+    "index": 96,
+    "name": "force storm wormhole legends",
+    "id": "7792ee47-3b7d-5497-be30-d4a50c00e4c3",
+    "classification": "source_audit",
+    "estimated_tokens": 37,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 10 - Force Powers.json",
+    "index": 97,
+    "name": "fold space",
+    "id": "7a89aa55-7262-55c6-b682-6f0aaab2449e",
+    "classification": "source_audit",
+    "estimated_tokens": 37,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 10 - Force Powers.json",
+    "index": 98,
+    "name": "flow-walking",
+    "id": "f3484867-7091-5079-b78f-b0a821324c37",
+    "classification": "source_audit",
+    "estimated_tokens": 41,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 10 - Force Powers.json",
+    "index": 109,
+    "name": "force light",
+    "id": "5f26e51d-f9aa-5141-a8fe-d8b7c8e0a3e9",
+    "classification": "source_audit",
+    "estimated_tokens": 31,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 10 - Force Powers.json",
+    "index": 110,
+    "name": "force harmony",
+    "id": "45313011-25b3-5277-ad0e-4b8a536befa6",
+    "classification": "source_audit",
+    "estimated_tokens": 26,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 10 - Force Powers.json",
+    "index": 111,
+    "name": "morichro detail",
+    "id": "990a8d94-d7ef-518e-a095-00bac2cf75ea",
+    "classification": "source_audit",
+    "estimated_tokens": 37,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 10 - Force Powers.json",
+    "index": 112,
+    "name": "art of the small",
+    "id": "f1a5f2c9-b22b-5c8a-8d30-f91cb2acda99",
+    "classification": "source_audit",
+    "estimated_tokens": 36,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 10 - Force Powers.json",
+    "index": 113,
+    "name": "emerald lightning",
+    "id": "8813550c-97ac-539b-a3d4-5241cb001ac0",
+    "classification": "source_audit",
+    "estimated_tokens": 27,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 10 - Force Powers.json",
+    "index": 136,
+    "name": "echani martial philosophy",
+    "id": "d2ad8d23-3ebc-52e7-855b-97948063f384",
+    "classification": "source_audit",
+    "estimated_tokens": 38,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 10 - Force Powers.json",
+    "index": 156,
+    "name": "Force drain costs",
+    "id": "kyber-batch04-power-force-drain-cost",
+    "classification": "source_audit",
+    "estimated_tokens": 50,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 10 - Force Powers.json",
+    "index": 164,
+    "name": "sever Force technique",
+    "id": "kyber-batch06-power-force-sever",
+    "classification": "source_audit",
+    "estimated_tokens": 44,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 11 - Force Orders.json",
+    "index": 1,
+    "name": "sith and dark side orders",
+    "id": "fe550dc1-680f-433b-97ee-18eaac30151c",
+    "classification": "source_audit",
+    "estimated_tokens": 141,
+    "key_count": 8,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 11 - Force Orders.json",
+    "index": 12,
+    "name": "murr talisman",
+    "id": "d6a098e7-8416-50dc-8288-c654cb52a51d",
+    "classification": "source_audit",
+    "estimated_tokens": 67,
+    "key_count": 3,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 11 - Force Orders.json",
+    "index": 87,
+    "name": "aing-tii tradition",
+    "id": "4060cd37-8d15-51b8-bdf4-89521f3a4135",
+    "classification": "source_audit",
+    "estimated_tokens": 47,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 11 - Force Orders.json",
+    "index": 88,
+    "name": "jal shey",
+    "id": "99f43a23-e2a4-5b2f-b84b-f9a42d290d4f",
+    "classification": "source_audit",
+    "estimated_tokens": 31,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 11 - Force Orders.json",
+    "index": 89,
+    "name": "matukai",
+    "id": "0950f271-fe83-5fed-beb6-9efa524d6dc2",
+    "classification": "source_audit",
+    "estimated_tokens": 34,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 11 - Force Orders.json",
+    "index": 91,
+    "name": "shapers of kro var",
+    "id": "1e1b18bf-78d7-5a64-a1ea-079a69c9dcfa",
+    "classification": "source_audit",
+    "estimated_tokens": 32,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 11 - Force Orders.json",
+    "index": 92,
+    "name": "wardens of the sky",
+    "id": "0c7b9d31-b7c0-5240-b3e3-85e4af925832",
+    "classification": "source_audit",
+    "estimated_tokens": 37,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 11 - Force Orders.json",
+    "index": 93,
+    "name": "emb ers of vahl",
+    "id": "11edb9ff-77c2-5235-a910-b6f0690ee903",
+    "classification": "source_audit",
+    "estimated_tokens": 31,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 11 - Force Orders.json",
+    "index": 94,
+    "name": "prophets of the dark side",
+    "id": "3e96510f-b4b3-52cd-91b6-2c2f52450752",
+    "classification": "source_audit",
+    "estimated_tokens": 39,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 11 - Force Orders.json",
+    "index": 95,
+    "name": "lost tribe of the sith",
+    "id": "5ccdf7a3-344c-56a5-b84f-46a6f0e44a38",
+    "classification": "source_audit",
+    "estimated_tokens": 38,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 11 - Force Orders.json",
+    "index": 96,
+    "name": "one sith doctrine",
+    "id": "0f3b183b-557e-5cb6-8c0c-bc071104db02",
+    "classification": "source_audit",
+    "estimated_tokens": 40,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 11 - Force Orders.json",
+    "index": 97,
+    "name": "brotherhood of darkness doctrine",
+    "id": "211e6797-76e7-5683-a7e9-8be64d986bbe",
+    "classification": "source_audit",
+    "estimated_tokens": 39,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 11 - Force Orders.json",
+    "index": 98,
+    "name": "new jedi order legends",
+    "id": "9c6bb55d-618a-527f-b1d8-db5813cb5285",
+    "classification": "source_audit",
+    "estimated_tokens": 46,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 11 - Force Orders.json",
+    "index": 99,
+    "name": "imperial knights",
+    "id": "da41c085-e4c9-553d-a732-6ed75e46884a",
+    "classification": "source_audit",
+    "estimated_tokens": 45,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 11 - Force Orders.json",
+    "index": 121,
+    "name": "valley of the jedi detail",
+    "id": "fd6e5be1-0010-511f-9b69-44a3727537c6",
+    "classification": "source_audit",
+    "estimated_tokens": 36,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 11 - Force Orders.json",
+    "index": 165,
+    "name": "Altisian Jedi",
+    "id": "kyber-batch04-order-altisian-jedi",
+    "classification": "source_audit",
+    "estimated_tokens": 48,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 11 - Force Orders.json",
+    "index": 167,
+    "name": "Disciples of Ragnos",
+    "id": "kyber-batch04-order-disciples-ragnos",
+    "classification": "source_audit",
+    "estimated_tokens": 43,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 11 - Force Orders.json",
+    "index": 168,
+    "name": "Corellian Green Jedi",
+    "id": "kyber-batch04-order-green-jedi",
+    "classification": "source_audit",
+    "estimated_tokens": 46,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 11 - Force Orders.json",
+    "index": 169,
+    "name": "Kilian Rangers",
+    "id": "kyber-batch04-order-kilian-rangers",
+    "classification": "source_audit",
+    "estimated_tokens": 44,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 11 - Force Orders.json",
+    "index": 170,
+    "name": "Mind Walkers",
+    "id": "kyber-batch04-order-mind-walkers",
+    "classification": "source_audit",
+    "estimated_tokens": 46,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 11 - Force Orders.json",
+    "index": 175,
+    "name": "Crimson Nova bounty order",
+    "id": "kyber-batch06-order-crimson-nova",
+    "classification": "source_audit",
+    "estimated_tokens": 47,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 11 - Force Orders.json",
+    "index": 177,
+    "name": "Gray Paladins",
+    "id": "kyber-batch06-order-gray-paladin",
+    "classification": "source_audit",
+    "estimated_tokens": 45,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 11 - Force Orders.json",
+    "index": 178,
+    "name": "Je'daii rangers",
+    "id": "kyber-batch06-order-je'daii-rangers",
+    "classification": "source_audit",
+    "estimated_tokens": 48,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 11 - Force Orders.json",
+    "index": 179,
+    "name": "Mecrosa Order",
+    "id": "kyber-batch06-order-mecrosa",
+    "classification": "source_audit",
+    "estimated_tokens": 42,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 11 - Force Orders.json",
+    "index": 180,
+    "name": "Naddist cults",
+    "id": "kyber-batch06-order-naddists",
+    "classification": "source_audit",
+    "estimated_tokens": 39,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 11 - Force Orders.json",
+    "index": 181,
+    "name": "Tython Je'daii temples",
+    "id": "kyber-batch06-order-tython-je'daii",
+    "classification": "source_audit",
+    "estimated_tokens": 44,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 12 - Lightsabers and Kyber.json",
+    "index": 9,
+    "name": "lightsaber construction process",
+    "id": "2eee8908-a70a-5eef-ae33-06292f204be4",
+    "classification": "source_audit",
+    "estimated_tokens": 98,
+    "key_count": 3,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 12 - Lightsabers and Kyber.json",
+    "index": 27,
+    "name": "lightsaber marks of contact",
+    "id": "9594ccd6-c6fb-5644-9114-cdb2da23a0fe",
+    "classification": "source_audit",
+    "estimated_tokens": 47,
+    "key_count": 4,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 12 - Lightsabers and Kyber.json",
+    "index": 28,
+    "name": "sokan",
+    "id": "9cbebf2d-5a97-5eea-aab6-c8c2e124a596",
+    "classification": "source_audit",
+    "estimated_tokens": 30,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 12 - Lightsabers and Kyber.json",
+    "index": 29,
+    "name": "trakata",
+    "id": "920ad06a-6270-5988-90a5-37d4c7b50aa1",
+    "classification": "source_audit",
+    "estimated_tokens": 45,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 12 - Lightsabers and Kyber.json",
+    "index": 31,
+    "name": "form zero",
+    "id": "977eadc1-15b0-5803-b489-f83b61ce0848",
+    "classification": "source_audit",
+    "estimated_tokens": 37,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+    "index": 9,
+    "name": "unifying force legends",
+    "id": "8082b7ad-8350-51ca-a76a-5cb37c8f1de0",
+    "classification": "source_audit",
+    "estimated_tokens": 40,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+    "index": 10,
+    "name": "potentium view",
+    "id": "22e33d51-93f2-5b18-82aa-4c8cef6481a2",
+    "classification": "source_audit",
+    "estimated_tokens": 54,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+    "index": 37,
+    "name": "void in the force",
+    "id": "c4702c8f-e787-5cb3-93a1-5cfe9f94e0b2",
+    "classification": "source_audit",
+    "estimated_tokens": 56,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+    "index": 55,
+    "name": "murr talisman detail",
+    "id": "6a7ff5de-a7db-55e4-a5b7-fb74b813eb9a",
+    "classification": "source_audit",
+    "estimated_tokens": 39,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+    "index": 100,
+    "name": "living planets",
+    "id": "kyber-batch02-force-living-planet",
+    "classification": "source_audit",
+    "estimated_tokens": 54,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+    "index": 121,
+    "name": "memory-rubbed ruins",
+    "id": "kyber-batch04-force-memory-rub",
+    "classification": "source_audit",
+    "estimated_tokens": 50,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 10,
+    "name": "celestials and architects",
+    "id": "kyber-legends-celestials",
+    "classification": "source_audit",
+    "estimated_tokens": 60,
+    "key_count": 3,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 11,
+    "name": "kwa and gree",
+    "id": "kyber-legends-kwa-gree",
+    "classification": "source_audit",
+    "estimated_tokens": 50,
+    "key_count": 4,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 12,
+    "name": "pius dea crusades",
+    "id": "kyber-legends-pius-dea",
+    "classification": "source_audit",
+    "estimated_tokens": 62,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 13,
+    "name": "great hyperspace war",
+    "id": "kyber-legends-great-hyperspace-war",
+    "classification": "source_audit",
+    "estimated_tokens": 56,
+    "key_count": 4,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 14,
+    "name": "exar kun and ulic qel-droma war",
+    "id": "kyber-legends-exar-kun",
+    "classification": "source_audit",
+    "estimated_tokens": 62,
+    "key_count": 3,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 15,
+    "name": "mandalorian wars",
+    "id": "kyber-legends-mandalorian-wars",
+    "classification": "source_audit",
+    "estimated_tokens": 67,
+    "key_count": 3,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 17,
+    "name": "sith triumvirate",
+    "id": "kyber-legends-sith-triumvirate",
+    "classification": "source_audit",
+    "estimated_tokens": 57,
+    "key_count": 4,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 18,
+    "name": "vitiate and eternal empire",
+    "id": "kyber-legends-vitiate",
+    "classification": "source_audit",
+    "estimated_tokens": 64,
+    "key_count": 5,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 21,
+    "name": "hapes consortium",
+    "id": "kyber-legends-hapes",
+    "classification": "source_audit",
+    "estimated_tokens": 59,
+    "key_count": 4,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 22,
+    "name": "corporate sector authority legends",
+    "id": "kyber-legends-corporate-sector",
+    "classification": "source_audit",
+    "estimated_tokens": 57,
+    "key_count": 3,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 23,
+    "name": "yevetha and black fleet crisis",
+    "id": "kyber-legends-yevetha",
+    "classification": "source_audit",
+    "estimated_tokens": 58,
+    "key_count": 3,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 24,
+    "name": "warlord zsinj",
+    "id": "kyber-legends-warlord-zsinj",
+    "classification": "source_audit",
+    "estimated_tokens": 49,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 28,
+    "name": "zonama sekot",
+    "id": "kyber-legends-zonama-sekot",
+    "classification": "source_audit",
+    "estimated_tokens": 60,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 29,
+    "name": "fel empire",
+    "id": "kyber-legends-fel-empire",
+    "classification": "source_audit",
+    "estimated_tokens": 62,
+    "key_count": 3,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 33,
+    "name": "jensaarai",
+    "id": "kyber-legends-jensaarai",
+    "classification": "source_audit",
+    "estimated_tokens": 62,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 34,
+    "name": "adumar and starfighter diplomacy",
+    "id": "kyber-batch02-legends-adumar",
+    "classification": "source_audit",
+    "estimated_tokens": 59,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 35,
+    "name": "alsakan conflicts",
+    "id": "kyber-batch02-legends-alsakan",
+    "classification": "source_audit",
+    "estimated_tokens": 53,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 36,
+    "name": "caamas document crisis",
+    "id": "kyber-batch02-legends-caamas-document",
+    "classification": "source_audit",
+    "estimated_tokens": 51,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 37,
+    "name": "centerpoint station legends",
+    "id": "kyber-batch02-legends-centerpoint",
+    "classification": "source_audit",
+    "estimated_tokens": 56,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 38,
+    "name": "courtship of princess leia crisis",
+    "id": "kyber-batch02-legends-courtship",
+    "classification": "source_audit",
+    "estimated_tokens": 56,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 39,
+    "name": "crimson empire",
+    "id": "kyber-batch02-legends-crimson-empire",
+    "classification": "source_audit",
+    "estimated_tokens": 48,
+    "key_count": 3,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 40,
+    "name": "natasi daala campaigns",
+    "id": "kyber-batch02-legends-daala",
+    "classification": "source_audit",
+    "estimated_tokens": 54,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 42,
+    "name": "galactic alliance legends",
+    "id": "kyber-batch02-legends-galactic-alliance",
+    "classification": "source_audit",
+    "estimated_tokens": 53,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 43,
+    "name": "hand of thrawn crisis",
+    "id": "kyber-batch02-legends-hand-of-thrawn",
+    "classification": "source_audit",
+    "estimated_tokens": 49,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 44,
+    "name": "jedi academy trilogy crisis",
+    "id": "kyber-batch02-legends-jedi-academy-yavin",
+    "classification": "source_audit",
+    "estimated_tokens": 52,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 45,
+    "name": "katana fleet",
+    "id": "kyber-batch02-legends-katana-fleet",
+    "classification": "source_audit",
+    "estimated_tokens": 42,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 47,
+    "name": "dark nest crisis",
+    "id": "kyber-batch02-legends-killik-crisis",
+    "classification": "source_audit",
+    "estimated_tokens": 49,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 48,
+    "name": "lost tribe of the sith legends",
+    "id": "kyber-batch02-legends-lost-tribe",
+    "classification": "source_audit",
+    "estimated_tokens": 52,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 49,
+    "name": "lusankya",
+    "id": "kyber-batch02-legends-lusankya",
+    "classification": "source_audit",
+    "estimated_tokens": 48,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 50,
+    "name": "maw installation",
+    "id": "kyber-batch02-legends-maw-installation",
+    "classification": "source_audit",
+    "estimated_tokens": 50,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 51,
+    "name": "nagai and tof war",
+    "id": "kyber-batch02-legends-nagai-tof",
+    "classification": "source_audit",
+    "estimated_tokens": 48,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 52,
+    "name": "nomi sunrider",
+    "id": "kyber-batch02-legends-nomi-sunrider",
+    "classification": "source_audit",
+    "estimated_tokens": 45,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 54,
+    "name": "prince xizor",
+    "id": "kyber-batch02-legends-prince-xizor",
+    "classification": "source_audit",
+    "estimated_tokens": 50,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 55,
+    "name": "rogue squadron campaigns legends",
+    "id": "kyber-batch02-legends-rogue-squadron",
+    "classification": "source_audit",
+    "estimated_tokens": 50,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 56,
+    "name": "senex-juvex sectors",
+    "id": "kyber-batch02-legends-senek-juvex",
+    "classification": "source_audit",
+    "estimated_tokens": 48,
+    "key_count": 3,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 57,
+    "name": "tapani sector",
+    "id": "kyber-batch02-legends-tapani",
+    "classification": "source_audit",
+    "estimated_tokens": 44,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 58,
+    "name": "yuuzhan vong biotechnology",
+    "id": "kyber-batch02-legends-vong-biotech",
+    "classification": "source_audit",
+    "estimated_tokens": 56,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 59,
+    "name": "wraith squadron",
+    "id": "kyber-batch02-legends-wraith-squadron",
+    "classification": "source_audit",
+    "estimated_tokens": 48,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 60,
+    "name": "xim the despot",
+    "id": "kyber-batch02-legends-xim",
+    "classification": "source_audit",
+    "estimated_tokens": 40,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 61,
+    "name": "ysanne isard",
+    "id": "kyber-batch02-legends-yssane-isard",
+    "classification": "source_audit",
+    "estimated_tokens": 49,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 62,
+    "name": "zhell and taung",
+    "id": "kyber-batch02-legends-zhell-taung",
+    "classification": "source_audit",
+    "estimated_tokens": 49,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 63,
+    "name": "zsinj empire territory",
+    "id": "kyber-batch02-legends-zsinj-territory",
+    "classification": "source_audit",
+    "estimated_tokens": 49,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 64,
+    "name": "Sith species caste detail",
+    "id": "kyber-batch04-legends-bearer-sith",
+    "classification": "source_audit",
+    "estimated_tokens": 56,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 65,
+    "name": "Celestial machines",
+    "id": "kyber-batch04-legends-celestial-machines",
+    "classification": "source_audit",
+    "estimated_tokens": 50,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 67,
+    "name": "Dark Underlord",
+    "id": "kyber-batch04-legends-dark-underlord",
+    "classification": "source_audit",
+    "estimated_tokens": 46,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 68,
+    "name": "Desann and Reborn",
+    "id": "kyber-batch04-legends-desann",
+    "classification": "source_audit",
+    "estimated_tokens": 50,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 69,
+    "name": "Freedon Nadd legacy",
+    "id": "kyber-batch04-legends-freedon-nadd",
+    "classification": "source_audit",
+    "estimated_tokens": 50,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 70,
+    "name": "Golden Age of the Sith detail",
+    "id": "kyber-batch04-legends-golden-age-sith",
+    "classification": "source_audit",
+    "estimated_tokens": 59,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 71,
+    "name": "Hundred-Year Darkness",
+    "id": "kyber-batch04-legends-hundred-year-darkness",
+    "classification": "source_audit",
+    "estimated_tokens": 47,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 72,
+    "name": "Jaden Korr",
+    "id": "kyber-batch04-legends-jaden-korr",
+    "classification": "source_audit",
+    "estimated_tokens": 45,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 73,
+    "name": "Karness Muur",
+    "id": "kyber-batch04-legends-karness-muur",
+    "classification": "source_audit",
+    "estimated_tokens": 43,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 74,
+    "name": "Kyle Katarn",
+    "id": "kyber-batch04-legends-kyle-katarn",
+    "classification": "source_audit",
+    "estimated_tokens": 49,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 75,
+    "name": "Lumiya",
+    "id": "kyber-batch04-legends-lumiya",
+    "classification": "source_audit",
+    "estimated_tokens": 44,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 76,
+    "name": "Naga Sadow",
+    "id": "kyber-batch04-legends-naga-sadow",
+    "classification": "source_audit",
+    "estimated_tokens": 44,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 77,
+    "name": "Canderous Ordo",
+    "id": "kyber-batch04-legends-ordo-canderous",
+    "classification": "source_audit",
+    "estimated_tokens": 50,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 78,
+    "name": "Marka Ragnos",
+    "id": "kyber-batch04-legends-ragnos",
+    "classification": "source_audit",
+    "estimated_tokens": 46,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 79,
+    "name": "Sith purebloods",
+    "id": "kyber-batch04-legends-sith-pureblood",
+    "classification": "source_audit",
+    "estimated_tokens": 49,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 80,
+    "name": "Sunrider family",
+    "id": "kyber-batch04-legends-sunrider-family",
+    "classification": "source_audit",
+    "estimated_tokens": 43,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 81,
+    "name": "Tales of the Jedi era",
+    "id": "kyber-batch04-legends-tales-jedi-era",
+    "classification": "source_audit",
+    "estimated_tokens": 53,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 82,
+    "name": "Valley of the Jedi legends",
+    "id": "kyber-batch04-legends-valley-jedi",
+    "classification": "source_audit",
+    "estimated_tokens": 52,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 83,
+    "name": "Vima-Da-Boda",
+    "id": "kyber-batch04-legends-vima-da-boda",
+    "classification": "source_audit",
+    "estimated_tokens": 45,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 84,
+    "name": "Mandalore title legends",
+    "id": "kyber-batch04-legends-warrior-castes",
+    "classification": "source_audit",
+    "estimated_tokens": 48,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 85,
+    "name": "Xizor power base",
+    "id": "kyber-batch04-legends-xizor-palace",
+    "classification": "source_audit",
+    "estimated_tokens": 47,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 86,
+    "name": "Arkanian offshoot lore",
+    "id": "kyber-batch06-legends-arkanian",
+    "classification": "source_audit",
+    "estimated_tokens": 46,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 87,
+    "name": "Bakura aftermath",
+    "id": "kyber-batch06-legends-bakuran",
+    "classification": "source_audit",
+    "estimated_tokens": 42,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 88,
+    "name": "Beldorion the Hutt",
+    "id": "kyber-batch06-legends-beldorion",
+    "classification": "source_audit",
+    "estimated_tokens": 44,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 89,
+    "name": "Black Sun Vigos legends",
+    "id": "kyber-batch06-legends-black-sun-vigos",
+    "classification": "source_audit",
+    "estimated_tokens": 40,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 90,
+    "name": "Borsk Fey'lya",
+    "id": "kyber-batch06-legends-borsk",
+    "classification": "source_audit",
+    "estimated_tokens": 47,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 91,
+    "name": "Darth Caedus war",
+    "id": "kyber-batch06-legends-caedus-war",
+    "classification": "source_audit",
+    "estimated_tokens": 44,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 92,
+    "name": "Callista Ming",
+    "id": "kyber-batch06-legends-callista",
+    "classification": "source_audit",
+    "estimated_tokens": 42,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 93,
+    "name": "Caamasi memory shards",
+    "id": "kyber-batch06-legends-camaasi-memory",
+    "classification": "source_audit",
+    "estimated_tokens": 38,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 94,
+    "name": "Celeste Morne",
+    "id": "kyber-batch06-legends-celeste-morne",
+    "classification": "source_audit",
+    "estimated_tokens": 44,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 95,
+    "name": "Centerpoint crisis",
+    "id": "kyber-batch06-legends-centerpoint-crisis",
+    "classification": "source_audit",
+    "estimated_tokens": 48,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 96,
+    "name": "Corran Horn",
+    "id": "kyber-batch06-legends-corran-horn",
+    "classification": "source_audit",
+    "estimated_tokens": 44,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 97,
+    "name": "Daala remnant politics",
+    "id": "kyber-batch06-legends-daala-remnant",
+    "classification": "source_audit",
+    "estimated_tokens": 50,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 98,
+    "name": "Dorsk 81",
+    "id": "kyber-batch06-legends-dorsk-81",
+    "classification": "source_audit",
+    "estimated_tokens": 42,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 99,
+    "name": "Imperial Knights doctrine",
+    "id": "kyber-batch06-legends-fel-knights",
+    "classification": "source_audit",
+    "estimated_tokens": 50,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 100,
+    "name": "Ganner Rhysode",
+    "id": "kyber-batch06-legends-ganner-rhysode",
+    "classification": "source_audit",
+    "estimated_tokens": 44,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 101,
+    "name": "Garm Bel Iblis legends",
+    "id": "kyber-batch06-legends-garm-bel-iblis",
+    "classification": "source_audit",
+    "estimated_tokens": 42,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 102,
+    "name": "Gilad Pellaeon",
+    "id": "kyber-batch06-legends-gilad-pellaeon",
+    "classification": "source_audit",
+    "estimated_tokens": 42,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 103,
+    "name": "Irek Ismaren and Roganda",
+    "id": "kyber-batch06-legends-ikan-gaton",
+    "classification": "source_audit",
+    "estimated_tokens": 48,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 104,
+    "name": "Jaina Solo",
+    "id": "kyber-batch06-legends-jaina-solo",
+    "classification": "source_audit",
+    "estimated_tokens": 43,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 105,
+    "name": "Jacen Solo",
+    "id": "kyber-batch06-legends-jacen-solo",
+    "classification": "source_audit",
+    "estimated_tokens": 43,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 106,
+    "name": "Jagged Fel",
+    "id": "kyber-batch06-legends-jagged-fel",
+    "classification": "source_audit",
+    "estimated_tokens": 40,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 107,
+    "name": "Kyp Durron",
+    "id": "kyber-batch06-legends-kyp-durron",
+    "classification": "source_audit",
+    "estimated_tokens": 46,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 108,
+    "name": "Lowbacca",
+    "id": "kyber-batch06-legends-lowbacca",
+    "classification": "source_audit",
+    "estimated_tokens": 38,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 109,
+    "name": "Mirax Terrik",
+    "id": "kyber-batch06-legends-mirax",
+    "classification": "source_audit",
+    "estimated_tokens": 42,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 110,
+    "name": "Lost City of the Jedi",
+    "id": "kyber-batch06-legends-mycroft-lost",
+    "classification": "source_audit",
+    "estimated_tokens": 46,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 111,
+    "name": "Noghri honor debt",
+    "id": "kyber-batch06-legends-noghri-honor-debt",
+    "classification": "source_audit",
+    "estimated_tokens": 46,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 112,
+    "name": "Nom Anor",
+    "id": "kyber-batch06-legends-nom-anor",
+    "classification": "source_audit",
+    "estimated_tokens": 38,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 113,
+    "name": "Yavin Praxeum students",
+    "id": "kyber-batch06-legends-praxeum-students",
+    "classification": "source_audit",
+    "estimated_tokens": 50,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 114,
+    "name": "Talon Karrde",
+    "id": "kyber-batch06-legends-talon-karrde",
+    "classification": "source_audit",
+    "estimated_tokens": 45,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 115,
+    "name": "Tenel Ka",
+    "id": "kyber-batch06-legends-tenel-ka",
+    "classification": "source_audit",
+    "estimated_tokens": 38,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 116,
+    "name": "Tycho Celchu",
+    "id": "kyber-batch06-legends-tycho-celchu",
+    "classification": "source_audit",
+    "estimated_tokens": 49,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 117,
+    "name": "Shamed Ones heresy",
+    "id": "kyber-batch06-legends-vong-heresy",
+    "classification": "source_audit",
+    "estimated_tokens": 45,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 118,
+    "name": "Wes Janson legends",
+    "id": "kyber-batch06-legends-wes-janson",
+    "classification": "source_audit",
+    "estimated_tokens": 46,
+    "key_count": 1,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 119,
+    "name": "Winter Celchu",
+    "id": "kyber-batch06-legends-winter-celchu",
+    "classification": "source_audit",
+    "estimated_tokens": 42,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 120,
+    "name": "Wraith Squadron culture",
+    "id": "kyber-batch06-legends-wraith-humor",
+    "classification": "source_audit",
+    "estimated_tokens": 46,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  },
+  {
+    "file": "Kyber RPG 14 - Legends Supplements.json",
+    "index": 121,
+    "name": "Yuuzhan Vong castes",
+    "id": "kyber-batch06-legends-yuuzhan-vong-castes",
+    "classification": "source_audit",
+    "estimated_tokens": 50,
+    "key_count": 2,
+    "reasons": [
+      "Legends-labeled or Legends-adjacent entry should be checked for canon conflict labels"
+    ]
+  }
+]

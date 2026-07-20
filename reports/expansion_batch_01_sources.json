@@ -1,0 +1,890 @@
+{
+  "generated": "2026-07-20",
+  "base_sources": {
+    "official_databank": "https://www.starwars.com/databank/",
+    "official_news": "https://www.starwars.com/news",
+    "wookieepedia_species": "https://starwars.fandom.com/wiki/Species",
+    "wookieepedia_species_legends": "https://starwars.fandom.com/wiki/Species/Legends",
+    "wookieepedia_droid": "https://starwars.fandom.com/wiki/Droid",
+    "wookieepedia_droid_legends": "https://starwars.fandom.com/wiki/Droid/Legends"
+  },
+  "changes": [
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "anzati",
+      "id": "kyber-species-anzati",
+      "keys": [
+        "anzati",
+        "anzat"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "barabels",
+      "id": "kyber-species-barabel",
+      "keys": [
+        "barabel",
+        "barabels"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "caamasi",
+      "id": "kyber-species-caamasi",
+      "keys": [
+        "caamasi"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "celegians",
+      "id": "kyber-species-celegian",
+      "keys": [
+        "celegian",
+        "celegians"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "defel",
+      "id": "kyber-species-defel",
+      "keys": [
+        "defel",
+        "wraith species"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "draethos",
+      "id": "kyber-species-draethos",
+      "keys": [
+        "draethos"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "falleen",
+      "id": "kyber-species-falleen",
+      "keys": [
+        "falleen"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "fosh",
+      "id": "kyber-species-fosh",
+      "keys": [
+        "fosh"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "givin",
+      "id": "kyber-species-givin",
+      "keys": [
+        "givin"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "herglics",
+      "id": "kyber-species-herglic",
+      "keys": [
+        "herglic",
+        "herglics"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "killiks",
+      "id": "kyber-species-killik",
+      "keys": [
+        "killik",
+        "killiks",
+        "joiner"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "neti",
+      "id": "kyber-species-neti",
+      "keys": [
+        "neti"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "noghri",
+      "id": "kyber-species-noghri",
+      "keys": [
+        "noghri",
+        "honoghr"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "selkath",
+      "id": "kyber-species-selkath",
+      "keys": [
+        "selkath",
+        "manaan"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "ssi-ruu",
+      "id": "kyber-species-ssi-ruu",
+      "keys": [
+        "ssi-ruu",
+        "ssiruuk",
+        "entechment"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "vurk",
+      "id": "kyber-species-vurk",
+      "keys": [
+        "vurk"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "yuuzhan vong species",
+      "id": "kyber-species-yuuzhan-vong",
+      "keys": [
+        "yuuzhan vong",
+        "vong"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "mynocks",
+      "id": "kyber-creature-mynock",
+      "keys": [
+        "mynock",
+        "mynocks"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "dianoga",
+      "id": "kyber-creature-dianoga",
+      "keys": [
+        "dianoga",
+        "trash compactor monster"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "exogorth",
+      "id": "kyber-creature-exogorth",
+      "keys": [
+        "exogorth",
+        "space slug"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "kouhun",
+      "id": "kyber-creature-kouhun",
+      "keys": [
+        "kouhun",
+        "kouhuns"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "gundarks",
+      "id": "kyber-creature-gundark",
+      "keys": [
+        "gundark",
+        "gundarks"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "krykna",
+      "id": "kyber-creature-krykna",
+      "keys": [
+        "krykna"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "rathtar",
+      "id": "kyber-creature-rathtar",
+      "keys": [
+        "rathtar",
+        "rathtars"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "vornskr",
+      "id": "kyber-creature-vornskr",
+      "keys": [
+        "vornskr",
+        "myrkr predator"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "ysalamiri",
+      "id": "kyber-creature-ysalamir",
+      "keys": [
+        "ysalamir",
+        "ysalamiri"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "terentatek",
+      "id": "kyber-creature-terentatek",
+      "keys": [
+        "terentatek"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "sithspawn leviathan",
+      "id": "kyber-creature-leviathan-kotor",
+      "keys": [
+        "sithspawn leviathan",
+        "leviathan sithspawn"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "kolto contamination",
+      "id": "kyber-hazard-kolto-contamination",
+      "keys": [
+        "kolto contamination",
+        "tainted kolto"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "spice addiction hazards",
+      "id": "kyber-hazard-spice-addiction",
+      "keys": [
+        "spice addiction",
+        "spice withdrawal"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "vacuum exposure",
+      "id": "kyber-hazard-vacuum-exposure",
+      "keys": [
+        "vacuum exposure",
+        "hard vacuum",
+        "suit breach"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "rakata and infinite empire",
+      "id": "kyber-legends-rakata",
+      "keys": [
+        "rakata",
+        "infinite empire",
+        "star forge"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "celestials and architects",
+      "id": "kyber-legends-celestials",
+      "keys": [
+        "celestials",
+        "architects",
+        "centerpoint station"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "kwa and gree",
+      "id": "kyber-legends-kwa-gree",
+      "keys": [
+        "kwa",
+        "gree enclave",
+        "infinity gate",
+        "hypergate"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "pius dea crusades",
+      "id": "kyber-legends-pius-dea",
+      "keys": [
+        "pius dea",
+        "pius dea crusades"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "great hyperspace war",
+      "id": "kyber-legends-great-hyperspace-war",
+      "keys": [
+        "great hyperspace war",
+        "naga sadow",
+        "ludo kressh",
+        "marka ragnos"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "exar kun and ulic qel-droma war",
+      "id": "kyber-legends-exar-kun",
+      "keys": [
+        "exar kun",
+        "ulic qel-droma",
+        "great sith war"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "mandalorian wars",
+      "id": "kyber-legends-mandalorian-wars",
+      "keys": [
+        "mandalorian wars",
+        "malachor v",
+        "mass shadow generator"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "revan and malak",
+      "id": "kyber-legends-revan-malak",
+      "keys": [
+        "darth revan",
+        "revan",
+        "darth malak"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "sith triumvirate",
+      "id": "kyber-legends-sith-triumvirate",
+      "keys": [
+        "sith triumvirate",
+        "darth traya",
+        "darth nihilus",
+        "darth sion"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "vitiate and eternal empire",
+      "id": "kyber-legends-vitiate",
+      "keys": [
+        "vitiate",
+        "tenebrae",
+        "valkorion",
+        "eternal empire",
+        "zakuul"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "darth bane legends",
+      "id": "kyber-legends-darth-bane",
+      "keys": [
+        "darth bane legends",
+        "bane trilogy",
+        "darth zannah"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "abeloth",
+      "id": "kyber-legends-abeloth",
+      "keys": [
+        "abeloth"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "hapes consortium",
+      "id": "kyber-legends-hapes",
+      "keys": [
+        "hapes",
+        "hapan",
+        "hapes consortium",
+        "tenel ka"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "corporate sector authority legends",
+      "id": "kyber-legends-corporate-sector",
+      "keys": [
+        "corporate sector authority",
+        "espos",
+        "corporate sector"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "yevetha and black fleet crisis",
+      "id": "kyber-legends-yevetha",
+      "keys": [
+        "yevetha",
+        "black fleet crisis",
+        "duskhan league"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "warlord zsinj",
+      "id": "kyber-legends-warlord-zsinj",
+      "keys": [
+        "warlord zsinj",
+        "zsinj"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "thrawn campaign legends",
+      "id": "kyber-legends-thrawn-campaign",
+      "keys": [
+        "thrawn campaign legends",
+        "heir to the empire",
+        "katana fleet"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "mara jade",
+      "id": "kyber-legends-mara-jade",
+      "keys": [
+        "mara jade",
+        "emperor's hand"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "new jedi order legends",
+      "id": "kyber-legends-njo",
+      "keys": [
+        "new jedi order legends",
+        "luke jedi order legends"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "zonama sekot",
+      "id": "kyber-legends-zonama-sekot",
+      "keys": [
+        "zonama sekot"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "fel empire",
+      "id": "kyber-legends-fel-empire",
+      "keys": [
+        "fel empire",
+        "roan fel",
+        "fel dynasty"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "darth krayt and one sith",
+      "id": "kyber-legends-darth-krayt",
+      "keys": [
+        "darth krayt",
+        "a'sharad hett",
+        "one sith"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "dark empire palpatine",
+      "id": "kyber-legends-dark-empire",
+      "keys": [
+        "dark empire",
+        "byss",
+        "world devastators",
+        "eclipse dreadnought"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "witches of dathomir legends",
+      "id": "kyber-legends-dathomir-witches",
+      "keys": [
+        "witches of dathomir legends",
+        "singing mountain clan"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "jensaarai",
+      "id": "kyber-legends-jensaarai",
+      "keys": [
+        "jensaarai"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "yvh battle droids",
+      "id": "kyber-tech-yvh-droid",
+      "keys": [
+        "yvh droid",
+        "yvh battle droid"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "eclipse-class dreadnought",
+      "id": "kyber-tech-eclipse-dreadnought",
+      "keys": [
+        "eclipse-class",
+        "eclipse dreadnought"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "interdictor cruisers",
+      "id": "kyber-tech-interdictor",
+      "keys": [
+        "interdictor cruiser",
+        "gravity well projector",
+        "interdiction field"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "cloaking devices",
+      "id": "kyber-tech-cloaking-device",
+      "keys": [
+        "cloaking device",
+        "stygium cloak",
+        "hibridium cloak"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "basilisk war droids",
+      "id": "kyber-tech-basilisk-war-droid",
+      "keys": [
+        "basilisk war droid",
+        "basilisk droid"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "bacta scarcity",
+      "id": "kyber-tech-bacta-scarcity",
+      "keys": [
+        "bacta scarcity",
+        "bacta shortage",
+        "bacta black market"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "slicer ice and countermeasures",
+      "id": "kyber-tech-slicer-ice",
+      "keys": [
+        "slicer ice",
+        "intrusion countermeasures",
+        "trace routine"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "restraint technologies",
+      "id": "kyber-tech-restraints",
+      "keys": [
+        "binders",
+        "mag cuffs",
+        "shock collar",
+        "restraining tech"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "tracking devices",
+      "id": "kyber-tech-tracking-devices",
+      "keys": [
+        "tracking device",
+        "homing beacon",
+        "transponder tag"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "specialist medical droids",
+      "id": "kyber-tech-medical-droids-extra",
+      "keys": [
+        "specialist medical droid",
+        "diagnostic droid",
+        "surgical droid"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "corporate sector authority",
+      "id": "kyber-faction-corporate-sector",
+      "keys": [
+        "corporate sector authority",
+        "corporate sector",
+        "espos"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "hapes consortium",
+      "id": "kyber-faction-hapes",
+      "keys": [
+        "hapes consortium",
+        "hapan court",
+        "hapes cluster"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "chiss ascendancy",
+      "id": "kyber-faction-chiss-ascendancy",
+      "keys": [
+        "chiss ascendancy",
+        "csilla",
+        "chiss families"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "isb operational culture",
+      "id": "kyber-faction-imperial-security-bureau",
+      "keys": [
+        "isb operations",
+        "imperial security bureau culture",
+        "isb surveillance"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "sector rangers",
+      "id": "kyber-faction-sector-rangers",
+      "keys": [
+        "sector rangers",
+        "sector ranger"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "bounty guild politics",
+      "id": "kyber-faction-bounty-guild-politics",
+      "keys": [
+        "bounty guild politics",
+        "bounty contract",
+        "guild posting"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "crimson dawn cells",
+      "id": "kyber-faction-crimson-dawn-cells",
+      "keys": [
+        "crimson dawn cell",
+        "crimson dawn cells"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "pyke syndicate logistics",
+      "id": "kyber-faction-pyke-logistics",
+      "keys": [
+        "pyke logistics",
+        "pyke spice route"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "hutt clan law",
+      "id": "kyber-faction-hutt-clan-law",
+      "keys": [
+        "hutt clan law",
+        "kajidic law",
+        "hutt debt"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "mandalorian clan politics",
+      "id": "kyber-faction-mandalorian-clans",
+      "keys": [
+        "mandalorian clan politics",
+        "mandalorian houses",
+        "mandalorian foundlings"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "myrkr",
+      "id": "kyber-world-myrkr",
+      "keys": [
+        "myrkr"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "honoghr",
+      "id": "kyber-world-honoghr",
+      "keys": [
+        "honoghr"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "bilbringi",
+      "id": "kyber-world-bilbringi",
+      "keys": [
+        "bilbringi",
+        "bilbringi shipyards"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "borleias",
+      "id": "kyber-world-borleias",
+      "keys": [
+        "borleias"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "korriban moraband distinction",
+      "id": "kyber-world-korriban-moraband",
+      "keys": [
+        "korriban",
+        "moraband",
+        "sith tomb world"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "ziost",
+      "id": "kyber-world-ziost",
+      "keys": [
+        "ziost"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "nar shaddaa lower levels",
+      "id": "kyber-world-nar-shaddaa-depth",
+      "keys": [
+        "nar shaddaa lower levels",
+        "vertical city moon",
+        "smuggler's moon depths"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "telos iv legends",
+      "id": "kyber-world-telos",
+      "keys": [
+        "telos iv",
+        "telos"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    },
+    {
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "ossus",
+      "id": "kyber-world-ossus",
+      "keys": [
+        "ossus"
+      ],
+      "source_layer": "wookieepedia tertiary; canon/legends labels retained"
+    }
+  ]
+}

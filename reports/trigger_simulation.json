@@ -1,0 +1,2450 @@
+[
+  {
+    "message": "I search the room.",
+    "match_count": 4,
+    "matches": [
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28 — GM AND NARRATOR OPERATING RULES",
+        "constant": true,
+        "priority": 10,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 2 — CHARACTERISTICS, SKILLS, AND CHECK CONSTRUCTION",
+        "constant": false,
+        "priority": 2,
+        "keys": [
+          "tries to",
+          "attempts to",
+          "attempt to",
+          "tries",
+          "attempts",
+          "can i",
+          "could i",
+          "manage to",
+          "able to",
+          "skill",
+          "check",
+          "roll",
+          "dice",
+          "succeed",
+          "fails",
+          "failure",
+          "difficulty",
+          "i open",
+          "i grab",
+          "i take",
+          "i pull",
+          "i push",
+          "i lift",
+          "i hit",
+          "i shoot",
+          "i stab",
+          "i dodge",
+          "i block",
+          "i run",
+          "i escape",
+          "i hide",
+          "i sneak",
+          "i convince",
+          "i persuade",
+          "i threaten",
+          "i lie",
+          "i use the force",
+          "i heal",
+          "i hack",
+          "i slice",
+          "i repair",
+          "i climb",
+          "i jump",
+          "i search",
+          "i look for",
+          "i break",
+          "i unlock",
+          "i disable",
+          "i restrain",
+          "i inspect",
+          "i check",
+          "i examine",
+          "i scan",
+          "i listen",
+          "check for traps",
+          "check for tampering",
+          "look for traps",
+          "look for tampering",
+          "fresh tool marks",
+          "too clean",
+          "dead-drop",
+          "dead drop",
+          "i study",
+          "i assess",
+          "i look over",
+          "looking for traps",
+          "looking for tampering",
+          "hidden transmitter",
+          "hidden transmitters",
+          "fresh heat",
+          "secondary watcher",
+          "staged to lure",
+          "panel was staged",
+          "panel is bait"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "i search"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL",
+        "constant": true,
+        "priority": 1,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 0 — ROLE AND LAYER SEPARATION",
+        "constant": true,
+        "priority": 0,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      }
+    ]
+  },
+  {
+    "message": "I grab Vader's lightsaber.",
+    "match_count": 7,
+    "matches": [
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 12 — WEAPON QUALITIES AND DEFENSE",
+        "constant": false,
+        "priority": 12,
+        "keys": [
+          "weapon",
+          "blaster",
+          "lightsaber",
+          "rifle",
+          "pistol",
+          "grenade",
+          "stun",
+          "pierce",
+          "breach",
+          "blast",
+          "burn",
+          "knockdown",
+          "ensnare",
+          "sunder",
+          "vicious",
+          "armor",
+          "deflection",
+          "defense"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "lightsaber"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 11 — PERSONAL COMBAT CHECKS",
+        "constant": false,
+        "priority": 11,
+        "keys": [
+          "attacks",
+          "attack",
+          "shoots",
+          "fires",
+          "blaster",
+          "rifle",
+          "pistol",
+          "lightsaber",
+          "stabs",
+          "slashes",
+          "punches",
+          "kicks",
+          "strikes",
+          "melee",
+          "brawl",
+          "gunnery",
+          "shooting",
+          "combat"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "lightsaber"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28 — GM AND NARRATOR OPERATING RULES",
+        "constant": true,
+        "priority": 10,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 2 — CHARACTERISTICS, SKILLS, AND CHECK CONSTRUCTION",
+        "constant": false,
+        "priority": 2,
+        "keys": [
+          "tries to",
+          "attempts to",
+          "attempt to",
+          "tries",
+          "attempts",
+          "can i",
+          "could i",
+          "manage to",
+          "able to",
+          "skill",
+          "check",
+          "roll",
+          "dice",
+          "succeed",
+          "fails",
+          "failure",
+          "difficulty",
+          "i open",
+          "i grab",
+          "i take",
+          "i pull",
+          "i push",
+          "i lift",
+          "i hit",
+          "i shoot",
+          "i stab",
+          "i dodge",
+          "i block",
+          "i run",
+          "i escape",
+          "i hide",
+          "i sneak",
+          "i convince",
+          "i persuade",
+          "i threaten",
+          "i lie",
+          "i use the force",
+          "i heal",
+          "i hack",
+          "i slice",
+          "i repair",
+          "i climb",
+          "i jump",
+          "i search",
+          "i look for",
+          "i break",
+          "i unlock",
+          "i disable",
+          "i restrain",
+          "i inspect",
+          "i check",
+          "i examine",
+          "i scan",
+          "i listen",
+          "check for traps",
+          "check for tampering",
+          "look for traps",
+          "look for tampering",
+          "fresh tool marks",
+          "too clean",
+          "dead-drop",
+          "dead drop",
+          "i study",
+          "i assess",
+          "i look over",
+          "looking for traps",
+          "looking for tampering",
+          "hidden transmitter",
+          "hidden transmitters",
+          "fresh heat",
+          "secondary watcher",
+          "staged to lure",
+          "panel was staged",
+          "panel is bait"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "i grab"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL",
+        "constant": true,
+        "priority": 1,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 0 — ROLE AND LAYER SEPARATION",
+        "constant": true,
+        "priority": 0,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 08 - Technology Ships Gear.json",
+        "name": "kyber crystals and lightsabers",
+        "constant": false,
+        "priority": 2,
+        "keys": [
+          "kyber",
+          "kyber crystal",
+          "lightsaber",
+          "bleeding a crystal",
+          "purified crystal",
+          "ilum",
+          "the gathering"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "lightsaber"
+        ]
+      }
+    ]
+  },
+  {
+    "message": "A stranger appears without warning.",
+    "match_count": 4,
+    "matches": [
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28 — GM AND NARRATOR OPERATING RULES",
+        "constant": true,
+        "priority": 10,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 9 — ENCOUNTER STRUCTURE, INITIATIVE, ACTIONS, AND MANEUVERS",
+        "constant": false,
+        "priority": 9,
+        "keys": [
+          "suddenly",
+          "without warning",
+          "surprised",
+          "ambush",
+          "intruder",
+          "security breach",
+          "attack",
+          "attacks",
+          "draws a weapon",
+          "combat begins",
+          "fight starts",
+          "hostile move",
+          "reacts",
+          "initiative",
+          "turn",
+          "maneuver",
+          "aims",
+          "takes cover"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "without warning"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL",
+        "constant": true,
+        "priority": 1,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 0 — ROLE AND LAYER SEPARATION",
+        "constant": true,
+        "priority": 0,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      }
+    ]
+  },
+  {
+    "message": "The guards move to arrest me.",
+    "match_count": 5,
+    "matches": [
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 27 — ECONOMY, CONTACTS, REPUTATION, AND LEGAL CONSEQUENCES",
+        "constant": false,
+        "priority": 27,
+        "keys": [
+          "crime",
+          "illegal",
+          "law",
+          "arrest",
+          "detain",
+          "detention",
+          "custody",
+          "prisoner",
+          "security",
+          "unauthorized",
+          "intruder",
+          "trespass",
+          "bounty",
+          "wanted",
+          "warrant",
+          "reputation",
+          "imperial law",
+          "local authorities",
+          "confiscate",
+          "surveillance"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "arrest"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 13 — MINIONS, RIVALS, AND NEMESES",
+        "constant": false,
+        "priority": 13,
+        "keys": [
+          "stormtroopers",
+          "guards",
+          "soldiers",
+          "troopers",
+          "squad",
+          "group of enemies",
+          "bounty hunter",
+          "officer",
+          "named enemy",
+          "major villain",
+          "boss",
+          "rival",
+          "nemesis",
+          "minions",
+          "darth vader",
+          "palpatine",
+          "inquisitor"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "guards"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28 — GM AND NARRATOR OPERATING RULES",
+        "constant": true,
+        "priority": 10,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL",
+        "constant": true,
+        "priority": 1,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 0 — ROLE AND LAYER SEPARATION",
+        "constant": true,
+        "priority": 0,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      }
+    ]
+  },
+  {
+    "message": "I use the Force to heal him.",
+    "match_count": 8,
+    "matches": [
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 18 — FORCE DICE, FORCE POWERS, AND DARK SIDE USE",
+        "constant": false,
+        "priority": 18,
+        "keys": [
+          "uses the force",
+          "use the force",
+          "through the force",
+          "force power",
+          "force push",
+          "force pull",
+          "mind trick",
+          "force choke",
+          "force lightning",
+          "force healing",
+          "force vision",
+          "force bond",
+          "force-sensitive",
+          "jedi ability",
+          "sith power",
+          "resists the force"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "use the force"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 16 — HEALING, MEDICINE, STIMPACKS, AND BACTA",
+        "constant": false,
+        "priority": 16,
+        "keys": [
+          "heal",
+          "healing",
+          "treat",
+          "medicine",
+          "doctor",
+          "medic",
+          "bacta",
+          "stimpack",
+          "surgery",
+          "stabilize",
+          "injury",
+          "wound",
+          "repair the droid",
+          "medical bay",
+          "lost limb",
+          "cybernetic"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "heal"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28 — GM AND NARRATOR OPERATING RULES",
+        "constant": true,
+        "priority": 10,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 2 — CHARACTERISTICS, SKILLS, AND CHECK CONSTRUCTION",
+        "constant": false,
+        "priority": 2,
+        "keys": [
+          "tries to",
+          "attempts to",
+          "attempt to",
+          "tries",
+          "attempts",
+          "can i",
+          "could i",
+          "manage to",
+          "able to",
+          "skill",
+          "check",
+          "roll",
+          "dice",
+          "succeed",
+          "fails",
+          "failure",
+          "difficulty",
+          "i open",
+          "i grab",
+          "i take",
+          "i pull",
+          "i push",
+          "i lift",
+          "i hit",
+          "i shoot",
+          "i stab",
+          "i dodge",
+          "i block",
+          "i run",
+          "i escape",
+          "i hide",
+          "i sneak",
+          "i convince",
+          "i persuade",
+          "i threaten",
+          "i lie",
+          "i use the force",
+          "i heal",
+          "i hack",
+          "i slice",
+          "i repair",
+          "i climb",
+          "i jump",
+          "i search",
+          "i look for",
+          "i break",
+          "i unlock",
+          "i disable",
+          "i restrain",
+          "i inspect",
+          "i check",
+          "i examine",
+          "i scan",
+          "i listen",
+          "check for traps",
+          "check for tampering",
+          "look for traps",
+          "look for tampering",
+          "fresh tool marks",
+          "too clean",
+          "dead-drop",
+          "dead drop",
+          "i study",
+          "i assess",
+          "i look over",
+          "looking for traps",
+          "looking for tampering",
+          "hidden transmitter",
+          "hidden transmitters",
+          "fresh heat",
+          "secondary watcher",
+          "staged to lure",
+          "panel was staged",
+          "panel is bait"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "i use the force"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL",
+        "constant": true,
+        "priority": 1,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 0 — ROLE AND LAYER SEPARATION",
+        "constant": true,
+        "priority": 0,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 01 - Core Continuity.json",
+        "name": "force baseline",
+        "constant": false,
+        "priority": 23,
+        "keys": [
+          "the force",
+          "living force",
+          "cosmic force"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "the force"
+        ]
+      },
+      {
+        "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+        "name": "the force",
+        "constant": false,
+        "priority": 2,
+        "keys": [
+          "the force",
+          "force metaphysics",
+          "living force",
+          "cosmic force"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "the force"
+        ]
+      }
+    ]
+  },
+  {
+    "message": "We land on Coruscant.",
+    "match_count": 4,
+    "matches": [
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28 — GM AND NARRATOR OPERATING RULES",
+        "constant": true,
+        "priority": 10,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL",
+        "constant": true,
+        "priority": 1,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 0 — ROLE AND LAYER SEPARATION",
+        "constant": true,
+        "priority": 0,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 05 - Worlds and Regions.json",
+        "name": "coruscant",
+        "constant": false,
+        "priority": 3,
+        "keys": [
+          "coruscant",
+          "galactic city",
+          "level 1313",
+          "jedi temple coruscant",
+          "imperial palace",
+          "galactic senate building"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "coruscant"
+        ]
+      }
+    ]
+  },
+  {
+    "message": "I ask the Twi'lek merchant about the price.",
+    "match_count": 5,
+    "matches": [
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 23 — GEAR, ENCUMBRANCE, RARITY, AND RESTRICTED ITEMS",
+        "constant": false,
+        "priority": 23,
+        "keys": [
+          "buy",
+          "sell",
+          "credits",
+          "price",
+          "cost",
+          "shop",
+          "merchant",
+          "gear",
+          "equipment",
+          "carry",
+          "too heavy",
+          "encumbrance",
+          "illegal weapon",
+          "restricted",
+          "black market",
+          "find an item"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "price",
+          "merchant"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28 — GM AND NARRATOR OPERATING RULES",
+        "constant": true,
+        "priority": 10,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL",
+        "constant": true,
+        "priority": 1,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 0 — ROLE AND LAYER SEPARATION",
+        "constant": true,
+        "priority": 0,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 06 - Species and Cultures.json",
+        "name": "twi'leks",
+        "constant": false,
+        "priority": 3,
+        "keys": [
+          "twi'lek",
+          "twi'leks",
+          "lekku",
+          "ruti",
+          "rylothian",
+          "twi'lek diaspora"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "twi'lek"
+        ]
+      }
+    ]
+  },
+  {
+    "message": "The ship drops out of hyperspace.",
+    "match_count": 5,
+    "matches": [
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 20 — VEHICLES, SILHOUETTE, SPEED, AND RANGE",
+        "constant": false,
+        "priority": 20,
+        "keys": [
+          "ship",
+          "starship",
+          "shuttle",
+          "fighter",
+          "speeder",
+          "walker",
+          "vehicle",
+          "flies",
+          "pilots",
+          "takes off",
+          "lands",
+          "space battle",
+          "dogfight",
+          "capital ship",
+          "hyperdrive",
+          "pursuit in space"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "ship"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28 — GM AND NARRATOR OPERATING RULES",
+        "constant": true,
+        "priority": 10,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL",
+        "constant": true,
+        "priority": 1,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 0 — ROLE AND LAYER SEPARATION",
+        "constant": true,
+        "priority": 0,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 01 - Core Continuity.json",
+        "name": "hyperspace fundamentals",
+        "constant": false,
+        "priority": 10,
+        "keys": [
+          "hyperspace",
+          "enter hyperspace",
+          "hyperspace jump"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "hyperspace"
+        ]
+      }
+    ]
+  },
+  {
+    "message": "I threaten the Imperial officer.",
+    "match_count": 5,
+    "matches": [
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 13 — MINIONS, RIVALS, AND NEMESES",
+        "constant": false,
+        "priority": 13,
+        "keys": [
+          "stormtroopers",
+          "guards",
+          "soldiers",
+          "troopers",
+          "squad",
+          "group of enemies",
+          "bounty hunter",
+          "officer",
+          "named enemy",
+          "major villain",
+          "boss",
+          "rival",
+          "nemesis",
+          "minions",
+          "darth vader",
+          "palpatine",
+          "inquisitor"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "officer"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28 — GM AND NARRATOR OPERATING RULES",
+        "constant": true,
+        "priority": 10,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 2 — CHARACTERISTICS, SKILLS, AND CHECK CONSTRUCTION",
+        "constant": false,
+        "priority": 2,
+        "keys": [
+          "tries to",
+          "attempts to",
+          "attempt to",
+          "tries",
+          "attempts",
+          "can i",
+          "could i",
+          "manage to",
+          "able to",
+          "skill",
+          "check",
+          "roll",
+          "dice",
+          "succeed",
+          "fails",
+          "failure",
+          "difficulty",
+          "i open",
+          "i grab",
+          "i take",
+          "i pull",
+          "i push",
+          "i lift",
+          "i hit",
+          "i shoot",
+          "i stab",
+          "i dodge",
+          "i block",
+          "i run",
+          "i escape",
+          "i hide",
+          "i sneak",
+          "i convince",
+          "i persuade",
+          "i threaten",
+          "i lie",
+          "i use the force",
+          "i heal",
+          "i hack",
+          "i slice",
+          "i repair",
+          "i climb",
+          "i jump",
+          "i search",
+          "i look for",
+          "i break",
+          "i unlock",
+          "i disable",
+          "i restrain",
+          "i inspect",
+          "i check",
+          "i examine",
+          "i scan",
+          "i listen",
+          "check for traps",
+          "check for tampering",
+          "look for traps",
+          "look for tampering",
+          "fresh tool marks",
+          "too clean",
+          "dead-drop",
+          "dead drop",
+          "i study",
+          "i assess",
+          "i look over",
+          "looking for traps",
+          "looking for tampering",
+          "hidden transmitter",
+          "hidden transmitters",
+          "fresh heat",
+          "secondary watcher",
+          "staged to lure",
+          "panel was staged",
+          "panel is bait"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "i threaten"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL",
+        "constant": true,
+        "priority": 1,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 0 — ROLE AND LAYER SEPARATION",
+        "constant": true,
+        "priority": 0,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      }
+    ]
+  },
+  {
+    "message": "Palpatine smiles and offers cooperation.",
+    "match_count": 6,
+    "matches": [
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 15 — FEAR, DISCIPLINE, AND MENTAL PRESSURE",
+        "constant": false,
+        "priority": 15,
+        "keys": [
+          "terrifying",
+          "horrifying",
+          "afraid",
+          "fear",
+          "panic",
+          "freezes",
+          "trembling",
+          "overwhelmed",
+          "helpless",
+          "trauma",
+          "nightmare",
+          "dark presence",
+          "darth vader",
+          "palpatine",
+          "sith",
+          "monster"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "palpatine"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 13 — MINIONS, RIVALS, AND NEMESES",
+        "constant": false,
+        "priority": 13,
+        "keys": [
+          "stormtroopers",
+          "guards",
+          "soldiers",
+          "troopers",
+          "squad",
+          "group of enemies",
+          "bounty hunter",
+          "officer",
+          "named enemy",
+          "major villain",
+          "boss",
+          "rival",
+          "nemesis",
+          "minions",
+          "darth vader",
+          "palpatine",
+          "inquisitor"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "palpatine"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28 — GM AND NARRATOR OPERATING RULES",
+        "constant": true,
+        "priority": 10,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL",
+        "constant": true,
+        "priority": 1,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 0 — ROLE AND LAYER SEPARATION",
+        "constant": true,
+        "priority": 0,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 03 - Characters.json",
+        "name": "palpatine",
+        "constant": false,
+        "priority": 8,
+        "keys": [
+          "palpatine",
+          "darth sidious",
+          "emperor palpatine"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "palpatine"
+        ]
+      }
+    ]
+  },
+  {
+    "message": "I mention an obscure Legends Sith artifact.",
+    "match_count": 6,
+    "matches": [
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 19 — FORCE PHILOSOPHY AND TEMPTATION",
+        "constant": false,
+        "priority": 19,
+        "keys": [
+          "light side",
+          "dark side",
+          "jedi",
+          "sith",
+          "anger",
+          "hatred",
+          "fear",
+          "cruelty",
+          "domination",
+          "redemption",
+          "falls to the dark side",
+          "tempted",
+          "corruption",
+          "compassion",
+          "mercy"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "sith"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 15 — FEAR, DISCIPLINE, AND MENTAL PRESSURE",
+        "constant": false,
+        "priority": 15,
+        "keys": [
+          "terrifying",
+          "horrifying",
+          "afraid",
+          "fear",
+          "panic",
+          "freezes",
+          "trembling",
+          "overwhelmed",
+          "helpless",
+          "trauma",
+          "nightmare",
+          "dark presence",
+          "darth vader",
+          "palpatine",
+          "sith",
+          "monster"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "sith"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28 — GM AND NARRATOR OPERATING RULES",
+        "constant": true,
+        "priority": 10,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL",
+        "constant": true,
+        "priority": 1,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 0 — ROLE AND LAYER SEPARATION",
+        "constant": true,
+        "priority": 0,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 11 - Force Orders.json",
+        "name": "sith and dark side orders",
+        "constant": false,
+        "priority": 2,
+        "keys": [
+          "sith",
+          "darth",
+          "rule of two",
+          "dark lord of the sith",
+          "sith empire",
+          "sith eternal",
+          "exegol",
+          "inquisitorius"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "sith"
+        ]
+      }
+    ]
+  },
+  {
+    "message": "I ask about a minor species from Wookieepedia.",
+    "match_count": 3,
+    "matches": [
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28 — GM AND NARRATOR OPERATING RULES",
+        "constant": true,
+        "priority": 10,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL",
+        "constant": true,
+        "priority": 1,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 0 — ROLE AND LAYER SEPARATION",
+        "constant": true,
+        "priority": 0,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      }
+    ]
+  },
+  {
+    "message": "The crew reaches At Attin aboard the Onyx Cinder.",
+    "match_count": 6,
+    "matches": [
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28 — GM AND NARRATOR OPERATING RULES",
+        "constant": true,
+        "priority": 10,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL",
+        "constant": true,
+        "priority": 1,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 0 — ROLE AND LAYER SEPARATION",
+        "constant": true,
+        "priority": 0,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 02 - Eras and History.json",
+        "name": "skeleton crew era note",
+        "constant": false,
+        "priority": 2,
+        "keys": [
+          "skeleton crew",
+          "onyx cinder",
+          "at attin incident"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "onyx cinder"
+        ]
+      },
+      {
+        "file": "Kyber RPG 05 - Worlds and Regions.json",
+        "name": "at attin",
+        "constant": false,
+        "priority": 2,
+        "keys": [
+          "at attin",
+          "lost planet at attin"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "at attin"
+        ]
+      },
+      {
+        "file": "Kyber RPG 08 - Technology Ships Gear.json",
+        "name": "onyx cinder",
+        "constant": false,
+        "priority": 2,
+        "keys": [
+          "onyx cinder",
+          "the onyx cinder"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "onyx cinder",
+          "the onyx cinder"
+        ]
+      }
+    ]
+  },
+  {
+    "message": "Kay Vess is being hunted by Zerek Besh.",
+    "match_count": 5,
+    "matches": [
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28 — GM AND NARRATOR OPERATING RULES",
+        "constant": true,
+        "priority": 10,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL",
+        "constant": true,
+        "priority": 1,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 0 — ROLE AND LAYER SEPARATION",
+        "constant": true,
+        "priority": 0,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 03 - Characters.json",
+        "name": "kay vess",
+        "constant": false,
+        "priority": 53,
+        "keys": [
+          "kay vess",
+          "outlaw kay vess"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "kay vess"
+        ]
+      },
+      {
+        "file": "Kyber RPG 04 - Factions and Governments.json",
+        "name": "zerek besh",
+        "constant": false,
+        "priority": 2,
+        "keys": [
+          "zerek besh",
+          "zerek besh syndicate"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "zerek besh"
+        ]
+      }
+    ]
+  },
+  {
+    "message": "I check the dead-drop for tampering, traps, fresh tool marks, or anything too clean for Level 1313.",
+    "match_count": 7,
+    "matches": [
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 29 — NARRATIVE RESULT TEMPLATES",
+        "constant": false,
+        "priority": 29,
+        "keys": [
+          "roll",
+          "dice",
+          "check",
+          "success",
+          "failure",
+          "advantage",
+          "threat",
+          "triumph",
+          "despair",
+          "result",
+          "outcome",
+          "succeeds",
+          "fails",
+          "at a cost",
+          "complication",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "check"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28 — GM AND NARRATOR OPERATING RULES",
+        "constant": true,
+        "priority": 10,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 2 — CHARACTERISTICS, SKILLS, AND CHECK CONSTRUCTION",
+        "constant": false,
+        "priority": 2,
+        "keys": [
+          "tries to",
+          "attempts to",
+          "attempt to",
+          "tries",
+          "attempts",
+          "can i",
+          "could i",
+          "manage to",
+          "able to",
+          "skill",
+          "check",
+          "roll",
+          "dice",
+          "succeed",
+          "fails",
+          "failure",
+          "difficulty",
+          "i open",
+          "i grab",
+          "i take",
+          "i pull",
+          "i push",
+          "i lift",
+          "i hit",
+          "i shoot",
+          "i stab",
+          "i dodge",
+          "i block",
+          "i run",
+          "i escape",
+          "i hide",
+          "i sneak",
+          "i convince",
+          "i persuade",
+          "i threaten",
+          "i lie",
+          "i use the force",
+          "i heal",
+          "i hack",
+          "i slice",
+          "i repair",
+          "i climb",
+          "i jump",
+          "i search",
+          "i look for",
+          "i break",
+          "i unlock",
+          "i disable",
+          "i restrain",
+          "i inspect",
+          "i check",
+          "i examine",
+          "i scan",
+          "i listen",
+          "check for traps",
+          "check for tampering",
+          "look for traps",
+          "look for tampering",
+          "fresh tool marks",
+          "too clean",
+          "dead-drop",
+          "dead drop",
+          "i study",
+          "i assess",
+          "i look over",
+          "looking for traps",
+          "looking for tampering",
+          "hidden transmitter",
+          "hidden transmitters",
+          "fresh heat",
+          "secondary watcher",
+          "staged to lure",
+          "panel was staged",
+          "panel is bait"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "check",
+          "i check",
+          "fresh tool marks",
+          "too clean",
+          "dead-drop"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL",
+        "constant": true,
+        "priority": 1,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 0 — ROLE AND LAYER SEPARATION",
+        "constant": true,
+        "priority": 0,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 05 - Worlds and Regions.json",
+        "name": "coruscant underworld",
+        "constant": false,
+        "priority": 218,
+        "keys": [
+          "coruscant underworld",
+          "coruscant lower levels",
+          "level 1313"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "level 1313"
+        ]
+      },
+      {
+        "file": "Kyber RPG 05 - Worlds and Regions.json",
+        "name": "coruscant",
+        "constant": false,
+        "priority": 3,
+        "keys": [
+          "coruscant",
+          "galactic city",
+          "level 1313",
+          "jedi temple coruscant",
+          "imperial palace",
+          "galactic senate building"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "level 1313"
+        ]
+      }
+    ]
+  },
+  {
+    "message": "I do not touch the dead-drop yet. I step just far enough into the accessway to break line of sight from the taxi mirror, then study the panel, replaced dust, locking bolt, wall seams, floor, and ceiling above it. I am looking for traps, hidden transmitters, fresh heat, a secondary watcher, or signs that the panel was staged to lure investigators in.",
+    "match_count": 5,
+    "matches": [
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 10 — RANGE BANDS, MOVEMENT, COVER, AND ENVIRONMENT",
+        "constant": false,
+        "priority": 10,
+        "keys": [
+          "close enough",
+          "within reach",
+          "across the room",
+          "nearby",
+          "far away",
+          "at a distance",
+          "behind cover",
+          "takes cover",
+          "smoke",
+          "darkness",
+          "vacuum",
+          "fire",
+          "freezing",
+          "heat",
+          "unstable footing",
+          "difficult terrain",
+          "range"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "heat"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28 — GM AND NARRATOR OPERATING RULES",
+        "constant": true,
+        "priority": 10,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 2 — CHARACTERISTICS, SKILLS, AND CHECK CONSTRUCTION",
+        "constant": false,
+        "priority": 2,
+        "keys": [
+          "tries to",
+          "attempts to",
+          "attempt to",
+          "tries",
+          "attempts",
+          "can i",
+          "could i",
+          "manage to",
+          "able to",
+          "skill",
+          "check",
+          "roll",
+          "dice",
+          "succeed",
+          "fails",
+          "failure",
+          "difficulty",
+          "i open",
+          "i grab",
+          "i take",
+          "i pull",
+          "i push",
+          "i lift",
+          "i hit",
+          "i shoot",
+          "i stab",
+          "i dodge",
+          "i block",
+          "i run",
+          "i escape",
+          "i hide",
+          "i sneak",
+          "i convince",
+          "i persuade",
+          "i threaten",
+          "i lie",
+          "i use the force",
+          "i heal",
+          "i hack",
+          "i slice",
+          "i repair",
+          "i climb",
+          "i jump",
+          "i search",
+          "i look for",
+          "i break",
+          "i unlock",
+          "i disable",
+          "i restrain",
+          "i inspect",
+          "i check",
+          "i examine",
+          "i scan",
+          "i listen",
+          "check for traps",
+          "check for tampering",
+          "look for traps",
+          "look for tampering",
+          "fresh tool marks",
+          "too clean",
+          "dead-drop",
+          "dead drop",
+          "i study",
+          "i assess",
+          "i look over",
+          "looking for traps",
+          "looking for tampering",
+          "hidden transmitter",
+          "hidden transmitters",
+          "fresh heat",
+          "secondary watcher",
+          "staged to lure",
+          "panel was staged",
+          "panel is bait"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "dead-drop",
+          "looking for traps",
+          "hidden transmitters",
+          "fresh heat",
+          "secondary watcher",
+          "staged to lure",
+          "panel was staged"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL",
+        "constant": true,
+        "priority": 1,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 0 — ROLE AND LAYER SEPARATION",
+        "constant": true,
+        "priority": 0,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      }
+    ]
+  },
+  {
+    "message": "OOC: I want actual dice and player roll mode, not GM simulated random dice.",
+    "match_count": 6,
+    "matches": [
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 29 — NARRATIVE RESULT TEMPLATES",
+        "constant": false,
+        "priority": 29,
+        "keys": [
+          "roll",
+          "dice",
+          "check",
+          "success",
+          "failure",
+          "advantage",
+          "threat",
+          "triumph",
+          "despair",
+          "result",
+          "outcome",
+          "succeeds",
+          "fails",
+          "at a cost",
+          "complication",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "roll",
+          "dice",
+          "roll mode",
+          "actual dice",
+          "random dice",
+          "player roll"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28 — GM AND NARRATOR OPERATING RULES",
+        "constant": true,
+        "priority": 10,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 3 — DICE SYMBOLS AND CANCELLATION",
+        "constant": false,
+        "priority": 3,
+        "keys": [
+          "roll",
+          "dice result",
+          "rolled",
+          "success",
+          "failure",
+          "advantage",
+          "threat",
+          "triumph",
+          "despair",
+          "complication",
+          "side effect",
+          "at a cost",
+          "unexpected benefit"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "roll"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 2 — CHARACTERISTICS, SKILLS, AND CHECK CONSTRUCTION",
+        "constant": false,
+        "priority": 2,
+        "keys": [
+          "tries to",
+          "attempts to",
+          "attempt to",
+          "tries",
+          "attempts",
+          "can i",
+          "could i",
+          "manage to",
+          "able to",
+          "skill",
+          "check",
+          "roll",
+          "dice",
+          "succeed",
+          "fails",
+          "failure",
+          "difficulty",
+          "i open",
+          "i grab",
+          "i take",
+          "i pull",
+          "i push",
+          "i lift",
+          "i hit",
+          "i shoot",
+          "i stab",
+          "i dodge",
+          "i block",
+          "i run",
+          "i escape",
+          "i hide",
+          "i sneak",
+          "i convince",
+          "i persuade",
+          "i threaten",
+          "i lie",
+          "i use the force",
+          "i heal",
+          "i hack",
+          "i slice",
+          "i repair",
+          "i climb",
+          "i jump",
+          "i search",
+          "i look for",
+          "i break",
+          "i unlock",
+          "i disable",
+          "i restrain",
+          "i inspect",
+          "i check",
+          "i examine",
+          "i scan",
+          "i listen",
+          "check for traps",
+          "check for tampering",
+          "look for traps",
+          "look for tampering",
+          "fresh tool marks",
+          "too clean",
+          "dead-drop",
+          "dead drop",
+          "i study",
+          "i assess",
+          "i look over",
+          "looking for traps",
+          "looking for tampering",
+          "hidden transmitter",
+          "hidden transmitters",
+          "fresh heat",
+          "secondary watcher",
+          "staged to lure",
+          "panel was staged",
+          "panel is bait"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "roll",
+          "dice"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL",
+        "constant": true,
+        "priority": 1,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 0 — ROLE AND LAYER SEPARATION",
+        "constant": true,
+        "priority": 0,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      }
+    ]
+  },
+  {
+    "message": "OOC: Use fast play and simulate rolls when needed.",
+    "match_count": 3,
+    "matches": [
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28 — GM AND NARRATOR OPERATING RULES",
+        "constant": true,
+        "priority": 10,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL",
+        "constant": true,
+        "priority": 1,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 0 — ROLE AND LAYER SEPARATION",
+        "constant": true,
+        "priority": 0,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      }
+    ]
+  }
+]

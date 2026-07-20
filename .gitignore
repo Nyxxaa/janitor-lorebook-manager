@@ -1,0 +1,22 @@
+# Local/generated noise
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+
+# Dependency/build outputs
+node_modules/
+dist/
+build/
+
+# Historical local backups are large and not needed for Janitor sync.
+archive/
+
+# Do not commit local secrets if auth is added later.
+.env
+.env.*
+secrets/
+*.pem
+*.key
+*.p12
+*.pfx

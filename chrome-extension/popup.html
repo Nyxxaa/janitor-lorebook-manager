@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Janitor Lorebook Manager</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Janitor Lorebook Manager</h1>
+        <p id="status">Loading...</p>
+      </header>
+
+      <section>
+        <label>Profile</label>
+        <input id="profileName" type="text" value="Kyber RPG">
+        <label>Public manifest URL</label>
+        <input id="manifestUrl" type="url" placeholder="https://raw.githubusercontent.com/.../janitor_sync_manifest.json">
+        <div class="row">
+          <button id="saveProfile">Save Profile</button>
+          <button id="fetchGithub">Check GitHub</button>
+        </div>
+      </section>
+
+      <section>
+        <label>Local files</label>
+        <input id="localFiles" type="file" accept=".json,application/json" multiple>
+        <button id="loadLocal">Load Local Lorebooks</button>
+      </section>
+
+      <section>
+        <div class="row">
+          <button id="openJanitor">Open Janitor</button>
+          <button id="sendToPage">Send Bundle To Page</button>
+        </div>
+      </section>
+
+      <section>
+        <h2>Loaded Bundle</h2>
+        <pre id="bundleSummary">No bundle loaded.</pre>
+      </section>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>

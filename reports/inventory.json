@@ -1,0 +1,6280 @@
+{
+  "generated": "2026-07-20",
+  "root": "C:\\Users\\andar\\OneDrive\\Documents\\Star Wars",
+  "files": [
+    {
+      "file": "Kyber RPG 00 - Rules Engine.json",
+      "bytes": 93292,
+      "entries": 31,
+      "constant_entries": 3,
+      "enabled_entries": 31,
+      "keys": 502,
+      "single_word_keys": 287,
+      "regex_keys": 0,
+      "estimated_content_tokens": 11324,
+      "categories": {
+        "kyber_rpg_rules_engine": 31
+      },
+      "top_long_entries": [
+        {
+          "name": "SECTION 28 — GM AND NARRATOR OPERATING RULES",
+          "estimated_tokens": 1163
+        },
+        {
+          "name": "SECTION 0 — ROLE AND LAYER SEPARATION",
+          "estimated_tokens": 759
+        },
+        {
+          "name": "SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL",
+          "estimated_tokens": 502
+        },
+        {
+          "name": "SECTION 2 — CHARACTERISTICS, SKILLS, AND CHECK CONSTRUCTION",
+          "estimated_tokens": 443
+        },
+        {
+          "name": "SECTION 17 — OBLIGATION, DUTY, AND MORALITY",
+          "estimated_tokens": 393
+        },
+        {
+          "name": "SECTION 5 — SPENDING ADVANTAGE, THREAT, TRIUMPH, AND DESPAIR",
+          "estimated_tokens": 388
+        },
+        {
+          "name": "SECTION 4 — DIFFICULTY, UPGRADES, DOWNGRADES, AND IMPOSSIBLE TASKS",
+          "estimated_tokens": 365
+        },
+        {
+          "name": "SECTION 18 — FORCE DICE, FORCE POWERS, AND DARK SIDE USE",
+          "estimated_tokens": 363
+        },
+        {
+          "name": "SECTION 14 — SOCIAL ENCOUNTERS",
+          "estimated_tokens": 362
+        },
+        {
+          "name": "SECTION 7 — WOUNDS, STRAIN, SOAK, AND INCAPACITATION",
+          "estimated_tokens": 360
+        }
+      ],
+      "top_key_count_entries": [
+        {
+          "name": "SECTION 2 — CHARACTERISTICS, SKILLS, AND CHECK CONSTRUCTION",
+          "keys": 74
+        },
+        {
+          "name": "SECTION 14 — SOCIAL ENCOUNTERS",
+          "keys": 22
+        },
+        {
+          "name": "SECTION 29 — NARRATIVE RESULT TEMPLATES",
+          "keys": 22
+        },
+        {
+          "name": "SECTION 27 — ECONOMY, CONTACTS, REPUTATION, AND LEGAL CONSEQUENCES",
+          "keys": 20
+        },
+        {
+          "name": "SECTION 9 — ENCOUNTER STRUCTURE, INITIATIVE, ACTIONS, AND MANEUVERS",
+          "keys": 18
+        },
+        {
+          "name": "SECTION 11 — PERSONAL COMBAT CHECKS",
+          "keys": 18
+        },
+        {
+          "name": "SECTION 12 — WEAPON QUALITIES AND DEFENSE",
+          "keys": 18
+        },
+        {
+          "name": "SECTION 7 — WOUNDS, STRAIN, SOAK, AND INCAPACITATION",
+          "keys": 17
+        },
+        {
+          "name": "SECTION 10 — RANGE BANDS, MOVEMENT, COVER, AND ENVIRONMENT",
+          "keys": 17
+        },
+        {
+          "name": "SECTION 13 — MINIONS, RIVALS, AND NEMESES",
+          "keys": 17
+        }
+      ]
+    },
+    {
+      "file": "Kyber RPG 01 - Core Continuity.json",
+      "bytes": 43549,
+      "entries": 30,
+      "constant_entries": 0,
+      "enabled_entries": 30,
+      "keys": 98,
+      "single_word_keys": 8,
+      "regex_keys": 0,
+      "estimated_content_tokens": 3010,
+      "categories": {
+        "kyber_rpg_core_continuity": 30
+      },
+      "top_long_entries": [
+        {
+          "name": "major historical eras",
+          "estimated_tokens": 122
+        },
+        {
+          "name": "lore retrieval index",
+          "estimated_tokens": 120
+        },
+        {
+          "name": "continuity hierarchy",
+          "estimated_tokens": 119
+        },
+        {
+          "name": "legends integration standard",
+          "estimated_tokens": 113
+        },
+        {
+          "name": "death and survival states",
+          "estimated_tokens": 111
+        },
+        {
+          "name": "names titles and aliases",
+          "estimated_tokens": 107
+        },
+        {
+          "name": "legal jurisdiction baseline",
+          "estimated_tokens": 106
+        },
+        {
+          "name": "canon source precedence",
+          "estimated_tokens": 104
+        },
+        {
+          "name": "historical integrity",
+          "estimated_tokens": 104
+        },
+        {
+          "name": "hyperspace fundamentals",
+          "estimated_tokens": 104
+        }
+      ],
+      "top_key_count_entries": [
+        {
+          "name": "continuity hierarchy",
+          "keys": 4
+        },
+        {
+          "name": "historical integrity",
+          "keys": 4
+        },
+        {
+          "name": "galactic dating system",
+          "keys": 4
+        },
+        {
+          "name": "galaxy structure",
+          "keys": 4
+        },
+        {
+          "name": "regional hierarchy",
+          "keys": 4
+        },
+        {
+          "name": "hyperspace routes",
+          "keys": 4
+        },
+        {
+          "name": "credits and exchange",
+          "keys": 4
+        },
+        {
+          "name": "names titles and aliases",
+          "keys": 4
+        },
+        {
+          "name": "canon source precedence",
+          "keys": 3
+        },
+        {
+          "name": "legends integration standard",
+          "keys": 3
+        }
+      ]
+    },
+    {
+      "file": "Kyber RPG 02 - Eras and History.json",
+      "bytes": 350034,
+      "entries": 280,
+      "constant_entries": 0,
+      "enabled_entries": 280,
+      "keys": 643,
+      "single_word_keys": 17,
+      "regex_keys": 0,
+      "estimated_content_tokens": 17085,
+      "categories": {
+        "kyber_rpg_eras_history": 280
+      },
+      "top_long_entries": [
+        {
+          "name": "galactic dating and eras",
+          "estimated_tokens": 181
+        },
+        {
+          "name": "first order and resistance war",
+          "estimated_tokens": 172
+        },
+        {
+          "name": "post-endor imperial fragmentation",
+          "estimated_tokens": 165
+        },
+        {
+          "name": "clone wars major campaigns",
+          "estimated_tokens": 162
+        },
+        {
+          "name": "fall of the jedi and clone wars",
+          "estimated_tokens": 157
+        },
+        {
+          "name": "ahsoka and thrawn return",
+          "estimated_tokens": 151
+        },
+        {
+          "name": "high republic history",
+          "estimated_tokens": 149
+        },
+        {
+          "name": "naboo crisis",
+          "estimated_tokens": 147
+        },
+        {
+          "name": "mandalorian era post-endor",
+          "estimated_tokens": 147
+        },
+        {
+          "name": "early rebellion formation",
+          "estimated_tokens": 146
+        }
+      ],
+      "top_key_count_entries": [
+        {
+          "name": "fall of the jedi and clone wars",
+          "keys": 8
+        },
+        {
+          "name": "reign of the empire",
+          "keys": 8
+        },
+        {
+          "name": "first order and resistance war",
+          "keys": 8
+        },
+        {
+          "name": "high republic history",
+          "keys": 7
+        },
+        {
+          "name": "age of rebellion",
+          "keys": 7
+        },
+        {
+          "name": "new republic history",
+          "keys": 7
+        },
+        {
+          "name": "clone wars major campaigns",
+          "keys": 7
+        },
+        {
+          "name": "early rebellion formation",
+          "keys": 7
+        },
+        {
+          "name": "mandalorian era post-endor",
+          "keys": 7
+        },
+        {
+          "name": "naboo crisis",
+          "keys": 6
+        }
+      ]
+    },
+    {
+      "file": "Kyber RPG 03 - Characters.json",
+      "bytes": 383086,
+      "entries": 292,
+      "constant_entries": 0,
+      "enabled_entries": 292,
+      "keys": 622,
+      "single_word_keys": 68,
+      "regex_keys": 0,
+      "estimated_content_tokens": 25383,
+      "categories": {
+        "kyber_rpg_characters": 292
+      },
+      "top_long_entries": [
+        {
+          "name": "mon mothma andor era",
+          "estimated_tokens": 160
+        },
+        {
+          "name": "cassian andor",
+          "estimated_tokens": 154
+        },
+        {
+          "name": "bail organa",
+          "estimated_tokens": 149
+        },
+        {
+          "name": "barriss offee",
+          "estimated_tokens": 144
+        },
+        {
+          "name": "mon mothma",
+          "estimated_tokens": 139
+        },
+        {
+          "name": "padme amidala",
+          "estimated_tokens": 138
+        },
+        {
+          "name": "ahsoka tano",
+          "estimated_tokens": 137
+        },
+        {
+          "name": "avar kriss",
+          "estimated_tokens": 137
+        },
+        {
+          "name": "palpatine",
+          "estimated_tokens": 136
+        },
+        {
+          "name": "darth maul",
+          "estimated_tokens": 136
+        }
+      ],
+      "top_key_count_entries": [
+        {
+          "name": "jod na nawood",
+          "keys": 4
+        },
+        {
+          "name": "qui-gon jinn",
+          "keys": 3
+        },
+        {
+          "name": "obi-wan kenobi",
+          "keys": 3
+        },
+        {
+          "name": "ahsoka tano",
+          "keys": 3
+        },
+        {
+          "name": "anakin skywalker",
+          "keys": 3
+        },
+        {
+          "name": "padme amidala",
+          "keys": 3
+        },
+        {
+          "name": "palpatine",
+          "keys": 3
+        },
+        {
+          "name": "count dooku",
+          "keys": 3
+        },
+        {
+          "name": "darth maul",
+          "keys": 3
+        },
+        {
+          "name": "general grievous",
+          "keys": 3
+        }
+      ]
+    },
+    {
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "bytes": 255574,
+      "entries": 188,
+      "constant_entries": 0,
+      "enabled_entries": 188,
+      "keys": 535,
+      "single_word_keys": 14,
+      "regex_keys": 0,
+      "estimated_content_tokens": 14280,
+      "categories": {
+        "kyber_rpg_factions_governments": 188
+      },
+      "top_long_entries": [
+        {
+          "name": "clone army and clone culture",
+          "estimated_tokens": 160
+        },
+        {
+          "name": "trade federation and corporate powers",
+          "estimated_tokens": 156
+        },
+        {
+          "name": "criminal underworld",
+          "estimated_tokens": 152
+        },
+        {
+          "name": "imperial military branches",
+          "estimated_tokens": 150
+        },
+        {
+          "name": "bounty hunters and guilds",
+          "estimated_tokens": 150
+        },
+        {
+          "name": "separatist military",
+          "estimated_tokens": 146
+        },
+        {
+          "name": "first order military",
+          "estimated_tokens": 146
+        },
+        {
+          "name": "resistance organization",
+          "estimated_tokens": 144
+        },
+        {
+          "name": "new republic institutions",
+          "estimated_tokens": 135
+        },
+        {
+          "name": "rebel military branches",
+          "estimated_tokens": 134
+        }
+      ],
+      "top_key_count_entries": [
+        {
+          "name": "criminal underworld",
+          "keys": 8
+        },
+        {
+          "name": "clone army and clone culture",
+          "keys": 7
+        },
+        {
+          "name": "imperial military branches",
+          "keys": 7
+        },
+        {
+          "name": "separatist military",
+          "keys": 6
+        },
+        {
+          "name": "rebel military branches",
+          "keys": 6
+        },
+        {
+          "name": "new republic institutions",
+          "keys": 6
+        },
+        {
+          "name": "first order military",
+          "keys": 6
+        },
+        {
+          "name": "resistance organization",
+          "keys": 6
+        },
+        {
+          "name": "trade federation and corporate powers",
+          "keys": 6
+        },
+        {
+          "name": "bounty hunters and guilds",
+          "keys": 6
+        }
+      ]
+    },
+    {
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "bytes": 385788,
+      "entries": 316,
+      "constant_entries": 0,
+      "enabled_entries": 316,
+      "keys": 778,
+      "single_word_keys": 191,
+      "regex_keys": 0,
+      "estimated_content_tokens": 19414,
+      "categories": {
+        "kyber_rpg_worlds_regions": 316
+      },
+      "top_long_entries": [
+        {
+          "name": "major worlds",
+          "estimated_tokens": 225
+        },
+        {
+          "name": "galaxy structure",
+          "estimated_tokens": 152
+        },
+        {
+          "name": "coruscant",
+          "estimated_tokens": 148
+        },
+        {
+          "name": "naboo",
+          "estimated_tokens": 135
+        },
+        {
+          "name": "mandalore",
+          "estimated_tokens": 132
+        },
+        {
+          "name": "tatooine",
+          "estimated_tokens": 129
+        },
+        {
+          "name": "ryloth",
+          "estimated_tokens": 129
+        },
+        {
+          "name": "kamino",
+          "estimated_tokens": 128
+        },
+        {
+          "name": "mustafar",
+          "estimated_tokens": 125
+        },
+        {
+          "name": "dathomir",
+          "estimated_tokens": 125
+        }
+      ],
+      "top_key_count_entries": [
+        {
+          "name": "tatooine",
+          "keys": 7
+        },
+        {
+          "name": "coruscant",
+          "keys": 6
+        },
+        {
+          "name": "mandalore",
+          "keys": 6
+        },
+        {
+          "name": "naboo",
+          "keys": 6
+        },
+        {
+          "name": "lothal",
+          "keys": 6
+        },
+        {
+          "name": "kashyyyk",
+          "keys": 5
+        },
+        {
+          "name": "ryloth",
+          "keys": 5
+        },
+        {
+          "name": "alderaan",
+          "keys": 5
+        },
+        {
+          "name": "corellia",
+          "keys": 5
+        },
+        {
+          "name": "jedha",
+          "keys": 5
+        }
+      ]
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "bytes": 224334,
+      "entries": 182,
+      "constant_entries": 0,
+      "enabled_entries": 182,
+      "keys": 421,
+      "single_word_keys": 275,
+      "regex_keys": 0,
+      "estimated_content_tokens": 11487,
+      "categories": {
+        "kyber_rpg_species_cultures": 182
+      },
+      "top_long_entries": [
+        {
+          "name": "mandalorians",
+          "estimated_tokens": 154
+        },
+        {
+          "name": "chiss",
+          "estimated_tokens": 140
+        },
+        {
+          "name": "hutts",
+          "estimated_tokens": 132
+        },
+        {
+          "name": "tusken raiders",
+          "estimated_tokens": 132
+        },
+        {
+          "name": "twi'leks",
+          "estimated_tokens": 130
+        },
+        {
+          "name": "zabraks and dathomirians",
+          "estimated_tokens": 127
+        },
+        {
+          "name": "mon calamari and quarren",
+          "estimated_tokens": 127
+        },
+        {
+          "name": "wookiees",
+          "estimated_tokens": 118
+        },
+        {
+          "name": "jawas",
+          "estimated_tokens": 108
+        },
+        {
+          "name": "tr andoshans",
+          "estimated_tokens": 108
+        }
+      ],
+      "top_key_count_entries": [
+        {
+          "name": "mandalorians",
+          "keys": 9
+        },
+        {
+          "name": "wookiees",
+          "keys": 6
+        },
+        {
+          "name": "twi'leks",
+          "keys": 6
+        },
+        {
+          "name": "hutts",
+          "keys": 6
+        },
+        {
+          "name": "zabraks and dathomirians",
+          "keys": 5
+        },
+        {
+          "name": "chiss",
+          "keys": 5
+        },
+        {
+          "name": "tusken raiders",
+          "keys": 5
+        },
+        {
+          "name": "jawas",
+          "keys": 5
+        },
+        {
+          "name": "tr andoshans",
+          "keys": 5
+        },
+        {
+          "name": "mon calamari and quarren",
+          "keys": 4
+        }
+      ]
+    },
+    {
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "bytes": 236350,
+      "entries": 178,
+      "constant_entries": 0,
+      "enabled_entries": 178,
+      "keys": 497,
+      "single_word_keys": 28,
+      "regex_keys": 0,
+      "estimated_content_tokens": 12256,
+      "categories": {
+        "kyber_rpg_society_law_economy": 178
+      },
+      "top_long_entries": [
+        {
+          "name": "credits trade and economy",
+          "estimated_tokens": 151
+        },
+        {
+          "name": "galactic identity records",
+          "estimated_tokens": 127
+        },
+        {
+          "name": "slavery systems",
+          "estimated_tokens": 124
+        },
+        {
+          "name": "travel permits and customs",
+          "estimated_tokens": 118
+        },
+        {
+          "name": "galactic beverages",
+          "estimated_tokens": 118
+        },
+        {
+          "name": "wages and employment",
+          "estimated_tokens": 117
+        },
+        {
+          "name": "droid ownership law",
+          "estimated_tokens": 116
+        },
+        {
+          "name": "civilian starship ownership",
+          "estimated_tokens": 114
+        },
+        {
+          "name": "prisons and detention",
+          "estimated_tokens": 112
+        },
+        {
+          "name": "spaceport operations",
+          "estimated_tokens": 110
+        }
+      ],
+      "top_key_count_entries": [
+        {
+          "name": "credits trade and economy",
+          "keys": 7
+        },
+        {
+          "name": "galactic beverages",
+          "keys": 5
+        },
+        {
+          "name": "galactic identity records",
+          "keys": 4
+        },
+        {
+          "name": "travel permits and customs",
+          "keys": 4
+        },
+        {
+          "name": "spaceport operations",
+          "keys": 4
+        },
+        {
+          "name": "civilian starship ownership",
+          "keys": 4
+        },
+        {
+          "name": "freight and cargo trade",
+          "keys": 4
+        },
+        {
+          "name": "passenger transport",
+          "keys": 4
+        },
+        {
+          "name": "galactic banking",
+          "keys": 4
+        },
+        {
+          "name": "debt and liens",
+          "keys": 4
+        }
+      ]
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "bytes": 406047,
+      "entries": 335,
+      "constant_entries": 0,
+      "enabled_entries": 335,
+      "keys": 779,
+      "single_word_keys": 110,
+      "regex_keys": 0,
+      "estimated_content_tokens": 18077,
+      "categories": {
+        "kyber_rpg_technology_ships_gear": 335
+      },
+      "top_long_entries": [
+        {
+          "name": "hyperspace and navigation",
+          "estimated_tokens": 170
+        },
+        {
+          "name": "droids and common technology",
+          "estimated_tokens": 169
+        },
+        {
+          "name": "starship systems",
+          "estimated_tokens": 156
+        },
+        {
+          "name": "kyber crystals and lightsabers",
+          "estimated_tokens": 151
+        },
+        {
+          "name": "armor materials and personal defenses",
+          "estimated_tokens": 148
+        },
+        {
+          "name": "communications and data",
+          "estimated_tokens": 145
+        },
+        {
+          "name": "medical technology",
+          "estimated_tokens": 140
+        },
+        {
+          "name": "droid models and behavior",
+          "estimated_tokens": 136
+        },
+        {
+          "name": "superweapons",
+          "estimated_tokens": 130
+        },
+        {
+          "name": "path engines and the paths",
+          "estimated_tokens": 116
+        }
+      ],
+      "top_key_count_entries": [
+        {
+          "name": "kyber crystals and lightsabers",
+          "keys": 7
+        },
+        {
+          "name": "armor materials and personal defenses",
+          "keys": 7
+        },
+        {
+          "name": "communications and data",
+          "keys": 7
+        },
+        {
+          "name": "starship systems",
+          "keys": 7
+        },
+        {
+          "name": "droid models and behavior",
+          "keys": 7
+        },
+        {
+          "name": "medical technology",
+          "keys": 6
+        },
+        {
+          "name": "blaster weapon families",
+          "keys": 5
+        },
+        {
+          "name": "superweapons",
+          "keys": 5
+        },
+        {
+          "name": "hyperspace and navigation",
+          "keys": 4
+        },
+        {
+          "name": "droids and common technology",
+          "keys": 4
+        }
+      ]
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "bytes": 177997,
+      "entries": 149,
+      "constant_entries": 0,
+      "enabled_entries": 149,
+      "keys": 316,
+      "single_word_keys": 136,
+      "regex_keys": 0,
+      "estimated_content_tokens": 7316,
+      "categories": {
+        "kyber_rpg_creatures_hazards": 149
+      },
+      "top_long_entries": [
+        {
+          "name": "the nameless",
+          "estimated_tokens": 109
+        },
+        {
+          "name": "purrgil",
+          "estimated_tokens": 91
+        },
+        {
+          "name": "rancors",
+          "estimated_tokens": 87
+        },
+        {
+          "name": "krayt dragons",
+          "estimated_tokens": 84
+        },
+        {
+          "name": "sarlacc",
+          "estimated_tokens": 84
+        },
+        {
+          "name": "zillo beast species",
+          "estimated_tokens": 71
+        },
+        {
+          "name": "loth-wolves",
+          "estimated_tokens": 69
+        },
+        {
+          "name": "bando gora biohazards",
+          "estimated_tokens": 65
+        },
+        {
+          "name": "rathtars",
+          "estimated_tokens": 63
+        },
+        {
+          "name": "mythosaur",
+          "estimated_tokens": 63
+        }
+      ],
+      "top_key_count_entries": [
+        {
+          "name": "the nameless",
+          "keys": 4
+        },
+        {
+          "name": "rancors",
+          "keys": 3
+        },
+        {
+          "name": "krayt dragons",
+          "keys": 3
+        },
+        {
+          "name": "purrgil",
+          "keys": 3
+        },
+        {
+          "name": "nix merqaal",
+          "keys": 3
+        },
+        {
+          "name": "zillo beast species",
+          "keys": 3
+        },
+        {
+          "name": "loth-cats",
+          "keys": 3
+        },
+        {
+          "name": "loth-wolves",
+          "keys": 3
+        },
+        {
+          "name": "varactyls",
+          "keys": 3
+        },
+        {
+          "name": "banthas",
+          "keys": 3
+        }
+      ]
+    },
+    {
+      "file": "Kyber RPG 10 - Force Powers.json",
+      "bytes": 196466,
+      "entries": 167,
+      "constant_entries": 0,
+      "enabled_entries": 167,
+      "keys": 365,
+      "single_word_keys": 9,
+      "regex_keys": 0,
+      "estimated_content_tokens": 7960,
+      "categories": {
+        "kyber_rpg_force_powers": 167
+      },
+      "top_long_entries": [
+        {
+          "name": "battle meditation",
+          "estimated_tokens": 90
+        },
+        {
+          "name": "force choke",
+          "estimated_tokens": 84
+        },
+        {
+          "name": "force crush",
+          "estimated_tokens": 81
+        },
+        {
+          "name": "force healing",
+          "estimated_tokens": 79
+        },
+        {
+          "name": "force push and pull",
+          "estimated_tokens": 78
+        },
+        {
+          "name": "force storm hyperspace wormhole",
+          "estimated_tokens": 78
+        },
+        {
+          "name": "force drain",
+          "estimated_tokens": 77
+        },
+        {
+          "name": "force severance",
+          "estimated_tokens": 75
+        },
+        {
+          "name": "force memory alteration",
+          "estimated_tokens": 74
+        },
+        {
+          "name": "force speed",
+          "estimated_tokens": 72
+        }
+      ],
+      "top_key_count_entries": [
+        {
+          "name": "force push and pull",
+          "keys": 3
+        },
+        {
+          "name": "force lift and object control",
+          "keys": 3
+        },
+        {
+          "name": "force choke",
+          "keys": 3
+        },
+        {
+          "name": "force crush",
+          "keys": 3
+        },
+        {
+          "name": "force speed",
+          "keys": 3
+        },
+        {
+          "name": "force jump",
+          "keys": 3
+        },
+        {
+          "name": "force barrier",
+          "keys": 3
+        },
+        {
+          "name": "force stasis",
+          "keys": 3
+        },
+        {
+          "name": "force slow",
+          "keys": 3
+        },
+        {
+          "name": "force sense",
+          "keys": 3
+        }
+      ]
+    },
+    {
+      "file": "Kyber RPG 11 - Force Orders.json",
+      "bytes": 216941,
+      "entries": 182,
+      "constant_entries": 0,
+      "enabled_entries": 182,
+      "keys": 407,
+      "single_word_keys": 18,
+      "regex_keys": 0,
+      "estimated_content_tokens": 9475,
+      "categories": {
+        "kyber_rpg_force_orders": 182
+      },
+      "top_long_entries": [
+        {
+          "name": "force traditions beyond jedi and sith",
+          "estimated_tokens": 197
+        },
+        {
+          "name": "sith doctrine and artifacts",
+          "estimated_tokens": 181
+        },
+        {
+          "name": "jedi doctrine and institutions",
+          "estimated_tokens": 179
+        },
+        {
+          "name": "jedi order",
+          "estimated_tokens": 158
+        },
+        {
+          "name": "sith and dark side orders",
+          "estimated_tokens": 141
+        },
+        {
+          "name": "essence transfer detail",
+          "estimated_tokens": 90
+        },
+        {
+          "name": "sith spirits and hauntings",
+          "estimated_tokens": 88
+        },
+        {
+          "name": "sith alchemy creatures",
+          "estimated_tokens": 84
+        },
+        {
+          "name": "sith masks",
+          "estimated_tokens": 84
+        },
+        {
+          "name": "jedi prophecy chosen one",
+          "estimated_tokens": 84
+        }
+      ],
+      "top_key_count_entries": [
+        {
+          "name": "sith and dark side orders",
+          "keys": 8
+        },
+        {
+          "name": "force traditions beyond jedi and sith",
+          "keys": 8
+        },
+        {
+          "name": "jedi doctrine and institutions",
+          "keys": 7
+        },
+        {
+          "name": "sith doctrine and artifacts",
+          "keys": 7
+        },
+        {
+          "name": "jedi order",
+          "keys": 4
+        },
+        {
+          "name": "jedi trials",
+          "keys": 4
+        },
+        {
+          "name": "jedi service corps",
+          "keys": 4
+        },
+        {
+          "name": "jedi mind trick",
+          "keys": 3
+        },
+        {
+          "name": "essence transfer detail",
+          "keys": 3
+        },
+        {
+          "name": "sith alchemy creatures",
+          "keys": 3
+        }
+      ]
+    },
+    {
+      "file": "Kyber RPG 12 - Lightsabers and Kyber.json",
+      "bytes": 70114,
+      "entries": 58,
+      "constant_entries": 0,
+      "enabled_entries": 58,
+      "keys": 132,
+      "single_word_keys": 19,
+      "regex_keys": 0,
+      "estimated_content_tokens": 2963,
+      "categories": {
+        "kyber_rpg_lightsabers_kyber": 58
+      },
+      "top_long_entries": [
+        {
+          "name": "lightsaber construction process",
+          "estimated_tokens": 98
+        },
+        {
+          "name": "lightsaber form vii juyo vaapad",
+          "estimated_tokens": 86
+        },
+        {
+          "name": "lightsaber form i shii-cho",
+          "estimated_tokens": 82
+        },
+        {
+          "name": "lightsaber form vi niman",
+          "estimated_tokens": 79
+        },
+        {
+          "name": "reverse grip lightsaber style",
+          "estimated_tokens": 74
+        },
+        {
+          "name": "jar'kai dual-blade combat",
+          "estimated_tokens": 73
+        },
+        {
+          "name": "lightsaber form v shien djem so",
+          "estimated_tokens": 71
+        },
+        {
+          "name": "lightsaber form iv ataru",
+          "estimated_tokens": 69
+        },
+        {
+          "name": "lightsaber form ii makashi",
+          "estimated_tokens": 66
+        },
+        {
+          "name": "lightsaber form iii soresu",
+          "estimated_tokens": 64
+        }
+      ],
+      "top_key_count_entries": [
+        {
+          "name": "lightsaber form v shien djem so",
+          "keys": 4
+        },
+        {
+          "name": "lightsaber form vii juyo vaapad",
+          "keys": 4
+        },
+        {
+          "name": "lightsaber marks of contact",
+          "keys": 4
+        },
+        {
+          "name": "lightsaber form i shii-cho",
+          "keys": 3
+        },
+        {
+          "name": "lightsaber form ii makashi",
+          "keys": 3
+        },
+        {
+          "name": "lightsaber form iii soresu",
+          "keys": 3
+        },
+        {
+          "name": "lightsaber form iv ataru",
+          "keys": 3
+        },
+        {
+          "name": "lightsaber form vi niman",
+          "keys": 3
+        },
+        {
+          "name": "jar'kai dual-blade combat",
+          "keys": 3
+        },
+        {
+          "name": "reverse grip lightsaber style",
+          "keys": 3
+        }
+      ]
+    },
+    {
+      "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+      "bytes": 174262,
+      "entries": 141,
+      "constant_entries": 0,
+      "enabled_entries": 141,
+      "keys": 303,
+      "single_word_keys": 15,
+      "regex_keys": 0,
+      "estimated_content_tokens": 7439,
+      "categories": {
+        "kyber_rpg_force_metaphysics_artifacts": 141
+      },
+      "top_long_entries": [
+        {
+          "name": "the force",
+          "estimated_tokens": 181
+        },
+        {
+          "name": "force wounds nexuses and vergences",
+          "estimated_tokens": 175
+        },
+        {
+          "name": "world between worlds detail",
+          "estimated_tokens": 107
+        },
+        {
+          "name": "force sensitivity spectrum",
+          "estimated_tokens": 84
+        },
+        {
+          "name": "mortiss force family",
+          "estimated_tokens": 78
+        },
+        {
+          "name": "force dyad",
+          "estimated_tokens": 72
+        },
+        {
+          "name": "midi-chlorians",
+          "estimated_tokens": 72
+        },
+        {
+          "name": "nameless creatures",
+          "estimated_tokens": 72
+        },
+        {
+          "name": "chosen one prophecy detail",
+          "estimated_tokens": 71
+        },
+        {
+          "name": "mechu-deru",
+          "estimated_tokens": 70
+        }
+      ],
+      "top_key_count_entries": [
+        {
+          "name": "force wounds nexuses and vergences",
+          "keys": 8
+        },
+        {
+          "name": "the force",
+          "keys": 4
+        },
+        {
+          "name": "world between worlds detail",
+          "keys": 3
+        },
+        {
+          "name": "force dyad",
+          "keys": 3
+        },
+        {
+          "name": "mechu-deru",
+          "keys": 3
+        },
+        {
+          "name": "mortiss force family",
+          "keys": 3
+        },
+        {
+          "name": "world between worlds guardians",
+          "keys": 3
+        },
+        {
+          "name": "ashla and bogan",
+          "keys": 3
+        },
+        {
+          "name": "force sensitivity spectrum",
+          "keys": 3
+        },
+        {
+          "name": "midi-chlorians",
+          "keys": 3
+        }
+      ]
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "bytes": 155135,
+      "entries": 122,
+      "constant_entries": 0,
+      "enabled_entries": 122,
+      "keys": 279,
+      "single_word_keys": 42,
+      "regex_keys": 0,
+      "estimated_content_tokens": 6880,
+      "categories": {
+        "kyber_rpg_legends_supplements": 122
+      },
+      "top_long_entries": [
+        {
+          "name": "legends post-endor supplement",
+          "estimated_tokens": 153
+        },
+        {
+          "name": "legends ancient supplement",
+          "estimated_tokens": 148
+        },
+        {
+          "name": "legends yuuzhan vong war",
+          "estimated_tokens": 139
+        },
+        {
+          "name": "legends old republic governments",
+          "estimated_tokens": 132
+        },
+        {
+          "name": "legends galactic empires and sith wars",
+          "estimated_tokens": 130
+        },
+        {
+          "name": "legends imperial warlords",
+          "estimated_tokens": 129
+        },
+        {
+          "name": "legends new jedi order",
+          "estimated_tokens": 129
+        },
+        {
+          "name": "legends legacy era",
+          "estimated_tokens": 124
+        },
+        {
+          "name": "legends and wookieepedia source policy",
+          "estimated_tokens": 88
+        },
+        {
+          "name": "rakata and infinite empire",
+          "estimated_tokens": 73
+        }
+      ],
+      "top_key_count_entries": [
+        {
+          "name": "legends galactic empires and sith wars",
+          "keys": 6
+        },
+        {
+          "name": "legends old republic governments",
+          "keys": 6
+        },
+        {
+          "name": "legends imperial warlords",
+          "keys": 6
+        },
+        {
+          "name": "legends new jedi order",
+          "keys": 6
+        },
+        {
+          "name": "legends yuuzhan vong war",
+          "keys": 6
+        },
+        {
+          "name": "legends legacy era",
+          "keys": 6
+        },
+        {
+          "name": "vitiate and eternal empire",
+          "keys": 5
+        },
+        {
+          "name": "legends ancient supplement",
+          "keys": 4
+        },
+        {
+          "name": "legends post-endor supplement",
+          "keys": 4
+        },
+        {
+          "name": "kwa and gree",
+          "keys": 4
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "files": 15,
+    "entries": 2651,
+    "constant_entries": 3,
+    "enabled_entries": 2651,
+    "keys": 6677,
+    "single_word_keys": 1237,
+    "regex_keys": 0,
+    "estimated_content_tokens": 174349
+  },
+  "issues": {
+    "invalid_json": [],
+    "non_array_roots": [],
+    "schema_mismatches": [],
+    "duplicate_ids": [],
+    "duplicate_names_within_file": [],
+    "duplicate_content": [],
+    "duplicate_keys_within_entry": [],
+    "duplicate_keys_across_files": [
+      {
+        "key": "failure",
+        "count": 3,
+        "files": [
+          "Kyber RPG 00 - Rules Engine.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 00 - Rules Engine.json",
+            "index": 2,
+            "name": "SECTION 2 — CHARACTERISTICS, SKILLS, AND CHECK CONSTRUCTION",
+            "id": "swffg-0200-6ae62db2"
+          },
+          {
+            "file": "Kyber RPG 00 - Rules Engine.json",
+            "index": 3,
+            "name": "SECTION 3 — DICE SYMBOLS AND CANCELLATION",
+            "id": "swffg-0300-abb0ff1d"
+          },
+          {
+            "file": "Kyber RPG 00 - Rules Engine.json",
+            "index": 29,
+            "name": "SECTION 29 — NARRATIVE RESULT TEMPLATES",
+            "id": "swffg-2900-c6dc3d98"
+          }
+        ]
+      },
+      {
+        "key": "success",
+        "count": 2,
+        "files": [
+          "Kyber RPG 00 - Rules Engine.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 00 - Rules Engine.json",
+            "index": 3,
+            "name": "SECTION 3 — DICE SYMBOLS AND CANCELLATION",
+            "id": "swffg-0300-abb0ff1d"
+          },
+          {
+            "file": "Kyber RPG 00 - Rules Engine.json",
+            "index": 29,
+            "name": "SECTION 29 — NARRATIVE RESULT TEMPLATES",
+            "id": "swffg-2900-c6dc3d98"
+          }
+        ]
+      },
+      {
+        "key": "threat",
+        "count": 3,
+        "files": [
+          "Kyber RPG 00 - Rules Engine.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 00 - Rules Engine.json",
+            "index": 3,
+            "name": "SECTION 3 — DICE SYMBOLS AND CANCELLATION",
+            "id": "swffg-0300-abb0ff1d"
+          },
+          {
+            "file": "Kyber RPG 00 - Rules Engine.json",
+            "index": 5,
+            "name": "SECTION 5 — SPENDING ADVANTAGE, THREAT, TRIUMPH, AND DESPAIR",
+            "id": "swffg-0500-021848ab"
+          },
+          {
+            "file": "Kyber RPG 00 - Rules Engine.json",
+            "index": 29,
+            "name": "SECTION 29 — NARRATIVE RESULT TEMPLATES",
+            "id": "swffg-2900-c6dc3d98"
+          }
+        ]
+      },
+      {
+        "key": "attack",
+        "count": 2,
+        "files": [
+          "Kyber RPG 00 - Rules Engine.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 00 - Rules Engine.json",
+            "index": 9,
+            "name": "SECTION 9 — ENCOUNTER STRUCTURE, INITIATIVE, ACTIONS, AND MANEUVERS",
+            "id": "swffg-0900-29e01071"
+          },
+          {
+            "file": "Kyber RPG 00 - Rules Engine.json",
+            "index": 11,
+            "name": "SECTION 11 — PERSONAL COMBAT CHECKS",
+            "id": "swffg-1100-35f5f7ee"
+          }
+        ]
+      },
+      {
+        "key": "lightsaber",
+        "count": 3,
+        "files": [
+          "Kyber RPG 00 - Rules Engine.json",
+          "Kyber RPG 08 - Technology Ships Gear.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 00 - Rules Engine.json",
+            "index": 11,
+            "name": "SECTION 11 — PERSONAL COMBAT CHECKS",
+            "id": "swffg-1100-35f5f7ee"
+          },
+          {
+            "file": "Kyber RPG 00 - Rules Engine.json",
+            "index": 12,
+            "name": "SECTION 12 — WEAPON QUALITIES AND DEFENSE",
+            "id": "swffg-1200-b14d9037"
+          },
+          {
+            "file": "Kyber RPG 08 - Technology Ships Gear.json",
+            "index": 1,
+            "name": "kyber crystals and lightsabers",
+            "id": "7127b843-cc25-4362-99e8-ec4a46842883"
+          }
+        ]
+      },
+      {
+        "key": "bounty hunter",
+        "count": 2,
+        "files": [
+          "Kyber RPG 00 - Rules Engine.json",
+          "Kyber RPG 04 - Factions and Governments.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 00 - Rules Engine.json",
+            "index": 13,
+            "name": "SECTION 13 — MINIONS, RIVALS, AND NEMESES",
+            "id": "swffg-1300-afac6b52"
+          },
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 9,
+            "name": "bounty hunters and guilds",
+            "id": "94d5ac39-9665-5701-8fd9-4c7fadc3233d"
+          }
+        ]
+      },
+      {
+        "key": "palpatine",
+        "count": 3,
+        "files": [
+          "Kyber RPG 00 - Rules Engine.json",
+          "Kyber RPG 03 - Characters.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 00 - Rules Engine.json",
+            "index": 13,
+            "name": "SECTION 13 — MINIONS, RIVALS, AND NEMESES",
+            "id": "swffg-1300-afac6b52"
+          },
+          {
+            "file": "Kyber RPG 00 - Rules Engine.json",
+            "index": 15,
+            "name": "SECTION 15 — FEAR, DISCIPLINE, AND MENTAL PRESSURE",
+            "id": "swffg-1500-74e3c70d"
+          },
+          {
+            "file": "Kyber RPG 03 - Characters.json",
+            "index": 7,
+            "name": "palpatine",
+            "id": "cbca24f9-19ea-5ad3-aff7-b2aa84fad069"
+          }
+        ]
+      },
+      {
+        "key": "fear",
+        "count": 2,
+        "files": [
+          "Kyber RPG 00 - Rules Engine.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 00 - Rules Engine.json",
+            "index": 15,
+            "name": "SECTION 15 — FEAR, DISCIPLINE, AND MENTAL PRESSURE",
+            "id": "swffg-1500-74e3c70d"
+          },
+          {
+            "file": "Kyber RPG 00 - Rules Engine.json",
+            "index": 19,
+            "name": "SECTION 19 — FORCE PHILOSOPHY AND TEMPTATION",
+            "id": "swffg-1900-3c2397a4"
+          }
+        ]
+      },
+      {
+        "key": "sith",
+        "count": 3,
+        "files": [
+          "Kyber RPG 00 - Rules Engine.json",
+          "Kyber RPG 11 - Force Orders.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 00 - Rules Engine.json",
+            "index": 15,
+            "name": "SECTION 15 — FEAR, DISCIPLINE, AND MENTAL PRESSURE",
+            "id": "swffg-1500-74e3c70d"
+          },
+          {
+            "file": "Kyber RPG 00 - Rules Engine.json",
+            "index": 19,
+            "name": "SECTION 19 — FORCE PHILOSOPHY AND TEMPTATION",
+            "id": "swffg-1900-3c2397a4"
+          },
+          {
+            "file": "Kyber RPG 11 - Force Orders.json",
+            "index": 1,
+            "name": "sith and dark side orders",
+            "id": "fe550dc1-680f-433b-97ee-18eaac30151c"
+          }
+        ]
+      },
+      {
+        "key": "force push",
+        "count": 2,
+        "files": [
+          "Kyber RPG 00 - Rules Engine.json",
+          "Kyber RPG 10 - Force Powers.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 00 - Rules Engine.json",
+            "index": 18,
+            "name": "SECTION 18 — FORCE DICE, FORCE POWERS, AND DARK SIDE USE",
+            "id": "swffg-1800-28b5bbd1"
+          },
+          {
+            "file": "Kyber RPG 10 - Force Powers.json",
+            "index": 0,
+            "name": "force push and pull",
+            "id": "2e865456-1c34-54a9-908f-5f02b67acfe4"
+          }
+        ]
+      },
+      {
+        "key": "force pull",
+        "count": 2,
+        "files": [
+          "Kyber RPG 00 - Rules Engine.json",
+          "Kyber RPG 10 - Force Powers.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 00 - Rules Engine.json",
+            "index": 18,
+            "name": "SECTION 18 — FORCE DICE, FORCE POWERS, AND DARK SIDE USE",
+            "id": "swffg-1800-28b5bbd1"
+          },
+          {
+            "file": "Kyber RPG 10 - Force Powers.json",
+            "index": 0,
+            "name": "force push and pull",
+            "id": "2e865456-1c34-54a9-908f-5f02b67acfe4"
+          }
+        ]
+      },
+      {
+        "key": "mind trick",
+        "count": 2,
+        "files": [
+          "Kyber RPG 00 - Rules Engine.json",
+          "Kyber RPG 11 - Force Orders.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 00 - Rules Engine.json",
+            "index": 18,
+            "name": "SECTION 18 — FORCE DICE, FORCE POWERS, AND DARK SIDE USE",
+            "id": "swffg-1800-28b5bbd1"
+          },
+          {
+            "file": "Kyber RPG 11 - Force Orders.json",
+            "index": 5,
+            "name": "jedi mind trick",
+            "id": "ebb22945-4250-5c85-a575-089b50fd7c3e"
+          }
+        ]
+      },
+      {
+        "key": "force choke",
+        "count": 2,
+        "files": [
+          "Kyber RPG 00 - Rules Engine.json",
+          "Kyber RPG 10 - Force Powers.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 00 - Rules Engine.json",
+            "index": 18,
+            "name": "SECTION 18 — FORCE DICE, FORCE POWERS, AND DARK SIDE USE",
+            "id": "swffg-1800-28b5bbd1"
+          },
+          {
+            "file": "Kyber RPG 10 - Force Powers.json",
+            "index": 2,
+            "name": "force choke",
+            "id": "722337f4-c05c-55ab-be75-153bc3a60f71"
+          }
+        ]
+      },
+      {
+        "key": "force lightning",
+        "count": 2,
+        "files": [
+          "Kyber RPG 00 - Rules Engine.json",
+          "Kyber RPG 10 - Force Powers.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 00 - Rules Engine.json",
+            "index": 18,
+            "name": "SECTION 18 — FORCE DICE, FORCE POWERS, AND DARK SIDE USE",
+            "id": "swffg-1800-28b5bbd1"
+          },
+          {
+            "file": "Kyber RPG 10 - Force Powers.json",
+            "index": 19,
+            "name": "force lightning",
+            "id": "0028dc09-38fe-5b9d-bf7b-c8c59de7a74d"
+          }
+        ]
+      },
+      {
+        "key": "force healing",
+        "count": 2,
+        "files": [
+          "Kyber RPG 00 - Rules Engine.json",
+          "Kyber RPG 10 - Force Powers.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 00 - Rules Engine.json",
+            "index": 18,
+            "name": "SECTION 18 — FORCE DICE, FORCE POWERS, AND DARK SIDE USE",
+            "id": "swffg-1800-28b5bbd1"
+          },
+          {
+            "file": "Kyber RPG 10 - Force Powers.json",
+            "index": 17,
+            "name": "force healing",
+            "id": "0f524179-0e28-54b5-8024-38f3aac14289"
+          }
+        ]
+      },
+      {
+        "key": "force bond",
+        "count": 2,
+        "files": [
+          "Kyber RPG 00 - Rules Engine.json",
+          "Kyber RPG 10 - Force Powers.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 00 - Rules Engine.json",
+            "index": 18,
+            "name": "SECTION 18 — FORCE DICE, FORCE POWERS, AND DARK SIDE USE",
+            "id": "swffg-1800-28b5bbd1"
+          },
+          {
+            "file": "Kyber RPG 10 - Force Powers.json",
+            "index": 16,
+            "name": "force bond",
+            "id": "db4af64f-a6c9-576e-9d73-90af71890f8b"
+          }
+        ]
+      },
+      {
+        "key": "force-sensitive",
+        "count": 2,
+        "files": [
+          "Kyber RPG 00 - Rules Engine.json",
+          "Kyber RPG 13 - Force Metaphysics Artifacts.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 00 - Rules Engine.json",
+            "index": 18,
+            "name": "SECTION 18 — FORCE DICE, FORCE POWERS, AND DARK SIDE USE",
+            "id": "swffg-1800-28b5bbd1"
+          },
+          {
+            "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+            "index": 15,
+            "name": "force sensitivity spectrum",
+            "id": "32544fe5-8f1e-5200-acf8-d2eb6c3b6909"
+          }
+        ]
+      },
+      {
+        "key": "light side",
+        "count": 2,
+        "files": [
+          "Kyber RPG 00 - Rules Engine.json",
+          "Kyber RPG 13 - Force Metaphysics Artifacts.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 00 - Rules Engine.json",
+            "index": 19,
+            "name": "SECTION 19 — FORCE PHILOSOPHY AND TEMPTATION",
+            "id": "swffg-1900-3c2397a4"
+          },
+          {
+            "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+            "index": 12,
+            "name": "the light side",
+            "id": "1313ab50-b9b5-582c-afcd-448b79bbd010"
+          }
+        ]
+      },
+      {
+        "key": "dark side",
+        "count": 2,
+        "files": [
+          "Kyber RPG 00 - Rules Engine.json",
+          "Kyber RPG 13 - Force Metaphysics Artifacts.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 00 - Rules Engine.json",
+            "index": 19,
+            "name": "SECTION 19 — FORCE PHILOSOPHY AND TEMPTATION",
+            "id": "swffg-1900-3c2397a4"
+          },
+          {
+            "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+            "index": 13,
+            "name": "the dark side",
+            "id": "ae0da697-c774-5f12-9ffb-5970da884178"
+          }
+        ]
+      },
+      {
+        "key": "credits",
+        "count": 2,
+        "files": [
+          "Kyber RPG 00 - Rules Engine.json",
+          "Kyber RPG 07 - Society Law Economy.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 00 - Rules Engine.json",
+            "index": 23,
+            "name": "SECTION 23 — GEAR, ENCUMBRANCE, RARITY, AND RESTRICTED ITEMS",
+            "id": "swffg-2300-da6a0d59"
+          },
+          {
+            "file": "Kyber RPG 07 - Society Law Economy.json",
+            "index": 0,
+            "name": "credits trade and economy",
+            "id": "1d331a23-eb88-55e4-b29b-be49887da924"
+          }
+        ]
+      },
+      {
+        "key": "black market",
+        "count": 2,
+        "files": [
+          "Kyber RPG 00 - Rules Engine.json",
+          "Kyber RPG 07 - Society Law Economy.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 00 - Rules Engine.json",
+            "index": 23,
+            "name": "SECTION 23 — GEAR, ENCUMBRANCE, RARITY, AND RESTRICTED ITEMS",
+            "id": "swffg-2300-da6a0d59"
+          },
+          {
+            "file": "Kyber RPG 07 - Society Law Economy.json",
+            "index": 50,
+            "name": "contraband markets",
+            "id": "74728a6e-cccc-5af3-bf93-b81aec089a92"
+          }
+        ]
+      },
+      {
+        "key": "ion weapon",
+        "count": 2,
+        "files": [
+          "Kyber RPG 00 - Rules Engine.json",
+          "Kyber RPG 08 - Technology Ships Gear.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 00 - Rules Engine.json",
+            "index": 26,
+            "name": "SECTION 26 — DROID CHARACTERS, CYBERNETICS, AND SPECIAL BIOLOGIES",
+            "id": "swffg-2600-83905580"
+          },
+          {
+            "file": "Kyber RPG 08 - Technology Ships Gear.json",
+            "index": 273,
+            "name": "ion weapons",
+            "id": "kyber-batch02-tech-ion-weapon"
+          }
+        ]
+      },
+      {
+        "key": "restraining bolt",
+        "count": 2,
+        "files": [
+          "Kyber RPG 00 - Rules Engine.json",
+          "Kyber RPG 08 - Technology Ships Gear.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 00 - Rules Engine.json",
+            "index": 26,
+            "name": "SECTION 26 — DROID CHARACTERS, CYBERNETICS, AND SPECIAL BIOLOGIES",
+            "id": "swffg-2600-83905580"
+          },
+          {
+            "file": "Kyber RPG 08 - Technology Ships Gear.json",
+            "index": 189,
+            "name": "restraining bolts",
+            "id": "f93b5bed-1ed2-5e55-a553-625f8a7aeee2"
+          }
+        ]
+      },
+      {
+        "key": "galactic eras",
+        "count": 2,
+        "files": [
+          "Kyber RPG 01 - Core Continuity.json",
+          "Kyber RPG 02 - Eras and History.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 01 - Core Continuity.json",
+            "index": 5,
+            "name": "major historical eras",
+            "id": "86236295-c855-59af-bed9-56f983ead8f5"
+          },
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 0,
+            "name": "galactic dating and eras",
+            "id": "ece2bdf6-5922-47c4-bcae-89ccdcc3b3a4"
+          }
+        ]
+      },
+      {
+        "key": "galaxy structure",
+        "count": 2,
+        "files": [
+          "Kyber RPG 01 - Core Continuity.json",
+          "Kyber RPG 05 - Worlds and Regions.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 01 - Core Continuity.json",
+            "index": 6,
+            "name": "galaxy structure",
+            "id": "0d10c3d9-cfcd-5676-bccd-84a013b95689"
+          },
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 0,
+            "name": "galaxy structure",
+            "id": "807214ad-cb0b-4ae9-8b4c-2f0726999843"
+          }
+        ]
+      },
+      {
+        "key": "galactic regions",
+        "count": 2,
+        "files": [
+          "Kyber RPG 01 - Core Continuity.json",
+          "Kyber RPG 05 - Worlds and Regions.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 01 - Core Continuity.json",
+            "index": 6,
+            "name": "galaxy structure",
+            "id": "0d10c3d9-cfcd-5676-bccd-84a013b95689"
+          },
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 0,
+            "name": "galaxy structure",
+            "id": "807214ad-cb0b-4ae9-8b4c-2f0726999843"
+          }
+        ]
+      },
+      {
+        "key": "core rim unknown regions",
+        "count": 2,
+        "files": [
+          "Kyber RPG 01 - Core Continuity.json",
+          "Kyber RPG 05 - Worlds and Regions.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 01 - Core Continuity.json",
+            "index": 6,
+            "name": "galaxy structure",
+            "id": "0d10c3d9-cfcd-5676-bccd-84a013b95689"
+          },
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 0,
+            "name": "galaxy structure",
+            "id": "807214ad-cb0b-4ae9-8b4c-2f0726999843"
+          }
+        ]
+      },
+      {
+        "key": "hyperlane geography",
+        "count": 2,
+        "files": [
+          "Kyber RPG 01 - Core Continuity.json",
+          "Kyber RPG 05 - Worlds and Regions.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 01 - Core Continuity.json",
+            "index": 6,
+            "name": "galaxy structure",
+            "id": "0d10c3d9-cfcd-5676-bccd-84a013b95689"
+          },
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 0,
+            "name": "galaxy structure",
+            "id": "807214ad-cb0b-4ae9-8b4c-2f0726999843"
+          }
+        ]
+      },
+      {
+        "key": "galactic basic",
+        "count": 2,
+        "files": [
+          "Kyber RPG 01 - Core Continuity.json",
+          "Kyber RPG 07 - Society Law Economy.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 01 - Core Continuity.json",
+            "index": 13,
+            "name": "galactic basic and translation",
+            "id": "dce911f1-5ce8-5a5c-8d3d-1ad6861616ea"
+          },
+          {
+            "file": "Kyber RPG 07 - Society Law Economy.json",
+            "index": 35,
+            "name": "languages and translation",
+            "id": "238adb22-24ec-5491-86bc-6f40370ac4fb"
+          }
+        ]
+      },
+      {
+        "key": "translation droid",
+        "count": 2,
+        "files": [
+          "Kyber RPG 01 - Core Continuity.json",
+          "Kyber RPG 07 - Society Law Economy.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 01 - Core Continuity.json",
+            "index": 13,
+            "name": "galactic basic and translation",
+            "id": "dce911f1-5ce8-5a5c-8d3d-1ad6861616ea"
+          },
+          {
+            "file": "Kyber RPG 07 - Society Law Economy.json",
+            "index": 35,
+            "name": "languages and translation",
+            "id": "238adb22-24ec-5491-86bc-6f40370ac4fb"
+          }
+        ]
+      },
+      {
+        "key": "common technology",
+        "count": 2,
+        "files": [
+          "Kyber RPG 01 - Core Continuity.json",
+          "Kyber RPG 08 - Technology Ships Gear.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 01 - Core Continuity.json",
+            "index": 20,
+            "name": "technology baseline",
+            "id": "4f76a2e4-2977-5dba-8191-724a1dfb4c60"
+          },
+          {
+            "file": "Kyber RPG 08 - Technology Ships Gear.json",
+            "index": 2,
+            "name": "droids and common technology",
+            "id": "6feae457-8b1e-421f-8cf5-03f4091b6e95"
+          }
+        ]
+      },
+      {
+        "key": "droid rights",
+        "count": 2,
+        "files": [
+          "Kyber RPG 01 - Core Continuity.json",
+          "Kyber RPG 07 - Society Law Economy.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 01 - Core Continuity.json",
+            "index": 21,
+            "name": "droid personhood baseline",
+            "id": "3e130207-7ec2-57d5-8bc4-81c8cc79d556"
+          },
+          {
+            "file": "Kyber RPG 07 - Society Law Economy.json",
+            "index": 78,
+            "name": "droid rights and restraining bolts",
+            "id": "kyber-batch02-society-droid-rights"
+          }
+        ]
+      },
+      {
+        "key": "the force",
+        "count": 2,
+        "files": [
+          "Kyber RPG 01 - Core Continuity.json",
+          "Kyber RPG 13 - Force Metaphysics Artifacts.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 01 - Core Continuity.json",
+            "index": 22,
+            "name": "force baseline",
+            "id": "7675b0df-ca55-59ea-9930-bcb4ec0a5b72"
+          },
+          {
+            "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+            "index": 0,
+            "name": "the force",
+            "id": "2da90b8b-da30-47f7-a1ae-1e5fdbdd6d65"
+          }
+        ]
+      },
+      {
+        "key": "living force",
+        "count": 3,
+        "files": [
+          "Kyber RPG 01 - Core Continuity.json",
+          "Kyber RPG 13 - Force Metaphysics Artifacts.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 01 - Core Continuity.json",
+            "index": 22,
+            "name": "force baseline",
+            "id": "7675b0df-ca55-59ea-9930-bcb4ec0a5b72"
+          },
+          {
+            "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+            "index": 0,
+            "name": "the force",
+            "id": "2da90b8b-da30-47f7-a1ae-1e5fdbdd6d65"
+          },
+          {
+            "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+            "index": 7,
+            "name": "living force",
+            "id": "87585665-3485-5c00-8c63-c1137c8d01a9"
+          }
+        ]
+      },
+      {
+        "key": "cosmic force",
+        "count": 3,
+        "files": [
+          "Kyber RPG 01 - Core Continuity.json",
+          "Kyber RPG 13 - Force Metaphysics Artifacts.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 01 - Core Continuity.json",
+            "index": 22,
+            "name": "force baseline",
+            "id": "7675b0df-ca55-59ea-9930-bcb4ec0a5b72"
+          },
+          {
+            "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+            "index": 0,
+            "name": "the force",
+            "id": "2da90b8b-da30-47f7-a1ae-1e5fdbdd6d65"
+          },
+          {
+            "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+            "index": 8,
+            "name": "cosmic force",
+            "id": "ce46cc7c-29c8-5d43-be5a-eb12811e15dc"
+          }
+        ]
+      },
+      {
+        "key": "darth title",
+        "count": 2,
+        "files": [
+          "Kyber RPG 01 - Core Continuity.json",
+          "Kyber RPG 11 - Force Orders.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 01 - Core Continuity.json",
+            "index": 26,
+            "name": "names titles and aliases",
+            "id": "1fe9941f-a6ad-5eab-8990-5e3975b11e3e"
+          },
+          {
+            "file": "Kyber RPG 11 - Force Orders.json",
+            "index": 53,
+            "name": "sith titles",
+            "id": "3f80b044-a651-58fe-abb6-95ea9c231d91"
+          }
+        ]
+      },
+      {
+        "key": "starlight beacon",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 05 - Worlds and Regions.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 1,
+            "name": "high republic history",
+            "id": "67b367c9-9eb7-4eee-b2d4-ea2a63d2e0fe"
+          },
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 32,
+            "name": "starlight beacon",
+            "id": "a5fb2287-96cc-5052-9646-111eb0281091"
+          }
+        ]
+      },
+      {
+        "key": "marchion ro",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 03 - Characters.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 1,
+            "name": "high republic history",
+            "id": "67b367c9-9eb7-4eee-b2d4-ea2a63d2e0fe"
+          },
+          {
+            "file": "Kyber RPG 03 - Characters.json",
+            "index": 38,
+            "name": "marchion ro",
+            "id": "dab6d314-3dfd-5381-9ebd-f58a8755bd22"
+          }
+        ]
+      },
+      {
+        "key": "geonosis",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 05 - Worlds and Regions.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 2,
+            "name": "fall of the jedi and clone wars",
+            "id": "d5ca7272-7ea3-4eba-9556-36c50e2bf79c"
+          },
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 13,
+            "name": "geonosis",
+            "id": "c011023a-744f-5e46-9a15-47a9ea84d0e1"
+          }
+        ]
+      },
+      {
+        "key": "death star",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 08 - Technology Ships Gear.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 3,
+            "name": "reign of the empire",
+            "id": "91f8754d-9d39-47fa-b871-3a9965334b1a"
+          },
+          {
+            "file": "Kyber RPG 08 - Technology Ships Gear.json",
+            "index": 12,
+            "name": "superweapons",
+            "id": "7bdc1827-550f-529f-a2ea-9fedd424af7b"
+          }
+        ]
+      },
+      {
+        "key": "stormtrooper corps",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 04 - Factions and Governments.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 3,
+            "name": "reign of the empire",
+            "id": "91f8754d-9d39-47fa-b871-3a9965334b1a"
+          },
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 3,
+            "name": "imperial military branches",
+            "id": "bf8a00cf-b728-52c6-b0ee-5da17ad6d55c"
+          }
+        ]
+      },
+      {
+        "key": "imperial security bureau",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 04 - Factions and Governments.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 3,
+            "name": "reign of the empire",
+            "id": "91f8754d-9d39-47fa-b871-3a9965334b1a"
+          },
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 3,
+            "name": "imperial military branches",
+            "id": "bf8a00cf-b728-52c6-b0ee-5da17ad6d55c"
+          }
+        ]
+      },
+      {
+        "key": "hosnian prime",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 05 - Worlds and Regions.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 5,
+            "name": "new republic history",
+            "id": "c518dc10-a67a-4384-a178-7cfd49f5198d"
+          },
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 79,
+            "name": "hosnian prime",
+            "id": "194c38fb-3664-504d-96f8-447eae9e30d7"
+          }
+        ]
+      },
+      {
+        "key": "resistance",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 04 - Factions and Governments.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 6,
+            "name": "first order and resistance war",
+            "id": "9b2d4f04-3c24-449f-8197-9e4491ed5c2f"
+          },
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 7,
+            "name": "resistance organization",
+            "id": "33064b9f-937a-58fb-8ed1-17395ab72ba6"
+          }
+        ]
+      },
+      {
+        "key": "hosnian cataclysm",
+        "count": 3,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 05 - Worlds and Regions.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 6,
+            "name": "first order and resistance war",
+            "id": "9b2d4f04-3c24-449f-8197-9e4491ed5c2f"
+          },
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 83,
+            "name": "destruction of hosnian system",
+            "id": "e7359255-10ac-5c24-81db-4fc6c45aa26a"
+          },
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 168,
+            "name": "hosnian system",
+            "id": "69ca1d94-7d05-5425-88a1-e09442084b8f"
+          }
+        ]
+      },
+      {
+        "key": "snoke",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 03 - Characters.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 6,
+            "name": "first order and resistance war",
+            "id": "9b2d4f04-3c24-449f-8197-9e4491ed5c2f"
+          },
+          {
+            "file": "Kyber RPG 03 - Characters.json",
+            "index": 148,
+            "name": "snoke",
+            "id": "d004c2be-d06a-5ff9-8096-836427fede8f"
+          }
+        ]
+      },
+      {
+        "key": "kylo ren",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 03 - Characters.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 6,
+            "name": "first order and resistance war",
+            "id": "9b2d4f04-3c24-449f-8197-9e4491ed5c2f"
+          },
+          {
+            "file": "Kyber RPG 03 - Characters.json",
+            "index": 31,
+            "name": "kylo ren",
+            "id": "afe7e43f-1167-5758-9d84-be301e4b56f3"
+          }
+        ]
+      },
+      {
+        "key": "queen amidala",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 03 - Characters.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 7,
+            "name": "naboo crisis",
+            "id": "57038c88-21c5-5fa1-aec9-c9a2a5794cde"
+          },
+          {
+            "file": "Kyber RPG 03 - Characters.json",
+            "index": 6,
+            "name": "padme amidala",
+            "id": "a9272e0e-19de-5979-8a8d-71e287ba22a5"
+          }
+        ]
+      },
+      {
+        "key": "gungan grand army",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 04 - Factions and Governments.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 7,
+            "name": "naboo crisis",
+            "id": "57038c88-21c5-5fa1-aec9-c9a2a5794cde"
+          },
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 64,
+            "name": "gungan grand army",
+            "id": "aefff569-e979-5f65-b5cc-65039e6c486f"
+          }
+        ]
+      },
+      {
+        "key": "umbara",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 05 - Worlds and Regions.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 8,
+            "name": "clone wars major campaigns",
+            "id": "9d31268b-6494-5456-8997-003a35fb5f95"
+          },
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 193,
+            "name": "umbara",
+            "id": "5b9bb2fe-e5ce-5164-b41b-7ef248669909"
+          }
+        ]
+      },
+      {
+        "key": "ringo vinda",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 05 - Worlds and Regions.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 8,
+            "name": "clone wars major campaigns",
+            "id": "9d31268b-6494-5456-8997-003a35fb5f95"
+          },
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 205,
+            "name": "ringo vinda",
+            "id": "74bbc606-4fd4-5080-9b7d-ad11fbd5071e"
+          }
+        ]
+      },
+      {
+        "key": "christophsis",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 05 - Worlds and Regions.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 8,
+            "name": "clone wars major campaigns",
+            "id": "9d31268b-6494-5456-8997-003a35fb5f95"
+          },
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 204,
+            "name": "christophsis",
+            "id": "d1fd796e-05f8-597d-931a-f55ba962f7d5"
+          }
+        ]
+      },
+      {
+        "key": "galen erso",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 03 - Characters.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 10,
+            "name": "rogue one and death star plans",
+            "id": "f9d0c4a2-afd6-5f29-91aa-a836cbfbd3cc"
+          },
+          {
+            "file": "Kyber RPG 03 - Characters.json",
+            "index": 140,
+            "name": "galen erso",
+            "id": "e5484fda-2db8-5c17-8ef0-21a2fc7f883b"
+          }
+        ]
+      },
+      {
+        "key": "din djarin",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 03 - Characters.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 12,
+            "name": "mandalorian era post-endor",
+            "id": "9e689efb-c16e-5101-9151-187f729e2ec1"
+          },
+          {
+            "file": "Kyber RPG 03 - Characters.json",
+            "index": 26,
+            "name": "din djarin",
+            "id": "4de76e3c-6c39-5fd1-a57d-a48a2c0a2f30"
+          }
+        ]
+      },
+      {
+        "key": "grogu",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 03 - Characters.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 12,
+            "name": "mandalorian era post-endor",
+            "id": "9e689efb-c16e-5101-9151-187f729e2ec1"
+          },
+          {
+            "file": "Kyber RPG 03 - Characters.json",
+            "index": 27,
+            "name": "grogu",
+            "id": "1bcfabfe-f4e3-5a7b-b48c-95d1434114d2"
+          }
+        ]
+      },
+      {
+        "key": "moff gideon",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 03 - Characters.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 12,
+            "name": "mandalorian era post-endor",
+            "id": "9e689efb-c16e-5101-9151-187f729e2ec1"
+          },
+          {
+            "file": "Kyber RPG 03 - Characters.json",
+            "index": 116,
+            "name": "moff gideon",
+            "id": "422cc1ac-5531-547d-83c2-b5c4ff1b43a1"
+          }
+        ]
+      },
+      {
+        "key": "nevarro",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 05 - Worlds and Regions.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 12,
+            "name": "mandalorian era post-endor",
+            "id": "9e689efb-c16e-5101-9151-187f729e2ec1"
+          },
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 42,
+            "name": "nevarro",
+            "id": "e93abd87-d3b3-5f4a-8a4c-5c43003ec8b9"
+          }
+        ]
+      },
+      {
+        "key": "ahsoka tano",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 03 - Characters.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 13,
+            "name": "ahsoka and thrawn return",
+            "id": "fc3d8f7d-5c5a-5eae-92a1-1dde476b59b9"
+          },
+          {
+            "file": "Kyber RPG 03 - Characters.json",
+            "index": 4,
+            "name": "ahsoka tano",
+            "id": "437c2504-7090-5433-9f7e-312031fdc797"
+          }
+        ]
+      },
+      {
+        "key": "grand admiral thrawn",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 03 - Characters.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 13,
+            "name": "ahsoka and thrawn return",
+            "id": "fc3d8f7d-5c5a-5eae-92a1-1dde476b59b9"
+          },
+          {
+            "file": "Kyber RPG 03 - Characters.json",
+            "index": 21,
+            "name": "grand admiral thrawn",
+            "id": "2349b8e5-7a9a-59de-8440-4cd4b6411385"
+          }
+        ]
+      },
+      {
+        "key": "ezra bridger",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 03 - Characters.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 13,
+            "name": "ahsoka and thrawn return",
+            "id": "fc3d8f7d-5c5a-5eae-92a1-1dde476b59b9"
+          },
+          {
+            "file": "Kyber RPG 03 - Characters.json",
+            "index": 22,
+            "name": "ezra bridger",
+            "id": "6abf2165-a0a5-5af9-bda1-7e92bb633ce3"
+          }
+        ]
+      },
+      {
+        "key": "peridea",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 05 - Worlds and Regions.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 13,
+            "name": "ahsoka and thrawn return",
+            "id": "fc3d8f7d-5c5a-5eae-92a1-1dde476b59b9"
+          },
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 124,
+            "name": "peridea",
+            "id": "f2d7c303-20b8-5add-9b69-49790a184d68"
+          }
+        ]
+      },
+      {
+        "key": "eye of sion",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 08 - Technology Ships Gear.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 13,
+            "name": "ahsoka and thrawn return",
+            "id": "fc3d8f7d-5c5a-5eae-92a1-1dde476b59b9"
+          },
+          {
+            "file": "Kyber RPG 08 - Technology Ships Gear.json",
+            "index": 104,
+            "name": "eye of sion",
+            "id": "30d1f6dd-ecef-5b1d-a47b-305652589041"
+          }
+        ]
+      },
+      {
+        "key": "attack on valo",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 05 - Worlds and Regions.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 17,
+            "name": "attack on valo",
+            "id": "4ad6bdbd-9929-5213-8e16-f35c6bf14fc2"
+          },
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 33,
+            "name": "valo",
+            "id": "9b516393-36b6-5724-9da8-50112e94c8de"
+          }
+        ]
+      },
+      {
+        "key": "destruction of tipoca city",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 05 - Worlds and Regions.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 45,
+            "name": "destruction of tipoca city event",
+            "id": "3a745e05-93fa-5e85-a039-e1489c1ed36e"
+          },
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 12,
+            "name": "kamino",
+            "id": "a1e5cf4c-2976-5c74-9f00-8ed2ac5af7b6"
+          }
+        ]
+      },
+      {
+        "key": "great purge of mandalore",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 06 - Species and Cultures.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 77,
+            "name": "mandalore great purge",
+            "id": "5b8540d3-58d6-53fa-a83a-608a7ec6a152"
+          },
+          {
+            "file": "Kyber RPG 06 - Species and Cultures.json",
+            "index": 0,
+            "name": "mandalorians",
+            "id": "bef26fcc-dd52-4874-8460-322c1ede1a21"
+          }
+        ]
+      },
+      {
+        "key": "great hyperspace war",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 14 - Legends Supplements.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 97,
+            "name": "great hyperspace war legends",
+            "id": "8b7f0dcc-7d6d-582a-ad5b-a3ba66be1e36"
+          },
+          {
+            "file": "Kyber RPG 14 - Legends Supplements.json",
+            "index": 13,
+            "name": "great hyperspace war",
+            "id": "kyber-legends-great-hyperspace-war"
+          }
+        ]
+      },
+      {
+        "key": "great sith war",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 14 - Legends Supplements.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 99,
+            "name": "great sith war",
+            "id": "7e43e3cf-4004-577b-9078-417282aaa575"
+          },
+          {
+            "file": "Kyber RPG 14 - Legends Supplements.json",
+            "index": 14,
+            "name": "exar kun and ulic qel-droma war",
+            "id": "kyber-legends-exar-kun"
+          }
+        ]
+      },
+      {
+        "key": "exar kun war",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 14 - Legends Supplements.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 99,
+            "name": "great sith war",
+            "id": "7e43e3cf-4004-577b-9078-417282aaa575"
+          },
+          {
+            "file": "Kyber RPG 14 - Legends Supplements.json",
+            "index": 2,
+            "name": "legends galactic empires and sith wars",
+            "id": "998df03c-c7d4-5273-adfb-f1a699068f6c"
+          }
+        ]
+      },
+      {
+        "key": "mandalorian wars",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 14 - Legends Supplements.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 100,
+            "name": "mandalorian wars",
+            "id": "b62308d2-82b5-561c-8f51-af122769444b"
+          },
+          {
+            "file": "Kyber RPG 14 - Legends Supplements.json",
+            "index": 15,
+            "name": "mandalorian wars",
+            "id": "kyber-legends-mandalorian-wars"
+          }
+        ]
+      },
+      {
+        "key": "sith triumvirate",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 14 - Legends Supplements.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 102,
+            "name": "sith triumvirate war",
+            "id": "8218b20b-2916-553b-b873-f1d0f5851794"
+          },
+          {
+            "file": "Kyber RPG 14 - Legends Supplements.json",
+            "index": 17,
+            "name": "sith triumvirate",
+            "id": "kyber-legends-sith-triumvirate"
+          }
+        ]
+      },
+      {
+        "key": "new sith wars",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 14 - Legends Supplements.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 106,
+            "name": "new sith wars",
+            "id": "e7b051e9-c532-52d5-8cbb-29c1a63a6e09"
+          },
+          {
+            "file": "Kyber RPG 14 - Legends Supplements.json",
+            "index": 2,
+            "name": "legends galactic empires and sith wars",
+            "id": "998df03c-c7d4-5273-adfb-f1a699068f6c"
+          }
+        ]
+      },
+      {
+        "key": "thrawn campaign legends",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 14 - Legends Supplements.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 119,
+            "name": "thrawn campaign legends",
+            "id": "f46e4bdd-9058-55d9-84f3-4988eb08d0c5"
+          },
+          {
+            "file": "Kyber RPG 14 - Legends Supplements.json",
+            "index": 25,
+            "name": "thrawn campaign legends",
+            "id": "kyber-legends-thrawn-campaign"
+          }
+        ]
+      },
+      {
+        "key": "centerpoint crisis",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 14 - Legends Supplements.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 123,
+            "name": "corellian crisis",
+            "id": "e550b224-9b48-5f3c-9de8-0d674966b2ae"
+          },
+          {
+            "file": "Kyber RPG 14 - Legends Supplements.json",
+            "index": 95,
+            "name": "Centerpoint crisis",
+            "id": "kyber-batch06-legends-centerpoint-crisis"
+          }
+        ]
+      },
+      {
+        "key": "new jedi order war",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 14 - Legends Supplements.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 125,
+            "name": "yuuzhan vong invasion",
+            "id": "b587c4b7-f962-52bc-80bc-11f303da660d"
+          },
+          {
+            "file": "Kyber RPG 14 - Legends Supplements.json",
+            "index": 6,
+            "name": "legends yuuzhan vong war",
+            "id": "bac1093e-608c-5848-b62d-3e12bfeb4195"
+          }
+        ]
+      },
+      {
+        "key": "dark nest crisis",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 14 - Legends Supplements.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 128,
+            "name": "swarm war",
+            "id": "d0b694b8-e480-5363-9974-f3785ccfd6f4"
+          },
+          {
+            "file": "Kyber RPG 14 - Legends Supplements.json",
+            "index": 47,
+            "name": "dark nest crisis",
+            "id": "kyber-batch02-legends-killik-crisis"
+          }
+        ]
+      },
+      {
+        "key": "battle of muunilinst",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 05 - Worlds and Regions.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 155,
+            "name": "battle of muunilinst canon distinction",
+            "id": "17c50719-5985-5f3e-923d-9e9f560ea603"
+          },
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 56,
+            "name": "muunilinst",
+            "id": "08aeb2d0-1cfd-5f3d-872e-53c5db6bcb97"
+          }
+        ]
+      },
+      {
+        "key": "brotherhood of darkness",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 14 - Legends Supplements.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 241,
+            "name": "brotherhood of darkness formed",
+            "id": "e363b683-d636-53e5-868e-fcf130b8d935"
+          },
+          {
+            "file": "Kyber RPG 14 - Legends Supplements.json",
+            "index": 2,
+            "name": "legends galactic empires and sith wars",
+            "id": "998df03c-c7d4-5273-adfb-f1a699068f6c"
+          }
+        ]
+      },
+      {
+        "key": "caamas document",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 14 - Legends Supplements.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 255,
+            "name": "caamas document crisis",
+            "id": "e711571f-7728-50f2-87cc-9abcd217067b"
+          },
+          {
+            "file": "Kyber RPG 14 - Legends Supplements.json",
+            "index": 36,
+            "name": "caamas document crisis",
+            "id": "kyber-batch02-legends-caamas-document"
+          }
+        ]
+      },
+      {
+        "key": "caamas crisis",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 14 - Legends Supplements.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 255,
+            "name": "caamas document crisis",
+            "id": "e711571f-7728-50f2-87cc-9abcd217067b"
+          },
+          {
+            "file": "Kyber RPG 14 - Legends Supplements.json",
+            "index": 36,
+            "name": "caamas document crisis",
+            "id": "kyber-batch02-legends-caamas-document"
+          }
+        ]
+      },
+      {
+        "key": "ghorman massacre",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 05 - Worlds and Regions.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 268,
+            "name": "ghorman project and massacre",
+            "id": "kyber-recent-ghorman-project"
+          },
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 107,
+            "name": "ghorman",
+            "id": "704dd5dd-0f54-5775-9eed-40e544ca1873"
+          }
+        ]
+      },
+      {
+        "key": "onyx cinder",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 08 - Technology Ships Gear.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 269,
+            "name": "skeleton crew era note",
+            "id": "kyber-recent-skeleton-crew"
+          },
+          {
+            "file": "Kyber RPG 08 - Technology Ships Gear.json",
+            "index": 251,
+            "name": "onyx cinder",
+            "id": "kyber-recent-onyx-cinder"
+          }
+        ]
+      },
+      {
+        "key": "nameless creatures",
+        "count": 2,
+        "files": [
+          "Kyber RPG 02 - Eras and History.json",
+          "Kyber RPG 13 - Force Metaphysics Artifacts.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 271,
+            "name": "high republic phase iii ending",
+            "id": "kyber-recent-high-republic-ending"
+          },
+          {
+            "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+            "index": 91,
+            "name": "nameless creatures",
+            "id": "kyber-recent-nameless"
+          }
+        ]
+      },
+      {
+        "key": "poe dameron",
+        "count": 2,
+        "files": [
+          "Kyber RPG 03 - Characters.json",
+          "Kyber RPG 04 - Factions and Governments.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 03 - Characters.json",
+            "index": 30,
+            "name": "poe dameron",
+            "id": "887d931d-2473-53ec-8d8b-ea50642c5be1"
+          },
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 7,
+            "name": "resistance organization",
+            "id": "33064b9f-937a-58fb-8ed1-17395ab72ba6"
+          }
+        ]
+      },
+      {
+        "key": "bendu",
+        "count": 2,
+        "files": [
+          "Kyber RPG 03 - Characters.json",
+          "Kyber RPG 11 - Force Orders.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 03 - Characters.json",
+            "index": 72,
+            "name": "bendu",
+            "id": "06f6d9fa-3366-5815-b357-103a1766cf87"
+          },
+          {
+            "file": "Kyber RPG 11 - Force Orders.json",
+            "index": 83,
+            "name": "bendu philosophy",
+            "id": "bb6f1268-0727-595c-9c36-a2881e4dcab4"
+          }
+        ]
+      },
+      {
+        "key": "the bendu",
+        "count": 2,
+        "files": [
+          "Kyber RPG 03 - Characters.json",
+          "Kyber RPG 11 - Force Orders.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 03 - Characters.json",
+            "index": 72,
+            "name": "bendu",
+            "id": "06f6d9fa-3366-5815-b357-103a1766cf87"
+          },
+          {
+            "file": "Kyber RPG 11 - Force Orders.json",
+            "index": 166,
+            "name": "Bendu tradition",
+            "id": "kyber-batch04-order-bendu"
+          }
+        ]
+      },
+      {
+        "key": "commander bacara",
+        "count": 2,
+        "files": [
+          "Kyber RPG 03 - Characters.json",
+          "Kyber RPG 04 - Factions and Governments.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 03 - Characters.json",
+            "index": 97,
+            "name": "commander bacara",
+            "id": "57e891d7-135b-5a39-831d-f7605cd427b2"
+          },
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 30,
+            "name": "galactic marines",
+            "id": "46aff615-88ed-5f69-b59c-4a1617d825c5"
+          }
+        ]
+      },
+      {
+        "key": "ursa wren",
+        "count": 2,
+        "files": [
+          "Kyber RPG 03 - Characters.json",
+          "Kyber RPG 04 - Factions and Governments.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 03 - Characters.json",
+            "index": 122,
+            "name": "ursa wren",
+            "id": "5a29d40e-205a-5404-b2fa-cc5668139032"
+          },
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 110,
+            "name": "clan wren",
+            "id": "0bb4a46a-dc5d-5ad2-ac4f-dc66f541be73"
+          }
+        ]
+      },
+      {
+        "key": "captain phasma",
+        "count": 2,
+        "files": [
+          "Kyber RPG 03 - Characters.json",
+          "Kyber RPG 04 - Factions and Governments.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 03 - Characters.json",
+            "index": 149,
+            "name": "captain phasma",
+            "id": "079b5f63-ae15-58d0-954f-a189655b9cde"
+          },
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 6,
+            "name": "first order military",
+            "id": "9c969b5a-a42d-57e9-857d-9a5c57f613c0"
+          }
+        ]
+      },
+      {
+        "key": "general hux",
+        "count": 2,
+        "files": [
+          "Kyber RPG 03 - Characters.json",
+          "Kyber RPG 04 - Factions and Governments.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 03 - Characters.json",
+            "index": 150,
+            "name": "general hux",
+            "id": "48ccb763-2c3a-512a-9186-98448fe3cfd5"
+          },
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 6,
+            "name": "first order military",
+            "id": "9c969b5a-a42d-57e9-857d-9a5c57f613c0"
+          }
+        ]
+      },
+      {
+        "key": "carson teva",
+        "count": 2,
+        "files": [
+          "Kyber RPG 03 - Characters.json",
+          "Kyber RPG 04 - Factions and Governments.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 03 - Characters.json",
+            "index": 176,
+            "name": "carson teva",
+            "id": "2c1e10a3-82c4-5e43-8219-4d93de56dace"
+          },
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 5,
+            "name": "new republic institutions",
+            "id": "5f1ceca8-5a7a-5db2-834c-10af8424f182"
+          }
+        ]
+      },
+      {
+        "key": "hutt clan",
+        "count": 2,
+        "files": [
+          "Kyber RPG 04 - Factions and Governments.json",
+          "Kyber RPG 06 - Species and Cultures.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 0,
+            "name": "criminal underworld",
+            "id": "8376e46f-5d0a-43cc-970e-99c3d459dbf4"
+          },
+          {
+            "file": "Kyber RPG 06 - Species and Cultures.json",
+            "index": 6,
+            "name": "hutts",
+            "id": "62f43867-8ef0-54bf-8f82-8e8c9a097a7c"
+          }
+        ]
+      },
+      {
+        "key": "b1 battle droid",
+        "count": 2,
+        "files": [
+          "Kyber RPG 04 - Factions and Governments.json",
+          "Kyber RPG 08 - Technology Ships Gear.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 2,
+            "name": "separatist military",
+            "id": "1445d7d7-9c0a-5b81-8f18-79da05ef66f9"
+          },
+          {
+            "file": "Kyber RPG 08 - Technology Ships Gear.json",
+            "index": 200,
+            "name": "b1 battle droids detail",
+            "id": "cf93b7bd-77e3-5a64-a76e-fd295da936c6"
+          }
+        ]
+      },
+      {
+        "key": "b2 super battle droid",
+        "count": 2,
+        "files": [
+          "Kyber RPG 04 - Factions and Governments.json",
+          "Kyber RPG 08 - Technology Ships Gear.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 2,
+            "name": "separatist military",
+            "id": "1445d7d7-9c0a-5b81-8f18-79da05ef66f9"
+          },
+          {
+            "file": "Kyber RPG 08 - Technology Ships Gear.json",
+            "index": 201,
+            "name": "b2 super battle droids detail",
+            "id": "58cbfd25-fe11-5599-8c1c-c709c7af563c"
+          }
+        ]
+      },
+      {
+        "key": "droideka",
+        "count": 2,
+        "files": [
+          "Kyber RPG 04 - Factions and Governments.json",
+          "Kyber RPG 08 - Technology Ships Gear.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 2,
+            "name": "separatist military",
+            "id": "1445d7d7-9c0a-5b81-8f18-79da05ef66f9"
+          },
+          {
+            "file": "Kyber RPG 08 - Technology Ships Gear.json",
+            "index": 202,
+            "name": "droidekas detail",
+            "id": "2bb2ddd6-e759-5bae-b8e8-2d18c0325491"
+          }
+        ]
+      },
+      {
+        "key": "tactical droid",
+        "count": 2,
+        "files": [
+          "Kyber RPG 04 - Factions and Governments.json",
+          "Kyber RPG 08 - Technology Ships Gear.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 2,
+            "name": "separatist military",
+            "id": "1445d7d7-9c0a-5b81-8f18-79da05ef66f9"
+          },
+          {
+            "file": "Kyber RPG 08 - Technology Ships Gear.json",
+            "index": 203,
+            "name": "tactical droids detail",
+            "id": "eace7272-a232-59b9-aca9-a3e7a332896a"
+          }
+        ]
+      },
+      {
+        "key": "purge trooper",
+        "count": 2,
+        "files": [
+          "Kyber RPG 04 - Factions and Governments.json",
+          "Kyber RPG 11 - Force Orders.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 3,
+            "name": "imperial military branches",
+            "id": "bf8a00cf-b728-52c6-b0ee-5da17ad6d55c"
+          },
+          {
+            "file": "Kyber RPG 11 - Force Orders.json",
+            "index": 65,
+            "name": "purge troopers force support",
+            "id": "0a652546-9a68-5550-98d9-e9e8b57dd2dd"
+          }
+        ]
+      },
+      {
+        "key": "amnesty program",
+        "count": 2,
+        "files": [
+          "Kyber RPG 04 - Factions and Governments.json",
+          "Kyber RPG 07 - Society Law Economy.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 5,
+            "name": "new republic institutions",
+            "id": "5f1ceca8-5a7a-5db2-834c-10af8424f182"
+          },
+          {
+            "file": "Kyber RPG 07 - Society Law Economy.json",
+            "index": 141,
+            "name": "amnesty programs",
+            "id": "kyber-batch06-society-amnesty-programs"
+          }
+        ]
+      },
+      {
+        "key": "adelphi base",
+        "count": 2,
+        "files": [
+          "Kyber RPG 04 - Factions and Governments.json",
+          "Kyber RPG 05 - Worlds and Regions.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 5,
+            "name": "new republic institutions",
+            "id": "5f1ceca8-5a7a-5db2-834c-10af8424f182"
+          },
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 122,
+            "name": "adelphi base",
+            "id": "ccda96e8-9cfa-5e6a-8ba4-753bcb1cdda5"
+          }
+        ]
+      },
+      {
+        "key": "finalizer",
+        "count": 2,
+        "files": [
+          "Kyber RPG 04 - Factions and Governments.json",
+          "Kyber RPG 08 - Technology Ships Gear.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 6,
+            "name": "first order military",
+            "id": "9c969b5a-a42d-57e9-857d-9a5c57f613c0"
+          },
+          {
+            "file": "Kyber RPG 08 - Technology Ships Gear.json",
+            "index": 49,
+            "name": "finalizer",
+            "id": "cdd5487e-7884-590f-9039-871eb4d5d9fe"
+          }
+        ]
+      },
+      {
+        "key": "knights of ren",
+        "count": 2,
+        "files": [
+          "Kyber RPG 04 - Factions and Governments.json",
+          "Kyber RPG 11 - Force Orders.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 6,
+            "name": "first order military",
+            "id": "9c969b5a-a42d-57e9-857d-9a5c57f613c0"
+          },
+          {
+            "file": "Kyber RPG 11 - Force Orders.json",
+            "index": 66,
+            "name": "knights of ren doctrine",
+            "id": "5a81decb-250b-5a3d-8479-e42ce0dd4860"
+          }
+        ]
+      },
+      {
+        "key": "tracking fob",
+        "count": 2,
+        "files": [
+          "Kyber RPG 04 - Factions and Governments.json",
+          "Kyber RPG 08 - Technology Ships Gear.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 9,
+            "name": "bounty hunters and guilds",
+            "id": "94d5ac39-9665-5701-8fd9-4c7fadc3233d"
+          },
+          {
+            "file": "Kyber RPG 08 - Technology Ships Gear.json",
+            "index": 216,
+            "name": "tracker fobs",
+            "id": "7f91451c-055c-5be9-863a-7bfc9b32450b"
+          }
+        ]
+      },
+      {
+        "key": "chain code",
+        "count": 2,
+        "files": [
+          "Kyber RPG 04 - Factions and Governments.json",
+          "Kyber RPG 07 - Society Law Economy.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 9,
+            "name": "bounty hunters and guilds",
+            "id": "94d5ac39-9665-5701-8fd9-4c7fadc3233d"
+          },
+          {
+            "file": "Kyber RPG 07 - Society Law Economy.json",
+            "index": 71,
+            "name": "chain codes and identity records",
+            "id": "kyber-batch02-society-chain-codes"
+          }
+        ]
+      },
+      {
+        "key": "brendok coven",
+        "count": 2,
+        "files": [
+          "Kyber RPG 04 - Factions and Governments.json",
+          "Kyber RPG 05 - Worlds and Regions.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 11,
+            "name": "witches of brendok",
+            "id": "dd33a015-edab-5073-b625-82acd8e29d99"
+          },
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 36,
+            "name": "brendok",
+            "id": "230a1a59-33a5-5e11-9238-91f4df7f226d"
+          }
+        ]
+      },
+      {
+        "key": "military comlink",
+        "count": 2,
+        "files": [
+          "Kyber RPG 04 - Factions and Governments.json",
+          "Kyber RPG 08 - Technology Ships Gear.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 74,
+            "name": "military communications",
+            "id": "8dd51292-f071-59f6-a992-c409c3900640"
+          },
+          {
+            "file": "Kyber RPG 08 - Technology Ships Gear.json",
+            "index": 218,
+            "name": "comlink models",
+            "id": "200ef87d-a5e5-5378-a314-75f687872e6c"
+          }
+        ]
+      },
+      {
+        "key": "gravity well projector",
+        "count": 2,
+        "files": [
+          "Kyber RPG 04 - Factions and Governments.json",
+          "Kyber RPG 08 - Technology Ships Gear.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 85,
+            "name": "minefields and interdiction",
+            "id": "e7efc7a3-a63c-5356-aa4d-543ab84fd7a0"
+          },
+          {
+            "file": "Kyber RPG 08 - Technology Ships Gear.json",
+            "index": 257,
+            "name": "interdictor cruisers",
+            "id": "kyber-tech-interdictor"
+          }
+        ]
+      },
+      {
+        "key": "jedi temple guard",
+        "count": 2,
+        "files": [
+          "Kyber RPG 04 - Factions and Governments.json",
+          "Kyber RPG 11 - Force Orders.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 97,
+            "name": "jedi temple guard",
+            "id": "3ff646ea-0da3-541e-a62a-26ff9d433b18"
+          },
+          {
+            "file": "Kyber RPG 11 - Force Orders.json",
+            "index": 33,
+            "name": "jedi temple guard",
+            "id": "0df32d4d-6df5-5933-a387-fa96d330bd3b"
+          }
+        ]
+      },
+      {
+        "key": "jedi healer",
+        "count": 2,
+        "files": [
+          "Kyber RPG 04 - Factions and Governments.json",
+          "Kyber RPG 11 - Force Orders.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 99,
+            "name": "jedi healers",
+            "id": "2952bead-90d0-5349-b198-918e7b6b9a57"
+          },
+          {
+            "file": "Kyber RPG 11 - Force Orders.json",
+            "index": 35,
+            "name": "jedi healers",
+            "id": "8eb27161-231e-5525-b4c2-6f38b22e5347"
+          }
+        ]
+      },
+      {
+        "key": "jedi shadow",
+        "count": 2,
+        "files": [
+          "Kyber RPG 04 - Factions and Governments.json",
+          "Kyber RPG 11 - Force Orders.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 100,
+            "name": "jedi shadows",
+            "id": "dc9f44f7-d943-5d86-be51-741fa649c3e6"
+          },
+          {
+            "file": "Kyber RPG 11 - Force Orders.json",
+            "index": 36,
+            "name": "jedi shadows",
+            "id": "7b601801-0d8c-5432-9ece-ea53c9a676fb"
+          }
+        ]
+      },
+      {
+        "key": "jedi shadows",
+        "count": 2,
+        "files": [
+          "Kyber RPG 04 - Factions and Governments.json",
+          "Kyber RPG 11 - Force Orders.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 100,
+            "name": "jedi shadows",
+            "id": "dc9f44f7-d943-5d86-be51-741fa649c3e6"
+          },
+          {
+            "file": "Kyber RPG 11 - Force Orders.json",
+            "index": 36,
+            "name": "jedi shadows",
+            "id": "7b601801-0d8c-5432-9ece-ea53c9a676fb"
+          }
+        ]
+      },
+      {
+        "key": "quarren isolation league",
+        "count": 2,
+        "files": [
+          "Kyber RPG 04 - Factions and Governments.json",
+          "Kyber RPG 06 - Species and Cultures.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 103,
+            "name": "quarren isolation league",
+            "id": "211315e9-3590-59cc-95c4-11e302fbd28d"
+          },
+          {
+            "file": "Kyber RPG 06 - Species and Cultures.json",
+            "index": 4,
+            "name": "mon calamari and quarren",
+            "id": "595d0538-c06a-590f-ad96-54c9d5f01281"
+          }
+        ]
+      },
+      {
+        "key": "gand findsman",
+        "count": 2,
+        "files": [
+          "Kyber RPG 04 - Factions and Governments.json",
+          "Kyber RPG 06 - Species and Cultures.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 105,
+            "name": "findsmen",
+            "id": "17ca537f-40a1-5693-937a-3004342c2cd8"
+          },
+          {
+            "file": "Kyber RPG 06 - Species and Cultures.json",
+            "index": 44,
+            "name": "gand",
+            "id": "df778014-8690-5a9e-9ebf-ee3defa99bd7"
+          }
+        ]
+      },
+      {
+        "key": "mitth family",
+        "count": 2,
+        "files": [
+          "Kyber RPG 04 - Factions and Governments.json",
+          "Kyber RPG 06 - Species and Cultures.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 106,
+            "name": "chiss ascendancy families",
+            "id": "ca3678f1-4b2e-5d16-82d6-a8bb3b8e3f2a"
+          },
+          {
+            "file": "Kyber RPG 06 - Species and Cultures.json",
+            "index": 5,
+            "name": "chiss",
+            "id": "1a8e5bc7-9207-576c-a856-cd3ff67565c2"
+          }
+        ]
+      },
+      {
+        "key": "clan wren",
+        "count": 2,
+        "files": [
+          "Kyber RPG 04 - Factions and Governments.json",
+          "Kyber RPG 06 - Species and Cultures.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 110,
+            "name": "clan wren",
+            "id": "0bb4a46a-dc5d-5ad2-ac4f-dc66f541be73"
+          },
+          {
+            "file": "Kyber RPG 06 - Species and Cultures.json",
+            "index": 0,
+            "name": "mandalorians",
+            "id": "bef26fcc-dd52-4874-8460-322c1ede1a21"
+          }
+        ]
+      },
+      {
+        "key": "wren stronghold",
+        "count": 2,
+        "files": [
+          "Kyber RPG 04 - Factions and Governments.json",
+          "Kyber RPG 05 - Worlds and Regions.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 110,
+            "name": "clan wren",
+            "id": "0bb4a46a-dc5d-5ad2-ac4f-dc66f541be73"
+          },
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 150,
+            "name": "krownest stronghold",
+            "id": "74d3cc5b-c750-53a1-87e4-897898eafede"
+          }
+        ]
+      },
+      {
+        "key": "protectors of concord dawn",
+        "count": 2,
+        "files": [
+          "Kyber RPG 04 - Factions and Governments.json",
+          "Kyber RPG 05 - Worlds and Regions.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 111,
+            "name": "protectors of concord dawn",
+            "id": "96d7bf0a-b219-5f77-8544-99b5377121d5"
+          },
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 74,
+            "name": "concord dawn",
+            "id": "027cffff-867e-5c87-ae57-b04ee8322973"
+          }
+        ]
+      },
+      {
+        "key": "espos",
+        "count": 2,
+        "files": [
+          "Kyber RPG 04 - Factions and Governments.json",
+          "Kyber RPG 14 - Legends Supplements.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 116,
+            "name": "corporate sector authority",
+            "id": "kyber-faction-corporate-sector"
+          },
+          {
+            "file": "Kyber RPG 14 - Legends Supplements.json",
+            "index": 22,
+            "name": "corporate sector authority legends",
+            "id": "kyber-legends-corporate-sector"
+          }
+        ]
+      },
+      {
+        "key": "hapes consortium",
+        "count": 2,
+        "files": [
+          "Kyber RPG 04 - Factions and Governments.json",
+          "Kyber RPG 14 - Legends Supplements.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 117,
+            "name": "hapes consortium",
+            "id": "kyber-faction-hapes"
+          },
+          {
+            "file": "Kyber RPG 14 - Legends Supplements.json",
+            "index": 21,
+            "name": "hapes consortium",
+            "id": "kyber-legends-hapes"
+          }
+        ]
+      },
+      {
+        "key": "hapes cluster",
+        "count": 2,
+        "files": [
+          "Kyber RPG 04 - Factions and Governments.json",
+          "Kyber RPG 05 - Worlds and Regions.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 117,
+            "name": "hapes consortium",
+            "id": "kyber-faction-hapes"
+          },
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 182,
+            "name": "hapes cluster",
+            "id": "88e9e2be-3c7f-5066-b036-9743d7c6a540"
+          }
+        ]
+      },
+      {
+        "key": "chiss ascendancy",
+        "count": 2,
+        "files": [
+          "Kyber RPG 04 - Factions and Governments.json",
+          "Kyber RPG 06 - Species and Cultures.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 118,
+            "name": "chiss ascendancy",
+            "id": "kyber-faction-chiss-ascendancy"
+          },
+          {
+            "file": "Kyber RPG 06 - Species and Cultures.json",
+            "index": 5,
+            "name": "chiss",
+            "id": "1a8e5bc7-9207-576c-a856-cd3ff67565c2"
+          }
+        ]
+      },
+      {
+        "key": "csilla",
+        "count": 2,
+        "files": [
+          "Kyber RPG 04 - Factions and Governments.json",
+          "Kyber RPG 05 - Worlds and Regions.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 118,
+            "name": "chiss ascendancy",
+            "id": "kyber-faction-chiss-ascendancy"
+          },
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 261,
+            "name": "csilla",
+            "id": "kyber-batch02-world-csilla"
+          }
+        ]
+      },
+      {
+        "key": "sector ranger",
+        "count": 2,
+        "files": [
+          "Kyber RPG 04 - Factions and Governments.json",
+          "Kyber RPG 07 - Society Law Economy.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 120,
+            "name": "sector rangers",
+            "id": "kyber-faction-sector-rangers"
+          },
+          {
+            "file": "Kyber RPG 07 - Society Law Economy.json",
+            "index": 22,
+            "name": "law enforcement",
+            "id": "df8b05e5-90fe-56df-a17d-e674ef2c38e6"
+          }
+        ]
+      },
+      {
+        "key": "planetary militia",
+        "count": 2,
+        "files": [
+          "Kyber RPG 04 - Factions and Governments.json",
+          "Kyber RPG 07 - Society Law Economy.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 133,
+            "name": "local defense forces",
+            "id": "kyber-batch02-faction-local-defense-force"
+          },
+          {
+            "file": "Kyber RPG 07 - Society Law Economy.json",
+            "index": 52,
+            "name": "civilian militias",
+            "id": "b6f563a0-dd4f-5bd9-9e2a-98b3649facb5"
+          }
+        ]
+      },
+      {
+        "key": "sith eternal cult",
+        "count": 2,
+        "files": [
+          "Kyber RPG 04 - Factions and Governments.json",
+          "Kyber RPG 11 - Force Orders.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 137,
+            "name": "sith eternal cult cells",
+            "id": "kyber-batch02-faction-sith-eternal-cult"
+          },
+          {
+            "file": "Kyber RPG 11 - Force Orders.json",
+            "index": 59,
+            "name": "sith eternal cult doctrine",
+            "id": "b747f1bd-db64-5724-85ba-fc755b7345d8"
+          }
+        ]
+      },
+      {
+        "key": "trafficking ring",
+        "count": 2,
+        "files": [
+          "Kyber RPG 04 - Factions and Governments.json",
+          "Kyber RPG 07 - Society Law Economy.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 04 - Factions and Governments.json",
+            "index": 162,
+            "name": "slaver guilds",
+            "id": "kyber-batch03-faction-slavers-guilds"
+          },
+          {
+            "file": "Kyber RPG 07 - Society Law Economy.json",
+            "index": 29,
+            "name": "human trafficking",
+            "id": "d6e21e1f-23c0-5b43-886d-1a520956e909"
+          }
+        ]
+      },
+      {
+        "key": "mandalore",
+        "count": 2,
+        "files": [
+          "Kyber RPG 05 - Worlds and Regions.json",
+          "Kyber RPG 06 - Species and Cultures.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 4,
+            "name": "mandalore",
+            "id": "d4ddbab1-8392-5ac4-8c0c-eb6727bcecfb"
+          },
+          {
+            "file": "Kyber RPG 06 - Species and Cultures.json",
+            "index": 0,
+            "name": "mandalorians",
+            "id": "bef26fcc-dd52-4874-8460-322c1ede1a21"
+          }
+        ]
+      },
+      {
+        "key": "guardians of the whills",
+        "count": 3,
+        "files": [
+          "Kyber RPG 05 - Worlds and Regions.json",
+          "Kyber RPG 11 - Force Orders.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 10,
+            "name": "jedha",
+            "id": "83d726ed-4efc-5452-91c8-ead3add2186b"
+          },
+          {
+            "file": "Kyber RPG 11 - Force Orders.json",
+            "index": 2,
+            "name": "force traditions beyond jedi and sith",
+            "id": "51b0b4d0-b7d8-5df0-ac48-de3b18d54c75"
+          },
+          {
+            "file": "Kyber RPG 11 - Force Orders.json",
+            "index": 74,
+            "name": "guardians of the whills",
+            "id": "67134a25-4448-56b7-ae64-f6d7a85db1d2"
+          }
+        ]
+      },
+      {
+        "key": "kaminoans",
+        "count": 2,
+        "files": [
+          "Kyber RPG 05 - Worlds and Regions.json",
+          "Kyber RPG 06 - Species and Cultures.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 12,
+            "name": "kamino",
+            "id": "a1e5cf4c-2976-5c74-9f00-8ed2ac5af7b6"
+          },
+          {
+            "file": "Kyber RPG 06 - Species and Cultures.json",
+            "index": 18,
+            "name": "kaminoans",
+            "id": "442785cf-73f2-534e-bd2d-aca830128d4f"
+          }
+        ]
+      },
+      {
+        "key": "lothal temple",
+        "count": 2,
+        "files": [
+          "Kyber RPG 05 - Worlds and Regions.json",
+          "Kyber RPG 13 - Force Metaphysics Artifacts.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 14,
+            "name": "lothal",
+            "id": "0de5a32f-3976-5b07-af73-4fbe5379aeb5"
+          },
+          {
+            "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+            "index": 1,
+            "name": "force wounds nexuses and vergences",
+            "id": "dfad12f8-efd6-562b-b337-c65cad5b218a"
+          }
+        ]
+      },
+      {
+        "key": "loth-wolf",
+        "count": 2,
+        "files": [
+          "Kyber RPG 05 - Worlds and Regions.json",
+          "Kyber RPG 09 - Creatures and Hazards.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 14,
+            "name": "lothal",
+            "id": "0de5a32f-3976-5b07-af73-4fbe5379aeb5"
+          },
+          {
+            "file": "Kyber RPG 09 - Creatures and Hazards.json",
+            "index": 8,
+            "name": "loth-wolves",
+            "id": "25c0f166-3ea2-5168-bb37-e938bfebb4e2"
+          }
+        ]
+      },
+      {
+        "key": "loth-cat",
+        "count": 2,
+        "files": [
+          "Kyber RPG 05 - Worlds and Regions.json",
+          "Kyber RPG 09 - Creatures and Hazards.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 14,
+            "name": "lothal",
+            "id": "0de5a32f-3976-5b07-af73-4fbe5379aeb5"
+          },
+          {
+            "file": "Kyber RPG 09 - Creatures and Hazards.json",
+            "index": 7,
+            "name": "loth-cats",
+            "id": "af645cb3-ee03-520f-a15b-022296e05f7f"
+          }
+        ]
+      },
+      {
+        "key": "dark side cave",
+        "count": 3,
+        "files": [
+          "Kyber RPG 05 - Worlds and Regions.json",
+          "Kyber RPG 13 - Force Metaphysics Artifacts.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 17,
+            "name": "dagobah",
+            "id": "319f7d28-c68f-5929-bfef-8fcf356b8083"
+          },
+          {
+            "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+            "index": 49,
+            "name": "force cave trials",
+            "id": "e8c8db32-620d-5890-9729-3f8daa4ce059"
+          },
+          {
+            "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+            "index": 93,
+            "name": "dark side cave tests",
+            "id": "kyber-batch02-force-dark-side-cave"
+          }
+        ]
+      },
+      {
+        "key": "exegol",
+        "count": 2,
+        "files": [
+          "Kyber RPG 05 - Worlds and Regions.json",
+          "Kyber RPG 11 - Force Orders.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 22,
+            "name": "exegol",
+            "id": "0bce4cc1-c973-5a36-95cc-8718992c1562"
+          },
+          {
+            "file": "Kyber RPG 11 - Force Orders.json",
+            "index": 1,
+            "name": "sith and dark side orders",
+            "id": "fe550dc1-680f-433b-97ee-18eaac30151c"
+          }
+        ]
+      },
+      {
+        "key": "ilum",
+        "count": 2,
+        "files": [
+          "Kyber RPG 05 - Worlds and Regions.json",
+          "Kyber RPG 08 - Technology Ships Gear.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 23,
+            "name": "ilum",
+            "id": "0a3f529c-9491-54db-96f0-ce34c79e7b61"
+          },
+          {
+            "file": "Kyber RPG 08 - Technology Ships Gear.json",
+            "index": 1,
+            "name": "kyber crystals and lightsabers",
+            "id": "7127b843-cc25-4362-99e8-ec4a46842883"
+          }
+        ]
+      },
+      {
+        "key": "neimoidian purse world",
+        "count": 2,
+        "files": [
+          "Kyber RPG 05 - Worlds and Regions.json",
+          "Kyber RPG 06 - Species and Cultures.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 28,
+            "name": "cato neimoidia",
+            "id": "d7fb9e08-907d-5f2e-9a07-5afef888071e"
+          },
+          {
+            "file": "Kyber RPG 06 - Species and Cultures.json",
+            "index": 14,
+            "name": "neimoidians",
+            "id": "dd664435-5180-5a6b-8e8b-d604546c66d0"
+          }
+        ]
+      },
+      {
+        "key": "malachor superweapon",
+        "count": 2,
+        "files": [
+          "Kyber RPG 05 - Worlds and Regions.json",
+          "Kyber RPG 11 - Force Orders.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 44,
+            "name": "malachor sith temple",
+            "id": "65d65b64-1d03-5f7d-83e2-1d323b37f92e"
+          },
+          {
+            "file": "Kyber RPG 11 - Force Orders.json",
+            "index": 120,
+            "name": "malachor sith superweapon",
+            "id": "52183f6c-0a02-590d-bc57-f3ac9f8d0850"
+          }
+        ]
+      },
+      {
+        "key": "ruusan valley",
+        "count": 2,
+        "files": [
+          "Kyber RPG 05 - Worlds and Regions.json",
+          "Kyber RPG 14 - Legends Supplements.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 46,
+            "name": "valley of the jedi",
+            "id": "e9df7596-c132-51d4-9bd2-001d14a4ceb8"
+          },
+          {
+            "file": "Kyber RPG 14 - Legends Supplements.json",
+            "index": 82,
+            "name": "Valley of the Jedi legends",
+            "id": "kyber-batch04-legends-valley-jedi"
+          }
+        ]
+      },
+      {
+        "key": "wellspring of life",
+        "count": 2,
+        "files": [
+          "Kyber RPG 05 - Worlds and Regions.json",
+          "Kyber RPG 13 - Force Metaphysics Artifacts.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 48,
+            "name": "wellspring of life",
+            "id": "f6b76211-d36a-53fa-84a7-37710ef5a5a1"
+          },
+          {
+            "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+            "index": 75,
+            "name": "force planet wellspring",
+            "id": "6fcf2954-f244-56f9-8839-866654b9f10c"
+          }
+        ]
+      },
+      {
+        "key": "force planet",
+        "count": 2,
+        "files": [
+          "Kyber RPG 05 - Worlds and Regions.json",
+          "Kyber RPG 13 - Force Metaphysics Artifacts.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 48,
+            "name": "wellspring of life",
+            "id": "f6b76211-d36a-53fa-84a7-37710ef5a5a1"
+          },
+          {
+            "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+            "index": 75,
+            "name": "force planet wellspring",
+            "id": "6fcf2954-f244-56f9-8839-866654b9f10c"
+          }
+        ]
+      },
+      {
+        "key": "lasan",
+        "count": 2,
+        "files": [
+          "Kyber RPG 05 - Worlds and Regions.json",
+          "Kyber RPG 06 - Species and Cultures.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 50,
+            "name": "l asan",
+            "id": "814a013d-0603-5a6d-a69e-bca37f6382bb"
+          },
+          {
+            "file": "Kyber RPG 06 - Species and Cultures.json",
+            "index": 29,
+            "name": "lasat",
+            "id": "245858d0-ec48-5c12-a73f-0eb1741ceb59"
+          }
+        ]
+      },
+      {
+        "key": "devaron",
+        "count": 2,
+        "files": [
+          "Kyber RPG 05 - Worlds and Regions.json",
+          "Kyber RPG 06 - Species and Cultures.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 51,
+            "name": "devaron",
+            "id": "e08c7389-b624-5996-9d3c-008ecf58fe01"
+          },
+          {
+            "file": "Kyber RPG 06 - Species and Cultures.json",
+            "index": 30,
+            "name": "devaronians",
+            "id": "7ad43b14-23cc-5a0e-9537-4671daf1b0fd"
+          }
+        ]
+      },
+      {
+        "key": "bothawui",
+        "count": 2,
+        "files": [
+          "Kyber RPG 05 - Worlds and Regions.json",
+          "Kyber RPG 06 - Species and Cultures.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 54,
+            "name": "bothawui",
+            "id": "16a6c5a1-4442-5e92-9f2a-7ccee80d6c83"
+          },
+          {
+            "file": "Kyber RPG 06 - Species and Cultures.json",
+            "index": 33,
+            "name": "bothans",
+            "id": "1820afc5-5399-5f78-b942-19b5eead2d6d"
+          }
+        ]
+      },
+      {
+        "key": "toydaria",
+        "count": 2,
+        "files": [
+          "Kyber RPG 05 - Worlds and Regions.json",
+          "Kyber RPG 06 - Species and Cultures.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 55,
+            "name": "toydaria",
+            "id": "87fce918-8d0f-5c14-9868-d0782563a12d"
+          },
+          {
+            "file": "Kyber RPG 06 - Species and Cultures.json",
+            "index": 34,
+            "name": "toydarians",
+            "id": "76c7f803-e2f1-588d-9e83-7b3353f93cdd"
+          }
+        ]
+      },
+      {
+        "key": "kinyen",
+        "count": 2,
+        "files": [
+          "Kyber RPG 05 - Worlds and Regions.json",
+          "Kyber RPG 06 - Species and Cultures.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 57,
+            "name": "kinyen",
+            "id": "b9acac2d-4f03-5d82-b03c-99b004b48899"
+          },
+          {
+            "file": "Kyber RPG 06 - Species and Cultures.json",
+            "index": 36,
+            "name": "gran",
+            "id": "75bd1b3d-3e87-508d-bcee-2f43dae80135"
+          }
+        ]
+      },
+      {
+        "key": "sriluur",
+        "count": 2,
+        "files": [
+          "Kyber RPG 05 - Worlds and Regions.json",
+          "Kyber RPG 06 - Species and Cultures.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 59,
+            "name": "sriluur",
+            "id": "d5efe5f7-1976-5c81-ae20-99ad04afdb5b"
+          },
+          {
+            "file": "Kyber RPG 06 - Species and Cultures.json",
+            "index": 38,
+            "name": "weequay",
+            "id": "2e950e91-45d9-54bf-a4b2-a436154e0d1a"
+          }
+        ]
+      },
+      {
+        "key": "gamorr",
+        "count": 2,
+        "files": [
+          "Kyber RPG 05 - Worlds and Regions.json",
+          "Kyber RPG 06 - Species and Cultures.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 61,
+            "name": "gamorr",
+            "id": "de7518e4-dc77-5d9d-8833-86cbd9becb6d"
+          },
+          {
+            "file": "Kyber RPG 06 - Species and Cultures.json",
+            "index": 40,
+            "name": "gamorreans",
+            "id": "08ec0b31-16ad-528d-9bfe-a73c4d208570"
+          }
+        ]
+      },
+      {
+        "key": "or to pluto",
+        "count": 2,
+        "files": [
+          "Kyber RPG 05 - Worlds and Regions.json",
+          "Kyber RPG 06 - Species and Cultures.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 64,
+            "name": "ortho pluto",
+            "id": "52fc5a1b-ad09-5da1-a8a8-63ed513c3a9c"
+          },
+          {
+            "file": "Kyber RPG 06 - Species and Cultures.json",
+            "index": 45,
+            "name": "talz",
+            "id": "6c08bb41-6c9f-5901-a0b8-0982645b17f1"
+          }
+        ]
+      },
+      {
+        "key": "champala",
+        "count": 2,
+        "files": [
+          "Kyber RPG 05 - Worlds and Regions.json",
+          "Kyber RPG 06 - Species and Cultures.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 66,
+            "name": "champala",
+            "id": "3ac58691-6255-506f-99b3-edc9c872f551"
+          },
+          {
+            "file": "Kyber RPG 06 - Species and Cultures.json",
+            "index": 48,
+            "name": "chagrians",
+            "id": "568a0519-2a41-5477-9658-bb873f07ffc2"
+          }
+        ]
+      },
+      {
+        "key": "rattatak",
+        "count": 2,
+        "files": [
+          "Kyber RPG 05 - Worlds and Regions.json",
+          "Kyber RPG 06 - Species and Cultures.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 68,
+            "name": "rattatak",
+            "id": "7c366ef8-1916-52ca-90bb-d952ab37be34"
+          },
+          {
+            "file": "Kyber RPG 06 - Species and Cultures.json",
+            "index": 50,
+            "name": "rattataki",
+            "id": "6fc6f19d-990f-5025-a19e-d6ecd42d100c"
+          }
+        ]
+      },
+      {
+        "key": "zeltros",
+        "count": 2,
+        "files": [
+          "Kyber RPG 05 - Worlds and Regions.json",
+          "Kyber RPG 06 - Species and Cultures.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 69,
+            "name": "zeltros",
+            "id": "6122f118-87f7-5794-bbf5-3dc46b1b1bac"
+          },
+          {
+            "file": "Kyber RPG 06 - Species and Cultures.json",
+            "index": 51,
+            "name": "zeltrons",
+            "id": "7740cd14-78e4-5b99-9cf3-403ef0994b3c"
+          }
+        ]
+      },
+      {
+        "key": "kalee",
+        "count": 2,
+        "files": [
+          "Kyber RPG 05 - Worlds and Regions.json",
+          "Kyber RPG 06 - Species and Cultures.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 75,
+            "name": "kalee",
+            "id": "1bccd8bd-f8dd-5a84-b12d-79f166720c2c"
+          },
+          {
+            "file": "Kyber RPG 06 - Species and Cultures.json",
+            "index": 60,
+            "name": "kaleesh",
+            "id": "0b85137a-149e-591b-888e-aa965ffaed8f"
+          }
+        ]
+      },
+      {
+        "key": "manaan",
+        "count": 2,
+        "files": [
+          "Kyber RPG 05 - Worlds and Regions.json",
+          "Kyber RPG 06 - Species and Cultures.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 213,
+            "name": "manaan",
+            "id": "6eda95b6-f801-5701-8f51-62956c417716"
+          },
+          {
+            "file": "Kyber RPG 06 - Species and Cultures.json",
+            "index": 75,
+            "name": "selkath",
+            "id": "kyber-species-selkath"
+          }
+        ]
+      },
+      {
+        "key": "honoghr",
+        "count": 2,
+        "files": [
+          "Kyber RPG 05 - Worlds and Regions.json",
+          "Kyber RPG 06 - Species and Cultures.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 249,
+            "name": "honoghr",
+            "id": "kyber-world-honoghr"
+          },
+          {
+            "file": "Kyber RPG 06 - Species and Cultures.json",
+            "index": 74,
+            "name": "noghri",
+            "id": "kyber-species-noghri"
+          }
+        ]
+      },
+      {
+        "key": "haruun kal",
+        "count": 2,
+        "files": [
+          "Kyber RPG 05 - Worlds and Regions.json",
+          "Kyber RPG 06 - Species and Cultures.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 265,
+            "name": "haruun kal",
+            "id": "kyber-batch02-world-haruun-kal"
+          },
+          {
+            "file": "Kyber RPG 06 - Species and Cultures.json",
+            "index": 94,
+            "name": "korunnai",
+            "id": "kyber-batch02-species-korun"
+          }
+        ]
+      },
+      {
+        "key": "sorcerers of tund",
+        "count": 2,
+        "files": [
+          "Kyber RPG 05 - Worlds and Regions.json",
+          "Kyber RPG 11 - Force Orders.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 279,
+            "name": "tund",
+            "id": "kyber-batch02-world-tund"
+          },
+          {
+            "file": "Kyber RPG 11 - Force Orders.json",
+            "index": 78,
+            "name": "sorcerers of tund",
+            "id": "18c15857-2227-54e3-89d9-2768a8c3ca04"
+          }
+        ]
+      },
+      {
+        "key": "zakuul",
+        "count": 3,
+        "files": [
+          "Kyber RPG 05 - Worlds and Regions.json",
+          "Kyber RPG 14 - Legends Supplements.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 281,
+            "name": "zakuul",
+            "id": "kyber-batch02-world-zakuul"
+          },
+          {
+            "file": "Kyber RPG 14 - Legends Supplements.json",
+            "index": 3,
+            "name": "legends old republic governments",
+            "id": "17d1baf6-e1a2-5bce-811d-2a0aa2ea51a6"
+          },
+          {
+            "file": "Kyber RPG 14 - Legends Supplements.json",
+            "index": 18,
+            "name": "vitiate and eternal empire",
+            "id": "kyber-legends-vitiate"
+          }
+        ]
+      },
+      {
+        "key": "byss",
+        "count": 2,
+        "files": [
+          "Kyber RPG 05 - Worlds and Regions.json",
+          "Kyber RPG 14 - Legends Supplements.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 294,
+            "name": "Byss",
+            "id": "kyber-batch06-world-byss"
+          },
+          {
+            "file": "Kyber RPG 14 - Legends Supplements.json",
+            "index": 31,
+            "name": "dark empire palpatine",
+            "id": "kyber-legends-dark-empire"
+          }
+        ]
+      },
+      {
+        "key": "dorin",
+        "count": 2,
+        "files": [
+          "Kyber RPG 05 - Worlds and Regions.json",
+          "Kyber RPG 06 - Species and Cultures.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 298,
+            "name": "Dorin",
+            "id": "kyber-batch06-world-dorin"
+          },
+          {
+            "file": "Kyber RPG 06 - Species and Cultures.json",
+            "index": 12,
+            "name": "kel dor",
+            "id": "1850c127-3ff5-5abd-bdd9-c18d6c12ce09"
+          }
+        ]
+      },
+      {
+        "key": "glee anselm",
+        "count": 2,
+        "files": [
+          "Kyber RPG 05 - Worlds and Regions.json",
+          "Kyber RPG 06 - Species and Cultures.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 300,
+            "name": "Glee Anselm",
+            "id": "kyber-batch06-world-glee-anselm"
+          },
+          {
+            "file": "Kyber RPG 06 - Species and Cultures.json",
+            "index": 19,
+            "name": "nautolans",
+            "id": "5378cc39-027f-5b7e-8fd8-d0ab94787642"
+          }
+        ]
+      },
+      {
+        "key": "kiffu",
+        "count": 2,
+        "files": [
+          "Kyber RPG 05 - Worlds and Regions.json",
+          "Kyber RPG 06 - Species and Cultures.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 302,
+            "name": "Kiffu",
+            "id": "kyber-batch06-world-kiffu"
+          },
+          {
+            "file": "Kyber RPG 06 - Species and Cultures.json",
+            "index": 92,
+            "name": "kiffar",
+            "id": "kyber-batch02-species-kiffar"
+          }
+        ]
+      },
+      {
+        "key": "kiffex",
+        "count": 2,
+        "files": [
+          "Kyber RPG 05 - Worlds and Regions.json",
+          "Kyber RPG 06 - Species and Cultures.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 303,
+            "name": "Kiffex",
+            "id": "kyber-batch06-world-kiffex"
+          },
+          {
+            "file": "Kyber RPG 06 - Species and Cultures.json",
+            "index": 92,
+            "name": "kiffar",
+            "id": "kyber-batch02-species-kiffar"
+          }
+        ]
+      },
+      {
+        "key": "mrlsst",
+        "count": 2,
+        "files": [
+          "Kyber RPG 05 - Worlds and Regions.json",
+          "Kyber RPG 06 - Species and Cultures.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 305,
+            "name": "Mrlsst",
+            "id": "kyber-batch06-world-mrlsst"
+          },
+          {
+            "file": "Kyber RPG 06 - Species and Cultures.json",
+            "index": 159,
+            "name": "Mrlssi",
+            "id": "kyber-batch06-species-mrlssi"
+          }
+        ]
+      },
+      {
+        "key": "nirauan",
+        "count": 2,
+        "files": [
+          "Kyber RPG 05 - Worlds and Regions.json",
+          "Kyber RPG 14 - Legends Supplements.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 307,
+            "name": "Nirauan",
+            "id": "kyber-batch06-world-nirauan"
+          },
+          {
+            "file": "Kyber RPG 14 - Legends Supplements.json",
+            "index": 43,
+            "name": "hand of thrawn crisis",
+            "id": "kyber-batch02-legends-hand-of-thrawn"
+          }
+        ]
+      },
+      {
+        "key": "beskar",
+        "count": 2,
+        "files": [
+          "Kyber RPG 06 - Species and Cultures.json",
+          "Kyber RPG 08 - Technology Ships Gear.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 06 - Species and Cultures.json",
+            "index": 0,
+            "name": "mandalorians",
+            "id": "bef26fcc-dd52-4874-8460-322c1ede1a21"
+          },
+          {
+            "file": "Kyber RPG 08 - Technology Ships Gear.json",
+            "index": 4,
+            "name": "armor materials and personal defenses",
+            "id": "e1960f9e-2934-5314-a598-67d14a7a219d"
+          }
+        ]
+      },
+      {
+        "key": "arkanian offshoot",
+        "count": 2,
+        "files": [
+          "Kyber RPG 06 - Species and Cultures.json",
+          "Kyber RPG 14 - Legends Supplements.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 06 - Species and Cultures.json",
+            "index": 28,
+            "name": "arkanian offshoots",
+            "id": "8f2c527f-3c56-551d-b92e-c076fd84f10a"
+          },
+          {
+            "file": "Kyber RPG 14 - Legends Supplements.json",
+            "index": 86,
+            "name": "Arkanian offshoot lore",
+            "id": "kyber-batch06-legends-arkanian"
+          }
+        ]
+      },
+      {
+        "key": "yuuzhan vong",
+        "count": 2,
+        "files": [
+          "Kyber RPG 06 - Species and Cultures.json",
+          "Kyber RPG 14 - Legends Supplements.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 06 - Species and Cultures.json",
+            "index": 78,
+            "name": "yuuzhan vong species",
+            "id": "kyber-species-yuuzhan-vong"
+          },
+          {
+            "file": "Kyber RPG 14 - Legends Supplements.json",
+            "index": 6,
+            "name": "legends yuuzhan vong war",
+            "id": "bac1093e-608c-5848-b62d-3e12bfeb4195"
+          }
+        ]
+      },
+      {
+        "key": "sabacc",
+        "count": 2,
+        "files": [
+          "Kyber RPG 07 - Society Law Economy.json",
+          "Kyber RPG 08 - Technology Ships Gear.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 07 - Society Law Economy.json",
+            "index": 21,
+            "name": "gambling culture",
+            "id": "31b568c4-9edf-57e8-aa9a-95750fcd7ced"
+          },
+          {
+            "file": "Kyber RPG 08 - Technology Ships Gear.json",
+            "index": 327,
+            "name": "sabacc decks",
+            "id": "kyber-batch06-tech-sabacc-deck"
+          }
+        ]
+      },
+      {
+        "key": "slave collar",
+        "count": 2,
+        "files": [
+          "Kyber RPG 07 - Society Law Economy.json",
+          "Kyber RPG 09 - Creatures and Hazards.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 07 - Society Law Economy.json",
+            "index": 28,
+            "name": "slavery systems",
+            "id": "60cbe985-f8e2-5829-82d2-a51ba7734b28"
+          },
+          {
+            "file": "Kyber RPG 09 - Creatures and Hazards.json",
+            "index": 101,
+            "name": "explosive slave collars",
+            "id": "kyber-batch03-hazard-slave-collar"
+          }
+        ]
+      },
+      {
+        "key": "cortosis",
+        "count": 3,
+        "files": [
+          "Kyber RPG 08 - Technology Ships Gear.json",
+          "Kyber RPG 12 - Lightsabers and Kyber.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 08 - Technology Ships Gear.json",
+            "index": 4,
+            "name": "armor materials and personal defenses",
+            "id": "e1960f9e-2934-5314-a598-67d14a7a219d"
+          },
+          {
+            "file": "Kyber RPG 12 - Lightsabers and Kyber.json",
+            "index": 22,
+            "name": "lightsaber resistant materials",
+            "id": "8a8cc8ce-2051-587a-9410-aa18d65464f3"
+          },
+          {
+            "file": "Kyber RPG 12 - Lightsabers and Kyber.json",
+            "index": 23,
+            "name": "cortosis effect",
+            "id": "ff835bba-0ee4-55f2-bd4c-a9d71d2925ad"
+          }
+        ]
+      },
+      {
+        "key": "nihil paths",
+        "count": 2,
+        "files": [
+          "Kyber RPG 08 - Technology Ships Gear.json",
+          "Kyber RPG 11 - Force Orders.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 08 - Technology Ships Gear.json",
+            "index": 13,
+            "name": "path engines and the paths",
+            "id": "879c0b1c-8bb8-53ce-b96c-29344176a138"
+          },
+          {
+            "file": "Kyber RPG 11 - Force Orders.json",
+            "index": 116,
+            "name": "path engines nihil",
+            "id": "e09ab14d-0af2-512a-bfda-f4c2dc0e7572"
+          }
+        ]
+      },
+      {
+        "key": "jedi holocron",
+        "count": 2,
+        "files": [
+          "Kyber RPG 08 - Technology Ships Gear.json",
+          "Kyber RPG 13 - Force Metaphysics Artifacts.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 08 - Technology Ships Gear.json",
+            "index": 22,
+            "name": "holocrons",
+            "id": "29e1f328-6628-5a07-9266-5d1e4b047245"
+          },
+          {
+            "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+            "index": 53,
+            "name": "holocron fundamentals",
+            "id": "9d6f3852-56b0-59e5-ae5b-713dadc339b0"
+          }
+        ]
+      },
+      {
+        "key": "shoto lightsaber",
+        "count": 2,
+        "files": [
+          "Kyber RPG 08 - Technology Ships Gear.json",
+          "Kyber RPG 12 - Lightsabers and Kyber.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 08 - Technology Ships Gear.json",
+            "index": 23,
+            "name": "lightsaber shoto",
+            "id": "3276b53c-031d-5d56-b8a4-45b5132e48df"
+          },
+          {
+            "file": "Kyber RPG 12 - Lightsabers and Kyber.json",
+            "index": 56,
+            "name": "shoto lightsabers",
+            "id": "kyber-batch06-saber-shoto"
+          }
+        ]
+      },
+      {
+        "key": "double-bladed lightsaber",
+        "count": 2,
+        "files": [
+          "Kyber RPG 08 - Technology Ships Gear.json",
+          "Kyber RPG 12 - Lightsabers and Kyber.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 08 - Technology Ships Gear.json",
+            "index": 24,
+            "name": "double-bladed lightsaber",
+            "id": "cfc19a66-6ec6-5ab0-9329-43a4d169f682"
+          },
+          {
+            "file": "Kyber RPG 12 - Lightsabers and Kyber.json",
+            "index": 46,
+            "name": "double-bladed lightsabers",
+            "id": "kyber-batch04-saber-double-bladed"
+          }
+        ]
+      },
+      {
+        "key": "saberstaff",
+        "count": 2,
+        "files": [
+          "Kyber RPG 08 - Technology Ships Gear.json",
+          "Kyber RPG 12 - Lightsabers and Kyber.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 08 - Technology Ships Gear.json",
+            "index": 24,
+            "name": "double-bladed lightsaber",
+            "id": "cfc19a66-6ec6-5ab0-9329-43a4d169f682"
+          },
+          {
+            "file": "Kyber RPG 12 - Lightsabers and Kyber.json",
+            "index": 46,
+            "name": "double-bladed lightsabers",
+            "id": "kyber-batch04-saber-double-bladed"
+          }
+        ]
+      },
+      {
+        "key": "crossguard lightsaber",
+        "count": 2,
+        "files": [
+          "Kyber RPG 08 - Technology Ships Gear.json",
+          "Kyber RPG 12 - Lightsabers and Kyber.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 08 - Technology Ships Gear.json",
+            "index": 25,
+            "name": "crossguard lightsaber",
+            "id": "c691e8d8-20db-51d6-b0ce-93b7489f7947"
+          },
+          {
+            "file": "Kyber RPG 12 - Lightsabers and Kyber.json",
+            "index": 44,
+            "name": "crossguard lightsabers",
+            "id": "kyber-batch04-saber-crossguard"
+          }
+        ]
+      },
+      {
+        "key": "lightwhip",
+        "count": 2,
+        "files": [
+          "Kyber RPG 08 - Technology Ships Gear.json",
+          "Kyber RPG 12 - Lightsabers and Kyber.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 08 - Technology Ships Gear.json",
+            "index": 27,
+            "name": "lightwhip",
+            "id": "b7c59fd3-9d39-5251-b8e3-008e8d7610fb"
+          },
+          {
+            "file": "Kyber RPG 12 - Lightsabers and Kyber.json",
+            "index": 49,
+            "name": "lightwhips",
+            "id": "kyber-batch04-saber-whip"
+          }
+        ]
+      },
+      {
+        "key": "centerpoint station",
+        "count": 2,
+        "files": [
+          "Kyber RPG 08 - Technology Ships Gear.json",
+          "Kyber RPG 14 - Legends Supplements.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 08 - Technology Ships Gear.json",
+            "index": 122,
+            "name": "centerpoint station",
+            "id": "27225f2c-94b9-5549-a639-a915534571ff"
+          },
+          {
+            "file": "Kyber RPG 14 - Legends Supplements.json",
+            "index": 10,
+            "name": "celestials and architects",
+            "id": "kyber-legends-celestials"
+          }
+        ]
+      },
+      {
+        "key": "star forge",
+        "count": 2,
+        "files": [
+          "Kyber RPG 08 - Technology Ships Gear.json",
+          "Kyber RPG 14 - Legends Supplements.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 08 - Technology Ships Gear.json",
+            "index": 123,
+            "name": "star forge",
+            "id": "2b5280e8-9205-54d1-883f-a8ed6faed866"
+          },
+          {
+            "file": "Kyber RPG 14 - Legends Supplements.json",
+            "index": 9,
+            "name": "rakata and infinite empire",
+            "id": "kyber-legends-rakata"
+          }
+        ]
+      },
+      {
+        "key": "mass shadow generator",
+        "count": 2,
+        "files": [
+          "Kyber RPG 08 - Technology Ships Gear.json",
+          "Kyber RPG 14 - Legends Supplements.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 08 - Technology Ships Gear.json",
+            "index": 124,
+            "name": "mass shadow generator",
+            "id": "08866b67-3f44-5f68-a0e6-988c82643da4"
+          },
+          {
+            "file": "Kyber RPG 14 - Legends Supplements.json",
+            "index": 15,
+            "name": "mandalorian wars",
+            "id": "kyber-legends-mandalorian-wars"
+          }
+        ]
+      },
+      {
+        "key": "tibanna gas",
+        "count": 2,
+        "files": [
+          "Kyber RPG 08 - Technology Ships Gear.json",
+          "Kyber RPG 09 - Creatures and Hazards.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 08 - Technology Ships Gear.json",
+            "index": 230,
+            "name": "tibanna gas",
+            "id": "b81f4776-52ab-5704-9352-cbfc6e03db17"
+          },
+          {
+            "file": "Kyber RPG 09 - Creatures and Hazards.json",
+            "index": 103,
+            "name": "tibanna gas leaks",
+            "id": "kyber-batch03-hazard-tibanna-leak"
+          }
+        ]
+      },
+      {
+        "key": "eclipse dreadnought",
+        "count": 2,
+        "files": [
+          "Kyber RPG 08 - Technology Ships Gear.json",
+          "Kyber RPG 14 - Legends Supplements.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 08 - Technology Ships Gear.json",
+            "index": 256,
+            "name": "eclipse-class dreadnought",
+            "id": "kyber-tech-eclipse-dreadnought"
+          },
+          {
+            "file": "Kyber RPG 14 - Legends Supplements.json",
+            "index": 31,
+            "name": "dark empire palpatine",
+            "id": "kyber-legends-dark-empire"
+          }
+        ]
+      },
+      {
+        "key": "lightsaber resistant material",
+        "count": 2,
+        "files": [
+          "Kyber RPG 08 - Technology Ships Gear.json",
+          "Kyber RPG 12 - Lightsabers and Kyber.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 08 - Technology Ships Gear.json",
+            "index": 275,
+            "name": "lightsaber resistant materials",
+            "id": "kyber-batch02-tech-lightsaber-resistant-materials"
+          },
+          {
+            "file": "Kyber RPG 12 - Lightsabers and Kyber.json",
+            "index": 22,
+            "name": "lightsaber resistant materials",
+            "id": "8a8cc8ce-2051-587a-9410-aa18d65464f3"
+          }
+        ]
+      },
+      {
+        "key": "the nameless",
+        "count": 2,
+        "files": [
+          "Kyber RPG 09 - Creatures and Hazards.json",
+          "Kyber RPG 13 - Force Metaphysics Artifacts.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 09 - Creatures and Hazards.json",
+            "index": 4,
+            "name": "the nameless",
+            "id": "bf2fafc2-4aa0-5f5c-a380-384124705fae"
+          },
+          {
+            "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+            "index": 91,
+            "name": "nameless creatures",
+            "id": "kyber-recent-nameless"
+          }
+        ]
+      },
+      {
+        "key": "force echo",
+        "count": 3,
+        "files": [
+          "Kyber RPG 10 - Force Powers.json",
+          "Kyber RPG 13 - Force Metaphysics Artifacts.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 10 - Force Powers.json",
+            "index": 11,
+            "name": "psychometry",
+            "id": "669b2d16-208d-51c8-ba3c-7377106df798"
+          },
+          {
+            "file": "Kyber RPG 10 - Force Powers.json",
+            "index": 31,
+            "name": "force echo",
+            "id": "dd2b2f75-5429-527a-abc7-177786141e0c"
+          },
+          {
+            "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+            "index": 95,
+            "name": "force echoes",
+            "id": "kyber-batch02-force-echoes"
+          }
+        ]
+      },
+      {
+        "key": "dyad in the force",
+        "count": 2,
+        "files": [
+          "Kyber RPG 10 - Force Powers.json",
+          "Kyber RPG 13 - Force Metaphysics Artifacts.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 10 - Force Powers.json",
+            "index": 40,
+            "name": "force dyad expanded",
+            "id": "90ba5ab4-a6f6-5249-999b-f637b9676f1c"
+          },
+          {
+            "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+            "index": 3,
+            "name": "force dyad",
+            "id": "4ad30903-e525-57a7-9627-c7ac49da152b"
+          }
+        ]
+      },
+      {
+        "key": "sith holocron",
+        "count": 2,
+        "files": [
+          "Kyber RPG 11 - Force Orders.json",
+          "Kyber RPG 13 - Force Metaphysics Artifacts.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 11 - Force Orders.json",
+            "index": 4,
+            "name": "sith doctrine and artifacts",
+            "id": "65d08bc9-c0de-50ea-be0b-a518ce89b90c"
+          },
+          {
+            "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+            "index": 53,
+            "name": "holocron fundamentals",
+            "id": "9d6f3852-56b0-59e5-ae5b-713dadc339b0"
+          }
+        ]
+      },
+      {
+        "key": "murr talisman",
+        "count": 2,
+        "files": [
+          "Kyber RPG 11 - Force Orders.json",
+          "Kyber RPG 13 - Force Metaphysics Artifacts.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 11 - Force Orders.json",
+            "index": 12,
+            "name": "murr talisman",
+            "id": "d6a098e7-8416-50dc-8288-c654cb52a51d"
+          },
+          {
+            "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+            "index": 55,
+            "name": "murr talisman detail",
+            "id": "6a7ff5de-a7db-55e4-a5b7-fb74b813eb9a"
+          }
+        ]
+      },
+      {
+        "key": "karness muur talisman",
+        "count": 2,
+        "files": [
+          "Kyber RPG 11 - Force Orders.json",
+          "Kyber RPG 13 - Force Metaphysics Artifacts.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 11 - Force Orders.json",
+            "index": 12,
+            "name": "murr talisman",
+            "id": "d6a098e7-8416-50dc-8288-c654cb52a51d"
+          },
+          {
+            "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+            "index": 55,
+            "name": "murr talisman detail",
+            "id": "6a7ff5de-a7db-55e4-a5b7-fb74b813eb9a"
+          }
+        ]
+      },
+      {
+        "key": "bring balance to the force",
+        "count": 2,
+        "files": [
+          "Kyber RPG 11 - Force Orders.json",
+          "Kyber RPG 13 - Force Metaphysics Artifacts.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 11 - Force Orders.json",
+            "index": 14,
+            "name": "jedi prophecy chosen one",
+            "id": "97c7fa0c-51f6-5db3-846b-54f9093b9b84"
+          },
+          {
+            "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+            "index": 14,
+            "name": "balance in the force",
+            "id": "af534098-51cc-5729-8031-0bf0de02bd45"
+          }
+        ]
+      },
+      {
+        "key": "nightsister ichor",
+        "count": 2,
+        "files": [
+          "Kyber RPG 11 - Force Orders.json",
+          "Kyber RPG 13 - Force Metaphysics Artifacts.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 11 - Force Orders.json",
+            "index": 68,
+            "name": "magickal ichor",
+            "id": "6a53a025-b10d-557f-bbc8-b0ff7ea518d5"
+          },
+          {
+            "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+            "index": 94,
+            "name": "nightsister ichor",
+            "id": "kyber-batch02-force-dathomir-ichor"
+          }
+        ]
+      },
+      {
+        "key": "lost tribe of the sith",
+        "count": 2,
+        "files": [
+          "Kyber RPG 11 - Force Orders.json",
+          "Kyber RPG 14 - Legends Supplements.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 11 - Force Orders.json",
+            "index": 95,
+            "name": "lost tribe of the sith",
+            "id": "5ccdf7a3-344c-56a5-b84f-46a6f0e44a38"
+          },
+          {
+            "file": "Kyber RPG 14 - Legends Supplements.json",
+            "index": 2,
+            "name": "legends galactic empires and sith wars",
+            "id": "998df03c-c7d4-5273-adfb-f1a699068f6c"
+          }
+        ]
+      },
+      {
+        "key": "one sith",
+        "count": 3,
+        "files": [
+          "Kyber RPG 11 - Force Orders.json",
+          "Kyber RPG 14 - Legends Supplements.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 11 - Force Orders.json",
+            "index": 96,
+            "name": "one sith doctrine",
+            "id": "0f3b183b-557e-5cb6-8c0c-bc071104db02"
+          },
+          {
+            "file": "Kyber RPG 14 - Legends Supplements.json",
+            "index": 7,
+            "name": "legends legacy era",
+            "id": "a0406807-eb1f-5dc1-9539-32d2cebf0f2a"
+          },
+          {
+            "file": "Kyber RPG 14 - Legends Supplements.json",
+            "index": 30,
+            "name": "darth krayt and one sith",
+            "id": "kyber-legends-darth-krayt"
+          }
+        ]
+      },
+      {
+        "key": "new jedi order legends",
+        "count": 2,
+        "files": [
+          "Kyber RPG 11 - Force Orders.json",
+          "Kyber RPG 14 - Legends Supplements.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 11 - Force Orders.json",
+            "index": 98,
+            "name": "new jedi order legends",
+            "id": "9c6bb55d-618a-527f-b1d8-db5813cb5285"
+          },
+          {
+            "file": "Kyber RPG 14 - Legends Supplements.json",
+            "index": 27,
+            "name": "new jedi order legends",
+            "id": "kyber-legends-njo"
+          }
+        ]
+      },
+      {
+        "key": "imperial knights",
+        "count": 2,
+        "files": [
+          "Kyber RPG 11 - Force Orders.json",
+          "Kyber RPG 14 - Legends Supplements.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 11 - Force Orders.json",
+            "index": 99,
+            "name": "imperial knights",
+            "id": "da41c085-e4c9-553d-a732-6ed75e46884a"
+          },
+          {
+            "file": "Kyber RPG 14 - Legends Supplements.json",
+            "index": 7,
+            "name": "legends legacy era",
+            "id": "a0406807-eb1f-5dc1-9539-32d2cebf0f2a"
+          }
+        ]
+      },
+      {
+        "key": "sith amulet",
+        "count": 2,
+        "files": [
+          "Kyber RPG 11 - Force Orders.json",
+          "Kyber RPG 13 - Force Metaphysics Artifacts.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 11 - Force Orders.json",
+            "index": 107,
+            "name": "amulets of power",
+            "id": "7a76c83a-632f-53db-8a20-b35b9e2ad542"
+          },
+          {
+            "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+            "index": 92,
+            "name": "sith amulets",
+            "id": "kyber-batch02-force-amulet"
+          }
+        ]
+      },
+      {
+        "key": "jedi beacon",
+        "count": 2,
+        "files": [
+          "Kyber RPG 11 - Force Orders.json",
+          "Kyber RPG 13 - Force Metaphysics Artifacts.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 11 - Force Orders.json",
+            "index": 110,
+            "name": "jedi beacon",
+            "id": "ddf6f8c4-10b4-5218-a5e9-de4684986268"
+          },
+          {
+            "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+            "index": 98,
+            "name": "jedi emergency beacons",
+            "id": "kyber-batch02-force-jedi-beacon"
+          }
+        ]
+      }
+    ],
+    "broad_keys": [
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 2,
+        "name": "SECTION 2 — CHARACTERISTICS, SKILLS, AND CHECK CONSTRUCTION",
+        "id": "swffg-0200-6ae62db2",
+        "key": "failure"
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 3,
+        "name": "SECTION 3 — DICE SYMBOLS AND CANCELLATION",
+        "id": "swffg-0300-abb0ff1d",
+        "key": "success"
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 3,
+        "name": "SECTION 3 — DICE SYMBOLS AND CANCELLATION",
+        "id": "swffg-0300-abb0ff1d",
+        "key": "failure"
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 3,
+        "name": "SECTION 3 — DICE SYMBOLS AND CANCELLATION",
+        "id": "swffg-0300-abb0ff1d",
+        "key": "threat"
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 5,
+        "name": "SECTION 5 — SPENDING ADVANTAGE, THREAT, TRIUMPH, AND DESPAIR",
+        "id": "swffg-0500-021848ab",
+        "key": "threat"
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 9,
+        "name": "SECTION 9 — ENCOUNTER STRUCTURE, INITIATIVE, ACTIONS, AND MANEUVERS",
+        "id": "swffg-0900-29e01071",
+        "key": "attack"
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 10,
+        "name": "SECTION 10 — RANGE BANDS, MOVEMENT, COVER, AND ENVIRONMENT",
+        "id": "swffg-1000-98363dc3",
+        "key": "range"
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 11,
+        "name": "SECTION 11 — PERSONAL COMBAT CHECKS",
+        "id": "swffg-1100-35f5f7ee",
+        "key": "attack"
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 11,
+        "name": "SECTION 11 — PERSONAL COMBAT CHECKS",
+        "id": "swffg-1100-35f5f7ee",
+        "key": "combat"
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 12,
+        "name": "SECTION 12 — WEAPON QUALITIES AND DEFENSE",
+        "id": "swffg-1200-b14d9037",
+        "key": "weapon"
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 12,
+        "name": "SECTION 12 — WEAPON QUALITIES AND DEFENSE",
+        "id": "swffg-1200-b14d9037",
+        "key": "armor"
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 14,
+        "name": "SECTION 14 — SOCIAL ENCOUNTERS",
+        "id": "swffg-1400-aa27569a",
+        "key": "persuade"
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 14,
+        "name": "SECTION 14 — SOCIAL ENCOUNTERS",
+        "id": "swffg-1400-aa27569a",
+        "key": "convince"
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 15,
+        "name": "SECTION 15 — FEAR, DISCIPLINE, AND MENTAL PRESSURE",
+        "id": "swffg-1500-74e3c70d",
+        "key": "fear"
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 15,
+        "name": "SECTION 15 — FEAR, DISCIPLINE, AND MENTAL PRESSURE",
+        "id": "swffg-1500-74e3c70d",
+        "key": "sith"
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 16,
+        "name": "SECTION 16 — HEALING, MEDICINE, STIMPACKS, AND BACTA",
+        "id": "swffg-1600-0cbb90cb",
+        "key": "heal"
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 17,
+        "name": "SECTION 17 — OBLIGATION, DUTY, AND MORALITY",
+        "id": "swffg-1700-1335ba32",
+        "key": "conflict"
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 19,
+        "name": "SECTION 19 — FORCE PHILOSOPHY AND TEMPTATION",
+        "id": "swffg-1900-3c2397a4",
+        "key": "jedi"
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 19,
+        "name": "SECTION 19 — FORCE PHILOSOPHY AND TEMPTATION",
+        "id": "swffg-1900-3c2397a4",
+        "key": "sith"
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 19,
+        "name": "SECTION 19 — FORCE PHILOSOPHY AND TEMPTATION",
+        "id": "swffg-1900-3c2397a4",
+        "key": "fear"
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 20,
+        "name": "SECTION 20 — VEHICLES, SILHOUETTE, SPEED, AND RANGE",
+        "id": "swffg-2000-03183abf",
+        "key": "ship"
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 22,
+        "name": "SECTION 22 — CHASES, PURSUITS, AND DANGEROUS PILOTING",
+        "id": "swffg-2200-2bfdeb98",
+        "key": "escape"
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 25,
+        "name": "SECTION 25 — TALENTS, CAREERS, SPECIALIZATIONS, AND EXPERIENCE",
+        "id": "swffg-2500-83d3eda4",
+        "key": "career"
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 29,
+        "name": "SECTION 29 — NARRATIVE RESULT TEMPLATES",
+        "id": "swffg-2900-c6dc3d98",
+        "key": "success"
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 29,
+        "name": "SECTION 29 — NARRATIVE RESULT TEMPLATES",
+        "id": "swffg-2900-c6dc3d98",
+        "key": "failure"
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 29,
+        "name": "SECTION 29 — NARRATIVE RESULT TEMPLATES",
+        "id": "swffg-2900-c6dc3d98",
+        "key": "threat"
+      },
+      {
+        "file": "Kyber RPG 11 - Force Orders.json",
+        "index": 1,
+        "name": "sith and dark side orders",
+        "id": "fe550dc1-680f-433b-97ee-18eaac30151c",
+        "key": "sith"
+      }
+    ],
+    "low_probability": [],
+    "empty_keys_nonconstant": [],
+    "keysraw_mismatch": [],
+    "keywordsraw_mismatch": [],
+    "unsorted_insertion_order": [],
+    "long_entries": [
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 0,
+        "name": "SECTION 0 — ROLE AND LAYER SEPARATION",
+        "id": "swffg-0050-layer-separation",
+        "estimated_tokens": 759,
+        "line": 25
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 1,
+        "name": "SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL",
+        "id": "swffg-0100-1ad0af93",
+        "estimated_tokens": 502,
+        "line": 67
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 2,
+        "name": "SECTION 2 — CHARACTERISTICS, SKILLS, AND CHECK CONSTRUCTION",
+        "id": "swffg-0200-6ae62db2",
+        "estimated_tokens": 443,
+        "line": 175
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 3,
+        "name": "SECTION 3 — DICE SYMBOLS AND CANCELLATION",
+        "id": "swffg-0300-abb0ff1d",
+        "estimated_tokens": 342,
+        "line": 222
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 4,
+        "name": "SECTION 4 — DIFFICULTY, UPGRADES, DOWNGRADES, AND IMPOSSIBLE TASKS",
+        "id": "swffg-0400-daf64af9",
+        "estimated_tokens": 365,
+        "line": 270
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 5,
+        "name": "SECTION 5 — SPENDING ADVANTAGE, THREAT, TRIUMPH, AND DESPAIR",
+        "id": "swffg-0500-021848ab",
+        "estimated_tokens": 388,
+        "line": 315
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 7,
+        "name": "SECTION 7 — WOUNDS, STRAIN, SOAK, AND INCAPACITATION",
+        "id": "swffg-0700-b79161ab",
+        "estimated_tokens": 360,
+        "line": 409
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 11,
+        "name": "SECTION 11 — PERSONAL COMBAT CHECKS",
+        "id": "swffg-1100-35f5f7ee",
+        "estimated_tokens": 309,
+        "line": 610
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 12,
+        "name": "SECTION 12 — WEAPON QUALITIES AND DEFENSE",
+        "id": "swffg-1200-b14d9037",
+        "estimated_tokens": 360,
+        "line": 662
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 14,
+        "name": "SECTION 14 — SOCIAL ENCOUNTERS",
+        "id": "swffg-1400-aa27569a",
+        "estimated_tokens": 362,
+        "line": 769
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 16,
+        "name": "SECTION 16 — HEALING, MEDICINE, STIMPACKS, AND BACTA",
+        "id": "swffg-1600-0cbb90cb",
+        "estimated_tokens": 312,
+        "line": 869
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 17,
+        "name": "SECTION 17 — OBLIGATION, DUTY, AND MORALITY",
+        "id": "swffg-1700-1335ba32",
+        "estimated_tokens": 393,
+        "line": 918
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 18,
+        "name": "SECTION 18 — FORCE DICE, FORCE POWERS, AND DARK SIDE USE",
+        "id": "swffg-1800-28b5bbd1",
+        "estimated_tokens": 363,
+        "line": 968
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 19,
+        "name": "SECTION 19 — FORCE PHILOSOPHY AND TEMPTATION",
+        "id": "swffg-1900-3c2397a4",
+        "estimated_tokens": 304,
+        "line": 1017
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 20,
+        "name": "SECTION 20 — VEHICLES, SILHOUETTE, SPEED, AND RANGE",
+        "id": "swffg-2000-03183abf",
+        "estimated_tokens": 330,
+        "line": 1067
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 21,
+        "name": "SECTION 21 — VEHICLE DAMAGE, ARMOR, CRITICAL HITS, AND REPAIRS",
+        "id": "swffg-2100-9304ed09",
+        "estimated_tokens": 328,
+        "line": 1115
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 22,
+        "name": "SECTION 22 — CHASES, PURSUITS, AND DANGEROUS PILOTING",
+        "id": "swffg-2200-2bfdeb98",
+        "estimated_tokens": 302,
+        "line": 1163
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 24,
+        "name": "SECTION 24 — CRAFTING, MODIFICATIONS, HARD POINTS, AND ATTACHMENTS",
+        "id": "swffg-2400-f1f0c4aa",
+        "estimated_tokens": 301,
+        "line": 1262
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 25,
+        "name": "SECTION 25 — TALENTS, CAREERS, SPECIALIZATIONS, AND EXPERIENCE",
+        "id": "swffg-2500-83d3eda4",
+        "estimated_tokens": 304,
+        "line": 1308
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 28,
+        "name": "SECTION 28 — GM AND NARRATOR OPERATING RULES",
+        "id": "swffg-2800-ddd93d59",
+        "estimated_tokens": 1163,
+        "line": 1450
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 29,
+        "name": "SECTION 29 — NARRATIVE RESULT TEMPLATES",
+        "id": "swffg-2900-c6dc3d98",
+        "estimated_tokens": 317,
+        "line": 1506
+      }
+    ],
+    "large_key_lists": [
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 2,
+        "name": "SECTION 2 — CHARACTERISTICS, SKILLS, AND CHECK CONSTRUCTION",
+        "id": "swffg-0200-6ae62db2",
+        "key_count": 74,
+        "line": 175
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 14,
+        "name": "SECTION 14 — SOCIAL ENCOUNTERS",
+        "id": "swffg-1400-aa27569a",
+        "key_count": 22,
+        "line": 769
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 29,
+        "name": "SECTION 29 — NARRATIVE RESULT TEMPLATES",
+        "id": "swffg-2900-c6dc3d98",
+        "key_count": 22,
+        "line": 1506
+      }
+    ],
+    "repeated_rule_blocks": [],
+    "suspect_filenames": []
+  },
+  "issue_counts": {
+    "invalid_json": 0,
+    "non_array_roots": 0,
+    "schema_mismatches": 0,
+    "duplicate_ids": 0,
+    "duplicate_names_within_file": 0,
+    "duplicate_content": 0,
+    "duplicate_keys_within_entry": 0,
+    "duplicate_keys_across_files": 195,
+    "broad_keys": 27,
+    "low_probability": 0,
+    "empty_keys_nonconstant": 0,
+    "keysraw_mismatch": 0,
+    "keywordsraw_mismatch": 0,
+    "unsorted_insertion_order": 0,
+    "long_entries": 21,
+    "large_key_lists": 3,
+    "repeated_rule_blocks": 0,
+    "suspect_filenames": 0
+  }
+}

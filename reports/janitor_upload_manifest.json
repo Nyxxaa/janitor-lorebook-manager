@@ -1,0 +1,143 @@
+{
+  "generated": "2026-07-20",
+  "default_warning_bytes": 409600,
+  "default_cap_bytes": 460800,
+  "files": [
+    {
+      "file": "Kyber RPG 00 - Rules Engine.json",
+      "entries": 31,
+      "source_bytes": 93292,
+      "upload_bytes": 82049,
+      "upload_kb": 80.1,
+      "warning": false,
+      "over_default_cap": false
+    },
+    {
+      "file": "Kyber RPG 01 - Core Continuity.json",
+      "entries": 30,
+      "source_bytes": 43549,
+      "upload_bytes": 35571,
+      "upload_kb": 34.7,
+      "warning": false,
+      "over_default_cap": false
+    },
+    {
+      "file": "Kyber RPG 02 - Eras and History.json",
+      "entries": 280,
+      "source_bytes": 350034,
+      "upload_bytes": 278574,
+      "upload_kb": 272.0,
+      "warning": false,
+      "over_default_cap": false
+    },
+    {
+      "file": "Kyber RPG 03 - Characters.json",
+      "entries": 292,
+      "source_bytes": 383086,
+      "upload_bytes": 310678,
+      "upload_kb": 303.4,
+      "warning": false,
+      "over_default_cap": false
+    },
+    {
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "entries": 188,
+      "source_bytes": 255574,
+      "upload_bytes": 208062,
+      "upload_kb": 203.2,
+      "warning": false,
+      "over_default_cap": false
+    },
+    {
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "entries": 316,
+      "source_bytes": 385788,
+      "upload_bytes": 306476,
+      "upload_kb": 299.3,
+      "warning": false,
+      "over_default_cap": false
+    },
+    {
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "entries": 182,
+      "source_bytes": 224334,
+      "upload_bytes": 179516,
+      "upload_kb": 175.3,
+      "warning": false,
+      "over_default_cap": false
+    },
+    {
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "entries": 178,
+      "source_bytes": 236350,
+      "upload_bytes": 191776,
+      "upload_kb": 187.3,
+      "warning": false,
+      "over_default_cap": false
+    },
+    {
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "entries": 335,
+      "source_bytes": 406047,
+      "upload_bytes": 322396,
+      "upload_kb": 314.8,
+      "warning": false,
+      "over_default_cap": false
+    },
+    {
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "entries": 149,
+      "source_bytes": 177997,
+      "upload_bytes": 141708,
+      "upload_kb": 138.4,
+      "warning": false,
+      "over_default_cap": false
+    },
+    {
+      "file": "Kyber RPG 10 - Force Powers.json",
+      "entries": 167,
+      "source_bytes": 196466,
+      "upload_bytes": 153767,
+      "upload_kb": 150.2,
+      "warning": false,
+      "over_default_cap": false
+    },
+    {
+      "file": "Kyber RPG 11 - Force Orders.json",
+      "entries": 182,
+      "source_bytes": 216941,
+      "upload_bytes": 170251,
+      "upload_kb": 166.3,
+      "warning": false,
+      "over_default_cap": false
+    },
+    {
+      "file": "Kyber RPG 12 - Lightsabers and Kyber.json",
+      "entries": 58,
+      "source_bytes": 70114,
+      "upload_bytes": 55380,
+      "upload_kb": 54.1,
+      "warning": false,
+      "over_default_cap": false
+    },
+    {
+      "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+      "entries": 141,
+      "source_bytes": 174262,
+      "upload_bytes": 138717,
+      "upload_kb": 135.5,
+      "warning": false,
+      "over_default_cap": false
+    },
+    {
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "entries": 122,
+      "source_bytes": 155135,
+      "upload_bytes": 125377,
+      "upload_kb": 122.4,
+      "warning": false,
+      "over_default_cap": false
+    }
+  ],
+  "schema_issues": []
+}

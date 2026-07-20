@@ -1,0 +1,2403 @@
+{
+  "generated": "2026-07-20",
+  "sources": {
+    "official_databank": "https://www.starwars.com/databank/",
+    "official_news": "https://www.starwars.com/news",
+    "wookieepedia": "https://starwars.fandom.com/"
+  },
+  "changes": [
+    {
+      "batch": 5,
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Babu Frik operational profile",
+      "id": "kyber-batch05-char-babu-frik",
+      "continuity": "canon",
+      "keys": [
+        "babu frik profile",
+        "anzellan droidsmith"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Tobias Beckett operational profile",
+      "id": "kyber-batch05-char-beckett",
+      "continuity": "canon",
+      "keys": [
+        "tobias beckett profile",
+        "beckett operational"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Cal Kestis operational profile",
+      "id": "kyber-batch05-char-cal-kestis",
+      "continuity": "canon",
+      "keys": [
+        "cal kestis profile",
+        "cal operational"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Cassian Andor operational profile",
+      "id": "kyber-batch05-char-cassian-andor",
+      "continuity": "canon",
+      "keys": [
+        "cassian andor profile",
+        "cassian operational"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Cere Junda operational profile",
+      "id": "kyber-batch05-char-cere-junda",
+      "continuity": "canon",
+      "keys": [
+        "cere junda profile",
+        "cere operational"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Dryden Vos operational profile",
+      "id": "kyber-batch05-char-dryden-vos",
+      "continuity": "canon",
+      "keys": [
+        "dryden vos profile",
+        "dryden operational"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Enfys Nest operational profile",
+      "id": "kyber-batch05-char-enfys-nest",
+      "continuity": "canon",
+      "keys": [
+        "enfys nest profile",
+        "enfys operational"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Fennec Shand operational profile",
+      "id": "kyber-batch05-char-fennec-shand",
+      "continuity": "canon",
+      "keys": [
+        "fennec shand profile",
+        "fennec operational"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Greez Dritus operational profile",
+      "id": "kyber-batch05-char-greez",
+      "continuity": "canon",
+      "keys": [
+        "greez dritus profile",
+        "greez operational"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Kino Loy operational profile",
+      "id": "kyber-batch05-char-kino-loy",
+      "continuity": "canon",
+      "keys": [
+        "kino loy profile",
+        "kino operational"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Marchion Ro operational profile",
+      "id": "kyber-batch05-char-marchion-ro",
+      "continuity": "canon",
+      "keys": [
+        "marchion ro profile",
+        "marchion operational"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Maz Kanata operational profile",
+      "id": "kyber-batch05-char-maz-kanata",
+      "continuity": "canon",
+      "keys": [
+        "maz kanata profile",
+        "maz operational"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Nien Nunb operational profile",
+      "id": "kyber-batch05-char-nien-nunb",
+      "continuity": "canon/legends",
+      "keys": [
+        "nien nunb profile",
+        "nien operational"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Max Rebo Band operational profile",
+      "id": "kyber-batch05-char-reebo-band",
+      "continuity": "canon/legends",
+      "keys": [
+        "max rebo band profile",
+        "rebo band operational"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 03 - Characters.json",
+      "name": "Master Sol operational profile",
+      "id": "kyber-batch05-char-sol",
+      "continuity": "canon",
+      "keys": [
+        "master sol profile",
+        "sol operational"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "Alderaanian security remnants",
+      "id": "kyber-batch03-faction-aldorande-security",
+      "continuity": "canon/legends",
+      "keys": [
+        "alderaanian security remnant",
+        "alderaanian diaspora cell"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "local resistance cells",
+      "id": "kyber-batch03-faction-askar-cells",
+      "continuity": "canon/legends",
+      "keys": [
+        "local resistance cell",
+        "occupation resistance"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "Banking Clan legal departments",
+      "id": "kyber-batch03-faction-banking-clan-courts",
+      "continuity": "canon/legends",
+      "keys": [
+        "banking clan legal",
+        "intergalactic banking law"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "caravan guilds",
+      "id": "kyber-batch03-faction-caravan-guilds",
+      "continuity": "canon/legends",
+      "keys": [
+        "caravan guild",
+        "convoy guild"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "Church of the Force communities",
+      "id": "kyber-batch03-faction-church-force",
+      "continuity": "canon",
+      "keys": [
+        "church of the force community",
+        "force church cell"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "clone deserter networks",
+      "id": "kyber-batch03-faction-clone-underground",
+      "continuity": "canon/legends",
+      "keys": [
+        "clone deserter network",
+        "clone underground"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "arms cartels",
+      "id": "kyber-batch03-faction-corporate-arms-cartel",
+      "continuity": "canon/legends",
+      "keys": [
+        "arms cartel",
+        "weapons broker network"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "droid liberation cells",
+      "id": "kyber-batch03-faction-droid-liberation",
+      "continuity": "canon/legends",
+      "keys": [
+        "droid liberation cell",
+        "droid emancipation"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "freighter unions",
+      "id": "kyber-batch03-faction-freighter-unions",
+      "continuity": "setting baseline",
+      "keys": [
+        "freighter union",
+        "cargo pilot union"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "Hutt enforcer cadres",
+      "id": "kyber-batch03-faction-hutt-enforcers",
+      "continuity": "canon/legends",
+      "keys": [
+        "hutt enforcer cadre",
+        "kajidic enforcers"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "Imperial medical corps",
+      "id": "kyber-batch03-faction-imperial-medical-corps",
+      "continuity": "canon/legends",
+      "keys": [
+        "imperial medical corps",
+        "imperial triage"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "Jawa clan networks",
+      "id": "kyber-batch03-faction-jawa-clans",
+      "continuity": "canon/legends",
+      "keys": [
+        "jawa clan network",
+        "sandcrawler clan"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "local cartels",
+      "id": "kyber-batch03-faction-local-cartels",
+      "continuity": "canon/legends",
+      "keys": [
+        "local cartel",
+        "planetary cartel"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "medical guilds",
+      "id": "kyber-batch03-faction-medical-guilds",
+      "continuity": "setting baseline",
+      "keys": [
+        "medical guild",
+        "clinic guild"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "pirate confederacies",
+      "id": "kyber-batch03-faction-pirate-confederacies",
+      "continuity": "canon/legends",
+      "keys": [
+        "pirate confederacy",
+        "pirate council"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "port authorities",
+      "id": "kyber-batch03-faction-port-authority",
+      "continuity": "setting baseline",
+      "keys": [
+        "port authority",
+        "starport authority"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "prison gangs",
+      "id": "kyber-batch03-faction-prison-gangs",
+      "continuity": "canon/legends",
+      "keys": [
+        "prison gang",
+        "cellblock faction"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "Rebel intelligence cutouts",
+      "id": "kyber-batch03-faction-rebel-intelligence",
+      "continuity": "canon/legends",
+      "keys": [
+        "rebel intelligence cutout",
+        "alliance intelligence cell"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "salvage clans",
+      "id": "kyber-batch03-faction-salvage-clans",
+      "continuity": "canon/legends",
+      "keys": [
+        "salvage clan",
+        "wrecking clan"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "sector moff courts",
+      "id": "kyber-batch03-faction-sector-moff-court",
+      "continuity": "canon/legends",
+      "keys": [
+        "sector moff court",
+        "moff court"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "shadowport brokers",
+      "id": "kyber-batch03-faction-shadowport-brokers",
+      "continuity": "canon/legends",
+      "keys": [
+        "shadowport broker",
+        "no questions repair"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "slaver guilds",
+      "id": "kyber-batch03-faction-slavers-guilds",
+      "continuity": "canon/legends",
+      "keys": [
+        "slaver guild",
+        "trafficking ring"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "veteran militias",
+      "id": "kyber-batch03-faction-veteran-militias",
+      "continuity": "canon/legends",
+      "keys": [
+        "veteran militia",
+        "demobilized soldiers"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 04 - Factions and Governments.json",
+      "name": "water merchants",
+      "id": "kyber-batch03-faction-water-merchants",
+      "continuity": "canon/legends",
+      "keys": [
+        "water merchant",
+        "moisture cartel"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "Bonadan",
+      "id": "kyber-batch05-world-bonadan",
+      "continuity": "legends primary",
+      "keys": [
+        "bonadan"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "Chandrila political culture",
+      "id": "kyber-batch05-world-chandrila-politics",
+      "continuity": "canon/legends",
+      "keys": [
+        "chandrila politics",
+        "chandrila senate culture"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "Colu",
+      "id": "kyber-batch05-world-colu",
+      "continuity": "legends primary; canon references vary",
+      "keys": [
+        "colu legends",
+        "colu"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "Corellian shipyard districts",
+      "id": "kyber-batch05-world-corellian-shipyards",
+      "continuity": "canon/legends",
+      "keys": [
+        "corellian shipyard district",
+        "corellian shipyards"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "Lothal rural zones",
+      "id": "kyber-batch05-world-lothal-fields",
+      "continuity": "canon",
+      "keys": [
+        "lothal rural",
+        "lothal grasslands"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "Maridun",
+      "id": "kyber-batch05-world-maridun",
+      "continuity": "canon/legends",
+      "keys": [
+        "maridun"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "Oba Diah",
+      "id": "kyber-batch05-world-oba-diah",
+      "continuity": "canon",
+      "keys": [
+        "oba diah"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "Raada",
+      "id": "kyber-batch05-world-raada",
+      "continuity": "canon",
+      "keys": [
+        "raada"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 05 - Worlds and Regions.json",
+      "name": "Rendili",
+      "id": "kyber-batch05-world-rendili",
+      "continuity": "canon/legends",
+      "keys": [
+        "rendili",
+        "rendili shipyards"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Abednedo",
+      "id": "kyber-batch05-species-abednedo",
+      "continuity": "canon",
+      "keys": [
+        "abednedo"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Aleena",
+      "id": "kyber-batch05-species-aleena",
+      "continuity": "canon/legends",
+      "keys": [
+        "aleena"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Bardottans",
+      "id": "kyber-batch05-species-bardottan",
+      "continuity": "canon",
+      "keys": [
+        "bardottan",
+        "bardottans"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Bivall",
+      "id": "kyber-batch05-species-bivall",
+      "continuity": "canon",
+      "keys": [
+        "bivall"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Crolutes",
+      "id": "kyber-batch05-species-crolute",
+      "continuity": "canon",
+      "keys": [
+        "crolute",
+        "crolutes"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Glymphids",
+      "id": "kyber-batch05-species-glymphid",
+      "continuity": "canon/legends",
+      "keys": [
+        "glymphid",
+        "glymphids"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Kyuzo",
+      "id": "kyber-batch05-species-kyuzo",
+      "continuity": "canon/legends",
+      "keys": [
+        "kyuzo"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Lurmen",
+      "id": "kyber-batch05-species-lurmen",
+      "continuity": "canon/legends",
+      "keys": [
+        "lurmen"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Mikkians",
+      "id": "kyber-batch05-species-mikkian",
+      "continuity": "canon/legends",
+      "keys": [
+        "mikkian",
+        "mikkians"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Ongree",
+      "id": "kyber-batch05-species-ongree",
+      "continuity": "canon/legends",
+      "keys": [
+        "ongree"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Pyke species",
+      "id": "kyber-batch05-species-pykes",
+      "continuity": "canon",
+      "keys": [
+        "pyke species",
+        "pyke sentient"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Tarsunt",
+      "id": "kyber-batch05-species-tarsunt",
+      "continuity": "canon",
+      "keys": [
+        "tarsunt"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Teedo species",
+      "id": "kyber-batch05-species-teedo",
+      "continuity": "canon",
+      "keys": [
+        "teedo species",
+        "teedo scavenger"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Tholothians",
+      "id": "kyber-batch05-species-tholothian",
+      "continuity": "canon/legends",
+      "keys": [
+        "tholothian",
+        "tholothians"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Tognath",
+      "id": "kyber-batch05-species-tognath",
+      "continuity": "canon",
+      "keys": [
+        "tognath"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 06 - Species and Cultures.json",
+      "name": "Ugnaughts",
+      "id": "kyber-batch05-species-uggnaut",
+      "continuity": "canon/legends",
+      "keys": [
+        "ugnaught",
+        "ugnaughts"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "arms licensing",
+      "id": "kyber-batch03-society-arms-licensing",
+      "continuity": "canon/legends",
+      "keys": [
+        "arms license",
+        "weapon permit"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "birth records and missing persons",
+      "id": "kyber-batch03-society-birth-records",
+      "continuity": "setting baseline",
+      "keys": [
+        "birth record",
+        "missing person file"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "cargo manifests",
+      "id": "kyber-batch03-society-cargo-manifest",
+      "continuity": "canon/legends",
+      "keys": [
+        "cargo manifest",
+        "shipping manifest"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "caste and status law",
+      "id": "kyber-batch03-society-caste-law",
+      "continuity": "canon/legends",
+      "keys": [
+        "caste law",
+        "status law"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "child labor and street crews",
+      "id": "kyber-batch03-society-child-labor",
+      "continuity": "canon/legends",
+      "keys": [
+        "street crew child",
+        "child courier"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "clone veteran status",
+      "id": "kyber-batch03-society-clone-veterans",
+      "continuity": "canon/legends",
+      "keys": [
+        "clone veteran",
+        "aging clone"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "corporate arbitration",
+      "id": "kyber-batch03-society-corporate-arbitration",
+      "continuity": "setting baseline",
+      "keys": [
+        "corporate arbitration",
+        "company court"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "customs droid searches",
+      "id": "kyber-batch03-society-customs-droid-search",
+      "continuity": "canon/legends",
+      "keys": [
+        "droid customs search",
+        "droid inspection"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "docking queue corruption",
+      "id": "kyber-batch03-society-docking-queue",
+      "continuity": "setting baseline",
+      "keys": [
+        "docking queue",
+        "landing queue"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "chain of custody",
+      "id": "kyber-batch03-society-evidence-chain",
+      "continuity": "setting baseline",
+      "keys": [
+        "chain of custody",
+        "evidence locker"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "family debt leverage",
+      "id": "kyber-batch03-society-family-debt",
+      "continuity": "canon/legends",
+      "keys": [
+        "family debt",
+        "relative leverage"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "food scarcity",
+      "id": "kyber-batch03-society-food-scarcity",
+      "continuity": "canon/legends",
+      "keys": [
+        "food scarcity",
+        "ration line"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "forced informants",
+      "id": "kyber-batch03-society-forced-informant",
+      "continuity": "canon/legends",
+      "keys": [
+        "forced informant",
+        "coerced informant"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "forged medical records",
+      "id": "kyber-batch03-society-forged-medical",
+      "continuity": "setting baseline",
+      "keys": [
+        "forged medical record",
+        "fake quarantine papers"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "freight brokers",
+      "id": "kyber-batch03-society-freight-brokers",
+      "continuity": "setting baseline",
+      "keys": [
+        "freight broker",
+        "cargo broker"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "guild blacklists",
+      "id": "kyber-batch03-society-guild-blacklist",
+      "continuity": "canon/legends",
+      "keys": [
+        "guild blacklist",
+        "blacklisted pilot"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "hospital triage",
+      "id": "kyber-batch03-society-hospital-triage",
+      "continuity": "setting baseline",
+      "keys": [
+        "hospital triage",
+        "clinic triage"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "illegal cybernetics",
+      "id": "kyber-batch03-society-illegal-cybernetics",
+      "continuity": "canon/legends",
+      "keys": [
+        "illegal cybernetics",
+        "black market implant"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "language barriers",
+      "id": "kyber-batch03-society-language-barrier",
+      "continuity": "canon/legends",
+      "keys": [
+        "language barrier",
+        "translation problem"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "loan sharks",
+      "id": "kyber-batch03-society-loan-shark",
+      "continuity": "canon/legends",
+      "keys": [
+        "loan shark",
+        "predatory loan"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "media framing",
+      "id": "kyber-batch03-society-media-frame",
+      "continuity": "canon/legends",
+      "keys": [
+        "media framing",
+        "news holo scandal"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "mercenary contracts",
+      "id": "kyber-batch03-society-mercenary-contracts",
+      "continuity": "canon/legends",
+      "keys": [
+        "mercenary contract",
+        "contract clause"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "port quarantine",
+      "id": "kyber-batch03-society-port-quarantine",
+      "continuity": "canon/legends",
+      "keys": [
+        "port quarantine",
+        "quarantine hold"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "private prisons",
+      "id": "kyber-batch03-society-private-prisons",
+      "continuity": "canon/legends",
+      "keys": [
+        "private prison",
+        "corporate prison"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "proxy ownership",
+      "id": "kyber-batch03-society-proxy-ownership",
+      "continuity": "setting baseline",
+      "keys": [
+        "proxy ownership",
+        "nominee owner"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "public punishment",
+      "id": "kyber-batch03-society-public-execution",
+      "continuity": "canon/legends",
+      "keys": [
+        "public punishment",
+        "public execution"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "refugee documents",
+      "id": "kyber-batch03-society-refugee-documents",
+      "continuity": "canon/legends",
+      "keys": [
+        "refugee document",
+        "ration card"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "safehouse rules",
+      "id": "kyber-batch03-society-safehouse-rules",
+      "continuity": "setting baseline",
+      "keys": [
+        "safehouse rules",
+        "burner route"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "scrap economy",
+      "id": "kyber-batch03-society-scrap-economy",
+      "continuity": "canon/legends",
+      "keys": [
+        "scrap economy",
+        "parts barter"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "security clearances",
+      "id": "kyber-batch03-society-security-clearance",
+      "continuity": "canon/legends",
+      "keys": [
+        "security clearance",
+        "clearance check"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "ship mortgages",
+      "id": "kyber-batch03-society-ship-mortgage",
+      "continuity": "canon/legends",
+      "keys": [
+        "ship mortgage",
+        "ship lien"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "slumlords",
+      "id": "kyber-batch03-society-slumlord",
+      "continuity": "setting baseline",
+      "keys": [
+        "slumlord",
+        "hab eviction"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "hidden compartments law",
+      "id": "kyber-batch03-society-smuggling-compartment",
+      "continuity": "canon/legends",
+      "keys": [
+        "hidden compartment law",
+        "smuggling compartment"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "spice variants",
+      "id": "kyber-batch03-society-spice-types",
+      "continuity": "canon/legends",
+      "keys": [
+        "spice variant",
+        "spice type"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "starvation wages",
+      "id": "kyber-batch03-society-starvation-wages",
+      "continuity": "setting baseline",
+      "keys": [
+        "starvation wage",
+        "company store"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "surveillance state habits",
+      "id": "kyber-batch03-society-surveillance-state",
+      "continuity": "canon/legends",
+      "keys": [
+        "surveillance state",
+        "random audit"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "interrogation records",
+      "id": "kyber-batch03-society-torture-records",
+      "continuity": "canon/legends",
+      "keys": [
+        "interrogation record",
+        "confession file"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 07 - Society Law Economy.json",
+      "name": "transit strikes",
+      "id": "kyber-batch03-society-transit-strike",
+      "continuity": "setting baseline",
+      "keys": [
+        "transit strike",
+        "lift shutdown"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "ARC-170 starfighters",
+      "id": "kyber-batch05-tech-arc-170",
+      "continuity": "canon/legends",
+      "keys": [
+        "arc-170",
+        "arc-170 starfighter"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "AT-DP walkers",
+      "id": "kyber-batch05-tech-at-dp",
+      "continuity": "canon",
+      "keys": [
+        "at-dp",
+        "at-dp walker"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "AT-RT walkers",
+      "id": "kyber-batch05-tech-at-rt",
+      "continuity": "canon/legends",
+      "keys": [
+        "at-rt",
+        "at-rt walker"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "B1 battle droid remnants",
+      "id": "kyber-batch05-tech-b1-maintenance",
+      "continuity": "canon/legends",
+      "keys": [
+        "b1 battle droid remnant",
+        "old b1 droid"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "bacta patches",
+      "id": "kyber-batch05-tech-bacta-patch",
+      "continuity": "canon/legends",
+      "keys": [
+        "bacta patch",
+        "bacta patches"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "burner comlinks",
+      "id": "kyber-batch05-tech-burner-comlink",
+      "continuity": "setting baseline",
+      "keys": [
+        "burner comlink",
+        "disposable comlink"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "scomp links",
+      "id": "kyber-batch05-tech-droid-scomp",
+      "continuity": "canon/legends",
+      "keys": [
+        "scomp link",
+        "scomp socket"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "gaderffii sticks",
+      "id": "kyber-batch05-tech-gaderffii",
+      "continuity": "canon/legends",
+      "keys": [
+        "gaderffii",
+        "gaffi stick"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "holoprojectors",
+      "id": "kyber-batch05-tech-holoprojector",
+      "continuity": "canon/legends",
+      "keys": [
+        "holoprojector",
+        "holo projector"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "magnetic seals",
+      "id": "kyber-batch05-tech-magnetic-seal",
+      "continuity": "setting baseline",
+      "keys": [
+        "magnetic seal",
+        "mag-seal"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "MSE mouse droids",
+      "id": "kyber-batch05-tech-mouse-droid",
+      "continuity": "canon/legends",
+      "keys": [
+        "mouse droid",
+        "mse droid"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "pazaak decks",
+      "id": "kyber-batch05-tech-pazaak",
+      "continuity": "legends primary",
+      "keys": [
+        "pazaak",
+        "pazaak deck"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "personal shields",
+      "id": "kyber-batch05-tech-personal-shield",
+      "continuity": "canon/legends",
+      "keys": [
+        "personal shield",
+        "portable shield"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "repulsor sleds",
+      "id": "kyber-batch05-tech-repulsor-sled",
+      "continuity": "canon/legends",
+      "keys": [
+        "repulsor sled",
+        "hover sled"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "security camera systems",
+      "id": "kyber-batch05-tech-security-cam",
+      "continuity": "setting baseline",
+      "keys": [
+        "security camera system",
+        "camera blind spot"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "sonic weapons",
+      "id": "kyber-batch05-tech-sonic-weapon",
+      "continuity": "canon/legends",
+      "keys": [
+        "sonic weapon",
+        "sonic blaster"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "thermal detonator legality",
+      "id": "kyber-batch05-tech-thermal-detonator-law",
+      "continuity": "canon/legends",
+      "keys": [
+        "thermal detonator legality",
+        "illegal thermal detonator"
+      ]
+    },
+    {
+      "batch": 5,
+      "file": "Kyber RPG 08 - Technology Ships Gear.json",
+      "name": "mechanic toolkits",
+      "id": "kyber-batch05-tech-toolkit",
+      "continuity": "canon/legends",
+      "keys": [
+        "mechanic toolkit",
+        "repair kit"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "airlock failures",
+      "id": "kyber-batch03-hazard-airlock-failure",
+      "continuity": "setting baseline",
+      "keys": [
+        "airlock failure",
+        "airlock malfunction"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "atmosphere mismatch",
+      "id": "kyber-batch03-hazard-atmosphere-mismatch",
+      "continuity": "setting baseline",
+      "keys": [
+        "atmosphere mismatch",
+        "wrong atmosphere"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "forensic blood trails",
+      "id": "kyber-batch03-hazard-blood-trail",
+      "continuity": "setting baseline",
+      "keys": [
+        "forensic blood trail",
+        "blood trace"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "cave-ins and structural collapse",
+      "id": "kyber-batch03-hazard-cave-in",
+      "continuity": "canon/legends",
+      "keys": [
+        "cave-in",
+        "structural collapse"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "contaminated water",
+      "id": "kyber-batch03-hazard-contaminated-water",
+      "continuity": "setting baseline",
+      "keys": [
+        "contaminated water",
+        "tainted water"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "cryogenic leaks",
+      "id": "kyber-batch03-hazard-cryo-leak",
+      "continuity": "setting baseline",
+      "keys": [
+        "cryogenic leak",
+        "flash frost"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "crowd crush",
+      "id": "kyber-batch03-hazard-crowd-crush",
+      "continuity": "setting baseline",
+      "keys": [
+        "crowd crush",
+        "stampede crowd"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "malware traps",
+      "id": "kyber-batch03-hazard-data-trap",
+      "continuity": "setting baseline",
+      "keys": [
+        "malware trap",
+        "hostile datacard"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "decompression sickness",
+      "id": "kyber-batch03-hazard-decompression-sickness",
+      "continuity": "setting baseline",
+      "keys": [
+        "decompression sickness",
+        "pressure injury"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "droid logic plagues",
+      "id": "kyber-batch03-hazard-droid-plague",
+      "continuity": "canon/legends",
+      "keys": [
+        "droid logic plague",
+        "droid virus"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "vertical city fall hazards",
+      "id": "kyber-batch03-hazard-falling-city",
+      "continuity": "setting baseline",
+      "keys": [
+        "vertical city fall",
+        "lift shaft fall"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "fire suppression failure",
+      "id": "kyber-batch03-hazard-fire-suppression",
+      "continuity": "setting baseline",
+      "keys": [
+        "fire suppression failure",
+        "toxic extinguisher gas"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "heatstroke and dehydration",
+      "id": "kyber-batch03-hazard-heatstroke",
+      "continuity": "canon/legends",
+      "keys": [
+        "heatstroke",
+        "dehydration"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "hypothermia",
+      "id": "kyber-batch03-hazard-hypothermia",
+      "continuity": "canon/legends",
+      "keys": [
+        "hypothermia",
+        "cold exposure"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "industrial crane hazards",
+      "id": "kyber-batch03-hazard-magnetic-crane",
+      "continuity": "setting baseline",
+      "keys": [
+        "industrial crane",
+        "magnetic cargo lift"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "minefields and old ordnance",
+      "id": "kyber-batch03-hazard-minefield",
+      "continuity": "canon/legends",
+      "keys": [
+        "minefield",
+        "unexploded ordnance"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "navigation blackout",
+      "id": "kyber-batch03-hazard-navigation-blackout",
+      "continuity": "setting baseline",
+      "keys": [
+        "navigation blackout",
+        "sensor blackout"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "plague ships",
+      "id": "kyber-batch03-hazard-plague-ship",
+      "continuity": "canon/legends",
+      "keys": [
+        "plague ship",
+        "quarantine ship"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "reactor scram emergencies",
+      "id": "kyber-batch03-hazard-reactor-scram",
+      "continuity": "setting baseline",
+      "keys": [
+        "reactor scram",
+        "reactor shutdown"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "riot control weapons",
+      "id": "kyber-batch03-hazard-riot-control",
+      "continuity": "canon/legends",
+      "keys": [
+        "riot control weapons",
+        "stun gas"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "sensor ghosts",
+      "id": "kyber-batch03-hazard-sensor-ghost",
+      "continuity": "setting baseline",
+      "keys": [
+        "sensor ghost",
+        "false sensor contact"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "explosive slave collars",
+      "id": "kyber-batch03-hazard-slave-collar",
+      "continuity": "canon/legends",
+      "keys": [
+        "explosive collar",
+        "slave collar"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "orbital debris fields",
+      "id": "kyber-batch03-hazard-space-debris",
+      "continuity": "canon/legends",
+      "keys": [
+        "orbital debris field",
+        "space debris"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "tibanna gas leaks",
+      "id": "kyber-batch03-hazard-tibanna-leak",
+      "continuity": "canon/legends",
+      "keys": [
+        "tibanna leak",
+        "tibanna gas"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "hab-stack trapdoors",
+      "id": "kyber-batch03-hazard-trapdoor-hab",
+      "continuity": "setting baseline",
+      "keys": [
+        "hab-stack trapdoor",
+        "maintenance drop"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "war-zone trauma triggers",
+      "id": "kyber-batch03-hazard-war-trauma",
+      "continuity": "setting baseline",
+      "keys": [
+        "war trauma trigger",
+        "combat trauma"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "bogwings",
+      "id": "kyber-batch03-creature-bogwing",
+      "continuity": "canon/legends",
+      "keys": [
+        "bogwing",
+        "bogwings"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "bursas",
+      "id": "kyber-batch03-creature-bursa",
+      "continuity": "legends primary",
+      "keys": [
+        "bursa",
+        "bursas"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "maalraas",
+      "id": "kyber-batch03-creature-maalraas",
+      "continuity": "legends primary",
+      "keys": [
+        "maalraas"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "murra",
+      "id": "kyber-batch03-creature-murra",
+      "continuity": "legends primary",
+      "keys": [
+        "murra beast",
+        "murra"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "nerfs",
+      "id": "kyber-batch03-creature-nerf",
+      "continuity": "canon/legends",
+      "keys": [
+        "nerf",
+        "nerfs",
+        "nerf herd"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "orbalisks",
+      "id": "kyber-batch03-creature-orbalisk",
+      "continuity": "legends primary",
+      "keys": [
+        "orbalisk",
+        "orbalisks"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "scurriers",
+      "id": "kyber-batch03-creature-scurrier",
+      "continuity": "canon/legends",
+      "keys": [
+        "scurrier",
+        "scurriers"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "storm beasts",
+      "id": "kyber-batch03-creature-storm-beast",
+      "continuity": "legends primary",
+      "keys": [
+        "storm beast",
+        "storm beasts"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "strills",
+      "id": "kyber-batch03-creature-strill",
+      "continuity": "legends primary",
+      "keys": [
+        "strill",
+        "strills"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "tuk'ata",
+      "id": "kyber-batch03-creature-tukata",
+      "continuity": "legends primary",
+      "keys": [
+        "tuk'ata",
+        "sith hound"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "voxyn",
+      "id": "kyber-batch03-creature-voxyn",
+      "continuity": "legends primary",
+      "keys": [
+        "voxyn"
+      ]
+    },
+    {
+      "batch": 3,
+      "file": "Kyber RPG 09 - Creatures and Hazards.json",
+      "name": "ysalamiri handling hazards",
+      "id": "kyber-batch03-creature-ysalamiri-counter",
+      "continuity": "legends primary",
+      "keys": [
+        "ysalamiri handling",
+        "ysalamiri nutrient frame"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 10 - Force Powers.json",
+      "name": "battle meditation costs",
+      "id": "kyber-batch04-power-battle-meditation-cost",
+      "continuity": "canon/legends",
+      "keys": [
+        "battle meditation cost",
+        "battle meditation risk"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 10 - Force Powers.json",
+      "name": "beast control limits",
+      "id": "kyber-batch04-power-beast-control-limits",
+      "continuity": "canon/legends",
+      "keys": [
+        "beast control limit",
+        "force calm beast"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 10 - Force Powers.json",
+      "name": "Force barriers",
+      "id": "kyber-batch04-power-force-barrier",
+      "continuity": "canon/legends",
+      "keys": [
+        "force barrier",
+        "force shield technique"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 10 - Force Powers.json",
+      "name": "Force drain costs",
+      "id": "kyber-batch04-power-force-drain-cost",
+      "continuity": "legends primary",
+      "keys": [
+        "force drain cost",
+        "dark side drain"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 10 - Force Powers.json",
+      "name": "Force listening",
+      "id": "kyber-batch04-power-force-listening",
+      "continuity": "canon/legends",
+      "keys": [
+        "force listening",
+        "listen through the force"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 10 - Force Powers.json",
+      "name": "Force healing price",
+      "id": "kyber-batch04-power-healing-price",
+      "continuity": "canon",
+      "keys": [
+        "force healing price",
+        "healing transfers life"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 10 - Force Powers.json",
+      "name": "mind trick limits",
+      "id": "kyber-batch04-power-mind-trick-limits",
+      "continuity": "canon/legends",
+      "keys": [
+        "mind trick limit",
+        "jedi mind trick limit"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 10 - Force Powers.json",
+      "name": "precognition noise",
+      "id": "kyber-batch04-power-precognition-noise",
+      "continuity": "canon/legends",
+      "keys": [
+        "precognition noise",
+        "future sight noise"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 11 - Force Orders.json",
+      "name": "Altisian Jedi",
+      "id": "kyber-batch04-order-altisian-jedi",
+      "continuity": "legends primary",
+      "keys": [
+        "altisian jedi",
+        "djinn altis"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 11 - Force Orders.json",
+      "name": "Bendu tradition",
+      "id": "kyber-batch04-order-bendu",
+      "continuity": "canon",
+      "keys": [
+        "bendu tradition",
+        "the bendu"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 11 - Force Orders.json",
+      "name": "Disciples of Ragnos",
+      "id": "kyber-batch04-order-disciples-ragnos",
+      "continuity": "legends primary",
+      "keys": [
+        "disciples of ragnos",
+        "ragnos cult"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 11 - Force Orders.json",
+      "name": "Corellian Green Jedi",
+      "id": "kyber-batch04-order-green-jedi",
+      "continuity": "legends primary",
+      "keys": [
+        "green jedi",
+        "corellian jedi"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 11 - Force Orders.json",
+      "name": "Kilian Rangers",
+      "id": "kyber-batch04-order-kilian-rangers",
+      "continuity": "legends primary",
+      "keys": [
+        "kilian rangers",
+        "kilian ranger"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 11 - Force Orders.json",
+      "name": "Mind Walkers",
+      "id": "kyber-batch04-order-mind-walkers",
+      "continuity": "legends primary",
+      "keys": [
+        "mind walkers",
+        "beyond shadows"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 11 - Force Orders.json",
+      "name": "Nightsister clan distinctions",
+      "id": "kyber-batch04-order-nightsister-clans",
+      "continuity": "canon/legends",
+      "keys": [
+        "nightsister clan distinction",
+        "dathomiri clans"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 11 - Force Orders.json",
+      "name": "Order 66 survivor cells",
+      "id": "kyber-batch04-order-order-66-survivor-cells",
+      "continuity": "canon/legends",
+      "keys": [
+        "order 66 survivor cell",
+        "jedi survivor network"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 11 - Force Orders.json",
+      "name": "Zeffo sages",
+      "id": "kyber-batch04-order-zeffo-sages",
+      "continuity": "canon",
+      "keys": [
+        "zeffo sages",
+        "zeffo tomb"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 12 - Lightsabers and Kyber.json",
+      "name": "crossguard lightsabers",
+      "id": "kyber-batch04-saber-crossguard",
+      "continuity": "canon/legends",
+      "keys": [
+        "crossguard lightsaber",
+        "quillon lightsaber"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 12 - Lightsabers and Kyber.json",
+      "name": "curved-hilt lightsabers",
+      "id": "kyber-batch04-saber-curved-hilt",
+      "continuity": "canon/legends",
+      "keys": [
+        "curved-hilt lightsaber",
+        "dueling hilt"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 12 - Lightsabers and Kyber.json",
+      "name": "double-bladed lightsabers",
+      "id": "kyber-batch04-saber-double-bladed",
+      "continuity": "canon/legends",
+      "keys": [
+        "double-bladed lightsaber",
+        "saberstaff"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 12 - Lightsabers and Kyber.json",
+      "name": "training sabers",
+      "id": "kyber-batch04-saber-training",
+      "continuity": "canon/legends",
+      "keys": [
+        "training saber",
+        "training lightsaber"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 12 - Lightsabers and Kyber.json",
+      "name": "lightsabers underwater",
+      "id": "kyber-batch04-saber-underwater",
+      "continuity": "canon/legends",
+      "keys": [
+        "lightsaber underwater",
+        "waterproof lightsaber"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 12 - Lightsabers and Kyber.json",
+      "name": "lightwhips",
+      "id": "kyber-batch04-saber-whip",
+      "continuity": "canon/legends",
+      "keys": [
+        "lightwhip",
+        "lightwhips"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+      "name": "ancient Force maps",
+      "id": "kyber-batch04-force-ancient-map",
+      "continuity": "canon/legends",
+      "keys": [
+        "ancient force map",
+        "temple star map"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+      "name": "Force bloodline myths",
+      "id": "kyber-batch04-force-bloodline-myth",
+      "continuity": "canon/legends",
+      "keys": [
+        "force bloodline myth",
+        "force lineage"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+      "name": "buried Jedi temples",
+      "id": "kyber-batch04-force-buried-temple",
+      "continuity": "canon/legends",
+      "keys": [
+        "buried jedi temple",
+        "lost jedi temple"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+      "name": "corrupted kyber sites",
+      "id": "kyber-batch04-force-corrupted-kyber",
+      "continuity": "canon/legends",
+      "keys": [
+        "corrupted kyber site",
+        "bled kyber mine"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+      "name": "Force cult frauds",
+      "id": "kyber-batch04-force-cult-fraud",
+      "continuity": "canon/legends",
+      "keys": [
+        "force cult fraud",
+        "fake force cult"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+      "name": "psychometric objects",
+      "id": "kyber-batch04-force-echo-object",
+      "continuity": "canon/legends",
+      "keys": [
+        "psychometric object",
+        "object echo"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+      "name": "essence transfer risks",
+      "id": "kyber-batch04-force-essence-transfer-risk",
+      "continuity": "canon/legends",
+      "keys": [
+        "essence transfer risk",
+        "sith essence transfer"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+      "name": "exile shrines",
+      "id": "kyber-batch04-force-exile-shrine",
+      "continuity": "canon/legends",
+      "keys": [
+        "exile shrine",
+        "hidden force shrine"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+      "name": "false vergences",
+      "id": "kyber-batch04-force-false-vergence",
+      "continuity": "setting baseline",
+      "keys": [
+        "false vergence",
+        "fake force nexus"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+      "name": "holocron traps",
+      "id": "kyber-batch04-force-holocron-trap",
+      "continuity": "canon/legends",
+      "keys": [
+        "holocron trap",
+        "locked holocron"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+      "name": "kyber withdrawal symptoms",
+      "id": "kyber-batch04-force-kyber-withdrawal",
+      "continuity": "original setting-compatible",
+      "keys": [
+        "kyber withdrawal",
+        "kyber exposure sickness"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+      "name": "memory-rubbed ruins",
+      "id": "kyber-batch04-force-memory-rub",
+      "continuity": "legends-adjacent",
+      "keys": [
+        "memory-rubbed ruin",
+        "erased jedi archive"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+      "name": "Nameless aftermath",
+      "id": "kyber-batch04-force-nameless-aftermath",
+      "continuity": "canon",
+      "keys": [
+        "nameless aftermath",
+        "force eater aftermath"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+      "name": "prophecy fragments",
+      "id": "kyber-batch04-force-prophecy-fragment",
+      "continuity": "canon/legends",
+      "keys": [
+        "prophecy fragment",
+        "damaged prophecy"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+      "name": "Sith tomb atmospherics",
+      "id": "kyber-batch04-force-sith-tomb-air",
+      "continuity": "canon/legends",
+      "keys": [
+        "sith tomb atmosphere",
+        "sith tomb air"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+      "name": "shared visions",
+      "id": "kyber-batch04-force-vision-contagion",
+      "continuity": "canon/legends",
+      "keys": [
+        "shared vision",
+        "vision contagion"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Sith species caste detail",
+      "id": "kyber-batch04-legends-bearer-sith",
+      "continuity": "legends primary",
+      "keys": [
+        "sith species caste",
+        "ancient sith species"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Celestial machines",
+      "id": "kyber-batch04-legends-celestial-machines",
+      "continuity": "legends primary",
+      "keys": [
+        "celestial machine",
+        "architect machine"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Corellian system origin legends",
+      "id": "kyber-batch04-legends-corellian-system-origin",
+      "continuity": "legends primary",
+      "keys": [
+        "corellian system origin",
+        "corellian ancient engineering"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Dark Underlord",
+      "id": "kyber-batch04-legends-dark-underlord",
+      "continuity": "legends primary",
+      "keys": [
+        "dark underlord"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Desann and Reborn",
+      "id": "kyber-batch04-legends-desann",
+      "continuity": "legends primary",
+      "keys": [
+        "desann",
+        "reborn dark jedi"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Freedon Nadd legacy",
+      "id": "kyber-batch04-legends-freedon-nadd",
+      "continuity": "legends primary",
+      "keys": [
+        "freedon nadd legacy",
+        "naddist"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Golden Age of the Sith detail",
+      "id": "kyber-batch04-legends-golden-age-sith",
+      "continuity": "legends primary",
+      "keys": [
+        "golden age sith detail",
+        "ancient sith empire detail"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Hundred-Year Darkness",
+      "id": "kyber-batch04-legends-hundred-year-darkness",
+      "continuity": "legends primary",
+      "keys": [
+        "hundred-year darkness",
+        "second great schism"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Jaden Korr",
+      "id": "kyber-batch04-legends-jaden-korr",
+      "continuity": "legends primary",
+      "keys": [
+        "jaden korr"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Karness Muur",
+      "id": "kyber-batch04-legends-karness-muur",
+      "continuity": "legends primary",
+      "keys": [
+        "karness muur",
+        "muur legacy"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Kyle Katarn",
+      "id": "kyber-batch04-legends-kyle-katarn",
+      "continuity": "legends primary",
+      "keys": [
+        "kyle katarn"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Lumiya",
+      "id": "kyber-batch04-legends-lumiya",
+      "continuity": "legends primary",
+      "keys": [
+        "lumiya",
+        "shira brie"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Naga Sadow",
+      "id": "kyber-batch04-legends-naga-sadow",
+      "continuity": "legends primary",
+      "keys": [
+        "naga sadow detail",
+        "sadow tomb"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Canderous Ordo",
+      "id": "kyber-batch04-legends-ordo-canderous",
+      "continuity": "legends primary",
+      "keys": [
+        "canderous ordo",
+        "mandalore the preserver"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Marka Ragnos",
+      "id": "kyber-batch04-legends-ragnos",
+      "continuity": "legends primary",
+      "keys": [
+        "marka ragnos detail",
+        "ragnos spirit"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Sith purebloods",
+      "id": "kyber-batch04-legends-sith-pureblood",
+      "continuity": "legends primary",
+      "keys": [
+        "sith pureblood",
+        "sith purebloods"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Sunrider family",
+      "id": "kyber-batch04-legends-sunrider-family",
+      "continuity": "legends primary",
+      "keys": [
+        "sunrider family",
+        "vima sunrider"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Tales of the Jedi era",
+      "id": "kyber-batch04-legends-tales-jedi-era",
+      "continuity": "legends primary",
+      "keys": [
+        "tales of the jedi era",
+        "totj era"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Valley of the Jedi legends",
+      "id": "kyber-batch04-legends-valley-jedi",
+      "continuity": "legends primary",
+      "keys": [
+        "valley of the jedi legends",
+        "ruusan valley"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Vima-Da-Boda",
+      "id": "kyber-batch04-legends-vima-da-boda",
+      "continuity": "legends primary",
+      "keys": [
+        "vima-da-boda",
+        "vima da boda"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Mandalore title legends",
+      "id": "kyber-batch04-legends-warrior-castes",
+      "continuity": "legends primary",
+      "keys": [
+        "mandalore title legends",
+        "mandalore title"
+      ]
+    },
+    {
+      "batch": 4,
+      "file": "Kyber RPG 14 - Legends Supplements.json",
+      "name": "Xizor power base",
+      "id": "kyber-batch04-legends-xizor-palace",
+      "continuity": "legends primary",
+      "keys": [
+        "xizor power base",
+        "black sun palace"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "name": "Janitor Lorebook Manager",
+  "description": "Validate, preview, back up, and assist-sync lorebooks into Janitor AI from GitHub or local files.",
+  "version": "0.1.0",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "unlimitedStorage"
+  ],
+  "host_permissions": [
+    "https://janitorai.com/*",
+    "https://*.janitorai.com/*",
+    "https://raw.githubusercontent.com/*",
+    "https://github.com/*"
+  ],
+  "background": {
+    "service_worker": "service_worker.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "Janitor Lorebook Manager",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://janitorai.com/*",
+        "https://*.janitorai.com/*"
+      ],
+      "js": [
+        "content_script.js"
+      ],
+      "css": [
+        "content.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
