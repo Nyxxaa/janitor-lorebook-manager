@@ -3,17 +3,31 @@
   "root": "C:\\Users\\andar\\OneDrive\\Documents\\Star Wars",
   "files": [
     {
-      "file": "Kyber RPG 00 - Rules Engine.json",
-      "bytes": 93292,
-      "entries": 31,
-      "constant_entries": 3,
-      "enabled_entries": 31,
-      "keys": 502,
-      "single_word_keys": 287,
+      "file": "janitor_sync_manifest.json",
+      "bytes": 7643,
+      "entries": 0,
+      "constant_entries": 0,
+      "enabled_entries": 0,
+      "keys": 0,
+      "single_word_keys": 0,
       "regex_keys": 0,
-      "estimated_content_tokens": 11324,
+      "estimated_content_tokens": 0,
+      "categories": {},
+      "top_long_entries": [],
+      "top_key_count_entries": []
+    },
+    {
+      "file": "Kyber RPG 00 - Rules Engine.json",
+      "bytes": 101770,
+      "entries": 35,
+      "constant_entries": 5,
+      "enabled_entries": 35,
+      "keys": 526,
+      "single_word_keys": 295,
+      "regex_keys": 0,
+      "estimated_content_tokens": 12299,
       "categories": {
-        "kyber_rpg_rules_engine": 31
+        "kyber_rpg_rules_engine": 35
       },
       "top_long_entries": [
         {
@@ -298,18 +312,22 @@
     },
     {
       "file": "Kyber RPG 03 - Characters.json",
-      "bytes": 383086,
-      "entries": 292,
+      "bytes": 386079,
+      "entries": 293,
       "constant_entries": 0,
-      "enabled_entries": 292,
-      "keys": 622,
-      "single_word_keys": 68,
+      "enabled_entries": 293,
+      "keys": 628,
+      "single_word_keys": 69,
       "regex_keys": 0,
-      "estimated_content_tokens": 25383,
+      "estimated_content_tokens": 25841,
       "categories": {
-        "kyber_rpg_characters": 292
+        "kyber_rpg_characters": 293
       },
       "top_long_entries": [
+        {
+          "name": "darth vader",
+          "estimated_tokens": 458
+        },
         {
           "name": "mon mothma andor era",
           "estimated_tokens": 160
@@ -345,13 +363,13 @@
         {
           "name": "palpatine",
           "estimated_tokens": 136
-        },
-        {
-          "name": "darth maul",
-          "estimated_tokens": 136
         }
       ],
       "top_key_count_entries": [
+        {
+          "name": "darth vader",
+          "keys": 6
+        },
         {
           "name": "jod na nawood",
           "keys": 4
@@ -386,10 +404,6 @@
         },
         {
           "name": "darth maul",
-          "keys": 3
-        },
-        {
-          "name": "general grievous",
           "keys": 3
         }
       ]
@@ -1474,18 +1488,23 @@
     }
   ],
   "totals": {
-    "files": 15,
-    "entries": 2651,
-    "constant_entries": 3,
-    "enabled_entries": 2651,
-    "keys": 6677,
-    "single_word_keys": 1237,
+    "files": 16,
+    "entries": 2656,
+    "constant_entries": 5,
+    "enabled_entries": 2656,
+    "keys": 6707,
+    "single_word_keys": 1246,
     "regex_keys": 0,
-    "estimated_content_tokens": 174349
+    "estimated_content_tokens": 175782
   },
   "issues": {
     "invalid_json": [],
-    "non_array_roots": [],
+    "non_array_roots": [
+      {
+        "file": "janitor_sync_manifest.json",
+        "root_type": "dict"
+      }
+    ],
     "schema_mismatches": [],
     "duplicate_ids": [],
     "duplicate_names_within_file": [],
@@ -1513,7 +1532,7 @@
           },
           {
             "file": "Kyber RPG 00 - Rules Engine.json",
-            "index": 29,
+            "index": 33,
             "name": "SECTION 29 — NARRATIVE RESULT TEMPLATES",
             "id": "swffg-2900-c6dc3d98"
           }
@@ -1534,7 +1553,7 @@
           },
           {
             "file": "Kyber RPG 00 - Rules Engine.json",
-            "index": 29,
+            "index": 33,
             "name": "SECTION 29 — NARRATIVE RESULT TEMPLATES",
             "id": "swffg-2900-c6dc3d98"
           }
@@ -1561,7 +1580,7 @@
           },
           {
             "file": "Kyber RPG 00 - Rules Engine.json",
-            "index": 29,
+            "index": 33,
             "name": "SECTION 29 — NARRATIVE RESULT TEMPLATES",
             "id": "swffg-2900-c6dc3d98"
           }
@@ -1639,6 +1658,34 @@
         ]
       },
       {
+        "key": "darth vader",
+        "count": 3,
+        "files": [
+          "Kyber RPG 00 - Rules Engine.json",
+          "Kyber RPG 03 - Characters.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 00 - Rules Engine.json",
+            "index": 13,
+            "name": "SECTION 13 — MINIONS, RIVALS, AND NEMESES",
+            "id": "swffg-1300-afac6b52"
+          },
+          {
+            "file": "Kyber RPG 00 - Rules Engine.json",
+            "index": 15,
+            "name": "SECTION 15 — FEAR, DISCIPLINE, AND MENTAL PRESSURE",
+            "id": "swffg-1500-74e3c70d"
+          },
+          {
+            "file": "Kyber RPG 03 - Characters.json",
+            "index": 6,
+            "name": "darth vader",
+            "id": "kyber-vader-operational-profile"
+          }
+        ]
+      },
+      {
         "key": "palpatine",
         "count": 3,
         "files": [
@@ -1660,7 +1707,7 @@
           },
           {
             "file": "Kyber RPG 03 - Characters.json",
-            "index": 7,
+            "index": 8,
             "name": "palpatine",
             "id": "cbca24f9-19ea-5ad3-aff7-b2aa84fad069"
           }
@@ -1989,7 +2036,7 @@
         "locations": [
           {
             "file": "Kyber RPG 00 - Rules Engine.json",
-            "index": 26,
+            "index": 27,
             "name": "SECTION 26 — DROID CHARACTERS, CYBERNETICS, AND SPECIAL BIOLOGIES",
             "id": "swffg-2600-83905580"
           },
@@ -2011,7 +2058,7 @@
         "locations": [
           {
             "file": "Kyber RPG 00 - Rules Engine.json",
-            "index": 26,
+            "index": 27,
             "name": "SECTION 26 — DROID CHARACTERS, CYBERNETICS, AND SPECIAL BIOLOGIES",
             "id": "swffg-2600-83905580"
           },
@@ -2020,6 +2067,50 @@
             "index": 189,
             "name": "restraining bolts",
             "id": "f93b5bed-1ed2-5e55-a553-625f8a7aeee2"
+          }
+        ]
+      },
+      {
+        "key": "death star plans",
+        "count": 2,
+        "files": [
+          "Kyber RPG 00 - Rules Engine.json",
+          "Kyber RPG 02 - Eras and History.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 00 - Rules Engine.json",
+            "index": 32,
+            "name": "SECTION 28C - FUTURE KNOWLEDGE AND META MEDIA",
+            "id": "swffg-2820-future-knowledge-meta-media"
+          },
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 10,
+            "name": "rogue one and death star plans",
+            "id": "f9d0c4a2-afd6-5f29-91aa-a836cbfbd3cc"
+          }
+        ]
+      },
+      {
+        "key": "order 66",
+        "count": 2,
+        "files": [
+          "Kyber RPG 00 - Rules Engine.json",
+          "Kyber RPG 02 - Eras and History.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 00 - Rules Engine.json",
+            "index": 32,
+            "name": "SECTION 28C - FUTURE KNOWLEDGE AND META MEDIA",
+            "id": "swffg-2820-future-knowledge-meta-media"
+          },
+          {
+            "file": "Kyber RPG 02 - Eras and History.json",
+            "index": 41,
+            "name": "order 66",
+            "id": "ce3f58cf-5414-5e05-8c23-8b7dd81398c9"
           }
         ]
       },
@@ -2359,7 +2450,7 @@
           },
           {
             "file": "Kyber RPG 03 - Characters.json",
-            "index": 38,
+            "index": 39,
             "name": "marchion ro",
             "id": "dab6d314-3dfd-5381-9ebd-f58a8755bd22"
           }
@@ -2541,7 +2632,7 @@
           },
           {
             "file": "Kyber RPG 03 - Characters.json",
-            "index": 148,
+            "index": 149,
             "name": "snoke",
             "id": "d004c2be-d06a-5ff9-8096-836427fede8f"
           }
@@ -2563,7 +2654,7 @@
           },
           {
             "file": "Kyber RPG 03 - Characters.json",
-            "index": 31,
+            "index": 32,
             "name": "kylo ren",
             "id": "afe7e43f-1167-5758-9d84-be301e4b56f3"
           }
@@ -2585,7 +2676,7 @@
           },
           {
             "file": "Kyber RPG 03 - Characters.json",
-            "index": 6,
+            "index": 7,
             "name": "padme amidala",
             "id": "a9272e0e-19de-5979-8a8d-71e287ba22a5"
           }
@@ -2695,7 +2786,7 @@
           },
           {
             "file": "Kyber RPG 03 - Characters.json",
-            "index": 140,
+            "index": 141,
             "name": "galen erso",
             "id": "e5484fda-2db8-5c17-8ef0-21a2fc7f883b"
           }
@@ -2717,7 +2808,7 @@
           },
           {
             "file": "Kyber RPG 03 - Characters.json",
-            "index": 26,
+            "index": 27,
             "name": "din djarin",
             "id": "4de76e3c-6c39-5fd1-a57d-a48a2c0a2f30"
           }
@@ -2739,7 +2830,7 @@
           },
           {
             "file": "Kyber RPG 03 - Characters.json",
-            "index": 27,
+            "index": 28,
             "name": "grogu",
             "id": "1bcfabfe-f4e3-5a7b-b48c-95d1434114d2"
           }
@@ -2761,7 +2852,7 @@
           },
           {
             "file": "Kyber RPG 03 - Characters.json",
-            "index": 116,
+            "index": 117,
             "name": "moff gideon",
             "id": "422cc1ac-5531-547d-83c2-b5c4ff1b43a1"
           }
@@ -2827,7 +2918,7 @@
           },
           {
             "file": "Kyber RPG 03 - Characters.json",
-            "index": 21,
+            "index": 22,
             "name": "grand admiral thrawn",
             "id": "2349b8e5-7a9a-59de-8440-4cd4b6411385"
           }
@@ -2849,7 +2940,7 @@
           },
           {
             "file": "Kyber RPG 03 - Characters.json",
-            "index": 22,
+            "index": 23,
             "name": "ezra bridger",
             "id": "6abf2165-a0a5-5af9-bda1-7e92bb633ce3"
           }
@@ -3340,6 +3431,28 @@
         ]
       },
       {
+        "key": "fortress vader",
+        "count": 2,
+        "files": [
+          "Kyber RPG 03 - Characters.json",
+          "Kyber RPG 05 - Worlds and Regions.json"
+        ],
+        "locations": [
+          {
+            "file": "Kyber RPG 03 - Characters.json",
+            "index": 6,
+            "name": "darth vader",
+            "id": "kyber-vader-operational-profile"
+          },
+          {
+            "file": "Kyber RPG 05 - Worlds and Regions.json",
+            "index": 11,
+            "name": "mustafar",
+            "id": "8ad9f6df-19c7-54f2-8df9-08ad35c5ce96"
+          }
+        ]
+      },
+      {
         "key": "poe dameron",
         "count": 2,
         "files": [
@@ -3349,7 +3462,7 @@
         "locations": [
           {
             "file": "Kyber RPG 03 - Characters.json",
-            "index": 30,
+            "index": 31,
             "name": "poe dameron",
             "id": "887d931d-2473-53ec-8d8b-ea50642c5be1"
           },
@@ -3371,7 +3484,7 @@
         "locations": [
           {
             "file": "Kyber RPG 03 - Characters.json",
-            "index": 72,
+            "index": 73,
             "name": "bendu",
             "id": "06f6d9fa-3366-5815-b357-103a1766cf87"
           },
@@ -3393,7 +3506,7 @@
         "locations": [
           {
             "file": "Kyber RPG 03 - Characters.json",
-            "index": 72,
+            "index": 73,
             "name": "bendu",
             "id": "06f6d9fa-3366-5815-b357-103a1766cf87"
           },
@@ -3415,7 +3528,7 @@
         "locations": [
           {
             "file": "Kyber RPG 03 - Characters.json",
-            "index": 97,
+            "index": 98,
             "name": "commander bacara",
             "id": "57e891d7-135b-5a39-831d-f7605cd427b2"
           },
@@ -3437,7 +3550,7 @@
         "locations": [
           {
             "file": "Kyber RPG 03 - Characters.json",
-            "index": 122,
+            "index": 123,
             "name": "ursa wren",
             "id": "5a29d40e-205a-5404-b2fa-cc5668139032"
           },
@@ -3459,7 +3572,7 @@
         "locations": [
           {
             "file": "Kyber RPG 03 - Characters.json",
-            "index": 149,
+            "index": 150,
             "name": "captain phasma",
             "id": "079b5f63-ae15-58d0-954f-a189655b9cde"
           },
@@ -3481,7 +3594,7 @@
         "locations": [
           {
             "file": "Kyber RPG 03 - Characters.json",
-            "index": 150,
+            "index": 151,
             "name": "general hux",
             "id": "48ccb763-2c3a-512a-9186-98448fe3cfd5"
           },
@@ -3503,7 +3616,7 @@
         "locations": [
           {
             "file": "Kyber RPG 03 - Characters.json",
-            "index": 176,
+            "index": 177,
             "name": "carson teva",
             "id": "2c1e10a3-82c4-5e43-8219-4d93de56dace"
           },
@@ -6019,28 +6132,28 @@
       },
       {
         "file": "Kyber RPG 00 - Rules Engine.json",
-        "index": 25,
+        "index": 26,
         "name": "SECTION 25 — TALENTS, CAREERS, SPECIALIZATIONS, AND EXPERIENCE",
         "id": "swffg-2500-83d3eda4",
         "key": "career"
       },
       {
         "file": "Kyber RPG 00 - Rules Engine.json",
-        "index": 29,
+        "index": 33,
         "name": "SECTION 29 — NARRATIVE RESULT TEMPLATES",
         "id": "swffg-2900-c6dc3d98",
         "key": "success"
       },
       {
         "file": "Kyber RPG 00 - Rules Engine.json",
-        "index": 29,
+        "index": 33,
         "name": "SECTION 29 — NARRATIVE RESULT TEMPLATES",
         "id": "swffg-2900-c6dc3d98",
         "key": "failure"
       },
       {
         "file": "Kyber RPG 00 - Rules Engine.json",
-        "index": 29,
+        "index": 33,
         "name": "SECTION 29 — NARRATIVE RESULT TEMPLATES",
         "id": "swffg-2900-c6dc3d98",
         "key": "threat"
@@ -6205,27 +6318,43 @@
       },
       {
         "file": "Kyber RPG 00 - Rules Engine.json",
-        "index": 25,
+        "index": 26,
         "name": "SECTION 25 — TALENTS, CAREERS, SPECIALIZATIONS, AND EXPERIENCE",
         "id": "swffg-2500-83d3eda4",
         "estimated_tokens": 304,
-        "line": 1308
-      },
-      {
-        "file": "Kyber RPG 00 - Rules Engine.json",
-        "index": 28,
-        "name": "SECTION 28 — GM AND NARRATOR OPERATING RULES",
-        "id": "swffg-2800-ddd93d59",
-        "estimated_tokens": 1163,
-        "line": 1450
+        "line": 1354
       },
       {
         "file": "Kyber RPG 00 - Rules Engine.json",
         "index": 29,
+        "name": "SECTION 28 — GM AND NARRATOR OPERATING RULES",
+        "id": "swffg-2800-ddd93d59",
+        "estimated_tokens": 1163,
+        "line": 1496
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 30,
+        "name": "SECTION 28A - MANDATORY CHECK GATE",
+        "id": "swffg-2805-mandatory-check-gate",
+        "estimated_tokens": 308,
+        "line": 1531
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "index": 33,
         "name": "SECTION 29 — NARRATIVE RESULT TEMPLATES",
         "id": "swffg-2900-c6dc3d98",
         "estimated_tokens": 317,
-        "line": 1506
+        "line": 1670
+      },
+      {
+        "file": "Kyber RPG 03 - Characters.json",
+        "index": 6,
+        "name": "darth vader",
+        "id": "kyber-vader-operational-profile",
+        "estimated_tokens": 458,
+        "line": 250
       }
     ],
     "large_key_lists": [
@@ -6247,11 +6376,11 @@
       },
       {
         "file": "Kyber RPG 00 - Rules Engine.json",
-        "index": 29,
+        "index": 33,
         "name": "SECTION 29 — NARRATIVE RESULT TEMPLATES",
         "id": "swffg-2900-c6dc3d98",
         "key_count": 22,
-        "line": 1506
+        "line": 1670
       }
     ],
     "repeated_rule_blocks": [],
@@ -6259,20 +6388,20 @@
   },
   "issue_counts": {
     "invalid_json": 0,
-    "non_array_roots": 0,
+    "non_array_roots": 1,
     "schema_mismatches": 0,
     "duplicate_ids": 0,
     "duplicate_names_within_file": 0,
     "duplicate_content": 0,
     "duplicate_keys_within_entry": 0,
-    "duplicate_keys_across_files": 195,
+    "duplicate_keys_across_files": 199,
     "broad_keys": 27,
     "low_probability": 0,
     "empty_keys_nonconstant": 0,
     "keysraw_mismatch": 0,
     "keywordsraw_mismatch": 0,
     "unsorted_insertion_order": 0,
-    "long_entries": 21,
+    "long_entries": 23,
     "large_key_lists": 3,
     "repeated_rule_blocks": 0,
     "suspect_filenames": 0

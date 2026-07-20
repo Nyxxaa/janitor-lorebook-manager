@@ -4,21 +4,21 @@ Generated: 2026-07-20
 
 ## Summary
 
-- JSON lorebook files: 15
-- Entries: 2651
-- Enabled entries: 2651
-- Constant entries: 3
-- Activation keys: 6677
-- Single-word keys: 1237
+- JSON lorebook files: 16
+- Entries: 2656
+- Enabled entries: 2656
+- Constant entries: 5
+- Activation keys: 6707
+- Single-word keys: 1246
 - Regex keys: 0
-- Estimated lore content tokens if fully loaded: 174349
+- Estimated lore content tokens if fully loaded: 175782
 
 ## Issue Counts
 
 - broad_keys: 27
 - duplicate_content: 0
 - duplicate_ids: 0
-- duplicate_keys_across_files: 195
+- duplicate_keys_across_files: 199
 - duplicate_keys_within_entry: 0
 - duplicate_names_within_file: 0
 - empty_keys_nonconstant: 0
@@ -26,9 +26,9 @@ Generated: 2026-07-20
 - keysraw_mismatch: 0
 - keywordsraw_mismatch: 0
 - large_key_lists: 3
-- long_entries: 21
+- long_entries: 23
 - low_probability: 0
-- non_array_roots: 0
+- non_array_roots: 1
 - repeated_rule_blocks: 0
 - schema_mismatches: 0
 - suspect_filenames: 0
@@ -38,10 +38,11 @@ Generated: 2026-07-20
 
 | File | KB | Entries | Constants | Keys | Single-word | Regex | Est. content tokens |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| Kyber RPG 00 - Rules Engine.json | 91.1 | 31 | 3 | 502 | 287 | 0 | 11324 |
+| janitor_sync_manifest.json | 7.5 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Kyber RPG 00 - Rules Engine.json | 99.4 | 35 | 5 | 526 | 295 | 0 | 12299 |
 | Kyber RPG 01 - Core Continuity.json | 42.5 | 30 | 0 | 98 | 8 | 0 | 3010 |
 | Kyber RPG 02 - Eras and History.json | 341.8 | 280 | 0 | 643 | 17 | 0 | 17085 |
-| Kyber RPG 03 - Characters.json | 374.1 | 292 | 0 | 622 | 68 | 0 | 25383 |
+| Kyber RPG 03 - Characters.json | 377.0 | 293 | 0 | 628 | 69 | 0 | 25841 |
 | Kyber RPG 04 - Factions and Governments.json | 249.6 | 188 | 0 | 535 | 14 | 0 | 14280 |
 | Kyber RPG 05 - Worlds and Regions.json | 376.7 | 316 | 0 | 778 | 191 | 0 | 19414 |
 | Kyber RPG 06 - Species and Cultures.json | 219.1 | 182 | 0 | 421 | 275 | 0 | 11487 |
@@ -64,7 +65,7 @@ Generated: 2026-07-20
 
 - Kyber RPG 00 - Rules Engine.json:175 `SECTION 2 — CHARACTERISTICS, SKILLS, AND CHECK CONSTRUCTION` has 74 keys
 - Kyber RPG 00 - Rules Engine.json:769 `SECTION 14 — SOCIAL ENCOUNTERS` has 22 keys
-- Kyber RPG 00 - Rules Engine.json:1506 `SECTION 29 — NARRATIVE RESULT TEMPLATES` has 22 keys
+- Kyber RPG 00 - Rules Engine.json:1670 `SECTION 29 — NARRATIVE RESULT TEMPLATES` has 22 keys
 
 ### Broad Keys
 
@@ -98,9 +99,10 @@ Generated: 2026-07-20
 
 ### Long Entries
 
-- Kyber RPG 00 - Rules Engine.json:1450 `SECTION 28 — GM AND NARRATOR OPERATING RULES` est. 1163 tokens
+- Kyber RPG 00 - Rules Engine.json:1496 `SECTION 28 — GM AND NARRATOR OPERATING RULES` est. 1163 tokens
 - Kyber RPG 00 - Rules Engine.json:25 `SECTION 0 — ROLE AND LAYER SEPARATION` est. 759 tokens
 - Kyber RPG 00 - Rules Engine.json:67 `SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL` est. 502 tokens
+- Kyber RPG 03 - Characters.json:250 `darth vader` est. 458 tokens
 - Kyber RPG 00 - Rules Engine.json:175 `SECTION 2 — CHARACTERISTICS, SKILLS, AND CHECK CONSTRUCTION` est. 443 tokens
 - Kyber RPG 00 - Rules Engine.json:918 `SECTION 17 — OBLIGATION, DUTY, AND MORALITY` est. 393 tokens
 - Kyber RPG 00 - Rules Engine.json:315 `SECTION 5 — SPENDING ADVANTAGE, THREAT, TRIUMPH, AND DESPAIR` est. 388 tokens
@@ -112,11 +114,12 @@ Generated: 2026-07-20
 - Kyber RPG 00 - Rules Engine.json:222 `SECTION 3 — DICE SYMBOLS AND CANCELLATION` est. 342 tokens
 - Kyber RPG 00 - Rules Engine.json:1067 `SECTION 20 — VEHICLES, SILHOUETTE, SPEED, AND RANGE` est. 330 tokens
 - Kyber RPG 00 - Rules Engine.json:1115 `SECTION 21 — VEHICLE DAMAGE, ARMOR, CRITICAL HITS, AND REPAIRS` est. 328 tokens
-- Kyber RPG 00 - Rules Engine.json:1506 `SECTION 29 — NARRATIVE RESULT TEMPLATES` est. 317 tokens
+- Kyber RPG 00 - Rules Engine.json:1670 `SECTION 29 — NARRATIVE RESULT TEMPLATES` est. 317 tokens
 - Kyber RPG 00 - Rules Engine.json:869 `SECTION 16 — HEALING, MEDICINE, STIMPACKS, AND BACTA` est. 312 tokens
 - Kyber RPG 00 - Rules Engine.json:610 `SECTION 11 — PERSONAL COMBAT CHECKS` est. 309 tokens
+- Kyber RPG 00 - Rules Engine.json:1531 `SECTION 28A - MANDATORY CHECK GATE` est. 308 tokens
 - Kyber RPG 00 - Rules Engine.json:1017 `SECTION 19 — FORCE PHILOSOPHY AND TEMPTATION` est. 304 tokens
-- Kyber RPG 00 - Rules Engine.json:1308 `SECTION 25 — TALENTS, CAREERS, SPECIALIZATIONS, AND EXPERIENCE` est. 304 tokens
+- Kyber RPG 00 - Rules Engine.json:1354 `SECTION 25 — TALENTS, CAREERS, SPECIALIZATIONS, AND EXPERIENCE` est. 304 tokens
 - Kyber RPG 00 - Rules Engine.json:1163 `SECTION 22 — CHASES, PURSUITS, AND DANGEROUS PILOTING` est. 302 tokens
 - Kyber RPG 00 - Rules Engine.json:1262 `SECTION 24 — CRAFTING, MODIFICATIONS, HARD POINTS, AND ATTACHMENTS` est. 301 tokens
 

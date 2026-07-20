@@ -1,7 +1,7 @@
 [
   {
     "message": "I search the room.",
-    "match_count": 4,
+    "match_count": 6,
     "matches": [
       {
         "file": "Kyber RPG 00 - Rules Engine.json",
@@ -17,6 +17,32 @@
           "simulate roll",
           "roll the dice",
           "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28A - MANDATORY CHECK GATE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
         ],
         "matchWholeWords": false,
         "matched_keys": [
@@ -146,7 +172,7 @@
   },
   {
     "message": "I grab Vader's lightsaber.",
-    "match_count": 7,
+    "match_count": 10,
     "matches": [
       {
         "file": "Kyber RPG 00 - Rules Engine.json",
@@ -222,6 +248,32 @@
           "simulate roll",
           "roll the dice",
           "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28A - MANDATORY CHECK GATE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
         ],
         "matchWholeWords": false,
         "matched_keys": [
@@ -348,6 +400,24 @@
         ]
       },
       {
+        "file": "Kyber RPG 03 - Characters.json",
+        "name": "darth vader",
+        "constant": false,
+        "priority": 0,
+        "keys": [
+          "darth vader",
+          "vader",
+          "lord vader",
+          "fortress vader",
+          "vader's chamber",
+          "vader's private chamber"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "vader"
+        ]
+      },
+      {
         "file": "Kyber RPG 08 - Technology Ships Gear.json",
         "name": "kyber crystals and lightsabers",
         "constant": false,
@@ -370,7 +440,7 @@
   },
   {
     "message": "A stranger appears without warning.",
-    "match_count": 4,
+    "match_count": 6,
     "matches": [
       {
         "file": "Kyber RPG 00 - Rules Engine.json",
@@ -386,6 +456,32 @@
           "simulate roll",
           "roll the dice",
           "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28A - MANDATORY CHECK GATE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
         ],
         "matchWholeWords": false,
         "matched_keys": [
@@ -459,7 +555,7 @@
   },
   {
     "message": "The guards move to arrest me.",
-    "match_count": 5,
+    "match_count": 7,
     "matches": [
       {
         "file": "Kyber RPG 00 - Rules Engine.json",
@@ -544,6 +640,32 @@
       },
       {
         "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28A - MANDATORY CHECK GATE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
         "name": "SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL",
         "constant": true,
         "priority": 1,
@@ -579,7 +701,7 @@
   },
   {
     "message": "I use the Force to heal him.",
-    "match_count": 8,
+    "match_count": 10,
     "matches": [
       {
         "file": "Kyber RPG 00 - Rules Engine.json",
@@ -651,6 +773,32 @@
           "simulate roll",
           "roll the dice",
           "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28A - MANDATORY CHECK GATE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
         ],
         "matchWholeWords": false,
         "matched_keys": [
@@ -811,7 +959,7 @@
   },
   {
     "message": "We land on Coruscant.",
-    "match_count": 4,
+    "match_count": 6,
     "matches": [
       {
         "file": "Kyber RPG 00 - Rules Engine.json",
@@ -827,6 +975,32 @@
           "simulate roll",
           "roll the dice",
           "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28A - MANDATORY CHECK GATE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
         ],
         "matchWholeWords": false,
         "matched_keys": [
@@ -888,7 +1062,7 @@
   },
   {
     "message": "I ask the Twi'lek merchant about the price.",
-    "match_count": 5,
+    "match_count": 7,
     "matches": [
       {
         "file": "Kyber RPG 00 - Rules Engine.json",
@@ -933,6 +1107,32 @@
           "simulate roll",
           "roll the dice",
           "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28A - MANDATORY CHECK GATE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
         ],
         "matchWholeWords": false,
         "matched_keys": [
@@ -994,7 +1194,7 @@
   },
   {
     "message": "The ship drops out of hyperspace.",
-    "match_count": 5,
+    "match_count": 7,
     "matches": [
       {
         "file": "Kyber RPG 00 - Rules Engine.json",
@@ -1038,6 +1238,32 @@
           "simulate roll",
           "roll the dice",
           "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28A - MANDATORY CHECK GATE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
         ],
         "matchWholeWords": false,
         "matched_keys": [
@@ -1096,7 +1322,7 @@
   },
   {
     "message": "I threaten the Imperial officer.",
-    "match_count": 5,
+    "match_count": 7,
     "matches": [
       {
         "file": "Kyber RPG 00 - Rules Engine.json",
@@ -1141,6 +1367,32 @@
           "simulate roll",
           "roll the dice",
           "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28A - MANDATORY CHECK GATE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
         ],
         "matchWholeWords": false,
         "matched_keys": [
@@ -1270,7 +1522,7 @@
   },
   {
     "message": "Palpatine smiles and offers cooperation.",
-    "match_count": 6,
+    "match_count": 8,
     "matches": [
       {
         "file": "Kyber RPG 00 - Rules Engine.json",
@@ -1351,6 +1603,32 @@
       },
       {
         "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28A - MANDATORY CHECK GATE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
         "name": "SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL",
         "constant": true,
         "priority": 1,
@@ -1401,7 +1679,7 @@
   },
   {
     "message": "I mention an obscure Legends Sith artifact.",
-    "match_count": 6,
+    "match_count": 8,
     "matches": [
       {
         "file": "Kyber RPG 00 - Rules Engine.json",
@@ -1480,6 +1758,32 @@
       },
       {
         "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28A - MANDATORY CHECK GATE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
         "name": "SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL",
         "constant": true,
         "priority": 1,
@@ -1535,7 +1839,7 @@
   },
   {
     "message": "I ask about a minor species from Wookieepedia.",
-    "match_count": 3,
+    "match_count": 5,
     "matches": [
       {
         "file": "Kyber RPG 00 - Rules Engine.json",
@@ -1551,6 +1855,32 @@
           "simulate roll",
           "roll the dice",
           "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28A - MANDATORY CHECK GATE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
         ],
         "matchWholeWords": false,
         "matched_keys": [
@@ -1594,7 +1924,7 @@
   },
   {
     "message": "The crew reaches At Attin aboard the Onyx Cinder.",
-    "match_count": 6,
+    "match_count": 8,
     "matches": [
       {
         "file": "Kyber RPG 00 - Rules Engine.json",
@@ -1610,6 +1940,32 @@
           "simulate roll",
           "roll the dice",
           "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28A - MANDATORY CHECK GATE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
         ],
         "matchWholeWords": false,
         "matched_keys": [
@@ -1697,7 +2053,7 @@
   },
   {
     "message": "Kay Vess is being hunted by Zerek Besh.",
-    "match_count": 5,
+    "match_count": 7,
     "matches": [
       {
         "file": "Kyber RPG 00 - Rules Engine.json",
@@ -1713,6 +2069,32 @@
           "simulate roll",
           "roll the dice",
           "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28A - MANDATORY CHECK GATE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
         ],
         "matchWholeWords": false,
         "matched_keys": [
@@ -1784,7 +2166,7 @@
   },
   {
     "message": "I check the dead-drop for tampering, traps, fresh tool marks, or anything too clean for Level 1313.",
-    "match_count": 7,
+    "match_count": 9,
     "matches": [
       {
         "file": "Kyber RPG 00 - Rules Engine.json",
@@ -1834,6 +2216,32 @@
           "simulate roll",
           "roll the dice",
           "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28A - MANDATORY CHECK GATE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
         ],
         "matchWholeWords": false,
         "matched_keys": [
@@ -2000,7 +2408,7 @@
   },
   {
     "message": "I do not touch the dead-drop yet. I step just far enough into the accessway to break line of sight from the taxi mirror, then study the panel, replaced dust, locking bolt, wall seams, floor, and ceiling above it. I am looking for traps, hidden transmitters, fresh heat, a secondary watcher, or signs that the panel was staged to lure investigators in.",
-    "match_count": 5,
+    "match_count": 7,
     "matches": [
       {
         "file": "Kyber RPG 00 - Rules Engine.json",
@@ -2045,6 +2453,32 @@
           "simulate roll",
           "roll the dice",
           "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28A - MANDATORY CHECK GATE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
         ],
         "matchWholeWords": false,
         "matched_keys": [
@@ -2180,7 +2614,7 @@
   },
   {
     "message": "OOC: I want actual dice and player roll mode, not GM simulated random dice.",
-    "match_count": 6,
+    "match_count": 8,
     "matches": [
       {
         "file": "Kyber RPG 00 - Rules Engine.json",
@@ -2235,6 +2669,32 @@
           "simulate roll",
           "roll the dice",
           "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28A - MANDATORY CHECK GATE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
         ],
         "matchWholeWords": false,
         "matched_keys": [
@@ -2390,7 +2850,7 @@
   },
   {
     "message": "OOC: Use fast play and simulate rolls when needed.",
-    "match_count": 3,
+    "match_count": 5,
     "matches": [
       {
         "file": "Kyber RPG 00 - Rules Engine.json",
@@ -2406,6 +2866,32 @@
           "simulate roll",
           "roll the dice",
           "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28A - MANDATORY CHECK GATE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
         ],
         "matchWholeWords": false,
         "matched_keys": [

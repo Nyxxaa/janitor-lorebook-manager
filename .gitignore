@@ -12,6 +12,9 @@ build/
 # Historical local backups are large and not needed for Janitor sync.
 archive/
 
+# Local chat exports can contain private roleplay/test content.
+Chats/
+
 # Do not commit local secrets if auth is added later.
 .env
 .env.*
