@@ -132,7 +132,12 @@ function downloadBundle() {
 }
 
 function detectTargets() {
-  const fields = Array.from(document.querySelectorAll("textarea, [contenteditable='true']"));
+  const codeMirrorEditors = Array.from(document.querySelectorAll(".cm-editor"))
+    .map((editor) => editor.querySelector(".cm-content[contenteditable='true']"))
+    .filter(Boolean);
+  const normalFields = Array.from(document.querySelectorAll("textarea, [contenteditable='true']"))
+    .filter((field) => !field.closest(".cm-editor"));
+  const fields = [...codeMirrorEditors, ...normalFields];
   return fields
     .filter((field) => isVisible(field) && isLikelyLorebookField(field))
     .map((field, index) => ({
@@ -140,6 +145,8 @@ function detectTargets() {
       element: field,
       label: inferLabel(field, index),
       normalized: normalize(inferLabel(field, index)),
+      signature: getLorebookSignature(getElementValue(field)),
+      kind: field.closest(".cm-editor") ? "codemirror" : ("value" in field ? "field" : "contenteditable"),
       length: getElementValue(field).length
     }));
 }
@@ -157,14 +164,27 @@ function buildApplyPlan(bundle, targets) {
   const files = bundle.files || [];
   const matched = [];
   const unmatched = [];
+  const claimedTargets = new Set();
   for (const file of files) {
     const fileName = normalize(file.name || file.filename || "");
     const fileStem = normalize(String(file.filename || "").replace(/\.json$/i, ""));
-    let target = targets.find((candidate) => candidate.normalized === fileName || candidate.normalized === fileStem);
+    const fileWords = significantFileWords(file);
+    let target = targets.find((candidate) => !claimedTargets.has(candidate) && (candidate.normalized === fileName || candidate.normalized === fileStem));
     if (!target) {
-      target = targets.find((candidate) => candidate.normalized.includes(fileName) || candidate.normalized.includes(fileStem) || fileName.includes(candidate.normalized));
+      target = targets.find((candidate) => !claimedTargets.has(candidate) && (
+        candidate.normalized.includes(fileName) ||
+        candidate.normalized.includes(fileStem) ||
+        fileName.includes(candidate.normalized) ||
+        fileWords.every((word) => candidate.signature.includes(word))
+      ));
     }
-    if (target) matched.push({ file, target });
+    if (!target && targets.length === 1 && files.length === 1) {
+      target = targets[0];
+    }
+    if (target) {
+      claimedTargets.add(target);
+      matched.push({ file, target });
+    }
     else unmatched.push(file);
   }
   const unusedTargets = targets.filter((target) => !matched.some((item) => item.target === target));
@@ -192,7 +212,7 @@ function formatPlan(plan) {
 
 function formatTargets(targets) {
   if (!targets.length) return "No likely lorebook fields found. Open the Janitor character/lorebook editor, then try again.";
-  return targets.map((target) => `- ${target.label} (${target.length} chars)`).join("\n");
+  return targets.map((target) => `- ${target.label} [${target.kind}] (${target.length} chars)\n  signature: ${target.signature || "none"}`).join("\n");
 }
 
 function renderSummary() {
@@ -208,7 +228,7 @@ function renderSummary() {
 }
 
 function inferLabel(field, index) {
-  const aria = field.getAttribute("aria-label") || field.getAttribute("placeholder") || field.getAttribute("name");
+  const aria = field.getAttribute("aria-label") || field.getAttribute("aria-placeholder") || field.getAttribute("placeholder") || field.getAttribute("name");
   if (aria) return aria.trim();
   const id = field.id;
   if (id) {
@@ -226,12 +246,24 @@ function getTargetValue(target) {
 }
 
 function getElementValue(element) {
+  const view = getCodeMirrorView(element);
+  if (view?.state?.doc) return view.state.doc.toString();
   if ("value" in element) return element.value || "";
   return element.textContent || "";
 }
 
 function setTargetValue(target, value) {
   const element = target.element;
+  const view = getCodeMirrorView(element);
+  if (view?.state?.doc && typeof view.dispatch === "function") {
+    view.focus();
+    view.dispatch({
+      changes: { from: 0, to: view.state.doc.length, insert: value },
+      selection: { anchor: value.length }
+    });
+    element.dispatchEvent(new InputEvent("input", { bubbles: true, inputType: "insertText", data: value.slice(0, 1000) }));
+    return;
+  }
   if ("value" in element) {
     element.focus();
     element.value = value;
@@ -239,9 +271,66 @@ function setTargetValue(target, value) {
     element.dispatchEvent(new Event("change", { bubbles: true }));
   } else {
     element.focus();
-    element.textContent = value;
-    element.dispatchEvent(new InputEvent("input", { bubbles: true, inputType: "insertText", data: value }));
+    if (!replaceContentEditableText(element, value)) {
+      element.textContent = value;
+      element.dispatchEvent(new InputEvent("input", { bubbles: true, inputType: "insertText", data: value.slice(0, 1000) }));
+    }
   }
+}
+
+function getCodeMirrorView(element) {
+  const editor = element.closest?.(".cm-editor") || element;
+  const content = editor.querySelector?.(".cm-content") || element;
+  const candidates = [content?.cmView, editor?.cmView, element?.cmView].filter(Boolean);
+  for (const candidate of candidates) {
+    const view = findViewFromCmNode(candidate);
+    if (view) return view;
+  }
+  return null;
+}
+
+function findViewFromCmNode(node) {
+  let current = node;
+  for (let depth = 0; current && depth < 20; depth += 1) {
+    if (current.view?.state?.doc && typeof current.view.dispatch === "function") return current.view;
+    current = current.parent;
+  }
+  return null;
+}
+
+function replaceContentEditableText(element, value) {
+  const selection = window.getSelection();
+  if (!selection) return false;
+  element.focus();
+  const range = document.createRange();
+  range.selectNodeContents(element);
+  selection.removeAllRanges();
+  selection.addRange(range);
+  return document.execCommand("insertText", false, value);
+}
+
+function getLorebookSignature(text) {
+  try {
+    const data = JSON.parse(text);
+    if (!Array.isArray(data)) return "";
+    const categories = new Set();
+    const names = [];
+    for (const entry of data.slice(0, 20)) {
+      if (entry?.category) categories.add(String(entry.category));
+      if (entry?.name) names.push(String(entry.name));
+    }
+    return normalize([...categories, ...names.slice(0, 5)].join(" "));
+  } catch {
+    const category = text.match(/"category"\s*:\s*"([^"]+)"/)?.[1] || "";
+    const name = text.match(/"name"\s*:\s*"([^"]+)"/)?.[1] || "";
+    return normalize(`${category} ${name}`);
+  }
+}
+
+function significantFileWords(file) {
+  return normalize(file.name || file.filename || "")
+    .split(/\s+/)
+    .filter((word) => word && !["kyber", "rpg", "json"].includes(word) && !/^\d+$/.test(word));
 }
 
 function normalize(text) {
