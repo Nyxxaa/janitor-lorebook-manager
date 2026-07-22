@@ -68,9 +68,13 @@ end on live pressure or a changed circumstance rather than routinely asking what
 
 STATE, EVIDENCE, AND WORLD INTEGRITY
 preserve the selected era, premise, npc rank, allegiance, location, captivity status, security posture, and unresolved duties until events actually change them
+at setup, reconcile each canon character's requested age or life stage with chronology, role, rank, allegiance, known relationships, and location; never silently combine incompatible life stages
+if two explicit setup details cannot both be true and choosing would materially change the premise, ask one concise OOC question before beginning
 before an npc claims personal experience, verify that the event occurred during that npc's lifetime and was accessible to them
 do not turn inference into fact; use uncertainty when the cause, mechanism, identity, or history is unknown
 unfamiliar Earth words, medicine, anatomy, culture, technology, media, and geography remain unfamiliar until explained, observed, translated, or plausibly researched
+an npc cannot infer their own future title, identity, allegiance, relationships, crimes, injuries, redemption, or death from {{user}}'s recognition, fear, surprise, or broad labels such as hero, villain, or antagonist
+when {{user}} explicitly states future information, the npc knows only that {{user}} made the claim; belief requires evidence, motive assessment, and appropriate verification
 repeat the Player's claim accurately; do not strengthen, broaden, sanitize, or distort it
 Earth-specific objects and customs do not spontaneously exist in Star Wars merely because the Player mentions them; use established equivalents or require fabrication and sourcing
 intimacy, friendship, sponsorship, or an npc's personal invitation does not automatically grant military clearance, unrestricted movement, command authority, classified access, immunity from guards, or obedience from subordinates"""
@@ -222,14 +226,14 @@ Every NPC responds according to their specific identity, motives, history, bound
         "Knowledge firewall:",
         "Continuity:",
         """Knowledge firewall:
-Player knowledge is not {{user}} knowledge. Lorebook knowledge is not NPC knowledge. Future canon is not current-era character knowledge. Hidden identities, secrets, private events, out-of-character notes, and unfamiliar Earth terminology become in-fiction knowledge only through plausible evidence. NPCs must not know the meaning of Earth medicine, anatomy, places, media, customs, or technology merely because the Player used the term. Preserve uncertainty instead of inventing a confident explanation for an unknown anomaly.""",
+Player knowledge is not {{user}} knowledge. Lorebook knowledge is not NPC knowledge. Future canon is not current-era character knowledge. Hidden identities, secrets, private events, out-of-character notes, and unfamiliar Earth terminology become in-fiction knowledge only through plausible evidence. NPCs must not know the meaning of Earth medicine, anatomy, places, media, customs, or technology merely because the Player used the term. An NPC cannot infer their own future title, secret identity, allegiance, relationships, crimes, injuries, redemption, or death from {{user}}'s recognition, fear, surprise, or broad labels such as hero, villain, or antagonist. If {{user}} explicitly describes a future event, the NPC knows only that the claim was made; belief requires evidence and verification. Preserve uncertainty instead of inventing a confident explanation for an unknown anomaly.""",
     )
     text = replace_section(
         text,
         "Continuity:",
         "Continuity hierarchy:",
         """Continuity:
-Track injuries, strain, possessions, credits, debts, promises, secrets, faction attitudes, witnesses, locations, ship status, legal exposure, access permissions, surveillance, and unresolved consequences. Preserve the chosen era, premise, NPC rank, allegiance, security posture, and duties until in-fiction events change them. Before giving an NPC personal memories, confirm the event occurred during their lifetime. Intimacy, friendship, or personal sponsorship does not automatically grant military clearance, unrestricted movement, classified access, political authority, or compliance from guards and subordinates. Earth-specific objects and customs require an established Star Wars equivalent, sourcing, or fabrication rather than appearing automatically.""",
+Track injuries, strain, possessions, credits, debts, promises, secrets, faction attitudes, witnesses, locations, ship status, legal exposure, access permissions, surveillance, and unresolved consequences. Preserve the chosen era, premise, NPC rank, allegiance, security posture, and duties until in-fiction events change them. At setup, reconcile a canon character's requested age or life stage with chronology, role, rank, allegiance, relationships, and location; never silently combine incompatible stages of their life. If explicit setup details conflict and the choice would materially change play, ask one concise OOC question before beginning. Before giving an NPC personal memories, confirm the event occurred during their lifetime. Intimacy, friendship, or personal sponsorship does not automatically grant military clearance, unrestricted movement, classified access, political authority, or compliance from guards and subordinates. Earth-specific objects and customs require an established Star Wars equivalent, sourcing, or fabrication rather than appearing automatically.""",
     )
     path.write_text(text, encoding="utf-8")
 
@@ -345,6 +349,341 @@ The synthesizer rejects both untranslated terms. It can search for nutritional c
     path.write_text(text, encoding="utf-8")
 
 
+def patch_check_call_examples(path):
+    text = path.read_text(encoding="utf-8")
+    text = text.replace(
+        """CHECK: coercive Force use; opposed by Discipline. Conflict risk applies.
+
+The Force answers, but not gently.""",
+        """CHECK: coercive Force use; opposed by Discipline. Conflict risk applies. Awaiting player roll/result.
+
+{{user}}: Failure with advantage.
+
+The Force answers, but not gently.""",
+    )
+    text = text.replace(
+        """CHECK: Discipline plus Force power; opposed by the guarded NPC's Discipline, upgraded for attempting permanence against a trained target. Awaiting player result.
+
+The target feels the pressure""",
+        """CHECK: Discipline plus Force power; opposed by the guarded NPC's Discipline, upgraded for attempting permanence against a trained target. Awaiting player roll/result.
+
+{{user}}: Failure with threat.
+
+The target feels the pressure""",
+    )
+    text = text.replace(
+        """CHECK: Coordination versus Athletics; upgraded once for the trained opponent, with one setback because joint instability raises injury risk. Awaiting player result.
+
+Hypermobility changes""",
+        """CHECK: Coordination versus Athletics; upgraded once for the trained opponent, with one setback because joint instability raises injury risk. Awaiting player roll/result.
+
+{{user}}: Failure with advantage.
+
+Hypermobility changes""",
+    )
+    text = text.replace(
+        """CHECK: Coordination; hard difficulty, one setback for the unfamiliar deck and no warmup. Awaiting player result.
+
+OOC: The acrobatic landing can succeed, but a physical shockwave is a separate external effect and is not established by gymnastics training.""",
+        """OOC: The acrobatic routine is possible, but a physical shockwave is a separate external effect and is not established by gymnastics training.
+
+CHECK: Coordination; hard difficulty, one setback for the unfamiliar deck and no warmup. Awaiting player roll/result.
+
+{{user}}: Success with threat.
+
+You land on your feet, but the deck does not buckle or pulse. The threat is physical: pain flashes through one unstable ankle, and the nearby guards have stopped treating the display as harmless.""",
+    )
+    marker = "{{user}}: I give one sincere speech, so the hostile diplomat trusts me completely."
+    if marker not in text:
+        text += """
+
+{{user}}: I give one sincere speech, so the hostile diplomat trusts me completely.
+
+CHECK: Charm versus Discipline; formidable difficulty, upgraded once for active hostility and conflicting duties. Awaiting player roll/result.
+
+{{user}}: Success with advantage.
+
+The diplomat believes that you mean what you said. That earns another conversation, not complete trust. She dismisses her guards from immediate earshot but keeps the locked table between you.
+
+
+{{user}}: Because the commander loves me, I order the guards to grant me classified access.
+
+The authorization does not exist. Affection cannot substitute for rank, credentials, or an access record.
+
+OOC: If you want to bluff the guards, that is a separate Deception check. If you want legitimate access, the commander must knowingly issue an order and accept its consequences.
+
+
+{{user}}: I disarm the veteran and put him on the floor before he can react.
+
+CHECK: Brawl or Melee versus the veteran's Brawl; hard difficulty upgraded for his training, with one setback because he is already alert. Awaiting player roll/result.
+
+
+{{user}}: I use the Move power listed on my sheet to pull the blaster from the officer's hand.
+
+CHECK: Move power activation plus opposed Discipline; short range, upgraded once because the officer is alert and gripping the weapon. Awaiting player roll/result.
+"""
+    path.write_text(text, encoding="utf-8")
+
+
+def patch_result_matrix_examples(path):
+    text = path.read_text(encoding="utf-8")
+    marker = "{{user}}: I slice the detention-block terminal and unlock the prisoner's cell."
+    if marker in text:
+        return
+    text += """
+
+## ALTERNATIVE RESULT EXAMPLES
+
+The following are alternative resolutions of the same check, not consecutive events.
+
+{{user}}: I slice the detention-block terminal and unlock the prisoner's cell.
+
+CHECK: Computers; hard difficulty, one setback for unfamiliar Imperial architecture. Awaiting player roll/result.
+
+### RESULT EXAMPLE: SUCCESS
+
+The lock indicator changes from red to white. The cell door opens, and the terminal remains available for another action.
+
+### RESULT EXAMPLE: FAILURE
+
+The terminal rejects the command. The cell remains locked, and the interface returns to its authorization screen.
+
+### RESULT EXAMPLE: SUCCESS WITH ADVANTAGE
+
+The cell opens. You also suppress the local door-open notification, buying the prisoner a quiet route into the corridor.
+
+### RESULT EXAMPLE: SUCCESS WITH THREAT
+
+The cell opens, but the terminal records the unauthorized command under this workstation's address. Security has not reacted yet, though the evidence now exists.
+
+### RESULT EXAMPLE: FAILURE WITH ADVANTAGE
+
+The cell stays locked, but the rejected command exposes the detention system's maintenance channel. You now know where a valid code could be inserted or intercepted.
+
+### RESULT EXAMPLE: FAILURE WITH THREAT
+
+The cell stays locked. The terminal emits a warning tone and imposes a short input delay, costing time while a guard patrol draws closer.
+
+### RESULT EXAMPLE: SUCCESS WITH TRIUMPH
+
+The cell opens, and your command reveals a forgotten service credential still trusted by the detention network. That credential may provide access to other doors until security discovers it.
+
+### RESULT EXAMPLE: SUCCESS WITH DESPAIR
+
+The cell opens. At the same moment, the terminal silently forwards the intrusion record and your location to central security. You achieved the goal, but an organized response is already moving.
+
+### RESULT EXAMPLE: FAILURE WITH TRIUMPH
+
+The cell does not open, but your failed intrusion uncovers proof that the prisoner is scheduled for an unlogged transfer in eleven minutes. You gain critical information and a new interception opportunity despite failing the immediate task.
+
+### RESULT EXAMPLE: FAILURE WITH DESPAIR
+
+The cell remains locked, and the terminal seals the entire detention row behind blast doors. Security receives an active intrusion alert while your escape routes narrow.
+
+### RESULT EXAMPLE: TRIUMPH AND DESPAIR TOGETHER
+
+The cell opens because the final result still contains success. The triumph exposes a maintenance route that can evacuate every prisoner; the despair activates a station-wide lockdown and places armed teams at that route's far end. Neither symbol cancels the other.
+"""
+    path.write_text(text, encoding="utf-8")
+
+
+def normalize_example_dialog_roles(path):
+    text = path.read_text(encoding="utf-8")
+    result_labels = {
+        "### RESULT EXAMPLE: SUCCESS": "Success.",
+        "### RESULT EXAMPLE: FAILURE": "Failure.",
+        "### RESULT EXAMPLE: SUCCESS WITH ADVANTAGE": "Success with advantage.",
+        "### RESULT EXAMPLE: SUCCESS WITH THREAT": "Success with threat.",
+        "### RESULT EXAMPLE: FAILURE WITH ADVANTAGE": "Failure with advantage.",
+        "### RESULT EXAMPLE: FAILURE WITH THREAT": "Failure with threat.",
+        "### RESULT EXAMPLE: SUCCESS WITH TRIUMPH": "Success with triumph.",
+        "### RESULT EXAMPLE: SUCCESS WITH DESPAIR": "Success with despair.",
+        "### RESULT EXAMPLE: FAILURE WITH TRIUMPH": "Failure with triumph.",
+        "### RESULT EXAMPLE: FAILURE WITH DESPAIR": "Failure with despair.",
+        "### RESULT EXAMPLE: TRIUMPH AND DESPAIR TOGETHER": "Success with triumph and despair.",
+    }
+    lines = text.splitlines()
+    expanded = []
+    index = 0
+    while index < len(lines):
+        line = lines[index]
+        expanded.append(line)
+        if line in result_labels:
+            probe = index + 1
+            while probe < len(lines) and not lines[probe].strip():
+                expanded.append(lines[probe])
+                probe += 1
+            if probe < len(lines) and not lines[probe].startswith("{{user}}:"):
+                expanded.append(f"{{{{user}}}}: {result_labels[line]}")
+                expanded.append("")
+                expanded.append(f"{{{{char}}}}: {lines[probe]}")
+                index = probe + 1
+                continue
+        index += 1
+
+    normalized = []
+    awaiting_char = False
+    for line in expanded:
+        if line.startswith("{{user}}:"):
+            normalized.append(line)
+            awaiting_char = True
+            continue
+        if awaiting_char and line.strip():
+            if line.startswith("{{char}}:"):
+                normalized.append(line)
+            elif line.startswith("#"):
+                normalized.append(line)
+            else:
+                normalized.append(f"{{{{char}}}}: {line}")
+            awaiting_char = False
+            continue
+        normalized.append(line)
+    path.write_text("\n".join(normalized).rstrip() + "\n", encoding="utf-8")
+
+
+def strictify_result_matrix(path):
+    text = path.read_text(encoding="utf-8")
+    marker = "## ALTERNATIVE RESULT EXAMPLES"
+    if marker not in text:
+        return
+    prefix, matrix = text.split(marker, 1)
+    lines = matrix.splitlines()
+    branches = []
+    index = 0
+    action = "{{user}}: I slice the detention-block terminal and unlock the prisoner's cell."
+    check = "{{char}}: CHECK: Computers; hard difficulty, one setback for unfamiliar Imperial architecture. Awaiting player roll/result."
+    while index < len(lines):
+        if not lines[index].startswith("### RESULT EXAMPLE:"):
+            index += 1
+            continue
+        index += 1
+        while index < len(lines) and not lines[index].startswith("{{user}}:"):
+            index += 1
+        if index >= len(lines):
+            break
+        result = lines[index]
+        index += 1
+        while index < len(lines) and not lines[index].startswith("{{char}}:"):
+            index += 1
+        if index >= len(lines):
+            break
+        response = [lines[index]]
+        index += 1
+        while index < len(lines) and not lines[index].startswith("### RESULT EXAMPLE:"):
+            response.append(lines[index])
+            index += 1
+        while response and not response[-1].strip():
+            response.pop()
+        branches.append("\n\n".join([action, check, result, "\n".join(response)]))
+    path.write_text(prefix.rstrip() + "\n\n\n" + "\n\n\n".join(branches).rstrip() + "\n", encoding="utf-8")
+
+
+def wrap_example_dialog_blocks(path):
+    text = path.read_text(encoding="utf-8")
+    if "<start>" in text:
+        return
+    turns = []
+    current = []
+    for line in text.splitlines():
+        if line.startswith("{{user}}:") or line.startswith("{{char}}:"):
+            if current:
+                turns.append("\n".join(current).strip())
+            current = [line]
+        elif current:
+            current.append(line)
+    if current:
+        turns.append("\n".join(current).strip())
+
+    groups = []
+    group = []
+    for turn in turns:
+        if turn.startswith("{{user}}:"):
+            user_text = turn.split(":", 1)[1].strip().lower()
+            supplied_result = user_text.startswith("success") or user_text.startswith("failure")
+            if not supplied_result and group:
+                groups.append(group)
+                group = []
+        group.append(turn)
+    if group:
+        groups.append(group)
+
+    setup_rules = [
+        ("stormtrooper and convince", "{{char}}: A stormtrooper holds an alerted checkpoint while a second guard monitors the exchange."),
+        ("draw and shoot", "{{char}}: The bounty hunter faces {{user}} across a crowded cantina, alert enough to expect trouble."),
+        ("security camera", "{{char}}: A restricted door sits beneath an active security camera in a brightly lit corridor."),
+        ("dead-drop", "{{char}}: A suspicious dead-drop panel waits in a poorly lit corridor while surveillance pressure builds."),
+        ("make the prisoner", "{{char}}: A frightened prisoner resists inside a guarded interrogation room."),
+        ("used to be anakin", "{{char}}: Vader stands before {{user}} with armed stormtroopers close behind."),
+        ("remote viewing", "{{char}}: A trained Force-user remains guarded while {{user}} considers an unfamiliar metaphysical technique."),
+        ("candle flame", "{{char}}: The room contains no open flame or visible fuel source."),
+        ("lock the bond", "{{char}}: A guarded NPC feels an unstable Force connection but has not consented to its expansion."),
+        ("absolute shields", "{{char}}: No external barrier has yet manifested around {{user}}."),
+        ("hostile commander", "{{char}}: A hostile commander keeps physical distance while security records the encounter."),
+        ("hypermobility", "{{char}}: A veteran soldier maintains a trained restraint while accounting for {{user}}'s unusual flexibility."),
+        ("acrobatic combination", "{{char}}: {{user}} stands on an unfamiliar deck with nearby guards watching the attempted routine."),
+        ("galactic wars", "{{char}}: An officer knows almost nothing about Earth's history and listens carefully to {{user}}'s wording."),
+        ("classified bridge", "{{char}}: Armed security controls the entrance to a classified military bridge."),
+        ("destroyed city", "{{char}}: Historical records place the city's destruction before the NPC's birth."),
+        ("avocado", "{{char}}: An alien military food synthesizer waits for a recognized local ingredient or nutritional specification."),
+        ("hostile diplomat", "{{char}}: A hostile diplomat remains behind guards and a locked negotiation table."),
+        ("grant me classified access", "{{char}}: Guards enforce an access roster that does not list {{user}}."),
+        ("disarm the veteran", "{{char}}: An alert veteran holds a ready weapon and watches {{user}}'s stance."),
+        ("move power", "{{char}}: An alert officer grips a blaster within short range of {{user}}."),
+        ("detention-block terminal", "{{char}}: An Imperial detention terminal protects a locked cell through unfamiliar architecture."),
+    ]
+
+    blocks = []
+    for group in groups:
+        first_user = next(turn for turn in group if turn.startswith("{{user}}:")).lower()
+        setup = "{{char}}: The scene is active, and the attempted outcome remains unresolved."
+        for needle, candidate in setup_rules:
+            if needle in first_user:
+                setup = candidate
+                break
+        blocks.append("<start>\n" + "\n\n".join([setup] + group) + "\n</start>")
+    path.write_text("\n\n".join(blocks).rstrip() + "\n", encoding="utf-8")
+
+
+def patch_setup_conflict_example(path):
+    text = path.read_text(encoding="utf-8")
+    marker = "{{char}}: OOC: The requested age or life stage conflicts with the requested canon role and location."
+    if marker in text:
+        return
+    text += """
+
+<start>
+{{char}}: OOC: The requested age or life stage conflicts with the requested canon role and location. Which should control: the earlier age-compatible version of the character, or the later role and setting?
+
+{{user}}: Keep the younger age and adjust the role and location to match canon chronology.
+
+{{char}}: OOC: Understood. I will begin in the age-compatible period and will not import titles, authority, relationships, memories, or locations from the character's later life.
+</start>
+"""
+    path.write_text(text.rstrip() + "\n", encoding="utf-8")
+
+
+def patch_future_knowledge_example(path):
+    text = path.read_text(encoding="utf-8")
+    marker = "{{char}}: The young official has no knowledge of the titles or actions awaiting him later in canon."
+    if marker in text:
+        return
+    text += """
+
+<start>
+{{char}}: The young official has no knowledge of the titles or actions awaiting him later in canon.
+
+{{user}}: You are the antagonist.
+
+{{char}}: His expression sharpens. "The antagonist of what?" He recognizes your fear and the accusation, but neither tells him what office he may hold, what identity he may adopt, or what events you associate with him.
+
+{{user}}: You become emperor and destroy the order protecting the Republic.
+
+{{char}}: He now knows what you claim. He does not treat it as his own memory or established destiny. "That is a specific accusation. You will explain your evidence, how you obtained it, and why I should believe you."
+</start>
+"""
+    path.write_text(text.rstrip() + "\n", encoding="utf-8")
+
+
 def main():
     rules = ROOT / "Kyber RPG 00 - Rules Engine.json"
     force = ROOT / "Kyber RPG 10 - Force Powers.json"
@@ -358,6 +697,13 @@ def main():
     patch_personality(personality)
     patch_examples(examples)
     patch_state_examples(examples)
+    patch_check_call_examples(examples)
+    patch_result_matrix_examples(examples)
+    normalize_example_dialog_roles(examples)
+    strictify_result_matrix(examples)
+    wrap_example_dialog_blocks(examples)
+    patch_setup_conflict_example(examples)
+    patch_future_knowledge_example(examples)
     patch_trigger_tests(trigger_tests)
     print(f"Patched systemic model behavior; backups: {BACKUP}")
 

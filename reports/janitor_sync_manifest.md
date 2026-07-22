@@ -1,12 +1,12 @@
 # Janitor Sync Manifest
 
 Project: Kyber RPG
-Version: 2026-07-22-systemic-state-evidence
+Version: 2026-07-22-temporal-knowledge-firewall
 Generated: 2026-07-22
 
 | File | Entries | KB | Warning | Over Cap | Issues |
 |---|---:|---:|---:|---:|---:|
-| Kyber RPG 00 - Rules Engine.json | 35 | 86.8 | False | False | 0 |
+| Kyber RPG 00 - Rules Engine.json | 35 | 87.5 | False | False | 0 |
 | Kyber RPG 01 - Core Continuity.json | 30 | 34.7 | False | False | 0 |
 | Kyber RPG 02 - Eras and History.json | 280 | 272.0 | False | False | 0 |
 | Kyber RPG 03 - Characters.json | 293 | 306.0 | False | False | 0 |

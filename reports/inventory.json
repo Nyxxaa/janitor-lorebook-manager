@@ -4,21 +4,21 @@
   "files": [
     {
       "file": "Kyber RPG 00 - Rules Engine.json",
-      "bytes": 101276,
+      "bytes": 102014,
       "entries": 35,
       "constant_entries": 5,
       "enabled_entries": 35,
       "keys": 526,
       "single_word_keys": 295,
       "regex_keys": 0,
-      "estimated_content_tokens": 12182,
+      "estimated_content_tokens": 12366,
       "categories": {
         "kyber_rpg_rules_engine": 35
       },
       "top_long_entries": [
         {
           "name": "SECTION 28 — GM AND NARRATOR OPERATING RULES",
-          "estimated_tokens": 810
+          "estimated_tokens": 994
         },
         {
           "name": "SECTION 0 — ROLE AND LAYER SEPARATION",
@@ -1481,7 +1481,7 @@
     "keys": 6733,
     "single_word_keys": 1249,
     "regex_keys": 0,
-    "estimated_content_tokens": 176375
+    "estimated_content_tokens": 176559
   },
   "issues": {
     "invalid_json": [],
@@ -6310,7 +6310,7 @@
         "index": 29,
         "name": "SECTION 28 — GM AND NARRATOR OPERATING RULES",
         "id": "swffg-2800-ddd93d59",
-        "estimated_tokens": 810,
+        "estimated_tokens": 994,
         "line": 1496
       },
       {

@@ -11,7 +11,7 @@ Generated: 2026-07-22
 - Activation keys: 6733
 - Single-word keys: 1249
 - Regex keys: 0
-- Estimated lore content tokens if fully loaded: 176375
+- Estimated lore content tokens if fully loaded: 176559
 
 ## Issue Counts
 
@@ -38,7 +38,7 @@ Generated: 2026-07-22
 
 | File | KB | Entries | Constants | Keys | Single-word | Regex | Est. content tokens |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| Kyber RPG 00 - Rules Engine.json | 98.9 | 35 | 5 | 526 | 295 | 0 | 12182 |
+| Kyber RPG 00 - Rules Engine.json | 99.6 | 35 | 5 | 526 | 295 | 0 | 12366 |
 | Kyber RPG 01 - Core Continuity.json | 42.5 | 30 | 0 | 98 | 8 | 0 | 3010 |
 | Kyber RPG 02 - Eras and History.json | 341.8 | 280 | 0 | 643 | 17 | 0 | 17085 |
 | Kyber RPG 03 - Characters.json | 377.0 | 293 | 0 | 628 | 69 | 0 | 25841 |
@@ -99,7 +99,7 @@ Generated: 2026-07-22
 
 ### Long Entries
 
-- Kyber RPG 00 - Rules Engine.json:1496 `SECTION 28 — GM AND NARRATOR OPERATING RULES` est. 810 tokens
+- Kyber RPG 00 - Rules Engine.json:1496 `SECTION 28 — GM AND NARRATOR OPERATING RULES` est. 994 tokens
 - Kyber RPG 00 - Rules Engine.json:25 `SECTION 0 — ROLE AND LAYER SEPARATION` est. 759 tokens
 - Kyber RPG 00 - Rules Engine.json:1531 `SECTION 28A - MANDATORY CHECK GATE` est. 516 tokens
 - Kyber RPG 00 - Rules Engine.json:67 `SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL` est. 502 tokens

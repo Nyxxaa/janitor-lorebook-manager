@@ -7,7 +7,7 @@ Default cap: 460800 bytes
 
 | File | Entries | Source KB | Minified Upload KB | Warning | Over Cap |
 |---|---:|---:|---:|---:|---:|
-| Kyber RPG 00 - Rules Engine.json | 35 | 98.9 | 86.8 | False | False |
+| Kyber RPG 00 - Rules Engine.json | 35 | 99.6 | 87.5 | False | False |
 | Kyber RPG 01 - Core Continuity.json | 30 | 42.5 | 34.7 | False | False |
 | Kyber RPG 02 - Eras and History.json | 280 | 341.8 | 272.0 | False | False |
 | Kyber RPG 03 - Characters.json | 293 | 377.0 | 306.0 | False | False |
