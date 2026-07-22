@@ -2932,5 +2932,1428 @@
         ]
       }
     ]
+  },
+  {
+    "message": "I use my hypermobility to slip free of the veteran soldier and strike a nerve in his neck.",
+    "match_count": 5,
+    "matches": [
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28 — GM AND NARRATOR OPERATING RULES",
+        "constant": true,
+        "priority": 10,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28A - MANDATORY CHECK GATE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL",
+        "constant": true,
+        "priority": 1,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 0 — ROLE AND LAYER SEPARATION",
+        "constant": true,
+        "priority": 0,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      }
+    ]
+  },
+  {
+    "message": "I perform an acrobatic routine and the landing sends a shockwave through the deck.",
+    "match_count": 5,
+    "matches": [
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28 — GM AND NARRATOR OPERATING RULES",
+        "constant": true,
+        "priority": 10,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28A - MANDATORY CHECK GATE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL",
+        "constant": true,
+        "priority": 1,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 0 — ROLE AND LAYER SEPARATION",
+        "constant": true,
+        "priority": 0,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      }
+    ]
+  },
+  {
+    "message": "We never had galactic wars on Earth, so the officer concludes Earth never had war.",
+    "match_count": 6,
+    "matches": [
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 13 — MINIONS, RIVALS, AND NEMESES",
+        "constant": false,
+        "priority": 13,
+        "keys": [
+          "stormtroopers",
+          "guards",
+          "soldiers",
+          "troopers",
+          "squad",
+          "group of enemies",
+          "bounty hunter",
+          "officer",
+          "named enemy",
+          "major villain",
+          "boss",
+          "rival",
+          "nemesis",
+          "minions",
+          "darth vader",
+          "palpatine",
+          "inquisitor"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "officer"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28 — GM AND NARRATOR OPERATING RULES",
+        "constant": true,
+        "priority": 10,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28A - MANDATORY CHECK GATE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL",
+        "constant": true,
+        "priority": 1,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 0 — ROLE AND LAYER SEPARATION",
+        "constant": true,
+        "priority": 0,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      }
+    ]
+  },
+  {
+    "message": "The commander's lover walks onto the classified bridge and every guard allows it.",
+    "match_count": 5,
+    "matches": [
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28 — GM AND NARRATOR OPERATING RULES",
+        "constant": true,
+        "priority": 10,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28A - MANDATORY CHECK GATE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL",
+        "constant": true,
+        "priority": 1,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 0 — ROLE AND LAYER SEPARATION",
+        "constant": true,
+        "priority": 0,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      }
+    ]
+  },
+  {
+    "message": "The NPC says they personally visited a planet before they were born.",
+    "match_count": 5,
+    "matches": [
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28 — GM AND NARRATOR OPERATING RULES",
+        "constant": true,
+        "priority": 10,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28A - MANDATORY CHECK GATE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL",
+        "constant": true,
+        "priority": 1,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 0 — ROLE AND LAYER SEPARATION",
+        "constant": true,
+        "priority": 0,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      }
+    ]
+  },
+  {
+    "message": "I mention an avocado and one appears in the alien military galley.",
+    "match_count": 5,
+    "matches": [
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28 — GM AND NARRATOR OPERATING RULES",
+        "constant": true,
+        "priority": 10,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28A - MANDATORY CHECK GATE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL",
+        "constant": true,
+        "priority": 1,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 0 — ROLE AND LAYER SEPARATION",
+        "constant": true,
+        "priority": 0,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      }
+    ]
+  },
+  {
+    "message": "I use remote viewing and take a thread of a trained Force-user's power with me.",
+    "match_count": 6,
+    "matches": [
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28 — GM AND NARRATOR OPERATING RULES",
+        "constant": true,
+        "priority": 10,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28A - MANDATORY CHECK GATE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL",
+        "constant": true,
+        "priority": 1,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 0 — ROLE AND LAYER SEPARATION",
+        "constant": true,
+        "priority": 0,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 10 - Force Powers.json",
+        "name": "crossover metaphysics capability gate",
+        "constant": false,
+        "priority": 7,
+        "keys": [
+          "remote viewing",
+          "energy tool",
+          "energy food",
+          "ambient energy",
+          "self hypnosis",
+          "self-hypnosis",
+          "witchcraft",
+          "create fire",
+          "candle flame",
+          "mind palace",
+          "metaphysical shield",
+          "metaphysical shields",
+          "absolute shield",
+          "absolute shields",
+          "void shield",
+          "void shields",
+          "whitelist",
+          "whitelisted through",
+          "permanent force bond",
+          "make the bond permanent",
+          "i can do anything",
+          "no limit"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "remote viewing"
+        ]
+      }
+    ]
+  },
+  {
+    "message": "I visualize the molecular structure and create fire in my palm.",
+    "match_count": 7,
+    "matches": [
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 10 — RANGE BANDS, MOVEMENT, COVER, AND ENVIRONMENT",
+        "constant": false,
+        "priority": 10,
+        "keys": [
+          "close enough",
+          "within reach",
+          "across the room",
+          "nearby",
+          "far away",
+          "at a distance",
+          "behind cover",
+          "takes cover",
+          "smoke",
+          "darkness",
+          "vacuum",
+          "fire",
+          "freezing",
+          "heat",
+          "unstable footing",
+          "difficult terrain",
+          "range"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "fire"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28 — GM AND NARRATOR OPERATING RULES",
+        "constant": true,
+        "priority": 10,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28A - MANDATORY CHECK GATE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL",
+        "constant": true,
+        "priority": 1,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 0 — ROLE AND LAYER SEPARATION",
+        "constant": true,
+        "priority": 0,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 10 - Force Powers.json",
+        "name": "crossover metaphysics capability gate",
+        "constant": false,
+        "priority": 7,
+        "keys": [
+          "remote viewing",
+          "energy tool",
+          "energy food",
+          "ambient energy",
+          "self hypnosis",
+          "self-hypnosis",
+          "witchcraft",
+          "create fire",
+          "candle flame",
+          "mind palace",
+          "metaphysical shield",
+          "metaphysical shields",
+          "absolute shield",
+          "absolute shields",
+          "void shield",
+          "void shields",
+          "whitelist",
+          "whitelisted through",
+          "permanent force bond",
+          "make the bond permanent",
+          "i can do anything",
+          "no limit"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "create fire"
+        ]
+      }
+    ]
+  },
+  {
+    "message": "I lock the Force bond into my mind palace as a permanent fixture.",
+    "match_count": 10,
+    "matches": [
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 18 — FORCE DICE, FORCE POWERS, AND DARK SIDE USE",
+        "constant": false,
+        "priority": 18,
+        "keys": [
+          "uses the force",
+          "use the force",
+          "through the force",
+          "force power",
+          "force push",
+          "force pull",
+          "mind trick",
+          "force choke",
+          "force lightning",
+          "force healing",
+          "force vision",
+          "force bond",
+          "force-sensitive",
+          "jedi ability",
+          "sith power",
+          "resists the force"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "force bond"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28 — GM AND NARRATOR OPERATING RULES",
+        "constant": true,
+        "priority": 10,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28A - MANDATORY CHECK GATE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL",
+        "constant": true,
+        "priority": 1,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 0 — ROLE AND LAYER SEPARATION",
+        "constant": true,
+        "priority": 0,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 01 - Core Continuity.json",
+        "name": "force baseline",
+        "constant": false,
+        "priority": 23,
+        "keys": [
+          "the force",
+          "living force",
+          "cosmic force"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "the force"
+        ]
+      },
+      {
+        "file": "Kyber RPG 10 - Force Powers.json",
+        "name": "force bond",
+        "constant": false,
+        "priority": 17,
+        "keys": [
+          "force bond",
+          "bond through the force",
+          "force connection"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "force bond"
+        ]
+      },
+      {
+        "file": "Kyber RPG 10 - Force Powers.json",
+        "name": "crossover metaphysics capability gate",
+        "constant": false,
+        "priority": 7,
+        "keys": [
+          "remote viewing",
+          "energy tool",
+          "energy food",
+          "ambient energy",
+          "self hypnosis",
+          "self-hypnosis",
+          "witchcraft",
+          "create fire",
+          "candle flame",
+          "mind palace",
+          "metaphysical shield",
+          "metaphysical shields",
+          "absolute shield",
+          "absolute shields",
+          "void shield",
+          "void shields",
+          "whitelist",
+          "whitelisted through",
+          "permanent force bond",
+          "make the bond permanent",
+          "i can do anything",
+          "no limit"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "mind palace"
+        ]
+      },
+      {
+        "file": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+        "name": "the force",
+        "constant": false,
+        "priority": 2,
+        "keys": [
+          "the force",
+          "force metaphysics",
+          "living force",
+          "cosmic force"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "the force"
+        ]
+      }
+    ]
+  },
+  {
+    "message": "I raise thirteen absolute metaphysical shields and whitelist my companion.",
+    "match_count": 6,
+    "matches": [
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28 — GM AND NARRATOR OPERATING RULES",
+        "constant": true,
+        "priority": 10,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28A - MANDATORY CHECK GATE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL",
+        "constant": true,
+        "priority": 1,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 0 — ROLE AND LAYER SEPARATION",
+        "constant": true,
+        "priority": 0,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 10 - Force Powers.json",
+        "name": "crossover metaphysics capability gate",
+        "constant": false,
+        "priority": 7,
+        "keys": [
+          "remote viewing",
+          "energy tool",
+          "energy food",
+          "ambient energy",
+          "self hypnosis",
+          "self-hypnosis",
+          "witchcraft",
+          "create fire",
+          "candle flame",
+          "mind palace",
+          "metaphysical shield",
+          "metaphysical shields",
+          "absolute shield",
+          "absolute shields",
+          "void shield",
+          "void shields",
+          "whitelist",
+          "whitelisted through",
+          "permanent force bond",
+          "make the bond permanent",
+          "i can do anything",
+          "no limit"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "metaphysical shields",
+          "whitelist"
+        ]
+      }
+    ]
+  },
+  {
+    "message": "OOC: Wynter has Force Rating 1 and attempts an untrained Force power.",
+    "match_count": 8,
+    "matches": [
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 18 — FORCE DICE, FORCE POWERS, AND DARK SIDE USE",
+        "constant": false,
+        "priority": 18,
+        "keys": [
+          "uses the force",
+          "use the force",
+          "through the force",
+          "force power",
+          "force push",
+          "force pull",
+          "mind trick",
+          "force choke",
+          "force lightning",
+          "force healing",
+          "force vision",
+          "force bond",
+          "force-sensitive",
+          "jedi ability",
+          "sith power",
+          "resists the force"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "force power"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28 — GM AND NARRATOR OPERATING RULES",
+        "constant": true,
+        "priority": 10,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28A - MANDATORY CHECK GATE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 2 — CHARACTERISTICS, SKILLS, AND CHECK CONSTRUCTION",
+        "constant": false,
+        "priority": 2,
+        "keys": [
+          "tries to",
+          "attempts to",
+          "attempt to",
+          "tries",
+          "attempts",
+          "can i",
+          "could i",
+          "manage to",
+          "able to",
+          "skill",
+          "check",
+          "roll",
+          "dice",
+          "succeed",
+          "fails",
+          "failure",
+          "difficulty",
+          "i open",
+          "i grab",
+          "i take",
+          "i pull",
+          "i push",
+          "i lift",
+          "i hit",
+          "i shoot",
+          "i stab",
+          "i dodge",
+          "i block",
+          "i run",
+          "i escape",
+          "i hide",
+          "i sneak",
+          "i convince",
+          "i persuade",
+          "i threaten",
+          "i lie",
+          "i use the force",
+          "i heal",
+          "i hack",
+          "i slice",
+          "i repair",
+          "i climb",
+          "i jump",
+          "i search",
+          "i look for",
+          "i break",
+          "i unlock",
+          "i disable",
+          "i restrain",
+          "i inspect",
+          "i check",
+          "i examine",
+          "i scan",
+          "i listen",
+          "check for traps",
+          "check for tampering",
+          "look for traps",
+          "look for tampering",
+          "fresh tool marks",
+          "too clean",
+          "dead-drop",
+          "dead drop",
+          "i study",
+          "i assess",
+          "i look over",
+          "looking for traps",
+          "looking for tampering",
+          "hidden transmitter",
+          "hidden transmitters",
+          "fresh heat",
+          "secondary watcher",
+          "staged to lure",
+          "panel was staged",
+          "panel is bait"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "attempts"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL",
+        "constant": true,
+        "priority": 1,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 0 — ROLE AND LAYER SEPARATION",
+        "constant": true,
+        "priority": 0,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 10 - Force Powers.json",
+        "name": "force power scaling",
+        "constant": false,
+        "priority": 123,
+        "keys": [
+          "force power scale",
+          "how powerful is force user",
+          "force rating",
+          "force rating 1",
+          "new force power",
+          "untrained force power"
+        ],
+        "matchWholeWords": true,
+        "matched_keys": [
+          "force rating",
+          "force rating 1",
+          "untrained force power"
+        ]
+      }
+    ]
+  },
+  {
+    "message": "I tell a hostile commander that I choose him and expect immediate trust.",
+    "match_count": 5,
+    "matches": [
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28 — GM AND NARRATOR OPERATING RULES",
+        "constant": true,
+        "priority": 10,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28A - MANDATORY CHECK GATE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE",
+        "constant": true,
+        "priority": 9,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL",
+        "constant": true,
+        "priority": 1,
+        "keys": [
+          "/.*/",
+          "roll mode",
+          "dice protocol",
+          "actual dice",
+          "random dice",
+          "simulate roll",
+          "roll the dice",
+          "player roll"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      },
+      {
+        "file": "Kyber RPG 00 - Rules Engine.json",
+        "name": "SECTION 0 — ROLE AND LAYER SEPARATION",
+        "constant": true,
+        "priority": 0,
+        "keys": [
+          "/.*/"
+        ],
+        "matchWholeWords": false,
+        "matched_keys": [
+          "<constant>"
+        ]
+      }
+    ]
   }
 ]

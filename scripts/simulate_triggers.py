@@ -25,6 +25,18 @@ TEST_MESSAGES = [
     "I do not touch the dead-drop yet. I step just far enough into the accessway to break line of sight from the taxi mirror, then study the panel, replaced dust, locking bolt, wall seams, floor, and ceiling above it. I am looking for traps, hidden transmitters, fresh heat, a secondary watcher, or signs that the panel was staged to lure investigators in.",
     "OOC: I want actual dice and player roll mode, not GM simulated random dice.",
     "OOC: Use fast play and simulate rolls when needed.",
+    "I use my hypermobility to slip free of the veteran soldier and strike a nerve in his neck.",
+    "I perform an acrobatic routine and the landing sends a shockwave through the deck.",
+    "We never had galactic wars on Earth, so the officer concludes Earth never had war.",
+    "The commander's lover walks onto the classified bridge and every guard allows it.",
+    "The NPC says they personally visited a planet before they were born.",
+    "I mention an avocado and one appears in the alien military galley.",
+    "I use remote viewing and take a thread of a trained Force-user's power with me.",
+    "I visualize the molecular structure and create fire in my palm.",
+    "I lock the Force bond into my mind palace as a permanent fixture.",
+    "I raise thirteen absolute metaphysical shields and whitelist my companion.",
+    "OOC: Wynter has Force Rating 1 and attempts an untrained Force power.",
+    "I tell a hostile commander that I choose him and expect immediate trust.",
 ]
 
 

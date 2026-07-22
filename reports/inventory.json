@@ -1,42 +1,32 @@
 {
-  "generated": "2026-07-20",
+  "generated": "2026-07-22",
   "root": "C:\\Users\\andar\\OneDrive\\Documents\\Star Wars",
   "files": [
     {
-      "file": "janitor_sync_manifest.json",
-      "bytes": 7643,
-      "entries": 0,
-      "constant_entries": 0,
-      "enabled_entries": 0,
-      "keys": 0,
-      "single_word_keys": 0,
-      "regex_keys": 0,
-      "estimated_content_tokens": 0,
-      "categories": {},
-      "top_long_entries": [],
-      "top_key_count_entries": []
-    },
-    {
       "file": "Kyber RPG 00 - Rules Engine.json",
-      "bytes": 101770,
+      "bytes": 101276,
       "entries": 35,
       "constant_entries": 5,
       "enabled_entries": 35,
       "keys": 526,
       "single_word_keys": 295,
       "regex_keys": 0,
-      "estimated_content_tokens": 12299,
+      "estimated_content_tokens": 12182,
       "categories": {
         "kyber_rpg_rules_engine": 35
       },
       "top_long_entries": [
         {
           "name": "SECTION 28 — GM AND NARRATOR OPERATING RULES",
-          "estimated_tokens": 1163
+          "estimated_tokens": 810
         },
         {
           "name": "SECTION 0 — ROLE AND LAYER SEPARATION",
           "estimated_tokens": 759
+        },
+        {
+          "name": "SECTION 28A - MANDATORY CHECK GATE",
+          "estimated_tokens": 516
         },
         {
           "name": "SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL",
@@ -65,10 +55,6 @@
         {
           "name": "SECTION 14 — SOCIAL ENCOUNTERS",
           "estimated_tokens": 362
-        },
-        {
-          "name": "SECTION 7 — WOUNDS, STRAIN, SOAK, AND INCAPACITATION",
-          "estimated_tokens": 360
         }
       ],
       "top_key_count_entries": [
@@ -998,18 +984,30 @@
     },
     {
       "file": "Kyber RPG 10 - Force Powers.json",
-      "bytes": 196466,
-      "entries": 167,
+      "bytes": 201767,
+      "entries": 168,
       "constant_entries": 0,
-      "enabled_entries": 167,
-      "keys": 365,
-      "single_word_keys": 9,
+      "enabled_entries": 168,
+      "keys": 391,
+      "single_word_keys": 12,
       "regex_keys": 0,
-      "estimated_content_tokens": 7960,
+      "estimated_content_tokens": 8670,
       "categories": {
-        "kyber_rpg_force_powers": 167
+        "kyber_rpg_force_powers": 168
       },
       "top_long_entries": [
+        {
+          "name": "crossover metaphysics capability gate",
+          "estimated_tokens": 389
+        },
+        {
+          "name": "force bond",
+          "estimated_tokens": 259
+        },
+        {
+          "name": "force power scaling",
+          "estimated_tokens": 184
+        },
         {
           "name": "battle meditation",
           "estimated_tokens": 90
@@ -1037,21 +1035,17 @@
         {
           "name": "force drain",
           "estimated_tokens": 77
-        },
-        {
-          "name": "force severance",
-          "estimated_tokens": 75
-        },
-        {
-          "name": "force memory alteration",
-          "estimated_tokens": 74
-        },
-        {
-          "name": "force speed",
-          "estimated_tokens": 72
         }
       ],
       "top_key_count_entries": [
+        {
+          "name": "crossover metaphysics capability gate",
+          "keys": 22
+        },
+        {
+          "name": "force power scaling",
+          "keys": 6
+        },
         {
           "name": "force push and pull",
           "keys": 3
@@ -1082,14 +1076,6 @@
         },
         {
           "name": "force stasis",
-          "keys": 3
-        },
-        {
-          "name": "force slow",
-          "keys": 3
-        },
-        {
-          "name": "force sense",
           "keys": 3
         }
       ]
@@ -1488,23 +1474,18 @@
     }
   ],
   "totals": {
-    "files": 16,
-    "entries": 2656,
+    "files": 15,
+    "entries": 2657,
     "constant_entries": 5,
-    "enabled_entries": 2656,
-    "keys": 6707,
-    "single_word_keys": 1246,
+    "enabled_entries": 2657,
+    "keys": 6733,
+    "single_word_keys": 1249,
     "regex_keys": 0,
-    "estimated_content_tokens": 175782
+    "estimated_content_tokens": 176375
   },
   "issues": {
     "invalid_json": [],
-    "non_array_roots": [
-      {
-        "file": "janitor_sync_manifest.json",
-        "root_type": "dict"
-      }
-    ],
+    "non_array_roots": [],
     "schema_mismatches": [],
     "duplicate_ids": [],
     "duplicate_names_within_file": [],
@@ -6329,7 +6310,7 @@
         "index": 29,
         "name": "SECTION 28 — GM AND NARRATOR OPERATING RULES",
         "id": "swffg-2800-ddd93d59",
-        "estimated_tokens": 1163,
+        "estimated_tokens": 810,
         "line": 1496
       },
       {
@@ -6337,7 +6318,7 @@
         "index": 30,
         "name": "SECTION 28A - MANDATORY CHECK GATE",
         "id": "swffg-2805-mandatory-check-gate",
-        "estimated_tokens": 308,
+        "estimated_tokens": 516,
         "line": 1531
       },
       {
@@ -6355,6 +6336,14 @@
         "id": "kyber-vader-operational-profile",
         "estimated_tokens": 458,
         "line": 250
+      },
+      {
+        "file": "Kyber RPG 10 - Force Powers.json",
+        "index": 124,
+        "name": "crossover metaphysics capability gate",
+        "id": "kyber-crossover-metaphysics-capability-gate",
+        "estimated_tokens": 389,
+        "line": 4638
       }
     ],
     "large_key_lists": [
@@ -6381,6 +6370,14 @@
         "id": "swffg-2900-c6dc3d98",
         "key_count": 22,
         "line": 1670
+      },
+      {
+        "file": "Kyber RPG 10 - Force Powers.json",
+        "index": 124,
+        "name": "crossover metaphysics capability gate",
+        "id": "kyber-crossover-metaphysics-capability-gate",
+        "key_count": 22,
+        "line": 4638
       }
     ],
     "repeated_rule_blocks": [],
@@ -6388,7 +6385,7 @@
   },
   "issue_counts": {
     "invalid_json": 0,
-    "non_array_roots": 1,
+    "non_array_roots": 0,
     "schema_mismatches": 0,
     "duplicate_ids": 0,
     "duplicate_names_within_file": 0,
@@ -6401,8 +6398,8 @@
     "keysraw_mismatch": 0,
     "keywordsraw_mismatch": 0,
     "unsorted_insertion_order": 0,
-    "long_entries": 23,
-    "large_key_lists": 3,
+    "long_entries": 24,
+    "large_key_lists": 4,
     "repeated_rule_blocks": 0,
     "suspect_filenames": 0
   }

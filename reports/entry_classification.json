@@ -3312,6 +3312,16 @@
   {
     "file": "Kyber RPG 03 - Characters.json",
     "index": 6,
+    "name": "darth vader",
+    "id": "kyber-vader-operational-profile",
+    "classification": "retain",
+    "estimated_tokens": 458,
+    "key_count": 6,
+    "reasons": []
+  },
+  {
+    "file": "Kyber RPG 03 - Characters.json",
+    "index": 7,
     "name": "padme amidala",
     "id": "a9272e0e-19de-5979-8a8d-71e287ba22a5",
     "classification": "retain",
@@ -3321,7 +3331,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 7,
+    "index": 8,
     "name": "palpatine",
     "id": "cbca24f9-19ea-5ad3-aff7-b2aa84fad069",
     "classification": "retain",
@@ -3331,7 +3341,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 8,
+    "index": 9,
     "name": "count dooku",
     "id": "7b7cc5a5-ab33-58fd-961f-7c241d99ff83",
     "classification": "retain",
@@ -3341,7 +3351,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 9,
+    "index": 10,
     "name": "darth maul",
     "id": "8c221051-53ba-5226-8945-4d7d54bc48fe",
     "classification": "retain",
@@ -3351,7 +3361,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 10,
+    "index": 11,
     "name": "general grievous",
     "id": "02f1fd08-a277-57db-bc17-a8129d252fe7",
     "classification": "retain",
@@ -3361,7 +3371,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 11,
+    "index": 12,
     "name": "jango fett",
     "id": "52ac337e-65e8-5a0d-88a4-d12fe3fe2566",
     "classification": "retain",
@@ -3371,7 +3381,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 12,
+    "index": 13,
     "name": "boba fett",
     "id": "4d441141-1648-5ff1-8e45-993925a55fbb",
     "classification": "retain",
@@ -3381,7 +3391,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 13,
+    "index": 14,
     "name": "luke skywalker",
     "id": "6416d1eb-38b2-5fbe-a73c-0003e5bd87c7",
     "classification": "retain",
@@ -3391,7 +3401,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 14,
+    "index": 15,
     "name": "leia organa",
     "id": "5ab145fe-ae0e-51cf-9b61-948c4ad69c51",
     "classification": "retain",
@@ -3401,7 +3411,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 15,
+    "index": 16,
     "name": "han solo",
     "id": "8550bfa4-7581-514e-a884-1945fb7feee1",
     "classification": "retain",
@@ -3411,7 +3421,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 16,
+    "index": 17,
     "name": "chewbacca",
     "id": "c417826b-9f19-58a2-8ae1-f529c37629e0",
     "classification": "retain",
@@ -3421,7 +3431,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 17,
+    "index": 18,
     "name": "lando calrissian",
     "id": "d9d608ac-07cd-58e6-bf26-2e49fb082d59",
     "classification": "retain",
@@ -3431,7 +3441,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 18,
+    "index": 19,
     "name": "mon mothma",
     "id": "7c155e19-1bbb-51d6-91cd-25d38d17b473",
     "classification": "retain",
@@ -3441,7 +3451,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 19,
+    "index": 20,
     "name": "bail organa",
     "id": "87178d56-d22d-5bf1-ba75-e1796b468c99",
     "classification": "retain",
@@ -3451,7 +3461,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 20,
+    "index": 21,
     "name": "grand moff tarkin",
     "id": "72897e3f-6d1c-5e67-898f-fe72e7fbbaa0",
     "classification": "retain",
@@ -3461,7 +3471,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 21,
+    "index": 22,
     "name": "grand admiral thrawn",
     "id": "2349b8e5-7a9a-59de-8440-4cd4b6411385",
     "classification": "retain",
@@ -3471,7 +3481,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 22,
+    "index": 23,
     "name": "ezra bridger",
     "id": "6abf2165-a0a5-5af9-bda1-7e92bb633ce3",
     "classification": "retain",
@@ -3481,7 +3491,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 23,
+    "index": 24,
     "name": "kanan jarrus",
     "id": "ca5f31e7-a662-5929-9eab-26cb67bcbbe5",
     "classification": "retain",
@@ -3491,7 +3501,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 24,
+    "index": 25,
     "name": "hera syndulla",
     "id": "cfe3d850-9fa5-5faa-a723-76befc342428",
     "classification": "retain",
@@ -3501,7 +3511,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 25,
+    "index": 26,
     "name": "sabine wren",
     "id": "0a798e6b-038f-53cb-a569-c5323bd69060",
     "classification": "retain",
@@ -3511,7 +3521,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 26,
+    "index": 27,
     "name": "din djarin",
     "id": "4de76e3c-6c39-5fd1-a57d-a48a2c0a2f30",
     "classification": "retain",
@@ -3521,7 +3531,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 27,
+    "index": 28,
     "name": "grogu",
     "id": "1bcfabfe-f4e3-5a7b-b48c-95d1434114d2",
     "classification": "retain",
@@ -3531,7 +3541,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 28,
+    "index": 29,
     "name": "rey",
     "id": "045adb27-9eb2-5444-9653-a788b7f36a1a",
     "classification": "retain",
@@ -3541,7 +3551,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 29,
+    "index": 30,
     "name": "finn",
     "id": "30d25dfe-e5df-538e-9422-a388416a1e20",
     "classification": "retain",
@@ -3551,7 +3561,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 30,
+    "index": 31,
     "name": "poe dameron",
     "id": "887d931d-2473-53ec-8d8b-ea50642c5be1",
     "classification": "retain",
@@ -3561,7 +3571,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 31,
+    "index": 32,
     "name": "kylo ren",
     "id": "afe7e43f-1167-5758-9d84-be301e4b56f3",
     "classification": "retain",
@@ -3571,7 +3581,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 32,
+    "index": 33,
     "name": "avar kriss",
     "id": "73d302cf-a940-5068-b613-04d1d7f78cb1",
     "classification": "retain",
@@ -3581,7 +3591,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 33,
+    "index": 34,
     "name": "elzar mann",
     "id": "e6e63b32-b926-534b-a48a-1501845924de",
     "classification": "retain",
@@ -3591,7 +3601,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 34,
+    "index": 35,
     "name": "stellan gios",
     "id": "1de34e9b-95d6-5130-9c09-f96344c5835e",
     "classification": "retain",
@@ -3601,7 +3611,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 35,
+    "index": 36,
     "name": "bell zettifar",
     "id": "04b70ba8-7b8a-581c-93f2-2bb9a3c17584",
     "classification": "retain",
@@ -3611,7 +3621,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 36,
+    "index": 37,
     "name": "vernestra rwoh",
     "id": "d84de828-d504-566f-939d-41733561fd65",
     "classification": "retain",
@@ -3621,7 +3631,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 37,
+    "index": 38,
     "name": "porter engle",
     "id": "703d76c2-4dbb-5a81-8234-c7bcea866f3e",
     "classification": "retain",
@@ -3631,7 +3641,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 38,
+    "index": 39,
     "name": "marchion ro",
     "id": "dab6d314-3dfd-5381-9ebd-f58a8755bd22",
     "classification": "retain",
@@ -3641,7 +3651,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 39,
+    "index": 40,
     "name": "lourna dee",
     "id": "4e84f6e1-91a4-5efa-9f51-9af12d7ae049",
     "classification": "retain",
@@ -3651,7 +3661,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 40,
+    "index": 41,
     "name": "sol",
     "id": "843c49f7-a6e7-57bb-8f82-80fc15c4a59b",
     "classification": "retain",
@@ -3661,7 +3671,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 41,
+    "index": 42,
     "name": "osha aniseya",
     "id": "719b1316-9ac7-5877-a64d-114eedf7c96b",
     "classification": "retain",
@@ -3671,7 +3681,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 42,
+    "index": 43,
     "name": "mae aniseya",
     "id": "b9ad1a51-3d1b-593f-bedc-4d999b71d1d4",
     "classification": "retain",
@@ -3681,7 +3691,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 43,
+    "index": 44,
     "name": "qimir",
     "id": "10e04f5e-7c51-54df-8b8a-6dce9a2b315d",
     "classification": "retain",
@@ -3691,7 +3701,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 44,
+    "index": 45,
     "name": "mother aniseya",
     "id": "6660e9d1-2a01-528e-b96f-568b0cdd4f00",
     "classification": "retain",
@@ -3701,7 +3711,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 45,
+    "index": 46,
     "name": "cal kestis",
     "id": "46c79d7c-5036-5f91-8245-f825175ee5fe",
     "classification": "retain",
@@ -3711,7 +3721,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 46,
+    "index": 47,
     "name": "cere junda",
     "id": "6859b936-15dc-5c5f-913f-2cd220046d14",
     "classification": "retain",
@@ -3721,7 +3731,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 47,
+    "index": 48,
     "name": "merrin",
     "id": "e792bd96-7dce-511a-9864-bbd0f4faccf9",
     "classification": "retain",
@@ -3731,7 +3741,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 48,
+    "index": 49,
     "name": "bd-1",
     "id": "a44aab81-7b77-58f3-ac1b-ee3bc198ac81",
     "classification": "retain",
@@ -3741,7 +3751,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 49,
+    "index": 50,
     "name": "greez dritus",
     "id": "8ddf6acf-3b78-5b49-b158-0bd80636844a",
     "classification": "retain",
@@ -3751,7 +3761,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 50,
+    "index": 51,
     "name": "second sister",
     "id": "32caa6ab-9352-5d1f-a54c-ea50a65addc0",
     "classification": "retain",
@@ -3761,7 +3771,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 51,
+    "index": 52,
     "name": "dagan gera",
     "id": "ed3f8f54-6dd7-54e1-a4b4-2d5079591b37",
     "classification": "retain",
@@ -3771,7 +3781,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 52,
+    "index": 53,
     "name": "kay vess",
     "id": "b34c50fa-54a5-55ec-8fe7-f0bd9021ca0d",
     "classification": "retain",
@@ -3781,7 +3791,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 53,
+    "index": 54,
     "name": "nd-5",
     "id": "ff53d3ef-396a-569e-8406-db1d7c0bc896",
     "classification": "retain",
@@ -3791,7 +3801,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 54,
+    "index": 55,
     "name": "enfys nest",
     "id": "faee112f-8adc-5651-90bd-d248b8382725",
     "classification": "retain",
@@ -3801,7 +3811,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 55,
+    "index": 56,
     "name": "qi'ra",
     "id": "51776333-fb0c-5c18-9b3d-201edf57b2f0",
     "classification": "retain",
@@ -3811,7 +3821,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 56,
+    "index": 57,
     "name": "dryden vos",
     "id": "a21f9949-51fb-5219-8e18-27d31af2908b",
     "classification": "retain",
@@ -3821,7 +3831,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 57,
+    "index": 58,
     "name": "bo-katan kryze",
     "id": "72f5cadd-ff3c-5b14-85d3-346079aecfb6",
     "classification": "retain",
@@ -3831,7 +3841,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 58,
+    "index": 59,
     "name": "duchess satine kryze",
     "id": "98f91695-f4d6-59d9-be8c-c658de344051",
     "classification": "retain",
@@ -3841,7 +3851,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 59,
+    "index": 60,
     "name": "pre vizsla",
     "id": "5f6593a3-5348-5c30-a615-9482ca3388ea",
     "classification": "retain",
@@ -3851,7 +3861,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 60,
+    "index": 61,
     "name": "gar saxon",
     "id": "861b691b-e81b-5df7-b575-5dc35fec9534",
     "classification": "retain",
@@ -3861,7 +3871,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 61,
+    "index": 62,
     "name": "fennec shand",
     "id": "468f528f-a5d7-5acf-87ca-8d74d3cfd4a6",
     "classification": "retain",
@@ -3871,7 +3881,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 62,
+    "index": 63,
     "name": "cad bane",
     "id": "e3303649-878e-5e0e-a247-6fdfb1d04dfc",
     "classification": "retain",
@@ -3881,7 +3891,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 63,
+    "index": 64,
     "name": "bossk",
     "id": "a279af96-d010-57db-9add-0b8f12d7eb2e",
     "classification": "retain",
@@ -3891,7 +3901,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 64,
+    "index": 65,
     "name": "ig-11",
     "id": "774a2e1a-658b-542f-a412-b2f740c0f3a5",
     "classification": "retain",
@@ -3901,7 +3911,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 65,
+    "index": 66,
     "name": "the grand inquisitor",
     "id": "65d171ca-d2ae-5fa9-8123-04d1e9eee9ea",
     "classification": "retain",
@@ -3911,7 +3921,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 66,
+    "index": 67,
     "name": "fifth brother",
     "id": "9bf00c36-1462-5ac6-bc1a-c388fc6833e7",
     "classification": "retain",
@@ -3921,7 +3931,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 67,
+    "index": 68,
     "name": "seventh sister",
     "id": "d528b232-cbc9-5ef3-a3cf-9d3c8f4daae2",
     "classification": "retain",
@@ -3931,7 +3941,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 68,
+    "index": 69,
     "name": "ninth sister",
     "id": "25389f70-61c9-5f73-8006-c35a98dd2896",
     "classification": "retain",
@@ -3941,7 +3951,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 69,
+    "index": 70,
     "name": "third sister",
     "id": "fd36f1a7-60e2-562d-ad74-09589ff8ec4b",
     "classification": "retain",
@@ -3951,7 +3961,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 70,
+    "index": 71,
     "name": "sixth brother",
     "id": "1893be9b-9bfd-5c1c-819a-6c58fc7dba2b",
     "classification": "retain",
@@ -3961,7 +3971,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 71,
+    "index": 72,
     "name": "tenth brother",
     "id": "7ce20ea3-4d38-5c67-bb28-825bfd74be3a",
     "classification": "retain",
@@ -3971,7 +3981,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 72,
+    "index": 73,
     "name": "bendu",
     "id": "06f6d9fa-3366-5815-b357-103a1766cf87",
     "classification": "retain",
@@ -3981,7 +3991,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 73,
+    "index": 74,
     "name": "plo koon",
     "id": "932f3eb3-8a05-538a-9eee-c2295cfc23c1",
     "classification": "retain",
@@ -3991,7 +4001,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 74,
+    "index": 75,
     "name": "kit fisto",
     "id": "feb32441-0cf4-5a33-a551-6facf443c21b",
     "classification": "retain",
@@ -4001,7 +4011,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 75,
+    "index": 76,
     "name": "aayla secura",
     "id": "3f649036-b1e8-5d79-8eb4-bf7fc24c7271",
     "classification": "retain",
@@ -4011,7 +4021,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 76,
+    "index": 77,
     "name": "luminara unduli",
     "id": "25c377ba-6ea2-5d00-9ea4-d60e0808b18e",
     "classification": "retain",
@@ -4021,7 +4031,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 77,
+    "index": 78,
     "name": "barriss offee",
     "id": "762151ea-5821-537b-b9fb-4824d01ddde1",
     "classification": "retain",
@@ -4031,7 +4041,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 78,
+    "index": 79,
     "name": "shaak ti",
     "id": "f3aad20c-01d1-522b-b49e-c89fbf164897",
     "classification": "retain",
@@ -4041,7 +4051,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 79,
+    "index": 80,
     "name": "ki-adi-mundi",
     "id": "8cf4167f-7345-5d6f-a721-7ad2bf4ae604",
     "classification": "retain",
@@ -4051,7 +4061,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 80,
+    "index": 81,
     "name": "saesee tiin",
     "id": "53ef6368-27ad-598c-8bce-c3aba1b28a0c",
     "classification": "retain",
@@ -4061,7 +4071,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 81,
+    "index": 82,
     "name": "agen kolar",
     "id": "6e990c26-5352-5f69-9645-caba24e58146",
     "classification": "retain",
@@ -4071,7 +4081,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 82,
+    "index": 83,
     "name": "adi gallia",
     "id": "c4c6885e-2238-50fa-93be-cd5fa0dd1b72",
     "classification": "retain",
@@ -4081,7 +4091,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 83,
+    "index": 84,
     "name": "stass allie",
     "id": "f1644b4f-2e1c-5e65-800b-63bcbdc0fbb1",
     "classification": "retain",
@@ -4091,7 +4101,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 84,
+    "index": 85,
     "name": "eeth koth",
     "id": "82c1c84e-7bf0-5848-906d-b1d002a9fa17",
     "classification": "retain",
@@ -4101,7 +4111,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 85,
+    "index": 86,
     "name": "depa billaba",
     "id": "fdc9074d-a0f8-517a-9396-4ab5fd8a128a",
     "classification": "retain",
@@ -4111,7 +4121,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 86,
+    "index": 87,
     "name": "jaro tapal",
     "id": "ed5627d6-e5be-5b09-bf7b-de87b98eaf16",
     "classification": "retain",
@@ -4121,7 +4131,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 87,
+    "index": 88,
     "name": "eno cordova",
     "id": "c4fda493-3952-559e-abc9-6420c204f156",
     "classification": "retain",
@@ -4131,7 +4141,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 88,
+    "index": 89,
     "name": "quinlan vos",
     "id": "fb66f6ed-8f32-590d-90a9-61945ca9ab4d",
     "classification": "retain",
@@ -4141,7 +4151,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 89,
+    "index": 90,
     "name": "asajj ventress",
     "id": "ba716112-fbe3-5950-baf8-f2483ae6e020",
     "classification": "retain",
@@ -4151,7 +4161,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 90,
+    "index": 91,
     "name": "savage opress",
     "id": "a05f0353-d429-5a70-acfd-9bf1357c57b3",
     "classification": "retain",
@@ -4161,7 +4171,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 91,
+    "index": 92,
     "name": "mother talzin",
     "id": "09c7d6f2-abd2-5285-b841-0b86e10f424f",
     "classification": "retain",
@@ -4171,7 +4181,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 92,
+    "index": 93,
     "name": "captain rex",
     "id": "e0af1026-4b2d-5d83-85e6-f1fef5276739",
     "classification": "retain",
@@ -4181,7 +4191,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 93,
+    "index": 94,
     "name": "commander cody",
     "id": "60d10a37-0f5d-5301-b50c-e3c0791b7fac",
     "classification": "retain",
@@ -4191,7 +4201,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 94,
+    "index": 95,
     "name": "commander wolffe",
     "id": "78a1db35-7136-55ea-a9d8-cc96be90bd9e",
     "classification": "retain",
@@ -4201,7 +4211,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 95,
+    "index": 96,
     "name": "commander bly",
     "id": "553f4ecf-06bc-5e0b-97f7-1bf451a6a211",
     "classification": "retain",
@@ -4211,7 +4221,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 96,
+    "index": 97,
     "name": "commander gree",
     "id": "9cb2fbef-b15f-53ea-bac1-ba332e65b214",
     "classification": "retain",
@@ -4221,7 +4231,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 97,
+    "index": 98,
     "name": "commander bacara",
     "id": "57e891d7-135b-5a39-831d-f7605cd427b2",
     "classification": "retain",
@@ -4231,7 +4241,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 98,
+    "index": 99,
     "name": "fives",
     "id": "cc79fa80-927e-5b57-8ff8-331095671dde",
     "classification": "retain",
@@ -4241,7 +4251,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 99,
+    "index": 100,
     "name": "echo",
     "id": "0cb8ca7d-90ec-53bb-b153-b866db9968c3",
     "classification": "retain",
@@ -4251,7 +4261,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 100,
+    "index": 101,
     "name": "hunter",
     "id": "00b09f74-3b51-5636-8a8c-9e7bc2f89db9",
     "classification": "retain",
@@ -4261,7 +4271,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 101,
+    "index": 102,
     "name": "wrecker",
     "id": "0e6f3f13-95ef-5f9b-9bfa-b4f9dba9f738",
     "classification": "retain",
@@ -4271,7 +4281,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 102,
+    "index": 103,
     "name": "tech",
     "id": "e9cb18d6-bfa7-54a0-804c-72bf7b6484cb",
     "classification": "retain",
@@ -4281,7 +4291,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 103,
+    "index": 104,
     "name": "crosshair",
     "id": "f198bdce-36da-56c5-9007-b6692366c102",
     "classification": "retain",
@@ -4291,7 +4301,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 104,
+    "index": 105,
     "name": "omega clone",
     "id": "7a43efd6-3c8f-5e58-85ef-05008fedb40d",
     "classification": "retain",
@@ -4301,7 +4311,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 105,
+    "index": 106,
     "name": "nala se",
     "id": "b92cb85e-a6a6-526a-a0c2-385796fe6c8d",
     "classification": "retain",
@@ -4311,7 +4321,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 106,
+    "index": 107,
     "name": "lama su",
     "id": "3bebdff8-e247-5301-8a00-badc5ae12168",
     "classification": "retain",
@@ -4321,7 +4331,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 107,
+    "index": 108,
     "name": "dr hemlock",
     "id": "033cf75e-23df-501d-b73b-92ab4bab9e53",
     "classification": "retain",
@@ -4331,7 +4341,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 108,
+    "index": 109,
     "name": "emery karr",
     "id": "462f42da-04e6-52bd-b7c3-eb2c13d5bfa2",
     "classification": "retain",
@@ -4341,7 +4351,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 109,
+    "index": 110,
     "name": "saw gerrera",
     "id": "e66ff295-6ddc-5911-8594-71962209fa23",
     "classification": "retain",
@@ -4351,7 +4361,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 110,
+    "index": 111,
     "name": "steela gerrera",
     "id": "932be10f-868f-5bf4-9a24-2f399151e9be",
     "classification": "retain",
@@ -4361,7 +4371,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 111,
+    "index": 112,
     "name": "hondo ohnaka",
     "id": "80c5832f-7407-50db-8b94-4e03678e321d",
     "classification": "retain",
@@ -4371,7 +4381,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 112,
+    "index": 113,
     "name": "maz kanata",
     "id": "742e7074-3c98-5700-9358-28268e900d7c",
     "classification": "retain",
@@ -4381,7 +4391,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 113,
+    "index": 114,
     "name": "greef karga",
     "id": "4b516df3-ffb6-5b5a-b4ac-bce3c0d40425",
     "classification": "retain",
@@ -4391,7 +4401,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 114,
+    "index": 115,
     "name": "cara dune",
     "id": "6198089d-c99d-53a4-9315-3abd146c7779",
     "classification": "retain",
@@ -4401,7 +4411,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 115,
+    "index": 116,
     "name": "kuiil",
     "id": "e0201690-04b6-5f30-8e93-e8e57a79dc9d",
     "classification": "retain",
@@ -4411,7 +4421,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 116,
+    "index": 117,
     "name": "moff gideon",
     "id": "422cc1ac-5531-547d-83c2-b5c4ff1b43a1",
     "classification": "retain",
@@ -4421,7 +4431,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 117,
+    "index": 118,
     "name": "the armorer",
     "id": "451f41ab-d6ce-5b91-b1d9-effca1df9460",
     "classification": "retain",
@@ -4431,7 +4441,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 118,
+    "index": 119,
     "name": "paz vizsla",
     "id": "2bec3e90-153b-559b-990c-bedbde414b6b",
     "classification": "retain",
@@ -4441,7 +4451,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 119,
+    "index": 120,
     "name": "koska reeves",
     "id": "7ca1b169-61d5-5a79-b6ef-ce0da101f5de",
     "classification": "retain",
@@ -4451,7 +4461,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 120,
+    "index": 121,
     "name": "axe woves",
     "id": "c0382efe-522c-54e5-bd57-b714d4dd80d0",
     "classification": "retain",
@@ -4461,7 +4471,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 121,
+    "index": 122,
     "name": "fenn rau",
     "id": "c6d1c5d7-9813-5cbf-9538-06aca22f46fb",
     "classification": "retain",
@@ -4471,7 +4481,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 122,
+    "index": 123,
     "name": "ursa wren",
     "id": "5a29d40e-205a-5404-b2fa-cc5668139032",
     "classification": "retain",
@@ -4481,7 +4491,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 123,
+    "index": 124,
     "name": "alrich wren",
     "id": "d0b23568-7ad7-5567-b66e-2c55f0334b7c",
     "classification": "retain",
@@ -4491,7 +4501,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 124,
+    "index": 125,
     "name": "tristan wren",
     "id": "f326d4c0-2550-545f-b130-bcbe4b75180c",
     "classification": "retain",
@@ -4501,7 +4511,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 125,
+    "index": 126,
     "name": "rook kast",
     "id": "12d9d340-ecb8-5b85-9148-e3a1377fa5dd",
     "classification": "retain",
@@ -4511,7 +4521,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 126,
+    "index": 127,
     "name": "cassian andor",
     "id": "fde21a5d-6d43-5a58-afe3-4c68ee5401f3",
     "classification": "retain",
@@ -4521,7 +4531,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 127,
+    "index": 128,
     "name": "luthen rael",
     "id": "510184aa-b352-558c-90e3-c309e8d382a9",
     "classification": "retain",
@@ -4531,7 +4541,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 128,
+    "index": 129,
     "name": "mon mothma andor era",
     "id": "68c01d3d-49a1-5311-bb43-4291c986f46d",
     "classification": "retain",
@@ -4541,7 +4551,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 129,
+    "index": 130,
     "name": "dedra meero",
     "id": "091e5e3c-73ba-5f72-b39b-662bb4a40f8b",
     "classification": "retain",
@@ -4551,7 +4561,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 130,
+    "index": 131,
     "name": "syril karn",
     "id": "216b7526-b81a-5f7c-acf2-b8d1556ae06a",
     "classification": "retain",
@@ -4561,7 +4571,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 131,
+    "index": 132,
     "name": "maarva andor",
     "id": "1ed54dbd-2fbc-59df-a8cb-3fb16bbd552c",
     "classification": "retain",
@@ -4571,7 +4581,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 132,
+    "index": 133,
     "name": "bix caleen",
     "id": "d3aef8bb-f4c7-57d5-b649-3a9fb7db1486",
     "classification": "retain",
@@ -4581,7 +4591,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 133,
+    "index": 134,
     "name": "brasso",
     "id": "4ef77cb2-2458-5ed7-8982-1e01ae3b04a7",
     "classification": "retain",
@@ -4591,7 +4601,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 134,
+    "index": 135,
     "name": "kino loy",
     "id": "f020e5be-4bdc-564b-9ddf-575af13853e5",
     "classification": "retain",
@@ -4601,7 +4611,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 135,
+    "index": 136,
     "name": "vel sartha",
     "id": "cbdb28e3-a7bd-5e6e-bab9-59f0874676e4",
     "classification": "retain",
@@ -4611,7 +4621,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 136,
+    "index": 137,
     "name": "cinta kaz",
     "id": "f2bbf2dd-0e84-5f6e-bb86-a01f9fca8a7e",
     "classification": "retain",
@@ -4621,7 +4631,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 137,
+    "index": 138,
     "name": "nemik",
     "id": "572b0167-fd2e-57ee-96b1-eea25a0dd479",
     "classification": "retain",
@@ -4631,7 +4641,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 138,
+    "index": 139,
     "name": "saw gerrera andor era",
     "id": "23cfd07d-0033-587e-afe4-4269390f41bf",
     "classification": "retain",
@@ -4641,7 +4651,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 139,
+    "index": 140,
     "name": "orson krennic",
     "id": "124fca40-2b1f-55da-bd33-dfa168958878",
     "classification": "retain",
@@ -4651,7 +4661,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 140,
+    "index": 141,
     "name": "galen erso",
     "id": "e5484fda-2db8-5c17-8ef0-21a2fc7f883b",
     "classification": "retain",
@@ -4661,7 +4671,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 141,
+    "index": 142,
     "name": "jyn erso",
     "id": "9734950e-9334-5ec2-bf85-594b65e54cb3",
     "classification": "retain",
@@ -4671,7 +4681,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 142,
+    "index": 143,
     "name": "chirrut imwe",
     "id": "d885ea08-66fb-5f66-b128-2d2bc91a2596",
     "classification": "retain",
@@ -4681,7 +4691,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 143,
+    "index": 144,
     "name": "baze malbus",
     "id": "731e9274-64d6-5aa8-8d3c-79ba21a0ec94",
     "classification": "retain",
@@ -4691,7 +4701,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 144,
+    "index": 145,
     "name": "bodhi rook",
     "id": "a17daa0b-dc5e-5e32-8977-80cd1a822cf6",
     "classification": "retain",
@@ -4701,7 +4711,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 145,
+    "index": 146,
     "name": "k-2so",
     "id": "12f75d98-13dd-5a6d-b10e-2f8c306e21a3",
     "classification": "retain",
@@ -4711,7 +4721,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 146,
+    "index": 147,
     "name": "admiral raddus",
     "id": "257df793-fff1-5b46-974a-9bbb4f492a12",
     "classification": "retain",
@@ -4721,7 +4731,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 147,
+    "index": 148,
     "name": "bail organa rogue one era",
     "id": "92f3b738-1b01-50f4-8dea-2127cc1393e6",
     "classification": "retain",
@@ -4731,7 +4741,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 148,
+    "index": 149,
     "name": "snoke",
     "id": "d004c2be-d06a-5ff9-8096-836427fede8f",
     "classification": "retain",
@@ -4741,7 +4751,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 149,
+    "index": 150,
     "name": "captain phasma",
     "id": "079b5f63-ae15-58d0-954f-a189655b9cde",
     "classification": "retain",
@@ -4751,7 +4761,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 150,
+    "index": 151,
     "name": "general hux",
     "id": "48ccb763-2c3a-512a-9186-98448fe3cfd5",
     "classification": "retain",
@@ -4761,7 +4771,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 151,
+    "index": 152,
     "name": "allegiant general pryde",
     "id": "abeba829-0612-549d-a1f1-934d5223d37e",
     "classification": "retain",
@@ -4771,7 +4781,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 152,
+    "index": 153,
     "name": "rose tico",
     "id": "9e06aefe-5215-5038-8eef-9c0c8997a689",
     "classification": "retain",
@@ -4781,7 +4791,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 153,
+    "index": 154,
     "name": "paige tico",
     "id": "5fd75242-25aa-5173-ba72-a6e3ba04d490",
     "classification": "retain",
@@ -4791,7 +4801,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 154,
+    "index": 155,
     "name": "vice admiral holdo",
     "id": "52909c53-8e98-5ef4-a721-0366bc9051e2",
     "classification": "retain",
@@ -4801,7 +4811,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 155,
+    "index": 156,
     "name": "zori bliss",
     "id": "80a7c6b7-a964-54ed-a486-e79ae4c9de8f",
     "classification": "retain",
@@ -4811,7 +4821,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 156,
+    "index": 157,
     "name": "jannah",
     "id": "8dcc3adf-2e5f-51a3-9f25-cb1de738d997",
     "classification": "retain",
@@ -4821,7 +4831,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 157,
+    "index": 158,
     "name": "d-0",
     "id": "6e7dbdd6-e8c5-5202-a63b-e6ac040a61f5",
     "classification": "retain",
@@ -4831,7 +4841,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 158,
+    "index": 159,
     "name": "bb-8",
     "id": "f178d71b-e82c-55e0-be20-bb02c5c94065",
     "classification": "retain",
@@ -4841,7 +4851,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 159,
+    "index": 160,
     "name": "r2-d2",
     "id": "e07a38b8-7a7d-58ed-94a3-0e1ccb4d3dcb",
     "classification": "retain",
@@ -4851,7 +4861,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 160,
+    "index": 161,
     "name": "c-3po",
     "id": "9e6483d1-bfa2-54f6-983a-518258866331",
     "classification": "retain",
@@ -4861,7 +4871,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 161,
+    "index": 162,
     "name": "chopper",
     "id": "e2602ec3-e4b6-5e10-85c8-11fc76412d74",
     "classification": "retain",
@@ -4871,7 +4881,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 162,
+    "index": 163,
     "name": "ap-5",
     "id": "69a5a14b-15c0-56af-a475-d747f542cf50",
     "classification": "retain",
@@ -4881,7 +4891,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 163,
+    "index": 164,
     "name": "zeb orrelios",
     "id": "dca5e8e9-228f-5cea-953d-14c42a2b49bd",
     "classification": "retain",
@@ -4891,7 +4901,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 164,
+    "index": 165,
     "name": "alexsandr kallus",
     "id": "a5cebd44-3733-5ff7-8f8e-d502e66502d0",
     "classification": "retain",
@@ -4901,7 +4911,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 165,
+    "index": 166,
     "name": "admiral konstantine",
     "id": "e74cabff-2b99-54c0-aff6-955f5f6bd765",
     "classification": "retain",
@@ -4911,7 +4921,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 166,
+    "index": 167,
     "name": "commander sato",
     "id": "93015c6c-6d02-5ef6-abd5-951849f5e7b2",
     "classification": "retain",
@@ -4921,7 +4931,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 167,
+    "index": 168,
     "name": "ryder azadi",
     "id": "6c448128-1839-583b-9e91-7ad604419a4f",
     "classification": "retain",
@@ -4931,7 +4941,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 168,
+    "index": 169,
     "name": "cham syndulla",
     "id": "3d0de8b8-5f8b-544a-9d90-7a90bd91bf61",
     "classification": "retain",
@@ -4941,7 +4951,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 169,
+    "index": 170,
     "name": "el eni syndulla",
     "id": "a506b111-6a81-5006-82be-e8c9a72dfba7",
     "classification": "retain",
@@ -4951,7 +4961,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 170,
+    "index": 171,
     "name": "jacen syndulla",
     "id": "db1ed5c8-6ba7-5abb-861e-f5ac1f68c838",
     "classification": "retain",
@@ -4961,7 +4971,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 171,
+    "index": 172,
     "name": "baylan skoll",
     "id": "77984842-59e5-5e48-83f7-eccb8b2a46df",
     "classification": "retain",
@@ -4971,7 +4981,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 172,
+    "index": 173,
     "name": "shin hati",
     "id": "0011403e-724a-5484-89ac-84cff555dc6f",
     "classification": "retain",
@@ -4981,7 +4991,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 173,
+    "index": 174,
     "name": "morgan elsbeth",
     "id": "76c34e39-90b9-5f47-a087-3b216828ce5a",
     "classification": "retain",
@@ -4991,7 +5001,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 174,
+    "index": 175,
     "name": "great mothers",
     "id": "c2f9b4c2-7855-57f3-a294-4b550f9d9048",
     "classification": "retain",
@@ -5001,7 +5011,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 175,
+    "index": 176,
     "name": "enoch",
     "id": "91f05379-7219-5f3b-bd8c-a6bfddbe3103",
     "classification": "retain",
@@ -5011,7 +5021,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 176,
+    "index": 177,
     "name": "carson teva",
     "id": "2c1e10a3-82c4-5e43-8219-4d93de56dace",
     "classification": "retain",
@@ -5021,7 +5031,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 177,
+    "index": 178,
     "name": "eli vanto",
     "id": "2f7d70a1-5f77-54dc-b390-063456dc3163",
     "classification": "retain",
@@ -5031,7 +5041,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 178,
+    "index": 179,
     "name": "ar'alani",
     "id": "9f6aa4c5-d242-5b22-a4af-e82c0f3b1ec0",
     "classification": "retain",
@@ -5041,7 +5051,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 179,
+    "index": 180,
     "name": "thalias",
     "id": "2d58b328-3c04-5b4f-8c5d-a17eab17ddc5",
     "classification": "retain",
@@ -5051,7 +5061,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 180,
+    "index": 181,
     "name": "che'ri",
     "id": "ca2bbe66-89c8-54ec-bea3-02be318101e3",
     "classification": "retain",
@@ -5061,7 +5071,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 181,
+    "index": 182,
     "name": "aphra",
     "id": "f3d9dc28-aab6-52f2-bb3d-1c50abfd6594",
     "classification": "retain",
@@ -5071,7 +5081,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 182,
+    "index": 183,
     "name": "triple-zero",
     "id": "037e9a95-78bd-5598-adf6-a49aaeb66aad",
     "classification": "retain",
@@ -5081,7 +5091,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 183,
+    "index": 184,
     "name": "bt-1",
     "id": "16807842-4dcb-57e5-a76d-d1062dd0959c",
     "classification": "retain",
@@ -5091,7 +5101,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 184,
+    "index": 185,
     "name": "sana starros",
     "id": "f5beb673-0331-53a3-a7fb-cc0989acd455",
     "classification": "retain",
@@ -5101,7 +5111,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 185,
+    "index": 186,
     "name": "beilert valance",
     "id": "e2a232d3-bef3-5700-b102-5537afa4ea03",
     "classification": "retain",
@@ -5111,7 +5121,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 186,
+    "index": 187,
     "name": "dengar",
     "id": "72cc7a73-d7d3-5c9a-b001-dfbc4dcb8450",
     "classification": "retain",
@@ -5121,7 +5131,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 187,
+    "index": 188,
     "name": "4-lom",
     "id": "880bc161-aa87-56c5-9fa2-16e485ae9197",
     "classification": "retain",
@@ -5131,7 +5141,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 188,
+    "index": 189,
     "name": "zuckuss",
     "id": "fb201ddb-ca88-53f2-9a3f-2b57d2e10328",
     "classification": "retain",
@@ -5141,7 +5151,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 189,
+    "index": 190,
     "name": "greeata and max rebo ensemble",
     "id": "8d850069-b758-5148-b019-43b1359b8ed0",
     "classification": "retain",
@@ -5151,7 +5161,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 190,
+    "index": 191,
     "name": "bib fortuna",
     "id": "f5125b57-19c6-5365-8ef1-f13beffeb28b",
     "classification": "retain",
@@ -5161,7 +5171,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 191,
+    "index": 192,
     "name": "salacious crumb",
     "id": "8c9c7894-b7b5-536f-b3fc-19d38a2cfec9",
     "classification": "retain",
@@ -5171,7 +5181,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 192,
+    "index": 193,
     "name": "jabba the hutt",
     "id": "4cf4f607-c663-5ef7-839a-ee1541e4e3fe",
     "classification": "retain",
@@ -5181,7 +5191,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 193,
+    "index": 194,
     "name": "gardulla the hutt",
     "id": "56b219ed-cd26-5f53-bbbe-61a5d43849ca",
     "classification": "retain",
@@ -5191,7 +5201,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 194,
+    "index": 195,
     "name": "watto",
     "id": "a6e45e33-ffeb-5182-a762-11c60056b1d4",
     "classification": "retain",
@@ -5201,7 +5211,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 195,
+    "index": 196,
     "name": "shmi skywalker",
     "id": "4f1988b2-b91d-50f1-ab74-ad9673346918",
     "classification": "retain",
@@ -5211,7 +5221,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 196,
+    "index": 197,
     "name": "owen lars",
     "id": "c7bd5e9f-7dbe-560d-86f3-65405ca8e72e",
     "classification": "retain",
@@ -5221,7 +5231,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 197,
+    "index": 198,
     "name": "beru lars",
     "id": "5c961b11-3aa1-5a01-ada5-8354cd871112",
     "classification": "retain",
@@ -5231,7 +5241,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 198,
+    "index": 199,
     "name": "breha organa",
     "id": "9ca2a6f6-a072-5b5c-99f9-44e86a775d26",
     "classification": "retain",
@@ -5241,7 +5251,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 199,
+    "index": 200,
     "name": "wedge antilles",
     "id": "9a10be99-2574-59d1-806c-a97b03c6c6ff",
     "classification": "retain",
@@ -5251,7 +5261,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 200,
+    "index": 201,
     "name": "biggs darklighter",
     "id": "dd8f8302-e848-5884-b28c-b144c639e195",
     "classification": "retain",
@@ -5261,7 +5271,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 201,
+    "index": 202,
     "name": "dak ralter",
     "id": "3e8aeb18-5ae9-5b5c-93a3-1031e69f2fac",
     "classification": "retain",
@@ -5271,7 +5281,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 202,
+    "index": 203,
     "name": "nien nunb",
     "id": "f2da0fce-a0ef-51ea-9f5d-18b2b6367b62",
     "classification": "retain",
@@ -5281,7 +5291,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 203,
+    "index": 204,
     "name": "admiral ackbar",
     "id": "940bb091-d7d7-5ef2-b371-ed9bc4ab9815",
     "classification": "retain",
@@ -5291,7 +5301,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 204,
+    "index": 205,
     "name": "general dodonna",
     "id": "b520d8b6-e613-5d35-b5eb-765291340ebb",
     "classification": "retain",
@@ -5301,7 +5311,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 205,
+    "index": 206,
     "name": "general madine",
     "id": "d0195a1e-2a6d-5af9-9081-971debb04602",
     "classification": "retain",
@@ -5311,7 +5321,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 206,
+    "index": 207,
     "name": "ig-88",
     "id": "e12ce8a7-7f3e-512b-8cbf-7e46b6fbee99",
     "classification": "retain",
@@ -5321,7 +5331,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 207,
+    "index": 208,
     "name": "jod na nawood",
     "id": "kyber-recent-jod-na-nawood",
     "classification": "retain",
@@ -5331,7 +5341,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 208,
+    "index": 209,
     "name": "fern",
     "id": "kyber-recent-fern",
     "classification": "retain",
@@ -5341,7 +5351,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 209,
+    "index": 210,
     "name": "wim",
     "id": "kyber-recent-wim",
     "classification": "retain",
@@ -5351,7 +5361,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 210,
+    "index": 211,
     "name": "kb",
     "id": "kyber-recent-kb",
     "classification": "retain",
@@ -5361,7 +5371,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 211,
+    "index": 212,
     "name": "neel",
     "id": "kyber-recent-neel",
     "classification": "retain",
@@ -5371,7 +5381,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 212,
+    "index": 213,
     "name": "sliro barsha",
     "id": "kyber-recent-sliro-barsha",
     "classification": "retain",
@@ -5381,7 +5391,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 213,
+    "index": 214,
     "name": "vail tormin",
     "id": "kyber-recent-vail-tormin",
     "classification": "retain",
@@ -5391,7 +5401,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 214,
+    "index": 215,
     "name": "riko vess",
     "id": "kyber-recent-riko-vess",
     "classification": "retain",
@@ -5401,7 +5411,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 215,
+    "index": 216,
     "name": "fern wim neel kb",
     "id": "kyber-recent-skeleton-kids-group",
     "classification": "retain",
@@ -5411,7 +5421,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 216,
+    "index": 217,
     "name": "asajj ventress operational profile",
     "id": "kyber-batch02-char-asajj-ventress",
     "classification": "retain",
@@ -5421,7 +5431,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 217,
+    "index": 218,
     "name": "bail organa operational profile",
     "id": "kyber-batch02-char-bail-organa",
     "classification": "retain",
@@ -5431,7 +5441,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 218,
+    "index": 219,
     "name": "baylan skoll operational profile",
     "id": "kyber-batch02-char-baylan-skoll",
     "classification": "retain",
@@ -5441,7 +5451,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 219,
+    "index": 220,
     "name": "bo-katan kryze operational profile",
     "id": "kyber-batch02-char-bo-katan",
     "classification": "retain",
@@ -5451,7 +5461,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 220,
+    "index": 221,
     "name": "cad bane operational profile",
     "id": "kyber-batch02-char-cad-bane",
     "classification": "retain",
@@ -5461,7 +5471,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 221,
+    "index": 222,
     "name": "dedra meero operational profile",
     "id": "kyber-batch02-char-dedramero",
     "classification": "retain",
@@ -5471,7 +5481,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 222,
+    "index": 223,
     "name": "din djarin operational profile",
     "id": "kyber-batch02-char-din-djarin",
     "classification": "retain",
@@ -5481,7 +5491,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 223,
+    "index": 224,
     "name": "doctor aphra operational profile",
     "id": "kyber-batch02-char-dr-aphra",
     "classification": "retain",
@@ -5491,7 +5501,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 224,
+    "index": 225,
     "name": "galen erso operational profile",
     "id": "kyber-batch02-char-galen-erso",
     "classification": "retain",
@@ -5501,7 +5511,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 225,
+    "index": 226,
     "name": "grand inquisitor operational profile",
     "id": "kyber-batch02-char-grand-inquisitor",
     "classification": "retain",
@@ -5511,7 +5521,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 226,
+    "index": 227,
     "name": "hondo ohnaka operational profile",
     "id": "kyber-batch02-char-hondo",
     "classification": "retain",
@@ -5521,7 +5531,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 227,
+    "index": 228,
     "name": "agent kallus operational profile",
     "id": "kyber-batch02-char-kallus",
     "classification": "retain",
@@ -5531,7 +5541,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 228,
+    "index": 229,
     "name": "luthen rael operational profile",
     "id": "kyber-batch02-char-luthen",
     "classification": "retain",
@@ -5541,7 +5551,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 229,
+    "index": 230,
     "name": "maul operational profile",
     "id": "kyber-batch02-char-maul",
     "classification": "retain",
@@ -5551,7 +5561,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 230,
+    "index": 231,
     "name": "merrin operational profile",
     "id": "kyber-batch02-char-merrin",
     "classification": "retain",
@@ -5561,7 +5571,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 231,
+    "index": 232,
     "name": "mon mothma operational profile",
     "id": "kyber-batch02-char-mon-mothma",
     "classification": "retain",
@@ -5571,7 +5581,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 232,
+    "index": 233,
     "name": "morgan elsbeth operational profile",
     "id": "kyber-batch02-char-morgan-elsbeth",
     "classification": "retain",
@@ -5581,7 +5591,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 233,
+    "index": 234,
     "name": "qi'ra operational profile",
     "id": "kyber-batch02-char-qira",
     "classification": "retain",
@@ -5591,7 +5601,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 234,
+    "index": 235,
     "name": "saw gerrera operational profile",
     "id": "kyber-batch02-char-saw",
     "classification": "retain",
@@ -5601,7 +5611,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 235,
+    "index": 236,
     "name": "shin hati operational profile",
     "id": "kyber-batch02-char-shin-hati",
     "classification": "retain",
@@ -5611,7 +5621,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 236,
+    "index": 237,
     "name": "thrawn canon operational profile",
     "id": "kyber-batch02-char-thrawn-canon",
     "classification": "retain",
@@ -5621,7 +5631,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 237,
+    "index": 238,
     "name": "vel sartha operational profile",
     "id": "kyber-batch02-char-vel",
     "classification": "retain",
@@ -5631,7 +5641,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 238,
+    "index": 239,
     "name": "Babu Frik operational profile",
     "id": "kyber-batch05-char-babu-frik",
     "classification": "retain",
@@ -5641,7 +5651,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 239,
+    "index": 240,
     "name": "Tobias Beckett operational profile",
     "id": "kyber-batch05-char-beckett",
     "classification": "retain",
@@ -5651,7 +5661,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 240,
+    "index": 241,
     "name": "Cal Kestis operational profile",
     "id": "kyber-batch05-char-cal-kestis",
     "classification": "retain",
@@ -5661,7 +5671,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 241,
+    "index": 242,
     "name": "Cassian Andor operational profile",
     "id": "kyber-batch05-char-cassian-andor",
     "classification": "retain",
@@ -5671,7 +5681,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 242,
+    "index": 243,
     "name": "Cere Junda operational profile",
     "id": "kyber-batch05-char-cere-junda",
     "classification": "retain",
@@ -5681,7 +5691,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 243,
+    "index": 244,
     "name": "Dryden Vos operational profile",
     "id": "kyber-batch05-char-dryden-vos",
     "classification": "retain",
@@ -5691,7 +5701,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 244,
+    "index": 245,
     "name": "Enfys Nest operational profile",
     "id": "kyber-batch05-char-enfys-nest",
     "classification": "retain",
@@ -5701,7 +5711,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 245,
+    "index": 246,
     "name": "Fennec Shand operational profile",
     "id": "kyber-batch05-char-fennec-shand",
     "classification": "retain",
@@ -5711,7 +5721,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 246,
+    "index": 247,
     "name": "Greez Dritus operational profile",
     "id": "kyber-batch05-char-greez",
     "classification": "retain",
@@ -5721,7 +5731,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 247,
+    "index": 248,
     "name": "Kino Loy operational profile",
     "id": "kyber-batch05-char-kino-loy",
     "classification": "retain",
@@ -5731,7 +5741,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 248,
+    "index": 249,
     "name": "Marchion Ro operational profile",
     "id": "kyber-batch05-char-marchion-ro",
     "classification": "retain",
@@ -5741,7 +5751,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 249,
+    "index": 250,
     "name": "Maz Kanata operational profile",
     "id": "kyber-batch05-char-maz-kanata",
     "classification": "retain",
@@ -5751,7 +5761,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 250,
+    "index": 251,
     "name": "Nien Nunb operational profile",
     "id": "kyber-batch05-char-nien-nunb",
     "classification": "retain",
@@ -5761,7 +5771,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 251,
+    "index": 252,
     "name": "Max Rebo Band operational profile",
     "id": "kyber-batch05-char-reebo-band",
     "classification": "retain",
@@ -5771,7 +5781,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 252,
+    "index": 253,
     "name": "Master Sol operational profile",
     "id": "kyber-batch05-char-sol",
     "classification": "retain",
@@ -5781,7 +5791,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 253,
+    "index": 254,
     "name": "Adi Gallia operational profile",
     "id": "kyber-batch06-char-adi-gallia",
     "classification": "retain",
@@ -5791,7 +5801,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 254,
+    "index": 255,
     "name": "Agent Terex operational profile",
     "id": "kyber-batch06-char-agent-terex",
     "classification": "retain",
@@ -5801,7 +5811,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 255,
+    "index": 256,
     "name": "AP-5 operational profile",
     "id": "kyber-batch06-char-ap5",
     "classification": "retain",
@@ -5811,7 +5821,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 256,
+    "index": 257,
     "name": "Bib Fortuna operational profile",
     "id": "kyber-batch06-char-bib-fortuna",
     "classification": "retain",
@@ -5821,7 +5831,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 257,
+    "index": 258,
     "name": "Bossk operational profile",
     "id": "kyber-batch06-char-bossk",
     "classification": "retain",
@@ -5831,7 +5841,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 258,
+    "index": 259,
     "name": "Commander Cody operational profile",
     "id": "kyber-batch06-char-cc-2224",
     "classification": "retain",
@@ -5841,7 +5851,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 259,
+    "index": 260,
     "name": "Cham Syndulla operational profile",
     "id": "kyber-batch06-char-cham-syndulla",
     "classification": "retain",
@@ -5851,7 +5861,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 260,
+    "index": 261,
     "name": "Ciena Ree operational profile",
     "id": "kyber-batch06-char-ciena-ree",
     "classification": "retain",
@@ -5861,7 +5871,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 261,
+    "index": 262,
     "name": "Cobb Vanth operational profile",
     "id": "kyber-batch06-char-cobb-vanth",
     "classification": "retain",
@@ -5871,7 +5881,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 262,
+    "index": 263,
     "name": "Depa Billaba operational profile",
     "id": "kyber-batch06-char-depa-billaba",
     "classification": "retain",
@@ -5881,7 +5891,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 263,
+    "index": 264,
     "name": "Dexter Jettster operational profile",
     "id": "kyber-batch06-char-dexter-jettster",
     "classification": "retain",
@@ -5891,7 +5901,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 264,
+    "index": 265,
     "name": "Embo operational profile",
     "id": "kyber-batch06-char-embo",
     "classification": "retain",
@@ -5901,7 +5911,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 265,
+    "index": 266,
     "name": "Gar Saxon operational profile",
     "id": "kyber-batch06-char-gar-saxon",
     "classification": "retain",
@@ -5911,7 +5921,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 266,
+    "index": 267,
     "name": "Hera Syndulla operational profile",
     "id": "kyber-batch06-char-hera-syndulla",
     "classification": "retain",
@@ -5921,7 +5931,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 267,
+    "index": 268,
     "name": "IG-88 operational profile",
     "id": "kyber-batch06-char-ig-88",
     "classification": "retain",
@@ -5931,7 +5941,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 268,
+    "index": 269,
     "name": "Jango Fett contract profile",
     "id": "kyber-batch06-char-jango-fett-extra",
     "classification": "retain",
@@ -5941,7 +5951,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 269,
+    "index": 270,
     "name": "Jar Jar Binks operational profile",
     "id": "kyber-batch06-char-jar-jar",
     "classification": "retain",
@@ -5951,7 +5961,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 270,
+    "index": 271,
     "name": "Jocasta Nu operational profile",
     "id": "kyber-batch06-char-jocasta-nu",
     "classification": "retain",
@@ -5961,7 +5971,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 271,
+    "index": 272,
     "name": "Jyn Erso operational profile",
     "id": "kyber-batch06-char-jyn-erso",
     "classification": "retain",
@@ -5971,7 +5981,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 272,
+    "index": 273,
     "name": "Ketsu Onyo operational profile",
     "id": "kyber-batch06-char-ketsu-onyo",
     "classification": "retain",
@@ -5981,7 +5991,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 273,
+    "index": 274,
     "name": "Black Krrsantan operational profile",
     "id": "kyber-batch06-char-krrsantan",
     "classification": "retain",
@@ -5991,7 +6001,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 274,
+    "index": 275,
     "name": "Lama Su operational profile",
     "id": "kyber-batch06-char-lama-su",
     "classification": "retain",
@@ -6001,7 +6011,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 275,
+    "index": 276,
     "name": "Lobot operational profile",
     "id": "kyber-batch06-char-lobot",
     "classification": "retain",
@@ -6011,7 +6021,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 276,
+    "index": 277,
     "name": "Lor San Tekka operational profile",
     "id": "kyber-batch06-char-lor-san-tekka",
     "classification": "retain",
@@ -6021,7 +6031,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 277,
+    "index": 278,
     "name": "Max Rebo operational profile",
     "id": "kyber-batch06-char-max-rebo",
     "classification": "retain",
@@ -6031,7 +6041,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 278,
+    "index": 279,
     "name": "Nala Se operational profile",
     "id": "kyber-batch06-char-nala-se",
     "classification": "retain",
@@ -6041,7 +6051,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 279,
+    "index": 280,
     "name": "Omega operational profile",
     "id": "kyber-batch06-char-omega",
     "classification": "retain",
@@ -6051,7 +6061,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 280,
+    "index": 281,
     "name": "Plo Koon operational profile",
     "id": "kyber-batch06-char-plo-koon",
     "classification": "retain",
@@ -6061,7 +6071,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 281,
+    "index": 282,
     "name": "Pre Vizsla operational profile",
     "id": "kyber-batch06-char-pre-vizsla",
     "classification": "retain",
@@ -6071,7 +6081,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 282,
+    "index": 283,
     "name": "Satine Kryze operational profile",
     "id": "kyber-batch06-char-satine-kryze",
     "classification": "retain",
@@ -6081,7 +6091,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 283,
+    "index": 284,
     "name": "Shara Bey operational profile",
     "id": "kyber-batch06-char-shara-bey",
     "classification": "retain",
@@ -6091,7 +6101,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 284,
+    "index": 285,
     "name": "Shmi Skywalker operational profile",
     "id": "kyber-batch06-char-shmi",
     "classification": "retain",
@@ -6101,7 +6111,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 285,
+    "index": 286,
     "name": "Syril Karn operational profile",
     "id": "kyber-batch06-char-syril-karn",
     "classification": "retain",
@@ -6111,7 +6121,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 286,
+    "index": 287,
     "name": "Tarfful operational profile",
     "id": "kyber-batch06-char-tarfful",
     "classification": "retain",
@@ -6121,7 +6131,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 287,
+    "index": 288,
     "name": "Tech operational profile",
     "id": "kyber-batch06-char-tech",
     "classification": "retain",
@@ -6131,7 +6141,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 288,
+    "index": 289,
     "name": "Trilla Suduri operational profile",
     "id": "kyber-batch06-char-trilla",
     "classification": "retain",
@@ -6141,7 +6151,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 289,
+    "index": 290,
     "name": "Watto operational profile",
     "id": "kyber-batch06-char-watto",
     "classification": "retain",
@@ -6151,7 +6161,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 290,
+    "index": 291,
     "name": "Wedge Antilles operational profile",
     "id": "kyber-batch06-char-wedge",
     "classification": "retain",
@@ -6161,7 +6171,7 @@
   },
   {
     "file": "Kyber RPG 03 - Characters.json",
-    "index": 291,
+    "index": 292,
     "name": "Zam Wesell operational profile",
     "id": "kyber-batch06-char-zam-wesell",
     "classification": "retain",
@@ -20096,7 +20106,7 @@
     "name": "force bond",
     "id": "db4af64f-a6c9-576e-9d73-90af71890f8b",
     "classification": "retain",
-    "estimated_tokens": 68,
+    "estimated_tokens": 259,
     "key_count": 3,
     "reasons": []
   },
@@ -21192,8 +21202,8 @@
     "name": "force power scaling",
     "id": "0f136c00-00fc-5ff2-92b1-384287254101",
     "classification": "retain",
-    "estimated_tokens": 54,
-    "key_count": 2,
+    "estimated_tokens": 184,
+    "key_count": 6,
     "reasons": []
   },
   {
@@ -21209,6 +21219,18 @@
   {
     "file": "Kyber RPG 10 - Force Powers.json",
     "index": 124,
+    "name": "crossover metaphysics capability gate",
+    "id": "kyber-crossover-metaphysics-capability-gate",
+    "classification": "retain_but_key_audit",
+    "estimated_tokens": 389,
+    "key_count": 22,
+    "reasons": [
+      "many keys (22); check activation pressure"
+    ]
+  },
+  {
+    "file": "Kyber RPG 10 - Force Powers.json",
+    "index": 125,
     "name": "force resistance by will",
     "id": "0d30bb12-49f8-50eb-9182-780cd082d058",
     "classification": "retain",
@@ -21218,7 +21240,7 @@
   },
   {
     "file": "Kyber RPG 10 - Force Powers.json",
-    "index": 125,
+    "index": 126,
     "name": "force ability failure",
     "id": "4dcb901e-fd6d-5606-82b3-29320d85e801",
     "classification": "retain",
@@ -21228,7 +21250,7 @@
   },
   {
     "file": "Kyber RPG 10 - Force Powers.json",
-    "index": 126,
+    "index": 127,
     "name": "force backlash",
     "id": "7d9c63c7-4da1-55bf-b7cf-951e08b5617a",
     "classification": "retain",
@@ -21238,7 +21260,7 @@
   },
   {
     "file": "Kyber RPG 10 - Force Powers.json",
-    "index": 127,
+    "index": 128,
     "name": "force trauma",
     "id": "ddf2efdd-2094-53db-90ff-01cf81c1018b",
     "classification": "retain",
@@ -21248,7 +21270,7 @@
   },
   {
     "file": "Kyber RPG 10 - Force Powers.json",
-    "index": 128,
+    "index": 129,
     "name": "force-induced corruption recovery",
     "id": "83aaf09e-d702-51f9-9562-877fcd5612dd",
     "classification": "retain",
@@ -21258,7 +21280,7 @@
   },
   {
     "file": "Kyber RPG 10 - Force Powers.json",
-    "index": 129,
+    "index": 130,
     "name": "force and hyperspace",
     "id": "a6828fd5-cd87-5bf6-8911-68558e823765",
     "classification": "retain",
@@ -21268,7 +21290,7 @@
   },
   {
     "file": "Kyber RPG 10 - Force Powers.json",
-    "index": 130,
+    "index": 131,
     "name": "third sight",
     "id": "27e40639-77b0-5a33-a111-eeb979b5beab",
     "classification": "retain",
@@ -21278,7 +21300,7 @@
   },
   {
     "file": "Kyber RPG 10 - Force Powers.json",
-    "index": 131,
+    "index": 132,
     "name": "second sight chiss",
     "id": "d01d3137-2e8e-5de0-a642-b06723ce1b12",
     "classification": "retain",
@@ -21288,7 +21310,7 @@
   },
   {
     "file": "Kyber RPG 10 - Force Powers.json",
-    "index": 132,
+    "index": 133,
     "name": "force-guided piloting",
     "id": "25f263b9-3d71-5722-99cc-3472a4066f7e",
     "classification": "retain",
@@ -21298,7 +21320,7 @@
   },
   {
     "file": "Kyber RPG 10 - Force Powers.json",
-    "index": 133,
+    "index": 134,
     "name": "force-assisted marksmanship",
     "id": "89ad5c5e-7e56-5828-94cd-a0fec4d739cc",
     "classification": "retain",
@@ -21308,7 +21330,7 @@
   },
   {
     "file": "Kyber RPG 10 - Force Powers.json",
-    "index": 134,
+    "index": 135,
     "name": "force martial arts",
     "id": "47511701-4dd6-5fd9-b36b-5e7230f2eaec",
     "classification": "retain",
@@ -21318,7 +21340,7 @@
   },
   {
     "file": "Kyber RPG 10 - Force Powers.json",
-    "index": 135,
+    "index": 136,
     "name": "teräs käsi",
     "id": "1247fa0c-76b8-5907-8df6-4f9281eab1a7",
     "classification": "retain",
@@ -21328,7 +21350,7 @@
   },
   {
     "file": "Kyber RPG 10 - Force Powers.json",
-    "index": 136,
+    "index": 137,
     "name": "echani martial philosophy",
     "id": "d2ad8d23-3ebc-52e7-855b-97948063f384",
     "classification": "source_audit",
@@ -21340,7 +21362,7 @@
   },
   {
     "file": "Kyber RPG 10 - Force Powers.json",
-    "index": 137,
+    "index": 138,
     "name": "force memory in objects",
     "id": "f9a8af62-02d2-56d3-936d-c045be44cb10",
     "classification": "retain",
@@ -21350,7 +21372,7 @@
   },
   {
     "file": "Kyber RPG 10 - Force Powers.json",
-    "index": 138,
+    "index": 139,
     "name": "psychometry limits",
     "id": "ad2c3657-f8bf-5b44-a27e-0f1b94974c0c",
     "classification": "retain",
@@ -21360,7 +21382,7 @@
   },
   {
     "file": "Kyber RPG 10 - Force Powers.json",
-    "index": 139,
+    "index": 140,
     "name": "dyad rejuvenates sidious",
     "id": "b818872a-3a2f-5d8b-94a7-f91f2340bc20",
     "classification": "retain",
@@ -21370,7 +21392,7 @@
   },
   {
     "file": "Kyber RPG 10 - Force Powers.json",
-    "index": 140,
+    "index": 141,
     "name": "life transfer ben to rey",
     "id": "794e78dd-31c1-56cc-a084-1b5d5987f064",
     "classification": "retain",
@@ -21380,7 +21402,7 @@
   },
   {
     "file": "Kyber RPG 10 - Force Powers.json",
-    "index": 141,
+    "index": 142,
     "name": "grogu force healing",
     "id": "d0078181-d501-5450-9a92-1ca6d1bb1024",
     "classification": "retain",
@@ -21390,7 +21412,7 @@
   },
   {
     "file": "Kyber RPG 10 - Force Powers.json",
-    "index": 142,
+    "index": 143,
     "name": "grogu beast calming",
     "id": "f8ee9b88-44c6-5866-be9f-3064a528cfac",
     "classification": "retain",
@@ -21400,7 +21422,7 @@
   },
   {
     "file": "Kyber RPG 10 - Force Powers.json",
-    "index": 143,
+    "index": 144,
     "name": "grogu force barrier",
     "id": "b91caec3-1261-53d5-ae35-a72873af07d7",
     "classification": "retain",
@@ -21410,7 +21432,7 @@
   },
   {
     "file": "Kyber RPG 10 - Force Powers.json",
-    "index": 144,
+    "index": 145,
     "name": "force-sensitive plants",
     "id": "2bb0408a-2424-515f-a022-8c713c9bf7e6",
     "classification": "retain",
@@ -21420,7 +21442,7 @@
   },
   {
     "file": "Kyber RPG 10 - Force Powers.json",
-    "index": 145,
+    "index": 146,
     "name": "luke's force projection sacrifice",
     "id": "d4ad3848-2bfe-5b0b-873f-2b0985e05cc2",
     "classification": "retain",
@@ -21430,7 +21452,7 @@
   },
   {
     "file": "Kyber RPG 10 - Force Powers.json",
-    "index": 146,
+    "index": 147,
     "name": "leia space survival force use",
     "id": "719a8699-e258-58bf-836d-d10bcc6b1497",
     "classification": "retain",
@@ -21440,7 +21462,7 @@
   },
   {
     "file": "Kyber RPG 10 - Force Powers.json",
-    "index": 147,
+    "index": 148,
     "name": "leia reaches ben",
     "id": "dcc54526-e8c2-519a-8fca-0785880ba411",
     "classification": "retain",
@@ -21450,7 +21472,7 @@
   },
   {
     "file": "Kyber RPG 10 - Force Powers.json",
-    "index": 148,
+    "index": 149,
     "name": "rey object transfer dyad",
     "id": "d0a3b911-5f2e-52a1-bf8f-d1ad3c69b4bd",
     "classification": "retain",
@@ -21460,7 +21482,7 @@
   },
   {
     "file": "Kyber RPG 10 - Force Powers.json",
-    "index": 149,
+    "index": 150,
     "name": "rey force lightning accident",
     "id": "6e56fb43-01c5-5073-913a-88be44b563c9",
     "classification": "retain",
@@ -21470,7 +21492,7 @@
   },
   {
     "file": "Kyber RPG 10 - Force Powers.json",
-    "index": 150,
+    "index": 151,
     "name": "ben memory of han distinction",
     "id": "2b70a6a8-0544-5030-ba76-ba6f63daccb3",
     "classification": "retain",
@@ -21480,7 +21502,7 @@
   },
   {
     "file": "Kyber RPG 10 - Force Powers.json",
-    "index": 151,
+    "index": 152,
     "name": "force ghost physical interaction",
     "id": "8e6e1d61-ad49-59fd-a25f-9aeb08521c4b",
     "classification": "retain",
@@ -21490,7 +21512,7 @@
   },
   {
     "file": "Kyber RPG 10 - Force Powers.json",
-    "index": 152,
+    "index": 153,
     "name": "exorcism force practice",
     "id": "80ec8c24-5b1b-5bc8-bafc-87106ae37a7b",
     "classification": "retain",
@@ -21500,7 +21522,7 @@
   },
   {
     "file": "Kyber RPG 10 - Force Powers.json",
-    "index": 153,
+    "index": 154,
     "name": "battle meditation costs",
     "id": "kyber-batch04-power-battle-meditation-cost",
     "classification": "retain",
@@ -21510,7 +21532,7 @@
   },
   {
     "file": "Kyber RPG 10 - Force Powers.json",
-    "index": 154,
+    "index": 155,
     "name": "beast control limits",
     "id": "kyber-batch04-power-beast-control-limits",
     "classification": "retain",
@@ -21520,7 +21542,7 @@
   },
   {
     "file": "Kyber RPG 10 - Force Powers.json",
-    "index": 155,
+    "index": 156,
     "name": "Force barriers",
     "id": "kyber-batch04-power-force-barrier",
     "classification": "retain",
@@ -21530,7 +21552,7 @@
   },
   {
     "file": "Kyber RPG 10 - Force Powers.json",
-    "index": 156,
+    "index": 157,
     "name": "Force drain costs",
     "id": "kyber-batch04-power-force-drain-cost",
     "classification": "source_audit",
@@ -21542,7 +21564,7 @@
   },
   {
     "file": "Kyber RPG 10 - Force Powers.json",
-    "index": 157,
+    "index": 158,
     "name": "Force listening",
     "id": "kyber-batch04-power-force-listening",
     "classification": "retain",
@@ -21552,7 +21574,7 @@
   },
   {
     "file": "Kyber RPG 10 - Force Powers.json",
-    "index": 158,
+    "index": 159,
     "name": "Force healing price",
     "id": "kyber-batch04-power-healing-price",
     "classification": "retain",
@@ -21562,7 +21584,7 @@
   },
   {
     "file": "Kyber RPG 10 - Force Powers.json",
-    "index": 159,
+    "index": 160,
     "name": "mind trick limits",
     "id": "kyber-batch04-power-mind-trick-limits",
     "classification": "retain",
@@ -21572,7 +21594,7 @@
   },
   {
     "file": "Kyber RPG 10 - Force Powers.json",
-    "index": 160,
+    "index": 161,
     "name": "precognition noise",
     "id": "kyber-batch04-power-precognition-noise",
     "classification": "retain",
@@ -21582,7 +21604,7 @@
   },
   {
     "file": "Kyber RPG 10 - Force Powers.json",
-    "index": 161,
+    "index": 162,
     "name": "Force-enhanced reflexes",
     "id": "kyber-batch06-power-enhanced-reflexes",
     "classification": "retain",
@@ -21592,7 +21614,7 @@
   },
   {
     "file": "Kyber RPG 10 - Force Powers.json",
-    "index": 162,
+    "index": 163,
     "name": "Farsight",
     "id": "kyber-batch06-power-farsight",
     "classification": "retain",
@@ -21602,7 +21624,7 @@
   },
   {
     "file": "Kyber RPG 10 - Force Powers.json",
-    "index": 163,
+    "index": 164,
     "name": "Force flashbacks",
     "id": "kyber-batch06-power-force-flashback",
     "classification": "retain",
@@ -21612,7 +21634,7 @@
   },
   {
     "file": "Kyber RPG 10 - Force Powers.json",
-    "index": 164,
+    "index": 165,
     "name": "sever Force technique",
     "id": "kyber-batch06-power-force-sever",
     "classification": "source_audit",
@@ -21624,7 +21646,7 @@
   },
   {
     "file": "Kyber RPG 10 - Force Powers.json",
-    "index": 165,
+    "index": 166,
     "name": "instinctive astrogation",
     "id": "kyber-batch06-power-instinctive-astrogation",
     "classification": "retain",
@@ -21634,7 +21656,7 @@
   },
   {
     "file": "Kyber RPG 10 - Force Powers.json",
-    "index": 166,
+    "index": 167,
     "name": "memory manipulation limits",
     "id": "kyber-batch06-power-sever-memory",
     "classification": "retain",

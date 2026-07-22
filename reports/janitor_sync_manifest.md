@@ -1,12 +1,12 @@
 # Janitor Sync Manifest
 
 Project: Kyber RPG
-Version: 2026-07-20-vader-check-gate
-Generated: 2026-07-20
+Version: 2026-07-22-systemic-state-evidence
+Generated: 2026-07-22
 
 | File | Entries | KB | Warning | Over Cap | Issues |
 |---|---:|---:|---:|---:|---:|
-| Kyber RPG 00 - Rules Engine.json | 35 | 87.3 | False | False | 0 |
+| Kyber RPG 00 - Rules Engine.json | 35 | 86.8 | False | False | 0 |
 | Kyber RPG 01 - Core Continuity.json | 30 | 34.7 | False | False | 0 |
 | Kyber RPG 02 - Eras and History.json | 280 | 272.0 | False | False | 0 |
 | Kyber RPG 03 - Characters.json | 293 | 306.0 | False | False | 0 |
@@ -16,7 +16,7 @@ Generated: 2026-07-20
 | Kyber RPG 07 - Society Law Economy.json | 178 | 187.3 | False | False | 0 |
 | Kyber RPG 08 - Technology Ships Gear.json | 335 | 314.8 | False | False | 0 |
 | Kyber RPG 09 - Creatures and Hazards.json | 149 | 138.4 | False | False | 0 |
-| Kyber RPG 10 - Force Powers.json | 167 | 150.2 | False | False | 0 |
+| Kyber RPG 10 - Force Powers.json | 168 | 154.9 | False | False | 0 |
 | Kyber RPG 11 - Force Orders.json | 182 | 166.3 | False | False | 0 |
 | Kyber RPG 12 - Lightsabers and Kyber.json | 58 | 54.1 | False | False | 0 |
 | Kyber RPG 13 - Force Metaphysics Artifacts.json | 141 | 135.5 | False | False | 0 |

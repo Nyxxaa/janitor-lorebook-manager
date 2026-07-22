@@ -106,7 +106,7 @@ def line_for_name(path, name):
 def main():
     REPORTS.mkdir(exist_ok=True)
 
-    json_files = sorted(ROOT.glob("*.json"))
+    json_files = sorted(ROOT.glob("Kyber RPG *.json"))
     schema_expected = set(EXPECTED_FIELDS)
 
     inventory = {

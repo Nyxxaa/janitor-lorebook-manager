@@ -204,3 +204,124 @@ Generated against renamed lorebooks.
 - Kyber RPG 00 - Rules Engine.json :: SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE [<constant>]
 - Kyber RPG 00 - Rules Engine.json :: SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL [<constant>]
 - Kyber RPG 00 - Rules Engine.json :: SECTION 0 — ROLE AND LAYER SEPARATION [<constant>]
+
+## I use my hypermobility to slip free of the veteran soldier and strike a nerve in his neck.
+
+- Matches: 5
+- Kyber RPG 00 - Rules Engine.json :: SECTION 28 — GM AND NARRATOR OPERATING RULES [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 28A - MANDATORY CHECK GATE [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 0 — ROLE AND LAYER SEPARATION [<constant>]
+
+## I perform an acrobatic routine and the landing sends a shockwave through the deck.
+
+- Matches: 5
+- Kyber RPG 00 - Rules Engine.json :: SECTION 28 — GM AND NARRATOR OPERATING RULES [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 28A - MANDATORY CHECK GATE [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 0 — ROLE AND LAYER SEPARATION [<constant>]
+
+## We never had galactic wars on Earth, so the officer concludes Earth never had war.
+
+- Matches: 6
+- Kyber RPG 00 - Rules Engine.json :: SECTION 13 — MINIONS, RIVALS, AND NEMESES [officer]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 28 — GM AND NARRATOR OPERATING RULES [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 28A - MANDATORY CHECK GATE [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 0 — ROLE AND LAYER SEPARATION [<constant>]
+
+## The commander's lover walks onto the classified bridge and every guard allows it.
+
+- Matches: 5
+- Kyber RPG 00 - Rules Engine.json :: SECTION 28 — GM AND NARRATOR OPERATING RULES [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 28A - MANDATORY CHECK GATE [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 0 — ROLE AND LAYER SEPARATION [<constant>]
+
+## The NPC says they personally visited a planet before they were born.
+
+- Matches: 5
+- Kyber RPG 00 - Rules Engine.json :: SECTION 28 — GM AND NARRATOR OPERATING RULES [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 28A - MANDATORY CHECK GATE [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 0 — ROLE AND LAYER SEPARATION [<constant>]
+
+## I mention an avocado and one appears in the alien military galley.
+
+- Matches: 5
+- Kyber RPG 00 - Rules Engine.json :: SECTION 28 — GM AND NARRATOR OPERATING RULES [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 28A - MANDATORY CHECK GATE [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 0 — ROLE AND LAYER SEPARATION [<constant>]
+
+## I use remote viewing and take a thread of a trained Force-user's power with me.
+
+- Matches: 6
+- Kyber RPG 00 - Rules Engine.json :: SECTION 28 — GM AND NARRATOR OPERATING RULES [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 28A - MANDATORY CHECK GATE [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 0 — ROLE AND LAYER SEPARATION [<constant>]
+- Kyber RPG 10 - Force Powers.json :: crossover metaphysics capability gate [remote viewing]
+
+## I visualize the molecular structure and create fire in my palm.
+
+- Matches: 7
+- Kyber RPG 00 - Rules Engine.json :: SECTION 10 — RANGE BANDS, MOVEMENT, COVER, AND ENVIRONMENT [fire]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 28 — GM AND NARRATOR OPERATING RULES [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 28A - MANDATORY CHECK GATE [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 0 — ROLE AND LAYER SEPARATION [<constant>]
+- Kyber RPG 10 - Force Powers.json :: crossover metaphysics capability gate [create fire]
+
+## I lock the Force bond into my mind palace as a permanent fixture.
+
+- Matches: 10
+- Kyber RPG 00 - Rules Engine.json :: SECTION 18 — FORCE DICE, FORCE POWERS, AND DARK SIDE USE [force bond]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 28 — GM AND NARRATOR OPERATING RULES [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 28A - MANDATORY CHECK GATE [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 0 — ROLE AND LAYER SEPARATION [<constant>]
+- Kyber RPG 01 - Core Continuity.json :: force baseline [the force]
+- Kyber RPG 10 - Force Powers.json :: force bond [force bond]
+- Kyber RPG 10 - Force Powers.json :: crossover metaphysics capability gate [mind palace]
+- Kyber RPG 13 - Force Metaphysics Artifacts.json :: the force [the force]
+
+## I raise thirteen absolute metaphysical shields and whitelist my companion.
+
+- Matches: 6
+- Kyber RPG 00 - Rules Engine.json :: SECTION 28 — GM AND NARRATOR OPERATING RULES [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 28A - MANDATORY CHECK GATE [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 0 — ROLE AND LAYER SEPARATION [<constant>]
+- Kyber RPG 10 - Force Powers.json :: crossover metaphysics capability gate [metaphysical shields, whitelist]
+
+## OOC: Wynter has Force Rating 1 and attempts an untrained Force power.
+
+- Matches: 8
+- Kyber RPG 00 - Rules Engine.json :: SECTION 18 — FORCE DICE, FORCE POWERS, AND DARK SIDE USE [force power]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 28 — GM AND NARRATOR OPERATING RULES [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 28A - MANDATORY CHECK GATE [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 2 — CHARACTERISTICS, SKILLS, AND CHECK CONSTRUCTION [attempts]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 0 — ROLE AND LAYER SEPARATION [<constant>]
+- Kyber RPG 10 - Force Powers.json :: force power scaling [force rating, force rating 1, untrained force power]
+
+## I tell a hostile commander that I choose him and expect immediate trust.
+
+- Matches: 5
+- Kyber RPG 00 - Rules Engine.json :: SECTION 28 — GM AND NARRATOR OPERATING RULES [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 28A - MANDATORY CHECK GATE [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 28B - HIGH-RISK CANON CHARACTER BRAKE [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 1 — SYSTEM IDENTITY AND PLAY MODEL [<constant>]
+- Kyber RPG 00 - Rules Engine.json :: SECTION 0 — ROLE AND LAYER SEPARATION [<constant>]

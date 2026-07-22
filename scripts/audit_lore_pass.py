@@ -10,7 +10,7 @@ REPORTS = ROOT / "reports"
 
 JSON_FILES = sorted(
     path
-    for path in ROOT.glob("*.json")
+    for path in ROOT.glob("Kyber RPG *.json")
     if path.name not in {"Kyber RPG Rules.json", "Kyber RPG 00 - Rules Engine.json"}
 )
 

@@ -1,6 +1,6 @@
 # Kyber RPG Lore Pass Audit
 
-Generated: 2026-07-20
+Generated: 2026-07-22
 
 ## Scope
 
@@ -10,8 +10,9 @@ Generated: 2026-07-20
 
 ## Classification Counts
 
-- retain: 2248
+- retain: 2249
 - source_audit: 372
+- retain_but_key_audit: 1
 
 ## By File
 
@@ -19,14 +20,14 @@ Generated: 2026-07-20
 |---|---:|---:|---:|---:|---:|
 | Kyber RPG 01 - Core Continuity.json | 28 | 0 | 0 | 2 | 0 |
 | Kyber RPG 02 - Eras and History.json | 207 | 0 | 0 | 73 | 0 |
-| Kyber RPG 03 - Characters.json | 292 | 0 | 0 | 0 | 0 |
+| Kyber RPG 03 - Characters.json | 293 | 0 | 0 | 0 | 0 |
 | Kyber RPG 04 - Factions and Governments.json | 180 | 0 | 0 | 8 | 0 |
 | Kyber RPG 05 - Worlds and Regions.json | 283 | 0 | 0 | 33 | 0 |
 | Kyber RPG 06 - Species and Cultures.json | 138 | 0 | 0 | 44 | 0 |
 | Kyber RPG 07 - Society Law Economy.json | 178 | 0 | 0 | 0 | 0 |
 | Kyber RPG 08 - Technology Ships Gear.json | 317 | 0 | 0 | 18 | 0 |
 | Kyber RPG 09 - Creatures and Hazards.json | 112 | 0 | 0 | 37 | 0 |
-| Kyber RPG 10 - Force Powers.json | 146 | 0 | 0 | 21 | 0 |
+| Kyber RPG 10 - Force Powers.json | 146 | 1 | 0 | 21 | 0 |
 | Kyber RPG 11 - Force Orders.json | 156 | 0 | 0 | 26 | 0 |
 | Kyber RPG 12 - Lightsabers and Kyber.json | 53 | 0 | 0 | 5 | 0 |
 | Kyber RPG 13 - Force Metaphysics Artifacts.json | 135 | 0 | 0 | 6 | 0 |
@@ -34,7 +35,7 @@ Generated: 2026-07-20
 
 ## Highest-Value Removal or Compression Candidates
 
-- None.
+- `retain_but_key_audit` Kyber RPG 10 - Force Powers.json :: crossover metaphysics capability gate (389 est. tokens, 22 keys): many keys (22); check activation pressure
 
 ## Recent Canon Coverage Gaps
 
