@@ -1,7 +1,7 @@
 {
-  "schema": "janitor-lorebook-manager/v1",
+  "schema": "janitor-manager/v2",
   "project": "Kyber RPG",
-  "version": "2026-07-22-temporal-knowledge-firewall",
+  "version": "2026-07-22-unattended-publish",
   "generated": "2026-07-22",
   "warningBytes": 409600,
   "capBytes": 460800,
@@ -12,9 +12,9 @@
       "filename": "Kyber RPG 00 - Rules Engine.json",
       "path": "lorebooks/janitor_upload/Kyber RPG 00 - Rules Engine.json",
       "url": "lorebooks/janitor_upload/Kyber RPG 00 - Rules Engine.json",
-      "sha256": "9d0c9cfbd4259437f5b894366484ed287f3cd32dc4b517c3230ddf929d6d15d8",
-      "bytes": 89615,
-      "entries": 35,
+      "sha256": "d8e937f12d8be1943f9af6e941d5803b9aef0c42fedc84924a11fc7a06e1a3cd",
+      "bytes": 94064,
+      "entries": 36,
       "warning": false,
       "overCap": false,
       "issues": []
@@ -188,5 +188,6 @@
       "issues": []
     }
   ],
+  "characters": [],
   "issues": []
 }

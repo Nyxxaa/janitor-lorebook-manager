@@ -1,0 +1,17 @@
+[
+  {
+    "id": "example-character",
+    "name": "Example Character",
+    "group": "Example Group",
+    "fields": {
+      "characterName": {
+        "text": "Example Character"
+      },
+      "characterCard": "bots/example-character/character-card.txt",
+      "personalityDefinition": "bots/example-character/personality-definition.txt",
+      "scenario": "bots/example-character/scenario.txt",
+      "initialMessage": "bots/example-character/initial-message.txt",
+      "exampleDialogs": "bots/example-character/example-dialogs.txt"
+    }
+  }
+]

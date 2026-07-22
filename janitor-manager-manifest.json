@@ -1,0 +1,215 @@
+{
+  "schema": "janitor-manager-project/v1",
+  "project": "Star Wars",
+  "version": "2026-07-22T19:37:12Z",
+  "generated": "2026-07-22T19:37:12Z",
+  "characters": [],
+  "lorebooks": [
+    {
+      "name": "Kyber RPG 00 - Rules Engine",
+      "filename": "Kyber RPG 00 - Rules Engine.json",
+      "path": ".janitor-build/lorebooks/Kyber RPG 00 - Rules Engine.json",
+      "sha256": "7bb40afb231f6aaf45cbb268e5049ae9c5026e3944582a7a2dbcf0f5aa4ee713",
+      "changed": false,
+      "bytes": 106680,
+      "entries": 36,
+      "validation": {
+        "ok": true,
+        "issues": []
+      }
+    },
+    {
+      "name": "Kyber RPG 01 - Core Continuity",
+      "filename": "Kyber RPG 01 - Core Continuity.json",
+      "path": ".janitor-build/lorebooks/Kyber RPG 01 - Core Continuity.json",
+      "sha256": "17391f1a808f3fa57b374f6c86e756d0f65d1961bf5a4e5ce6bdd7e89bfd3adb",
+      "changed": false,
+      "bytes": 43549,
+      "entries": 30,
+      "validation": {
+        "ok": true,
+        "issues": []
+      }
+    },
+    {
+      "name": "Kyber RPG 02 - Eras and History",
+      "filename": "Kyber RPG 02 - Eras and History.json",
+      "path": ".janitor-build/lorebooks/Kyber RPG 02 - Eras and History.json",
+      "sha256": "068766af5f32f82b4bf2f7ceb12278b4df5cd5a3d253bad6429c82ba0cc228f4",
+      "changed": false,
+      "bytes": 350034,
+      "entries": 280,
+      "validation": {
+        "ok": true,
+        "issues": []
+      }
+    },
+    {
+      "name": "Kyber RPG 03 - Characters",
+      "filename": "Kyber RPG 03 - Characters.json",
+      "path": ".janitor-build/lorebooks/Kyber RPG 03 - Characters.json",
+      "sha256": "5cd05fd992fceff79c44f64ff02de1d1bb916c5063d22b8d80a9e6338af57d6c",
+      "changed": false,
+      "bytes": 386079,
+      "entries": 293,
+      "validation": {
+        "ok": true,
+        "issues": []
+      }
+    },
+    {
+      "name": "Kyber RPG 04 - Factions and Governments",
+      "filename": "Kyber RPG 04 - Factions and Governments.json",
+      "path": ".janitor-build/lorebooks/Kyber RPG 04 - Factions and Governments.json",
+      "sha256": "916fd4b443cdc20f4cd86ceb9dff691bb38b7a2988f09448f21440e851d4a0e4",
+      "changed": false,
+      "bytes": 255574,
+      "entries": 188,
+      "validation": {
+        "ok": true,
+        "issues": []
+      }
+    },
+    {
+      "name": "Kyber RPG 05 - Worlds and Regions",
+      "filename": "Kyber RPG 05 - Worlds and Regions.json",
+      "path": ".janitor-build/lorebooks/Kyber RPG 05 - Worlds and Regions.json",
+      "sha256": "71289d3bfcbffa1ab84d6869b2b9e1f6a66dafa376b8bb129092822e5fea796f",
+      "changed": false,
+      "bytes": 385788,
+      "entries": 316,
+      "validation": {
+        "ok": true,
+        "issues": []
+      }
+    },
+    {
+      "name": "Kyber RPG 06 - Species and Cultures",
+      "filename": "Kyber RPG 06 - Species and Cultures.json",
+      "path": ".janitor-build/lorebooks/Kyber RPG 06 - Species and Cultures.json",
+      "sha256": "340f79b5de4b9bbf4def3033b9afa6b1aa00008ce0e1519ecbf1c7f23e449da2",
+      "changed": false,
+      "bytes": 224334,
+      "entries": 182,
+      "validation": {
+        "ok": true,
+        "issues": []
+      }
+    },
+    {
+      "name": "Kyber RPG 07 - Society Law Economy",
+      "filename": "Kyber RPG 07 - Society Law Economy.json",
+      "path": ".janitor-build/lorebooks/Kyber RPG 07 - Society Law Economy.json",
+      "sha256": "ca8d8f44914d5d43580899610c8fc553a2af37f36aa402568e185546bd42493f",
+      "changed": false,
+      "bytes": 236350,
+      "entries": 178,
+      "validation": {
+        "ok": true,
+        "issues": []
+      }
+    },
+    {
+      "name": "Kyber RPG 08 - Technology Ships Gear",
+      "filename": "Kyber RPG 08 - Technology Ships Gear.json",
+      "path": ".janitor-build/lorebooks/Kyber RPG 08 - Technology Ships Gear.json",
+      "sha256": "ee48c990b678e4192e727b6a5b9ad4726bcc9355af40503280d62d77c692e241",
+      "changed": false,
+      "bytes": 406047,
+      "entries": 335,
+      "validation": {
+        "ok": true,
+        "issues": []
+      }
+    },
+    {
+      "name": "Kyber RPG 09 - Creatures and Hazards",
+      "filename": "Kyber RPG 09 - Creatures and Hazards.json",
+      "path": ".janitor-build/lorebooks/Kyber RPG 09 - Creatures and Hazards.json",
+      "sha256": "abfbab6a14ccfe537e7009b4350e7e7ae69be65545bdeb5f5a6d7c0fa5986908",
+      "changed": false,
+      "bytes": 177997,
+      "entries": 149,
+      "validation": {
+        "ok": true,
+        "issues": []
+      }
+    },
+    {
+      "name": "Kyber RPG 10 - Force Powers",
+      "filename": "Kyber RPG 10 - Force Powers.json",
+      "path": ".janitor-build/lorebooks/Kyber RPG 10 - Force Powers.json",
+      "sha256": "1d9d0d4d91cf18eb476a28bbff37fbb095072d7314a27673e5fef6f6e31a0e1a",
+      "changed": false,
+      "bytes": 201767,
+      "entries": 168,
+      "validation": {
+        "ok": true,
+        "issues": []
+      }
+    },
+    {
+      "name": "Kyber RPG 11 - Force Orders",
+      "filename": "Kyber RPG 11 - Force Orders.json",
+      "path": ".janitor-build/lorebooks/Kyber RPG 11 - Force Orders.json",
+      "sha256": "f992fafe3039cb308ec03a053512419117f00c258c7a39c2954d2aee5b5637cc",
+      "changed": false,
+      "bytes": 216941,
+      "entries": 182,
+      "validation": {
+        "ok": true,
+        "issues": []
+      }
+    },
+    {
+      "name": "Kyber RPG 12 - Lightsabers and Kyber",
+      "filename": "Kyber RPG 12 - Lightsabers and Kyber.json",
+      "path": ".janitor-build/lorebooks/Kyber RPG 12 - Lightsabers and Kyber.json",
+      "sha256": "0b1f48a583e7e6099fd503cef1f05561942679728ba9637d9ca9e7d8ca678d5c",
+      "changed": false,
+      "bytes": 70114,
+      "entries": 58,
+      "validation": {
+        "ok": true,
+        "issues": []
+      }
+    },
+    {
+      "name": "Kyber RPG 13 - Force Metaphysics Artifacts",
+      "filename": "Kyber RPG 13 - Force Metaphysics Artifacts.json",
+      "path": ".janitor-build/lorebooks/Kyber RPG 13 - Force Metaphysics Artifacts.json",
+      "sha256": "ebfed749a0a70c61bf1b9ab64681480b6e563dd4b143ccaf852b57cc0e995ee1",
+      "changed": false,
+      "bytes": 174262,
+      "entries": 141,
+      "validation": {
+        "ok": true,
+        "issues": []
+      }
+    },
+    {
+      "name": "Kyber RPG 14 - Legends Supplements",
+      "filename": "Kyber RPG 14 - Legends Supplements.json",
+      "path": ".janitor-build/lorebooks/Kyber RPG 14 - Legends Supplements.json",
+      "sha256": "cb7721c40280f7895c41b1e76510931561c37e67c6e50360d92b2a72137b00c5",
+      "changed": false,
+      "bytes": 155135,
+      "entries": 122,
+      "validation": {
+        "ok": true,
+        "issues": []
+      }
+    }
+  ],
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "warnings": []
+  },
+  "summary": {
+    "characters": 0,
+    "lorebooks": 15,
+    "changedCharacters": 0,
+    "changedLorebooks": 0
+  }
+}

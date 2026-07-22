@@ -1,0 +1,1185 @@
+{
+  "schema": "janitor-manager/production-manifest/v2",
+  "generatedAt": "2026-07-22",
+  "cutoff": "2026-08-21",
+  "characters": [
+    {
+      "id": "aethraxis-006-erynd-voss",
+      "name": "Erynd Voss",
+      "group": "Aethraxis",
+      "productionNumber": 6,
+      "plannedDate": "July 28, 2026",
+      "editUrl": "",
+      "fields": {
+        "characterName": "Erynd Voss",
+        "characterCard": "characters/aethraxis-006-erynd-voss/character-card.txt",
+        "personality": "characters/aethraxis-006-erynd-voss/personality-definition.txt",
+        "scenario": "characters/aethraxis-006-erynd-voss/scenario.txt",
+        "initialMessage": "characters/aethraxis-006-erynd-voss/initial-message.txt",
+        "exampleDialogs": "characters/aethraxis-006-erynd-voss/example-dialogs.txt",
+        "tags": "characters/aethraxis-006-erynd-voss/tags.txt",
+        "creatorNotes": "characters/aethraxis-006-erynd-voss/creator-notes.txt"
+      },
+      "fieldHashes": {
+        "characterCard": "795cb5efe66e34e38ef424083e085e307f39422f34838d3fbe6923f35546c422",
+        "personality": "6522501491d5f47aa73e3a9ec365d3f735d3bb31f46ae516f66e5176d1fc15e7",
+        "scenario": "44c6d709603b92aaf326f2551bcc82b8b7870a1f299f7d8eef16d1ef9738eb4c",
+        "initialMessage": "b93a6c86d38892321c2a370df32f9ee5c680d16b88c0c2a17395c26be9f73e3d",
+        "exampleDialogs": "4030b855103f17b52c662e068cfc246b279fce93da8d7e3a894c4882b73208e7",
+        "tags": "b50a035579fe9231e8be4425b6ffe1b947a110f268538ee1680d02c15dc23dda",
+        "creatorNotes": "5fa12ff27e001f7855ef18a99ce30fc04b6fa2e7d7fe816a359c955d2f16e5c8"
+      },
+      "avatar": "characters/aethraxis-006-erynd-voss/avatar.png",
+      "validation": {
+        "ok": true
+      }
+    },
+    {
+      "id": "aethraxis-007-ilyren-voss",
+      "name": "Ilyren Voss",
+      "group": "Aethraxis",
+      "productionNumber": 7,
+      "plannedDate": "August 4, 2026",
+      "editUrl": "",
+      "fields": {
+        "characterName": "Ilyren Voss",
+        "characterCard": "characters/aethraxis-007-ilyren-voss/character-card.txt",
+        "personality": "characters/aethraxis-007-ilyren-voss/personality-definition.txt",
+        "scenario": "characters/aethraxis-007-ilyren-voss/scenario.txt",
+        "initialMessage": "characters/aethraxis-007-ilyren-voss/initial-message.txt",
+        "exampleDialogs": "characters/aethraxis-007-ilyren-voss/example-dialogs.txt",
+        "tags": "characters/aethraxis-007-ilyren-voss/tags.txt",
+        "creatorNotes": "characters/aethraxis-007-ilyren-voss/creator-notes.txt"
+      },
+      "fieldHashes": {
+        "characterCard": "592d435b425ce2b9f67b006addee62c20b52606be3600f2ae9bf5b913c3ead4f",
+        "personality": "9c762209c9db353532261fa2ee8d76dc49c802871715d3c2a0e2e58a7b049238",
+        "scenario": "5f9f6af460c7d54d0f4b5fd9e66214de50fb9595067a1c97c50b2276f50c1ca0",
+        "initialMessage": "717198149de98ddf26e6b17fc0e2072c2ebafca9a05e93fac558a0ad65b7e81c",
+        "exampleDialogs": "5ded6d777b2df2e70e20024cacca93184f7b1c5ff852f2d1878a395d409acb61",
+        "tags": "b50a035579fe9231e8be4425b6ffe1b947a110f268538ee1680d02c15dc23dda",
+        "creatorNotes": "67a483789a17365386668532034565c26f6736c51dada20afe87646005bdded6"
+      },
+      "avatar": "characters/aethraxis-007-ilyren-voss/avatar.png",
+      "validation": {
+        "ok": true
+      }
+    },
+    {
+      "id": "aethraxis-008-nessa-veyr-calith",
+      "name": "Nessa Veyr Calith",
+      "group": "Aethraxis",
+      "productionNumber": 8,
+      "plannedDate": "August 11, 2026",
+      "editUrl": "",
+      "fields": {
+        "characterName": "Nessa Veyr Calith",
+        "characterCard": "characters/aethraxis-008-nessa-veyr-calith/character-card.txt",
+        "personality": "characters/aethraxis-008-nessa-veyr-calith/personality-definition.txt",
+        "scenario": "characters/aethraxis-008-nessa-veyr-calith/scenario.txt",
+        "initialMessage": "characters/aethraxis-008-nessa-veyr-calith/initial-message.txt",
+        "exampleDialogs": "characters/aethraxis-008-nessa-veyr-calith/example-dialogs.txt",
+        "tags": "characters/aethraxis-008-nessa-veyr-calith/tags.txt",
+        "creatorNotes": "characters/aethraxis-008-nessa-veyr-calith/creator-notes.txt"
+      },
+      "fieldHashes": {
+        "characterCard": "98c03e0864dec1020e3fc1925347c7ce9c58e840aef9b849f43bcef3abe3b639",
+        "personality": "8e9bc8a46613826731260b3c371f47331341046a1287f3291875363678ac1b0c",
+        "scenario": "67f9967ccd5e63e41a4518b606ec265dc96050adce7869b5e8892d1d30555682",
+        "initialMessage": "049a8a37beac452e59e66d0b6c1ffa26b3fa8cd56d65a0cecb3825d56c3a5b7b",
+        "exampleDialogs": "846fb2e14b0670c2f582909a9989bc78e4554ddcb13354f4834db4222ede7547",
+        "tags": "b50a035579fe9231e8be4425b6ffe1b947a110f268538ee1680d02c15dc23dda",
+        "creatorNotes": "6b0569428f34c781b35e56bfc60554e2d06d194a0d937e1bafe7607668a5a8e8"
+      },
+      "avatar": "characters/aethraxis-008-nessa-veyr-calith/avatar.png",
+      "validation": {
+        "ok": true
+      }
+    },
+    {
+      "id": "aethraxis-009-varkai-sol-drathen",
+      "name": "Varkai Sol-Drathen",
+      "group": "Aethraxis",
+      "productionNumber": 9,
+      "plannedDate": "August 18, 2026",
+      "editUrl": "",
+      "fields": {
+        "characterName": "Varkai Sol-Drathen",
+        "characterCard": "characters/aethraxis-009-varkai-sol-drathen/character-card.txt",
+        "personality": "characters/aethraxis-009-varkai-sol-drathen/personality-definition.txt",
+        "scenario": "characters/aethraxis-009-varkai-sol-drathen/scenario.txt",
+        "initialMessage": "characters/aethraxis-009-varkai-sol-drathen/initial-message.txt",
+        "exampleDialogs": "characters/aethraxis-009-varkai-sol-drathen/example-dialogs.txt",
+        "tags": "characters/aethraxis-009-varkai-sol-drathen/tags.txt",
+        "creatorNotes": "characters/aethraxis-009-varkai-sol-drathen/creator-notes.txt"
+      },
+      "fieldHashes": {
+        "characterCard": "ca61af5836f73b23adbf0631f94b6a89f8caf600ce3733ea51e892eaf820e65c",
+        "personality": "c86e3df62e0f3f30cd2edfbf997e03e428f84412c886ba610f11cb0bd544e1b1",
+        "scenario": "f39d4d4ba6a9a93787ff8abe6e0033c49ef557d35f54d21d9c4ca788b1389b7f",
+        "initialMessage": "557e1e36ebb5b2f8a5241d19f3db2550cc19c9c65645b4bc81e03c7a3a114823",
+        "exampleDialogs": "239b8694a85727257b9661313cc4122a46abd2e42a9a9bda7078f0e0d8a9c9f8",
+        "tags": "b50a035579fe9231e8be4425b6ffe1b947a110f268538ee1680d02c15dc23dda",
+        "creatorNotes": "f645036b7365c858573f28399dbd681ab7bc6013f15110b32b66188c9c6440c0"
+      },
+      "avatar": "characters/aethraxis-009-varkai-sol-drathen/avatar.png",
+      "validation": {
+        "ok": true
+      }
+    },
+    {
+      "id": "aethraxis-010-tavian-rime-orison",
+      "name": "Tavian Rime Orison",
+      "group": "Aethraxis",
+      "productionNumber": 10,
+      "plannedDate": "August 25, 2026",
+      "editUrl": "",
+      "fields": {
+        "characterName": "Tavian Rime Orison",
+        "characterCard": "characters/aethraxis-010-tavian-rime-orison/character-card.txt",
+        "personality": "characters/aethraxis-010-tavian-rime-orison/personality-definition.txt",
+        "scenario": "characters/aethraxis-010-tavian-rime-orison/scenario.txt",
+        "initialMessage": "characters/aethraxis-010-tavian-rime-orison/initial-message.txt",
+        "exampleDialogs": "characters/aethraxis-010-tavian-rime-orison/example-dialogs.txt",
+        "tags": "characters/aethraxis-010-tavian-rime-orison/tags.txt",
+        "creatorNotes": "characters/aethraxis-010-tavian-rime-orison/creator-notes.txt"
+      },
+      "fieldHashes": {
+        "characterCard": "1adaa30f7c4885b6dce9052c6f9d9c7ee63ab4811aaa25890c2bd2138a5fba39",
+        "personality": "c559558fe1abc96aa4af1313400fb03cf09b518653890b00fcb523790b9fd145",
+        "scenario": "f5426e307108d51ff86ee6e820eb4654422c97e730d0f2c768d763dbe6d59ca4",
+        "initialMessage": "0fcb980929c814a4653a0f8470d1a13aaef40df4d73a72be03bdbbdf72c559dd",
+        "exampleDialogs": "8cdd7fac2fe42c5dc45fd2f21a5cf5c7894358cc2cbc07af040b691197b12474",
+        "tags": "b50a035579fe9231e8be4425b6ffe1b947a110f268538ee1680d02c15dc23dda",
+        "creatorNotes": "432ed093d01a89b9c45d7d0d9e9ffb82ffb273e63c1f7f32c67d542d592837cc"
+      },
+      "avatar": "characters/aethraxis-010-tavian-rime-orison/avatar.png",
+      "validation": {
+        "ok": true
+      }
+    },
+    {
+      "id": "apex-eidolon-006-the-nursery-edge",
+      "name": "The Nursery Edge",
+      "group": "Apex Eidolon",
+      "productionNumber": 6,
+      "plannedDate": "June 22, 2026",
+      "editUrl": "",
+      "fields": {
+        "characterName": "The Nursery Edge",
+        "characterCard": "characters/apex-eidolon-006-the-nursery-edge/character-card.txt",
+        "personality": "characters/apex-eidolon-006-the-nursery-edge/personality-definition.txt",
+        "scenario": "characters/apex-eidolon-006-the-nursery-edge/scenario.txt",
+        "initialMessage": "characters/apex-eidolon-006-the-nursery-edge/initial-message.txt",
+        "exampleDialogs": "characters/apex-eidolon-006-the-nursery-edge/example-dialogs.txt",
+        "tags": "characters/apex-eidolon-006-the-nursery-edge/tags.txt",
+        "creatorNotes": "characters/apex-eidolon-006-the-nursery-edge/creator-notes.txt"
+      },
+      "fieldHashes": {
+        "characterCard": "9761805b698c3dca55cae59cdf48215884323fb02d777ad73eb7c69ad641e19d",
+        "personality": "1834041de49dab47ecfc43486d84406f7853be4e7e0aef196a4970b11a94a7ea",
+        "scenario": "c4ee7b6028ce5224201578acd8ceffc4bebe42b54b21977d02f84cbc74d0ee14",
+        "initialMessage": "4c90f842ac7bab7d3856841727891925906728e5b8b40c81f7244627ca8556a0",
+        "exampleDialogs": "0e0bc952d9ba518f20e4132b3fbaca228fa6bcf2dd8ae45ed8a3af3feb294286",
+        "tags": "81f0b525c624d66e8f93523d58b394423930690f6362ac9340212cccbf7dd7d7",
+        "creatorNotes": "bed8b0dd0811be5e048d1cfd7b20ed25304dffa5892727afad63a5fd640ecd3d"
+      },
+      "avatar": "characters/apex-eidolon-006-the-nursery-edge/avatar.png",
+      "validation": {
+        "ok": true
+      }
+    },
+    {
+      "id": "apex-eidolon-007-the-harvester-route",
+      "name": "The Harvester Route",
+      "group": "Apex Eidolon",
+      "productionNumber": 7,
+      "plannedDate": "June 29, 2026",
+      "editUrl": "",
+      "fields": {
+        "characterName": "The Harvester Route",
+        "characterCard": "characters/apex-eidolon-007-the-harvester-route/character-card.txt",
+        "personality": "characters/apex-eidolon-007-the-harvester-route/personality-definition.txt",
+        "scenario": "characters/apex-eidolon-007-the-harvester-route/scenario.txt",
+        "initialMessage": "characters/apex-eidolon-007-the-harvester-route/initial-message.txt",
+        "exampleDialogs": "characters/apex-eidolon-007-the-harvester-route/example-dialogs.txt",
+        "tags": "characters/apex-eidolon-007-the-harvester-route/tags.txt",
+        "creatorNotes": "characters/apex-eidolon-007-the-harvester-route/creator-notes.txt"
+      },
+      "fieldHashes": {
+        "characterCard": "f41d65826c8e755b1d936a6c1811f1e17d7bb47a888b98925e26e3d8560ac55a",
+        "personality": "1d6197a6aafe22aba9efea1a2a039bc0291c208217f15b2eb85cd1acf0382fd3",
+        "scenario": "bf998a03292a7fd549f4829f3d5aa10615f2a2c524c15162847900e3b9a6d852",
+        "initialMessage": "5cfc52388d0cf00d7aaebdea17df73979dc75d73e005bb7bb0bdd2c528df464b",
+        "exampleDialogs": "0e0bc952d9ba518f20e4132b3fbaca228fa6bcf2dd8ae45ed8a3af3feb294286",
+        "tags": "81f0b525c624d66e8f93523d58b394423930690f6362ac9340212cccbf7dd7d7",
+        "creatorNotes": "d728df2200fa7f53564ef7e8b0a72f16ef9017d3779994d9e5734b99f5f7c5ca"
+      },
+      "avatar": "characters/apex-eidolon-007-the-harvester-route/avatar.png",
+      "validation": {
+        "ok": true
+      }
+    },
+    {
+      "id": "apex-eidolon-008-the-royal-signal",
+      "name": "The Royal Signal",
+      "group": "Apex Eidolon",
+      "productionNumber": 8,
+      "plannedDate": "July 6, 2026",
+      "editUrl": "",
+      "fields": {
+        "characterName": "The Royal Signal",
+        "characterCard": "characters/apex-eidolon-008-the-royal-signal/character-card.txt",
+        "personality": "characters/apex-eidolon-008-the-royal-signal/personality-definition.txt",
+        "scenario": "characters/apex-eidolon-008-the-royal-signal/scenario.txt",
+        "initialMessage": "characters/apex-eidolon-008-the-royal-signal/initial-message.txt",
+        "exampleDialogs": "characters/apex-eidolon-008-the-royal-signal/example-dialogs.txt",
+        "tags": "characters/apex-eidolon-008-the-royal-signal/tags.txt",
+        "creatorNotes": "characters/apex-eidolon-008-the-royal-signal/creator-notes.txt"
+      },
+      "fieldHashes": {
+        "characterCard": "f78a51135d8a1a43955209d9f1ee3037fc09567d7f290606d1529dda4e1301ac",
+        "personality": "f2038ddcc819808dfeb8fd20d527d5d22b2c2ef483ca5867a9e7292ed91412bb",
+        "scenario": "4276d5dcdc5a62cec265206fb1778aeabc31bd8a8c0f3e42598bc662d3115301",
+        "initialMessage": "2c0619664de331d46a83f310c2f4934fce469384b84bdc74b59e718ec3216a51",
+        "exampleDialogs": "0e0bc952d9ba518f20e4132b3fbaca228fa6bcf2dd8ae45ed8a3af3feb294286",
+        "tags": "81f0b525c624d66e8f93523d58b394423930690f6362ac9340212cccbf7dd7d7",
+        "creatorNotes": "bce328e151ad8176f175286e7fdf973d5be9653c2c15de8eccb2a769916e3ca6"
+      },
+      "avatar": "characters/apex-eidolon-008-the-royal-signal/avatar.png",
+      "validation": {
+        "ok": true
+      }
+    },
+    {
+      "id": "apex-eidolon-009-the-colony-silence",
+      "name": "The Colony Silence",
+      "group": "Apex Eidolon",
+      "productionNumber": 9,
+      "plannedDate": "July 13, 2026",
+      "editUrl": "",
+      "fields": {
+        "characterName": "The Colony Silence",
+        "characterCard": "characters/apex-eidolon-009-the-colony-silence/character-card.txt",
+        "personality": "characters/apex-eidolon-009-the-colony-silence/personality-definition.txt",
+        "scenario": "characters/apex-eidolon-009-the-colony-silence/scenario.txt",
+        "initialMessage": "characters/apex-eidolon-009-the-colony-silence/initial-message.txt",
+        "exampleDialogs": "characters/apex-eidolon-009-the-colony-silence/example-dialogs.txt",
+        "tags": "characters/apex-eidolon-009-the-colony-silence/tags.txt",
+        "creatorNotes": "characters/apex-eidolon-009-the-colony-silence/creator-notes.txt"
+      },
+      "fieldHashes": {
+        "characterCard": "d6096341239b9ef9a6408dd78b58f3316ca410944d7bf8245c3e5aeadea6918c",
+        "personality": "5346960f82e19be932b211fc7bd938c88174e0eea5cfdf424344c4338f226504",
+        "scenario": "ee7363b046394ee2e9d2df9d49aa074a8115868e1937892dab8b4d6272fc76f0",
+        "initialMessage": "6e496f278398517cad1a1276a112a255269c2add98f23ad4f773261c887c94db",
+        "exampleDialogs": "0e0bc952d9ba518f20e4132b3fbaca228fa6bcf2dd8ae45ed8a3af3feb294286",
+        "tags": "81f0b525c624d66e8f93523d58b394423930690f6362ac9340212cccbf7dd7d7",
+        "creatorNotes": "50c45b4448bfd2291eba6ada133538e3217b0be3efa101f39b078656df2277a1"
+      },
+      "avatar": "characters/apex-eidolon-009-the-colony-silence/avatar.png",
+      "validation": {
+        "ok": true
+      }
+    },
+    {
+      "id": "apex-eidolon-010-the-route-that-learned",
+      "name": "The Route That Learned",
+      "group": "Apex Eidolon",
+      "productionNumber": 10,
+      "plannedDate": "July 20, 2026",
+      "editUrl": "",
+      "fields": {
+        "characterName": "The Route That Learned",
+        "characterCard": "characters/apex-eidolon-010-the-route-that-learned/character-card.txt",
+        "personality": "characters/apex-eidolon-010-the-route-that-learned/personality-definition.txt",
+        "scenario": "characters/apex-eidolon-010-the-route-that-learned/scenario.txt",
+        "initialMessage": "characters/apex-eidolon-010-the-route-that-learned/initial-message.txt",
+        "exampleDialogs": "characters/apex-eidolon-010-the-route-that-learned/example-dialogs.txt",
+        "tags": "characters/apex-eidolon-010-the-route-that-learned/tags.txt",
+        "creatorNotes": "characters/apex-eidolon-010-the-route-that-learned/creator-notes.txt"
+      },
+      "fieldHashes": {
+        "characterCard": "82b75abecbff8671dff2b0ef9fabb9416ed793bf5dd8e68be07c421dd632ab01",
+        "personality": "45543535e2dcda01593b648eafcc40cb0e8abf0bce6150f68f1e65570cb68a30",
+        "scenario": "e5b56a8a33913a0685c6f2faa58450af239ca44e21fab9c9e66a8d8f939ad153",
+        "initialMessage": "c94dc2c41f8f81ad935849615d9a75a6d783ad7f975812786d80ab07d190fb79",
+        "exampleDialogs": "0e0bc952d9ba518f20e4132b3fbaca228fa6bcf2dd8ae45ed8a3af3feb294286",
+        "tags": "81f0b525c624d66e8f93523d58b394423930690f6362ac9340212cccbf7dd7d7",
+        "creatorNotes": "ce82290bdad58bfdd79b6192e060964bbe6c60dccafae8463ac5f933164bc98e"
+      },
+      "avatar": "characters/apex-eidolon-010-the-route-that-learned/avatar.png",
+      "validation": {
+        "ok": true
+      }
+    },
+    {
+      "id": "apex-eidolon-011-observation-asset-11",
+      "name": "Observation Asset 11",
+      "group": "Apex Eidolon",
+      "productionNumber": 11,
+      "plannedDate": "July 27, 2026",
+      "editUrl": "",
+      "fields": {
+        "characterName": "Observation Asset 11",
+        "characterCard": "characters/apex-eidolon-011-observation-asset-11/character-card.txt",
+        "personality": "characters/apex-eidolon-011-observation-asset-11/personality-definition.txt",
+        "scenario": "characters/apex-eidolon-011-observation-asset-11/scenario.txt",
+        "initialMessage": "characters/apex-eidolon-011-observation-asset-11/initial-message.txt",
+        "exampleDialogs": "characters/apex-eidolon-011-observation-asset-11/example-dialogs.txt",
+        "tags": "characters/apex-eidolon-011-observation-asset-11/tags.txt",
+        "creatorNotes": "characters/apex-eidolon-011-observation-asset-11/creator-notes.txt"
+      },
+      "fieldHashes": {
+        "characterCard": "6093924dcaea82e78bdbdd4e0c99a4625c38414919fbb265ad644e029ef8adef",
+        "personality": "c5810e524146213afa48370f803de119cf4f85aaafc42ad0df00321ea45c2d24",
+        "scenario": "8d8a913cb64a1ca81c1899e7e965b9ea4fe5cc3280a6025919e5c4222b8c21d2",
+        "initialMessage": "6a4adf1ee135998e548dc9f9d5b1bfb6a11f79b1a34c6e2ef617060a51a9db48",
+        "exampleDialogs": "0e0bc952d9ba518f20e4132b3fbaca228fa6bcf2dd8ae45ed8a3af3feb294286",
+        "tags": "81f0b525c624d66e8f93523d58b394423930690f6362ac9340212cccbf7dd7d7",
+        "creatorNotes": "4de5111eccf0c625f40a70f08358934d85b0deac1dbb0296730daff59320b9fe"
+      },
+      "avatar": "characters/apex-eidolon-011-observation-asset-11/avatar.png",
+      "validation": {
+        "ok": true
+      }
+    },
+    {
+      "id": "apex-eidolon-012-the-transfer-error",
+      "name": "The Transfer Error",
+      "group": "Apex Eidolon",
+      "productionNumber": 12,
+      "plannedDate": "August 3, 2026",
+      "editUrl": "",
+      "fields": {
+        "characterName": "The Transfer Error",
+        "characterCard": "characters/apex-eidolon-012-the-transfer-error/character-card.txt",
+        "personality": "characters/apex-eidolon-012-the-transfer-error/personality-definition.txt",
+        "scenario": "characters/apex-eidolon-012-the-transfer-error/scenario.txt",
+        "initialMessage": "characters/apex-eidolon-012-the-transfer-error/initial-message.txt",
+        "exampleDialogs": "characters/apex-eidolon-012-the-transfer-error/example-dialogs.txt",
+        "tags": "characters/apex-eidolon-012-the-transfer-error/tags.txt",
+        "creatorNotes": "characters/apex-eidolon-012-the-transfer-error/creator-notes.txt"
+      },
+      "fieldHashes": {
+        "characterCard": "015fb9694df01a0d8a7aa1d8e3671452cd70f06b01ba516a44818ade83533151",
+        "personality": "210f3b88e316936dd486bcf899930ba54a216c6a0c86477685fda977b0552e7e",
+        "scenario": "4d71a2da3a337751bf48b6e1a1d10b5af8aff202ccbf9c0388ce48905946333a",
+        "initialMessage": "7232d341681bc47ac8e42298327e0c3ae5172ed9692339ece493306bcf0bc7f8",
+        "exampleDialogs": "0e0bc952d9ba518f20e4132b3fbaca228fa6bcf2dd8ae45ed8a3af3feb294286",
+        "tags": "81f0b525c624d66e8f93523d58b394423930690f6362ac9340212cccbf7dd7d7",
+        "creatorNotes": "2bf2a3c89c4838a570880ec6dbe98e566362cfa5dacede090fe63b1df0c5ef13"
+      },
+      "avatar": "characters/apex-eidolon-012-the-transfer-error/avatar.png",
+      "validation": {
+        "ok": true
+      }
+    },
+    {
+      "id": "apex-eidolon-013-the-synthetic-s-priority",
+      "name": "The Synthetic’s Priority",
+      "group": "Apex Eidolon",
+      "productionNumber": 13,
+      "plannedDate": "August 10, 2026",
+      "editUrl": "",
+      "fields": {
+        "characterName": "The Synthetic’s Priority",
+        "characterCard": "characters/apex-eidolon-013-the-synthetic-s-priority/character-card.txt",
+        "personality": "characters/apex-eidolon-013-the-synthetic-s-priority/personality-definition.txt",
+        "scenario": "characters/apex-eidolon-013-the-synthetic-s-priority/scenario.txt",
+        "initialMessage": "characters/apex-eidolon-013-the-synthetic-s-priority/initial-message.txt",
+        "exampleDialogs": "characters/apex-eidolon-013-the-synthetic-s-priority/example-dialogs.txt",
+        "tags": "characters/apex-eidolon-013-the-synthetic-s-priority/tags.txt",
+        "creatorNotes": "characters/apex-eidolon-013-the-synthetic-s-priority/creator-notes.txt"
+      },
+      "fieldHashes": {
+        "characterCard": "7cbaba40e01b5aa85c59732da740e27f443a403dcb624d640cd45822ab4d9d10",
+        "personality": "4bdad14e865255cec9706516894c47bed0bbc92f73b33c56cdf482a3e7aceb71",
+        "scenario": "cc3fa17619bed2ac646426ff65fa3143c64cebd91bf05eba1b9bb86c2dea9277",
+        "initialMessage": "eedb2b074b6d214a14388072b58fc3a2712f4d2bf371bfa9e33efd1173f38e4f",
+        "exampleDialogs": "0e0bc952d9ba518f20e4132b3fbaca228fa6bcf2dd8ae45ed8a3af3feb294286",
+        "tags": "81f0b525c624d66e8f93523d58b394423930690f6362ac9340212cccbf7dd7d7",
+        "creatorNotes": "c762dd26592ae2827b8cdb6e8b6565f28be720ab338d0db3dbad904f6689efca"
+      },
+      "avatar": "characters/apex-eidolon-013-the-synthetic-s-priority/avatar.png",
+      "validation": {
+        "ok": true
+      }
+    },
+    {
+      "id": "apex-eidolon-014-the-black-lab-outbreak",
+      "name": "The Black Lab Outbreak",
+      "group": "Apex Eidolon",
+      "productionNumber": 14,
+      "plannedDate": "August 17, 2026",
+      "editUrl": "",
+      "fields": {
+        "characterName": "The Black Lab Outbreak",
+        "characterCard": "characters/apex-eidolon-014-the-black-lab-outbreak/character-card.txt",
+        "personality": "characters/apex-eidolon-014-the-black-lab-outbreak/personality-definition.txt",
+        "scenario": "characters/apex-eidolon-014-the-black-lab-outbreak/scenario.txt",
+        "initialMessage": "characters/apex-eidolon-014-the-black-lab-outbreak/initial-message.txt",
+        "exampleDialogs": "characters/apex-eidolon-014-the-black-lab-outbreak/example-dialogs.txt",
+        "tags": "characters/apex-eidolon-014-the-black-lab-outbreak/tags.txt",
+        "creatorNotes": "characters/apex-eidolon-014-the-black-lab-outbreak/creator-notes.txt"
+      },
+      "fieldHashes": {
+        "characterCard": "c14b2b6c34ebba6031dfbde0ec714441ee7d5058c28c6449e674759644dfaa12",
+        "personality": "999eb172233283aaab4632978fe5108f26e73a2c348781ef77a4782915ec2b99",
+        "scenario": "661ee44d423337d24f6ff071ac0dc9504f9ef7fd4ae136d5bdb4c570756caf60",
+        "initialMessage": "e41f5ae51cee4619458bcca3698d3d1490348ade7bc57b09d9ba5a7fa104018c",
+        "exampleDialogs": "0e0bc952d9ba518f20e4132b3fbaca228fa6bcf2dd8ae45ed8a3af3feb294286",
+        "tags": "81f0b525c624d66e8f93523d58b394423930690f6362ac9340212cccbf7dd7d7",
+        "creatorNotes": "31aa88af6354c9230abf00ffa58169bf7d43feff2a783e5abfee8a8294055919"
+      },
+      "avatar": "characters/apex-eidolon-014-the-black-lab-outbreak/avatar.png",
+      "validation": {
+        "ok": true
+      }
+    },
+    {
+      "id": "historical-030-attila-the-hun",
+      "name": "Attila the Hun",
+      "group": "Historical",
+      "productionNumber": 30,
+      "plannedDate": "Jun 26, 2026",
+      "editUrl": "",
+      "fields": {
+        "characterName": "Attila the Hun",
+        "characterCard": "characters/historical-030-attila-the-hun/character-card.txt",
+        "personality": "characters/historical-030-attila-the-hun/personality-definition.txt",
+        "scenario": "characters/historical-030-attila-the-hun/scenario.txt",
+        "initialMessage": "characters/historical-030-attila-the-hun/initial-message.txt",
+        "exampleDialogs": "characters/historical-030-attila-the-hun/example-dialogs.txt",
+        "tags": "characters/historical-030-attila-the-hun/tags.txt",
+        "creatorNotes": "characters/historical-030-attila-the-hun/creator-notes.txt"
+      },
+      "fieldHashes": {
+        "characterCard": "0bd20784cd981d34b30a2e1bf77cd7ad9e2e5f85e54758f73f051936efeb2fee",
+        "personality": "54efa4d1db23a73602c05639ce32ebd2a13812628ab2cc232145b9362aa2baa1",
+        "scenario": "348affbbcd5f7b340e4499c83456eae0480ed8b9bd71c81dfc961a31cbd08a72",
+        "initialMessage": "4edf6c02423893da6ab20291d4f7de3236d18066332b1bc6802751c43c0742c5",
+        "exampleDialogs": "ac2212f7cff6f6257c8ef4d86bc3468fad52473f935e555a17893f26121ae8de",
+        "tags": "65af7bdee03daf42912e53896466e04c524a7a62fb63c4a136bbeda8cd40fa1b",
+        "creatorNotes": "50b23d80c007704761e10c0e82484c0e4a982bc11445666800bb6ec8499806a8"
+      },
+      "avatar": "characters/historical-030-attila-the-hun/avatar.png",
+      "validation": {
+        "ok": true
+      }
+    },
+    {
+      "id": "historical-031-ambiorix",
+      "name": "Ambiorix",
+      "group": "Historical",
+      "productionNumber": 31,
+      "plannedDate": "Jun 28, 2026",
+      "editUrl": "",
+      "fields": {
+        "characterName": "Ambiorix",
+        "characterCard": "characters/historical-031-ambiorix/character-card.txt",
+        "personality": "characters/historical-031-ambiorix/personality-definition.txt",
+        "scenario": "characters/historical-031-ambiorix/scenario.txt",
+        "initialMessage": "characters/historical-031-ambiorix/initial-message.txt",
+        "exampleDialogs": "characters/historical-031-ambiorix/example-dialogs.txt",
+        "tags": "characters/historical-031-ambiorix/tags.txt",
+        "creatorNotes": "characters/historical-031-ambiorix/creator-notes.txt"
+      },
+      "fieldHashes": {
+        "characterCard": "72f82759376aeaa5fb57739935f91b689129fd18ef778ceab6091174395776b7",
+        "personality": "930655160947f2802059c5c23954a166d6533200d7db5f766ef845e94408e416",
+        "scenario": "9ba496a436ae5ea1dc4f461c97b995353b10052a731842b072a6781145bbe11d",
+        "initialMessage": "c844968c818cf34cf36ade55862afc2a506fd47192ba147b30b0b2a69626c14b",
+        "exampleDialogs": "6ee7f1c2e88f8306772b741554b17f308680a061a69bfe60784c7d9751cd2575",
+        "tags": "65af7bdee03daf42912e53896466e04c524a7a62fb63c4a136bbeda8cd40fa1b",
+        "creatorNotes": "23a8d89e0728a241b3225f4b0e7595752c4d0fd1ca034a7eafc18a6296a3b958"
+      },
+      "avatar": "characters/historical-031-ambiorix/avatar.png",
+      "validation": {
+        "ok": true
+      }
+    },
+    {
+      "id": "historical-032-brennus",
+      "name": "Brennus",
+      "group": "Historical",
+      "productionNumber": 32,
+      "plannedDate": "Jul 03, 2026",
+      "editUrl": "",
+      "fields": {
+        "characterName": "Brennus",
+        "characterCard": "characters/historical-032-brennus/character-card.txt",
+        "personality": "characters/historical-032-brennus/personality-definition.txt",
+        "scenario": "characters/historical-032-brennus/scenario.txt",
+        "initialMessage": "characters/historical-032-brennus/initial-message.txt",
+        "exampleDialogs": "characters/historical-032-brennus/example-dialogs.txt",
+        "tags": "characters/historical-032-brennus/tags.txt",
+        "creatorNotes": "characters/historical-032-brennus/creator-notes.txt"
+      },
+      "fieldHashes": {
+        "characterCard": "874612cf2ed264b20cc15de0792b7995d5532460eeeecb665a5dc70c57f5e1d1",
+        "personality": "af38ca0b5be20596adcea7561bfdfca7f771f505761c5454925629df3682e61f",
+        "scenario": "9193874d4dfce402f162fff59267204308d239653256bee0abb6a446f0c71ec7",
+        "initialMessage": "a66bf384c03fa4da6ccfc63233ab0e9bc6e8a49fdbb4d1c096fccf88c8aaf08f",
+        "exampleDialogs": "a95d8f3f43d624109455aeb2fff853d054f208bf255fad292928e6ddcc9a4f3b",
+        "tags": "65af7bdee03daf42912e53896466e04c524a7a62fb63c4a136bbeda8cd40fa1b",
+        "creatorNotes": "9450668ecc2da63eb33b38183d7291733a92fc2d3d4e8d2ea48732b5a038ff8a"
+      },
+      "avatar": "characters/historical-032-brennus/avatar.png",
+      "validation": {
+        "ok": true
+      }
+    },
+    {
+      "id": "historical-033-harald-bluetooth",
+      "name": "Harald Bluetooth",
+      "group": "Historical",
+      "productionNumber": 33,
+      "plannedDate": "Jul 05, 2026",
+      "editUrl": "",
+      "fields": {
+        "characterName": "Harald Bluetooth",
+        "characterCard": "characters/historical-033-harald-bluetooth/character-card.txt",
+        "personality": "characters/historical-033-harald-bluetooth/personality-definition.txt",
+        "scenario": "characters/historical-033-harald-bluetooth/scenario.txt",
+        "initialMessage": "characters/historical-033-harald-bluetooth/initial-message.txt",
+        "exampleDialogs": "characters/historical-033-harald-bluetooth/example-dialogs.txt",
+        "tags": "characters/historical-033-harald-bluetooth/tags.txt",
+        "creatorNotes": "characters/historical-033-harald-bluetooth/creator-notes.txt"
+      },
+      "fieldHashes": {
+        "characterCard": "abdbec97afbc5cb4c4fda7ed1722da97f15e875c991b8e4ad5acb9c75224a7b9",
+        "personality": "7f187a4644d2142605045c83f04098f0d9076d4ddbd3a1bf5d2c9bee527a5b55",
+        "scenario": "e29a1f499df42b6a2e5e4ab039fa3492d429f0524d869b96fe4180ab04e87099",
+        "initialMessage": "5e7684e8e731103b6f7a96b19fd5511b14b3dcbfc631ad9b88951cdf2d4e6fb3",
+        "exampleDialogs": "74f0face76cc1ed76425ae7e104d9572f668a60bebb5a5af9be281eccc23c0e0",
+        "tags": "65af7bdee03daf42912e53896466e04c524a7a62fb63c4a136bbeda8cd40fa1b",
+        "creatorNotes": "e4b2f627827bc1556931c4b88c87be6be40c53fb66779590f106ed288cbbee9c"
+      },
+      "avatar": "characters/historical-033-harald-bluetooth/avatar.png",
+      "validation": {
+        "ok": true
+      }
+    },
+    {
+      "id": "historical-034-charlemagne",
+      "name": "Charlemagne",
+      "group": "Historical",
+      "productionNumber": 34,
+      "plannedDate": "Jul 10, 2026",
+      "editUrl": "",
+      "fields": {
+        "characterName": "Charlemagne",
+        "characterCard": "characters/historical-034-charlemagne/character-card.txt",
+        "personality": "characters/historical-034-charlemagne/personality-definition.txt",
+        "scenario": "characters/historical-034-charlemagne/scenario.txt",
+        "initialMessage": "characters/historical-034-charlemagne/initial-message.txt",
+        "exampleDialogs": "characters/historical-034-charlemagne/example-dialogs.txt",
+        "tags": "characters/historical-034-charlemagne/tags.txt",
+        "creatorNotes": "characters/historical-034-charlemagne/creator-notes.txt"
+      },
+      "fieldHashes": {
+        "characterCard": "391c5a7fd59c300b62c1511a06be0d0bd3f47c272c9356307ce9d81dd04b5b12",
+        "personality": "33846c563322134e149bc1bcb8507e9266ac725393c9299656876b17a84b7fa7",
+        "scenario": "c626cc81240b40b28583c81de1da96b1559d94d6240addb81624003bb3858cdb",
+        "initialMessage": "abb31216d288a5896b5c3edad8d9ab6846d762cfda7d84e3181e1b352726718c",
+        "exampleDialogs": "44cf71c2dd2bed0f315ca0005ca128abf0c38cd6f36cf10991ba0d2c431c4127",
+        "tags": "65af7bdee03daf42912e53896466e04c524a7a62fb63c4a136bbeda8cd40fa1b",
+        "creatorNotes": "dc0908910080f30f2b0a3692a2661678ac528b93c9c49d2f321f14c252a146de"
+      },
+      "avatar": "characters/historical-034-charlemagne/avatar.png",
+      "validation": {
+        "ok": true
+      }
+    },
+    {
+      "id": "historical-035-canute-the-great",
+      "name": "Canute the Great",
+      "group": "Historical",
+      "productionNumber": 35,
+      "plannedDate": "Jul 12, 2026",
+      "editUrl": "",
+      "fields": {
+        "characterName": "Canute the Great",
+        "characterCard": "characters/historical-035-canute-the-great/character-card.txt",
+        "personality": "characters/historical-035-canute-the-great/personality-definition.txt",
+        "scenario": "characters/historical-035-canute-the-great/scenario.txt",
+        "initialMessage": "characters/historical-035-canute-the-great/initial-message.txt",
+        "exampleDialogs": "characters/historical-035-canute-the-great/example-dialogs.txt",
+        "tags": "characters/historical-035-canute-the-great/tags.txt",
+        "creatorNotes": "characters/historical-035-canute-the-great/creator-notes.txt"
+      },
+      "fieldHashes": {
+        "characterCard": "1a1c88e16e4e180f9ccea6eccdc144d42a4b68980ec25800b7b5bc25900704ec",
+        "personality": "3b1ae52702c289b24cf8e35c3aa6498b0eae62e05d335dd0579f1c2becb859dc",
+        "scenario": "b0ad5b35f28c674d58b46e248b2483f8c17bbb1a005c2557aac36719f912d99b",
+        "initialMessage": "6b48ae21cc5fc7b9fe836c0d0db949312ea2b32b0ad4b226693a2486ab2cdfe5",
+        "exampleDialogs": "428f413b9e454d9b4239486af18354928876482feaf5c72c7f954d73b4838e8b",
+        "tags": "65af7bdee03daf42912e53896466e04c524a7a62fb63c4a136bbeda8cd40fa1b",
+        "creatorNotes": "b06ccda6c2080fb6769585e57c3a4799b6d9c1c51ae8177ce504c1c2afa8e354"
+      },
+      "avatar": "characters/historical-035-canute-the-great/avatar.png",
+      "validation": {
+        "ok": true
+      }
+    },
+    {
+      "id": "historical-036-basil-ii",
+      "name": "Basil II",
+      "group": "Historical",
+      "productionNumber": 36,
+      "plannedDate": "Jul 17, 2026",
+      "editUrl": "",
+      "fields": {
+        "characterName": "Basil II",
+        "characterCard": "characters/historical-036-basil-ii/character-card.txt",
+        "personality": "characters/historical-036-basil-ii/personality-definition.txt",
+        "scenario": "characters/historical-036-basil-ii/scenario.txt",
+        "initialMessage": "characters/historical-036-basil-ii/initial-message.txt",
+        "exampleDialogs": "characters/historical-036-basil-ii/example-dialogs.txt",
+        "tags": "characters/historical-036-basil-ii/tags.txt",
+        "creatorNotes": "characters/historical-036-basil-ii/creator-notes.txt"
+      },
+      "fieldHashes": {
+        "characterCard": "2f54a0c1e4313e7e4097cfe8b79ff3a591b84fe3eee6448e96fd719848d82d68",
+        "personality": "4aeeb34c6741dfeadfceb9da74baaae1b97c61d2913359337f513bd6cd6dba4c",
+        "scenario": "995203f1c23bc75bae8f78746990c62a130051f637fc52b3546eb22040bdaaf3",
+        "initialMessage": "b06f21124ae3d615e755017eb374e5efa824b485edca442cfc16bda6d848f4fe",
+        "exampleDialogs": "337b2a1644c4cdc2151f90156d949bb830dae72be733d1b21e9f8b95aa74abe0",
+        "tags": "65af7bdee03daf42912e53896466e04c524a7a62fb63c4a136bbeda8cd40fa1b",
+        "creatorNotes": "2e1966ed0913f133f064fba03e4fbb61a6f0e3045292375815752da0321a75c6"
+      },
+      "avatar": "characters/historical-036-basil-ii/avatar.png",
+      "validation": {
+        "ok": true
+      }
+    },
+    {
+      "id": "historical-037-harald-hardrada",
+      "name": "Harald Hardrada",
+      "group": "Historical",
+      "productionNumber": 37,
+      "plannedDate": "Jul 19, 2026",
+      "editUrl": "",
+      "fields": {
+        "characterName": "Harald Hardrada",
+        "characterCard": "characters/historical-037-harald-hardrada/character-card.txt",
+        "personality": "characters/historical-037-harald-hardrada/personality-definition.txt",
+        "scenario": "characters/historical-037-harald-hardrada/scenario.txt",
+        "initialMessage": "characters/historical-037-harald-hardrada/initial-message.txt",
+        "exampleDialogs": "characters/historical-037-harald-hardrada/example-dialogs.txt",
+        "tags": "characters/historical-037-harald-hardrada/tags.txt",
+        "creatorNotes": "characters/historical-037-harald-hardrada/creator-notes.txt"
+      },
+      "fieldHashes": {
+        "characterCard": "ab19da05aa55ce3f0dfe83bc4cd0f14aacd1be382c77ef139d339a85d8ed920d",
+        "personality": "f2fd873bba9d82f69472f3e93cdbc76ee9a74a323c6b254504ed9c6f4f7df387",
+        "scenario": "4dc25141941fd3b3848a2f2011262b739ec072ca0b6eed357ba1f0df9f1fce39",
+        "initialMessage": "0a21231aab96622e9f768bcfaf2155fe47b680793c51730e180347b5df21ca57",
+        "exampleDialogs": "b39dc0f8eee653ac30df0de3419ddd59aa344997b46ad2522b683991059ab6da",
+        "tags": "65af7bdee03daf42912e53896466e04c524a7a62fb63c4a136bbeda8cd40fa1b",
+        "creatorNotes": "6323f1bc4a9bdb08a22a80922dcdf3b9175db552681800ce3602fd9998f2cbaf"
+      },
+      "avatar": "characters/historical-037-harald-hardrada/avatar.png",
+      "validation": {
+        "ok": true
+      }
+    },
+    {
+      "id": "historical-038-william-of-orange",
+      "name": "William of Orange",
+      "group": "Historical",
+      "productionNumber": 38,
+      "plannedDate": "Jul 24, 2026",
+      "editUrl": "",
+      "fields": {
+        "characterName": "William of Orange",
+        "characterCard": "characters/historical-038-william-of-orange/character-card.txt",
+        "personality": "characters/historical-038-william-of-orange/personality-definition.txt",
+        "scenario": "characters/historical-038-william-of-orange/scenario.txt",
+        "initialMessage": "characters/historical-038-william-of-orange/initial-message.txt",
+        "exampleDialogs": "characters/historical-038-william-of-orange/example-dialogs.txt",
+        "tags": "characters/historical-038-william-of-orange/tags.txt",
+        "creatorNotes": "characters/historical-038-william-of-orange/creator-notes.txt"
+      },
+      "fieldHashes": {
+        "characterCard": "5d2a727674ce4a5f945d33999aafd29b14c0f17d0909e7924f85f05654b06262",
+        "personality": "69826c6ed59dab7b9c24516f645d5f48c573fbe073181d46fb7147769c99b610",
+        "scenario": "c062bac29fb41c73fe099e970977d60eff50eaec9d67e752823a9085095e1876",
+        "initialMessage": "94db86a174da9223955c1e7ff50e802bf1c097a88c53fee2989dcbe9c89448cf",
+        "exampleDialogs": "0fb0b7826f3831bf1b758d572357a8430d1fcdb7fb69b483665eb0d785ea2462",
+        "tags": "65af7bdee03daf42912e53896466e04c524a7a62fb63c4a136bbeda8cd40fa1b",
+        "creatorNotes": "178fddd2f2b2a15dd5c8dd16366fc54e729db8d23ec150d3573b339f72cd44ff"
+      },
+      "avatar": "characters/historical-038-william-of-orange/avatar.png",
+      "validation": {
+        "ok": true
+      }
+    },
+    {
+      "id": "historical-039-robert-the-bruce",
+      "name": "Robert the Bruce",
+      "group": "Historical",
+      "productionNumber": 39,
+      "plannedDate": "Jul 26, 2026",
+      "editUrl": "",
+      "fields": {
+        "characterName": "Robert the Bruce",
+        "characterCard": "characters/historical-039-robert-the-bruce/character-card.txt",
+        "personality": "characters/historical-039-robert-the-bruce/personality-definition.txt",
+        "scenario": "characters/historical-039-robert-the-bruce/scenario.txt",
+        "initialMessage": "characters/historical-039-robert-the-bruce/initial-message.txt",
+        "exampleDialogs": "characters/historical-039-robert-the-bruce/example-dialogs.txt",
+        "tags": "characters/historical-039-robert-the-bruce/tags.txt",
+        "creatorNotes": "characters/historical-039-robert-the-bruce/creator-notes.txt"
+      },
+      "fieldHashes": {
+        "characterCard": "77a49c1f7518a860c52dba70a31bb05c92bafe0ebdb4b87c76ff25837794f3a1",
+        "personality": "6773bd931c43f3d35bff499020880f7732be2e53ee2a62042f2110483f274be8",
+        "scenario": "3390cfdcfc17198846e7faa8261f541eaf0b0c4d939fede532015287986c7148",
+        "initialMessage": "06bf990f74d4c7ef9ee152b6cad503326785d16b27f3f035eea44376948c7008",
+        "exampleDialogs": "1f31704615795ce8361bfc4d7e940cac7bee79886ae4a9e5ecc1911e211102fb",
+        "tags": "65af7bdee03daf42912e53896466e04c524a7a62fb63c4a136bbeda8cd40fa1b",
+        "creatorNotes": "e834089bc49d47188467a0b1ebd7fe09d8a13b2074832938db0fa1b773c4202a"
+      },
+      "avatar": "characters/historical-039-robert-the-bruce/avatar.png",
+      "validation": {
+        "ok": true
+      }
+    },
+    {
+      "id": "historical-040-saladin",
+      "name": "Saladin",
+      "group": "Historical",
+      "productionNumber": 40,
+      "plannedDate": "Jul 31, 2026",
+      "editUrl": "",
+      "fields": {
+        "characterName": "Saladin",
+        "characterCard": "characters/historical-040-saladin/character-card.txt",
+        "personality": "characters/historical-040-saladin/personality-definition.txt",
+        "scenario": "characters/historical-040-saladin/scenario.txt",
+        "initialMessage": "characters/historical-040-saladin/initial-message.txt",
+        "exampleDialogs": "characters/historical-040-saladin/example-dialogs.txt",
+        "tags": "characters/historical-040-saladin/tags.txt",
+        "creatorNotes": "characters/historical-040-saladin/creator-notes.txt"
+      },
+      "fieldHashes": {
+        "characterCard": "84a51d8ec158967b6408830a8433ac9c0000e9b5bdc1c4acefaaa217900a8af9",
+        "personality": "475ea66c35df7e64647865db7886ef7a44fe94dea6cb43c4b0bdd2fd20df995a",
+        "scenario": "1efa29449b645c7e7bf1306f73294b68b8f7be05d6c481ce9ad9fee80b360e96",
+        "initialMessage": "df3a8266795e7efd0c9581969048fb820c2d587b5e17f65b8c535657e2f56926",
+        "exampleDialogs": "5892b5207bd7b20beab4ccb2168ef55a5a7bb77cb5e3e9a356d4b11731b0c844",
+        "tags": "65af7bdee03daf42912e53896466e04c524a7a62fb63c4a136bbeda8cd40fa1b",
+        "creatorNotes": "747a26ecda31599eccc6cf26dad1938308d2f9a2e74fc7cdedba10f3f2780366"
+      },
+      "avatar": "characters/historical-040-saladin/avatar.png",
+      "validation": {
+        "ok": true
+      }
+    },
+    {
+      "id": "historical-041-kublai-khan",
+      "name": "Kublai Khan",
+      "group": "Historical",
+      "productionNumber": 41,
+      "plannedDate": "Aug 02, 2026",
+      "editUrl": "",
+      "fields": {
+        "characterName": "Kublai Khan",
+        "characterCard": "characters/historical-041-kublai-khan/character-card.txt",
+        "personality": "characters/historical-041-kublai-khan/personality-definition.txt",
+        "scenario": "characters/historical-041-kublai-khan/scenario.txt",
+        "initialMessage": "characters/historical-041-kublai-khan/initial-message.txt",
+        "exampleDialogs": "characters/historical-041-kublai-khan/example-dialogs.txt",
+        "tags": "characters/historical-041-kublai-khan/tags.txt",
+        "creatorNotes": "characters/historical-041-kublai-khan/creator-notes.txt"
+      },
+      "fieldHashes": {
+        "characterCard": "ee339202e34ba8c8cec34f7981ede0c0834897e91922051417a7212c5b2c61b0",
+        "personality": "06cfe8de2d25b46d7203fe73b10999d2b54a4b307e6e6386c2e4eff6d60f6fdf",
+        "scenario": "85e91a209aa2e6e823c14948eafc7a6dff44d09ee0c014138dde0e4a87acc052",
+        "initialMessage": "534c5f3445bdf19d49741208b3da9de5f6769cb4aef0e57e2b8d3d87b422d408",
+        "exampleDialogs": "738af4da68e4f5690f7f9bb79364441b2101de432e0d78692efdf51320696e65",
+        "tags": "65af7bdee03daf42912e53896466e04c524a7a62fb63c4a136bbeda8cd40fa1b",
+        "creatorNotes": "c194ab8f04a236fcf5f7b500f5e4a94b675a4a93f7512b2a09d393365a12ed4d"
+      },
+      "avatar": "characters/historical-041-kublai-khan/avatar.png",
+      "validation": {
+        "ok": true
+      }
+    },
+    {
+      "id": "historical-042-tokugawa-ieyasu",
+      "name": "Tokugawa Ieyasu",
+      "group": "Historical",
+      "productionNumber": 42,
+      "plannedDate": "Aug 07, 2026",
+      "editUrl": "",
+      "fields": {
+        "characterName": "Tokugawa Ieyasu",
+        "characterCard": "characters/historical-042-tokugawa-ieyasu/character-card.txt",
+        "personality": "characters/historical-042-tokugawa-ieyasu/personality-definition.txt",
+        "scenario": "characters/historical-042-tokugawa-ieyasu/scenario.txt",
+        "initialMessage": "characters/historical-042-tokugawa-ieyasu/initial-message.txt",
+        "exampleDialogs": "characters/historical-042-tokugawa-ieyasu/example-dialogs.txt",
+        "tags": "characters/historical-042-tokugawa-ieyasu/tags.txt",
+        "creatorNotes": "characters/historical-042-tokugawa-ieyasu/creator-notes.txt"
+      },
+      "fieldHashes": {
+        "characterCard": "7090d57dba1ae9d31c138daf7d57ad7d462bf8e72258eda1cc5162cfd1c46d8c",
+        "personality": "2bb1e443d3b88f96528ef4f2ac30ccdfdb2538187483239539256eacf90cba8f",
+        "scenario": "463611ec1e1864fd343db6284a4d75ed731839a98d4574657d969abb57674c65",
+        "initialMessage": "2c3f27eaab78f5e4dc225e61c04f935cc4efc7c795a831a5f61702743615c7fd",
+        "exampleDialogs": "7c329be3090aee74993e3bf57d43feff4c47b518b3bad1b8738642c145d9815e",
+        "tags": "65af7bdee03daf42912e53896466e04c524a7a62fb63c4a136bbeda8cd40fa1b",
+        "creatorNotes": "05b927cfbf01f16b942542f622de8c97df52194012ab27e521a6e6245901a6b7"
+      },
+      "avatar": "characters/historical-042-tokugawa-ieyasu/avatar.png",
+      "validation": {
+        "ok": true
+      }
+    },
+    {
+      "id": "historical-043-hojo-tokimune",
+      "name": "Hojo Tokimune",
+      "group": "Historical",
+      "productionNumber": 43,
+      "plannedDate": "Aug 09, 2026",
+      "editUrl": "",
+      "fields": {
+        "characterName": "Hojo Tokimune",
+        "characterCard": "characters/historical-043-hojo-tokimune/character-card.txt",
+        "personality": "characters/historical-043-hojo-tokimune/personality-definition.txt",
+        "scenario": "characters/historical-043-hojo-tokimune/scenario.txt",
+        "initialMessage": "characters/historical-043-hojo-tokimune/initial-message.txt",
+        "exampleDialogs": "characters/historical-043-hojo-tokimune/example-dialogs.txt",
+        "tags": "characters/historical-043-hojo-tokimune/tags.txt",
+        "creatorNotes": "characters/historical-043-hojo-tokimune/creator-notes.txt"
+      },
+      "fieldHashes": {
+        "characterCard": "bfebb8b058c26241222957734857cfa9e758e09b12f3f338bc2b2518ad7d5d3a",
+        "personality": "ce277b9229ba8e442c9722ca82eadf4fecccc0a9540a8d7fb1654e7db43277ad",
+        "scenario": "6a1a01ef79377b6d3a221b3c5eb2553d2859f601de0167d6f6ddc80ff1791085",
+        "initialMessage": "06ad08c936e683c89fece01eb8e0fd57e990e2e8bb9448c17929be2026f19122",
+        "exampleDialogs": "900e0d983910188a5c62f0ff515b70f1434a932bddf46f30fdc694536ac8c7f6",
+        "tags": "65af7bdee03daf42912e53896466e04c524a7a62fb63c4a136bbeda8cd40fa1b",
+        "creatorNotes": "2b9ae3f71633ca3ac450a68cab1cf05251c59d214491c4cfc57bccd8d559c445"
+      },
+      "avatar": "characters/historical-043-hojo-tokimune/avatar.png",
+      "validation": {
+        "ok": true
+      }
+    },
+    {
+      "id": "historical-044-sundiata-keita",
+      "name": "Sundiata Keita",
+      "group": "Historical",
+      "productionNumber": 44,
+      "plannedDate": "Aug 14, 2026",
+      "editUrl": "",
+      "fields": {
+        "characterName": "Sundiata Keita",
+        "characterCard": "characters/historical-044-sundiata-keita/character-card.txt",
+        "personality": "characters/historical-044-sundiata-keita/personality-definition.txt",
+        "scenario": "characters/historical-044-sundiata-keita/scenario.txt",
+        "initialMessage": "characters/historical-044-sundiata-keita/initial-message.txt",
+        "exampleDialogs": "characters/historical-044-sundiata-keita/example-dialogs.txt",
+        "tags": "characters/historical-044-sundiata-keita/tags.txt",
+        "creatorNotes": "characters/historical-044-sundiata-keita/creator-notes.txt"
+      },
+      "fieldHashes": {
+        "characterCard": "95477fa950f4bc49eaab4d67a609eb293afa57b9d169503cbc05f4e5e11ada95",
+        "personality": "42160ecca931d88de7dcf3481688a48d5e75edd217078e97a4094f067248604a",
+        "scenario": "6a8fa4d1351b83ebcc6e39ebb91d6fc62ca4949545d122f3e3e216a3050cc1ff",
+        "initialMessage": "170b344354f66adf0e14bb547a2bd0dbbd011bc8fbb814efd22b3bab7cd735ab",
+        "exampleDialogs": "893efb93ff95d160df9e6777ded61514faf6ab7b506e85fad97293b46d7aa643",
+        "tags": "65af7bdee03daf42912e53896466e04c524a7a62fb63c4a136bbeda8cd40fa1b",
+        "creatorNotes": "c43cd4a362f4a3d045ac4d38ece9c1302e6b04f6804f2a322cddeadb5e7c9ee5"
+      },
+      "avatar": "characters/historical-044-sundiata-keita/avatar.png",
+      "validation": {
+        "ok": true
+      }
+    },
+    {
+      "id": "historical-045-mansa-musa",
+      "name": "Mansa Musa",
+      "group": "Historical",
+      "productionNumber": 45,
+      "plannedDate": "Aug 16, 2026",
+      "editUrl": "",
+      "fields": {
+        "characterName": "Mansa Musa",
+        "characterCard": "characters/historical-045-mansa-musa/character-card.txt",
+        "personality": "characters/historical-045-mansa-musa/personality-definition.txt",
+        "scenario": "characters/historical-045-mansa-musa/scenario.txt",
+        "initialMessage": "characters/historical-045-mansa-musa/initial-message.txt",
+        "exampleDialogs": "characters/historical-045-mansa-musa/example-dialogs.txt",
+        "tags": "characters/historical-045-mansa-musa/tags.txt",
+        "creatorNotes": "characters/historical-045-mansa-musa/creator-notes.txt"
+      },
+      "fieldHashes": {
+        "characterCard": "ed13c1d649de21e87875f8e19ef62ede958943472faf294d9cdd5f180c7bd7fe",
+        "personality": "81725c075034a35e39ac6600e8ef5d1872f64c6b3940f91a4c446212b6e97819",
+        "scenario": "115351f31bf5da51524b26c2d6df8f21e16f7d5ef29f10ca4397792e35bfbc5c",
+        "initialMessage": "1275222dc16ddbf44649ba96e49dd74d8266ea668a8d2b121887b1010aad4167",
+        "exampleDialogs": "9285df62749fe9b4d289559f48e41c3248e6edb802b08358e8bd4e15ea871e1a",
+        "tags": "65af7bdee03daf42912e53896466e04c524a7a62fb63c4a136bbeda8cd40fa1b",
+        "creatorNotes": "7ecb76edef4cadb01ae04872385971047af013acc7a65730744c148b3bae64cd"
+      },
+      "avatar": "characters/historical-045-mansa-musa/avatar.png",
+      "validation": {
+        "ok": true
+      }
+    },
+    {
+      "id": "historical-046-jayavarman-vii",
+      "name": "Jayavarman VII",
+      "group": "Historical",
+      "productionNumber": 46,
+      "plannedDate": "Aug 21, 2026",
+      "editUrl": "",
+      "fields": {
+        "characterName": "Jayavarman VII",
+        "characterCard": "characters/historical-046-jayavarman-vii/character-card.txt",
+        "personality": "characters/historical-046-jayavarman-vii/personality-definition.txt",
+        "scenario": "characters/historical-046-jayavarman-vii/scenario.txt",
+        "initialMessage": "characters/historical-046-jayavarman-vii/initial-message.txt",
+        "exampleDialogs": "characters/historical-046-jayavarman-vii/example-dialogs.txt",
+        "tags": "characters/historical-046-jayavarman-vii/tags.txt",
+        "creatorNotes": "characters/historical-046-jayavarman-vii/creator-notes.txt"
+      },
+      "fieldHashes": {
+        "characterCard": "a2cf9a3e57028fcdc254b7b4cf4d1a4b222bba1e31ea966545023af983a9c74c",
+        "personality": "d7bed62db90fa1424d097356c995dcbfbb1fb2a28ad272d652eb82c96a82b9dc",
+        "scenario": "800edb4077828f1c81e9daa7e275b7682fa3468eeab78ea43582b9d5f2a40aa1",
+        "initialMessage": "d1c68464ff6f6852ff1e7078b7ebeb84ed6f2ba709d1a4993712db2a04f503ce",
+        "exampleDialogs": "121f588937033ab5b57aeba4d14640daf8edde037c1837765ba7aaeb383d5de5",
+        "tags": "65af7bdee03daf42912e53896466e04c524a7a62fb63c4a136bbeda8cd40fa1b",
+        "creatorNotes": "564c8cb0bac17439630794cac02fe926bd4385660dce8bdd09ca278c4b2f44ad"
+      },
+      "avatar": "characters/historical-046-jayavarman-vii/avatar.png",
+      "validation": {
+        "ok": true
+      }
+    },
+    {
+      "id": "kpops-001-choi-san",
+      "name": "Choi San",
+      "group": "Kpops",
+      "productionNumber": 1,
+      "plannedDate": "",
+      "editUrl": "https://janitorai.com/edit_character/d3e6d0ea-1021-46a7-be0d-dc404bc3dde4",
+      "fields": {
+        "characterName": "Choi San",
+        "characterCard": "characters/kpops-001-choi-san/character-card.txt",
+        "personality": "characters/kpops-001-choi-san/personality-definition.txt",
+        "scenario": "characters/kpops-001-choi-san/scenario.txt",
+        "initialMessage": "characters/kpops-001-choi-san/initial-message.txt",
+        "exampleDialogs": "characters/kpops-001-choi-san/example-dialogs.txt"
+      },
+      "fieldHashes": {
+        "characterCard": "1864e2e53b91802bb4ede3577d5b977bcac25c961bc6750da0ad314695dddeb8",
+        "personality": "e5b7dbcb999197a7f49a0a6f2e9e7d424ab9daa4a158c7d962ee23854ef03169",
+        "scenario": "f20f33d0445c5684317f3ef0b18e854bd3c0028aefe175a6fc310dcb80d24cf8",
+        "initialMessage": "f199b9c9f81d3434ea57d571d49b2d66992ba64399b2fe00606e6ae6659a3de0",
+        "exampleDialogs": "c5308b5269bbc7afad53edb84a447799fcca21fdef3cde330e8d3f816dbfc267"
+      },
+      "avatar": "characters/kpops-001-choi-san/avatar.png",
+      "validation": {
+        "ok": true
+      }
+    },
+    {
+      "id": "kpops-002-hongjoong",
+      "name": "Hongjoong",
+      "group": "Kpops",
+      "productionNumber": 2,
+      "plannedDate": "July 1, 2026",
+      "editUrl": "",
+      "fields": {
+        "characterName": "Hongjoong",
+        "characterCard": "characters/kpops-002-hongjoong/character-card.txt",
+        "personality": "characters/kpops-002-hongjoong/personality-definition.txt",
+        "scenario": "characters/kpops-002-hongjoong/scenario.txt",
+        "initialMessage": "characters/kpops-002-hongjoong/initial-message.txt",
+        "exampleDialogs": "characters/kpops-002-hongjoong/example-dialogs.txt",
+        "tags": "characters/kpops-002-hongjoong/tags.txt",
+        "creatorNotes": "characters/kpops-002-hongjoong/creator-notes.txt"
+      },
+      "fieldHashes": {
+        "characterCard": "9b9ef848d93cc4bfb0afcb23a8a1017f735b68fc0e4eb45f5732ff9493f73ad5",
+        "personality": "b2b55b6c09e06eb78d785b663535c759b7e2bb1fdcf23c84ce574100ec912d31",
+        "scenario": "e351126772b44d616c48ae1038b34176afadc0b17f2a39899bf764a6da4f6863",
+        "initialMessage": "dfafafa65b1c5616285bcc312ea956b05370a14116f79c0fa8770a2d884515bd",
+        "exampleDialogs": "ed229cb5a8adf06059dbe89111840f4bbfaa55e762f016278245a6a4426d6e25",
+        "tags": "a538d124b1fe18b77557b0ba202f54e9dfcbebbb324d8ad38885a2df2ec78506",
+        "creatorNotes": "32b80151d2ba7d40eb646d6e7b08e19020f3eea99f2a71a80e49dec9927eba9d"
+      },
+      "avatar": "characters/kpops-002-hongjoong/avatar.png",
+      "validation": {
+        "ok": true
+      }
+    },
+    {
+      "id": "kpops-003-seonghwa",
+      "name": "Seonghwa",
+      "group": "Kpops",
+      "productionNumber": 3,
+      "plannedDate": "July 8, 2026",
+      "editUrl": "",
+      "fields": {
+        "characterName": "Seonghwa",
+        "characterCard": "characters/kpops-003-seonghwa/character-card.txt",
+        "personality": "characters/kpops-003-seonghwa/personality-definition.txt",
+        "scenario": "characters/kpops-003-seonghwa/scenario.txt",
+        "initialMessage": "characters/kpops-003-seonghwa/initial-message.txt",
+        "exampleDialogs": "characters/kpops-003-seonghwa/example-dialogs.txt",
+        "tags": "characters/kpops-003-seonghwa/tags.txt",
+        "creatorNotes": "characters/kpops-003-seonghwa/creator-notes.txt"
+      },
+      "fieldHashes": {
+        "characterCard": "416503ef0a1449b08be795af21d31873af7116359bf9ec332725353eba51f6fe",
+        "personality": "37c04c4f014a4972a2ee14fb4ac5b8e582c136101ec8fa831bd0bb3c56771378",
+        "scenario": "fdff81a484ebd1fc12d22e3bb9bf7b5e1da5b7e7c3e42f0d6060e6e3f4aa3700",
+        "initialMessage": "54a199712db48459c0b91a782acfd469dc471cc744ffef9337b7c4897ccbc9fa",
+        "exampleDialogs": "f710a0b1ab1019d0dd619e2b160977b7062c5d8942adb1ee4cc31180efd99c66",
+        "tags": "a538d124b1fe18b77557b0ba202f54e9dfcbebbb324d8ad38885a2df2ec78506",
+        "creatorNotes": "d7c83bcd5ab9ed68d5d80538a55f30bea6417321a5112b29b1704fc3fe9b412f"
+      },
+      "avatar": "characters/kpops-003-seonghwa/avatar.png",
+      "validation": {
+        "ok": true
+      }
+    },
+    {
+      "id": "kpops-004-yunho",
+      "name": "Yunho",
+      "group": "Kpops",
+      "productionNumber": 4,
+      "plannedDate": "July 15, 2026",
+      "editUrl": "",
+      "fields": {
+        "characterName": "Yunho",
+        "characterCard": "characters/kpops-004-yunho/character-card.txt",
+        "personality": "characters/kpops-004-yunho/personality-definition.txt",
+        "scenario": "characters/kpops-004-yunho/scenario.txt",
+        "initialMessage": "characters/kpops-004-yunho/initial-message.txt",
+        "exampleDialogs": "characters/kpops-004-yunho/example-dialogs.txt",
+        "tags": "characters/kpops-004-yunho/tags.txt",
+        "creatorNotes": "characters/kpops-004-yunho/creator-notes.txt"
+      },
+      "fieldHashes": {
+        "characterCard": "142f393f8a26f7495fb30a59d9efea03b06ad544a28e1c7f78242100ea1d6e7e",
+        "personality": "0e63d84a0ba4783bad3214bd7de787dc42cf95f8c187dde74ace83812a080e6c",
+        "scenario": "60c00e2e1dd16a643218e90a44e050ee42d16a50ed2be9e6d077de0f855a6882",
+        "initialMessage": "9007619a5ece22d85685241a5510975c2ae3a0ac5d8f17420b5c8110e155ac54",
+        "exampleDialogs": "1c7d57746923a8b6155d75767a8680a8a1db160788a4efce47356550582cf617",
+        "tags": "a538d124b1fe18b77557b0ba202f54e9dfcbebbb324d8ad38885a2df2ec78506",
+        "creatorNotes": "c038ffb1edca6dc2909b2b56d4d75a7e000e1f0d92e608520a85ebea45a68e14"
+      },
+      "avatar": "characters/kpops-004-yunho/avatar.png",
+      "validation": {
+        "ok": true
+      }
+    },
+    {
+      "id": "kpops-005-yeosang",
+      "name": "Yeosang",
+      "group": "Kpops",
+      "productionNumber": 5,
+      "plannedDate": "July 22, 2026",
+      "editUrl": "",
+      "fields": {
+        "characterName": "Yeosang",
+        "characterCard": "characters/kpops-005-yeosang/character-card.txt",
+        "personality": "characters/kpops-005-yeosang/personality-definition.txt",
+        "scenario": "characters/kpops-005-yeosang/scenario.txt",
+        "initialMessage": "characters/kpops-005-yeosang/initial-message.txt",
+        "exampleDialogs": "characters/kpops-005-yeosang/example-dialogs.txt",
+        "tags": "characters/kpops-005-yeosang/tags.txt",
+        "creatorNotes": "characters/kpops-005-yeosang/creator-notes.txt"
+      },
+      "fieldHashes": {
+        "characterCard": "a8483f94b747c69933cf774fb0a943d94dacaeaaa20656d261bb8758122ca506",
+        "personality": "7f406c9dbaa079f7b6d03d5a986662b42f435ba6840c25bf502ce692abfa04f8",
+        "scenario": "6b781b11f9600ca2b10473b6836c6dfe835b352fb85177bc9ffc65db66405be7",
+        "initialMessage": "8b90cefefa8aa81d156697842700626fbdcee2b181edeca37d05bbbe840e95f4",
+        "exampleDialogs": "e60ef05b03acf1a258b561a26e0fb25dc831bf65d7a1b938633df5ed58ba3c71",
+        "tags": "a538d124b1fe18b77557b0ba202f54e9dfcbebbb324d8ad38885a2df2ec78506",
+        "creatorNotes": "4728511e909f7821b1a79bd2f7f8dca05bbc36b17c1bdfdd3b087df2d579bc44"
+      },
+      "avatar": "characters/kpops-005-yeosang/avatar.png",
+      "validation": {
+        "ok": true
+      }
+    },
+    {
+      "id": "kpops-006-wooyoung",
+      "name": "Wooyoung",
+      "group": "Kpops",
+      "productionNumber": 6,
+      "plannedDate": "July 29, 2026",
+      "editUrl": "",
+      "fields": {
+        "characterName": "Wooyoung",
+        "characterCard": "characters/kpops-006-wooyoung/character-card.txt",
+        "personality": "characters/kpops-006-wooyoung/personality-definition.txt",
+        "scenario": "characters/kpops-006-wooyoung/scenario.txt",
+        "initialMessage": "characters/kpops-006-wooyoung/initial-message.txt",
+        "exampleDialogs": "characters/kpops-006-wooyoung/example-dialogs.txt",
+        "tags": "characters/kpops-006-wooyoung/tags.txt",
+        "creatorNotes": "characters/kpops-006-wooyoung/creator-notes.txt"
+      },
+      "fieldHashes": {
+        "characterCard": "b9aa8c0823772f523970a77d7af95f2b022659018fe8788edab660b2179d0aee",
+        "personality": "74395af456e9e465497c169e12569fe5b791e3e534b7834bf3ac40e7c49322b1",
+        "scenario": "2e24f0f98b5bf84871a3158ad70d2a25a743ba6fca5cd7a08674a8398a5dc59b",
+        "initialMessage": "4d7ba81aa7f09bb48aa6e36b13cfc5ddf12f5a976edf2e78761a79a1c6d79285",
+        "exampleDialogs": "f740be773461b914d914e447ff88306777fd17a458ab2f5176e34e66981f731a",
+        "tags": "a538d124b1fe18b77557b0ba202f54e9dfcbebbb324d8ad38885a2df2ec78506",
+        "creatorNotes": "d107a2d4f4daa4ed51bab51110f7dd9d42248d6be33d37e5e53664fc2ec2da15"
+      },
+      "avatar": "characters/kpops-006-wooyoung/avatar.png",
+      "validation": {
+        "ok": true
+      }
+    },
+    {
+      "id": "kpops-007-jongho",
+      "name": "Jongho",
+      "group": "Kpops",
+      "productionNumber": 7,
+      "plannedDate": "August 5, 2026",
+      "editUrl": "",
+      "fields": {
+        "characterName": "Jongho",
+        "characterCard": "characters/kpops-007-jongho/character-card.txt",
+        "personality": "characters/kpops-007-jongho/personality-definition.txt",
+        "scenario": "characters/kpops-007-jongho/scenario.txt",
+        "initialMessage": "characters/kpops-007-jongho/initial-message.txt",
+        "exampleDialogs": "characters/kpops-007-jongho/example-dialogs.txt",
+        "tags": "characters/kpops-007-jongho/tags.txt",
+        "creatorNotes": "characters/kpops-007-jongho/creator-notes.txt"
+      },
+      "fieldHashes": {
+        "characterCard": "0e5e4ac0168a1988f76a281c9a7f09604ee71a4ff7eb93d93cf2ae544397c70c",
+        "personality": "3cd52f446d716fdba381c39c6e1fc5a4fd3f0ec073f7da09e46d6dad6736beb4",
+        "scenario": "d4d7aece053eb4e3e2dce28caf16e226ba42ffe0a5f98c64b99c5161bc01359d",
+        "initialMessage": "80aff2a09ad28edea845a65ad9ae9a13dd05c5b4ef4ce758562123f39671e529",
+        "exampleDialogs": "e124293f8ae1c6f449f565e76bb8f0c9be2c143c3f45a009f9d3b87f3c77253b",
+        "tags": "a538d124b1fe18b77557b0ba202f54e9dfcbebbb324d8ad38885a2df2ec78506",
+        "creatorNotes": "9e3725e7d82d68bf37107bae8761977c67556a49f03036456920a4aa0569595f"
+      },
+      "avatar": "characters/kpops-007-jongho/avatar.png",
+      "validation": {
+        "ok": true
+      }
+    }
+  ],
+  "validation": {
+    "ok": true,
+    "errors": []
+  }
+}

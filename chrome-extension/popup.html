@@ -2,42 +2,60 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Janitor Lorebook Manager</title>
+    <title>Janitor Manager</title>
     <link rel="stylesheet" href="popup.css">
   </head>
   <body>
     <main>
       <header>
-        <h1>Janitor Lorebook Manager</h1>
+        <h1>Janitor Manager</h1>
         <p id="status">Loading...</p>
       </header>
 
       <section>
-        <label>Profile</label>
+        <label>Project name</label>
         <input id="profileName" type="text" value="Kyber RPG">
-        <label>Public manifest URL</label>
+        <label>GitHub sync manifest URL</label>
         <input id="manifestUrl" type="url" placeholder="https://raw.githubusercontent.com/.../janitor_sync_manifest.json">
         <div class="row">
-          <button id="saveProfile">Save Profile</button>
-          <button id="fetchGithub">Check GitHub</button>
+          <button id="saveProfile">Save Project</button>
+          <button id="fetchGithub">Load From GitHub</button>
         </div>
       </section>
 
       <section>
-        <label>Local files</label>
+        <h2>Character From Repository</h2>
+        <label for="characterSelect">Character package</label>
+        <select id="characterSelect"><option value="">No characters loaded</option></select>
+        <div class="row">
+          <button id="sendCharacter">Load Character In Panel</button>
+          <button id="openCreate">Create New Character</button>
+        </div>
+        <button id="publishCharacters">Bulk Create / Update Queue</button>
+        <p class="warning">Creates missing approved characters, updates existing edit URLs, uploads compiled avatars, and stops individual failures without discarding successful work.</p>
+      </section>
+
+      <section>
+        <label>Local compiled project folder</label>
+        <input id="localProjectFiles" type="file" webkitdirectory multiple>
+        <button id="loadLocalProject">Load Local Project Build</button>
+      </section>
+
+      <section>
+        <label>Local lorebook JSON files</label>
         <input id="localFiles" type="file" accept=".json,application/json" multiple>
-        <button id="loadLocal">Load Local Lorebooks</button>
+        <button id="loadLocal">Load Local Files</button>
       </section>
 
       <section>
         <div class="row">
-          <button id="openJanitor">Open Janitor</button>
-          <button id="sendToPage">Send Bundle To Page</button>
+          <button id="openJanitor">Open Lorebook Library</button>
+          <button id="sendToPage">Load Lorebooks In Panel</button>
         </div>
       </section>
 
       <section>
-        <h2>Loaded Bundle</h2>
+        <h2>Loaded Project</h2>
         <pre id="bundleSummary">No bundle loaded.</pre>
       </section>
     </main>

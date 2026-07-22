@@ -6,10 +6,10 @@ const STORE_KEYS = {
 };
 
 const DEFAULT_PROFILE = {
-  id: "kyber-rpg",
-  name: "Kyber RPG",
+  id: "production-queue",
+  name: "Production Queue",
   sourceMode: "github",
-  manifestUrl: "",
+  manifestUrl: "https://raw.githubusercontent.com/Nyxxaa/janitor-lorebook-manager/main/production/due-2026-08-21/janitor-manager-manifest.json",
   lastAppliedVersion: "",
   capBytes: 450 * 1024,
   warningBytes: 400 * 1024
@@ -24,6 +24,16 @@ chrome.runtime.onInstalled.addListener(async () => {
       [STORE_KEYS.bundles]: {},
       [STORE_KEYS.backups]: {}
     });
+  } else {
+    const profiles = current[STORE_KEYS.profiles];
+    const legacy = profiles.find((profile) => profile.id === "kyber-rpg" && !profile.manifestUrl);
+    if (legacy) {
+      Object.assign(legacy, DEFAULT_PROFILE);
+      await chrome.storage.local.set({
+        [STORE_KEYS.profiles]: profiles,
+        [STORE_KEYS.activeProfileId]: DEFAULT_PROFILE.id
+      });
+    }
   }
 });
 
@@ -50,9 +60,211 @@ async function handleMessage(message, sender) {
       return storeBackup(message.profileId, message.backup);
     case "backup:list":
       return listBackups(message.profileId);
+    case "page:readCodeMirror":
+      return readCodeMirrorDocuments(sender);
+    case "batch:backupLorebooks":
+      return batchBackupLorebooks(sender);
+    case "batch:publishProject":
+      return batchPublishProject(message.profileId);
     default:
       throw new Error(`Unknown message type: ${message?.type}`);
   }
+}
+
+async function batchPublishProject(profileId) {
+  const lorebookResult = await batchPublishLorebooks(profileId);
+  const characterResult = await batchPublishCharacters(profileId);
+  return { ok: true, skipped: lorebookResult.skipped + characterResult.skipped, results: [...lorebookResult.results, ...characterResult.results] };
+}
+
+async function batchPublishLorebooks(profileId) {
+  const response = await getActiveBundle(profileId);
+  const files = response.bundle?.files || [];
+  const eligible = files.filter((file) => file.editUrl);
+  const results = [];
+  for (const file of eligible) {
+    let tab;
+    try {
+      const url = new URL(file.editUrl);
+      if (!/^https:\/\/(?:www\.)?janitorai\.com$/i.test(url.origin) || !/^\/scripts\/[0-9a-f-]+\/edit\/?$/i.test(url.pathname)) throw new Error("Refusing a non-Janitor or non-edit lorebook URL.");
+      tab = await chrome.tabs.create({ url: url.toString(), active: false });
+      await waitForTabComplete(tab.id, 30000);
+      const result = await sendTabMessageWithRetry(tab.id, { type: "jm:autoUpdateLorebook", profileId, fileKey: file.sha256 || file.filename || file.name }, 30, 500);
+      if (!result?.ok) throw new Error(result?.error || "Janitor did not confirm the lorebook update.");
+      results.push({ name: `Lorebook: ${file.name || file.filename}`, editUrl: file.editUrl, ok: true, savedAt: result.savedAt });
+    } catch (error) {
+      results.push({ name: `Lorebook: ${file.name || file.filename}`, editUrl: file.editUrl, ok: false, error: error.message || String(error) });
+    } finally {
+      if (tab?.id) await chrome.tabs.remove(tab.id).catch(() => {});
+    }
+  }
+  return { results, skipped: files.length - eligible.length };
+}
+
+async function batchPublishCharacters(profileId) {
+  const response = await getActiveBundle(profileId);
+  const bundle = response.bundle;
+  if (!bundle?.characters?.length) return { ok: true, attempted: 0, skipped: 0, results: [] };
+  const eligible = bundle.characters.filter((character) => character.validation?.ok !== false);
+  if (!eligible.length) return { ok: true, attempted: 0, skipped: bundle.characters.length, results: [] };
+  const results = [];
+  for (const character of eligible) {
+    let tab;
+    try {
+      const creating = !character.editUrl;
+      if (creating && !character.avatarUrl) throw new Error("Refusing to create a character without an avatar.");
+      const url = new URL(creating ? "https://janitorai.com/create_character" : character.editUrl);
+      if (!/^https:\/\/(?:www\.)?janitorai\.com$/i.test(url.origin) || (!creating && !/^\/edit_character\/[0-9a-f-]+\/?$/i.test(url.pathname))) throw new Error("Refusing an invalid Janitor character URL.");
+      tab = await chrome.tabs.create({ url: url.toString(), active: false });
+      await waitForTabComplete(tab.id, 30000);
+      const result = await sendTabMessageWithRetry(tab.id, {
+        type: creating ? "jm:autoCreateCharacter" : "jm:autoUpdateCharacter",
+        profileId,
+        characterId: character.id
+      }, 30, 500);
+      if (!result?.ok) throw new Error(result?.error || "Janitor did not confirm the update.");
+      results.push({ id: character.id, name: character.name, action: creating ? "created" : "updated", editUrl: result.createdUrl || character.editUrl, ok: true, savedAt: result.savedAt, skippedSave: result.skippedSave || false });
+    } catch (error) {
+      results.push({ id: character.id, name: character.name, editUrl: character.editUrl, ok: false, error: error.message || String(error) });
+    } finally {
+      if (tab?.id) await chrome.tabs.remove(tab.id).catch(() => {});
+    }
+  }
+  return { ok: true, attempted: eligible.length, skipped: bundle.characters.length - eligible.length, results };
+}
+
+async function batchBackupLorebooks(sender) {
+  if (!sender.tab?.id) throw new Error("Start batch backup from the Janitor Manager page panel.");
+  const sourceTabId = sender.tab.id;
+  const discovery = await chrome.scripting.executeScript({
+    target: { tabId: sourceTabId },
+    world: "MAIN",
+    func: async () => {
+      const selector = 'div[role="button"][class*="_card_"][class*="_list_"][class*="_clickable_"]';
+      const initialCards = Array.from(document.querySelectorAll(selector));
+      if (!initialCards.length) throw new Error("Janitor script cards were not found with the verified selector.");
+      const manifest = initialCards.map((card, index) => ({
+        index,
+        name: (card.textContent || "").replace(/\s+/g, " ").trim(),
+        theme: card.getAttribute("data-color-theme") || ""
+      }));
+      const discovered = [];
+      for (const item of manifest) {
+        const freshCards = Array.from(document.querySelectorAll(selector));
+        if (freshCards.length !== manifest.length || !freshCards[item.index]) {
+          discovered.push({ ...item, error: `Card list changed: expected ${manifest.length}, found ${freshCards.length}` });
+          continue;
+        }
+        const card = freshCards[item.index];
+        card.scrollIntoView({ block: "center" });
+        card.click();
+        let selected = false;
+        for (let attempt = 0; attempt < 50; attempt += 1) {
+          await new Promise((resolve) => setTimeout(resolve, 100));
+          const currentCards = Array.from(document.querySelectorAll(selector));
+          const current = currentCards[item.index];
+          if (current?.className && String(current.className).includes("_selected_")) {
+            selected = true;
+            break;
+          }
+        }
+        const urlMatch = location.href.match(/^https:\/\/[^/]+\/scripts\/[0-9a-f-]+\/edit(?:[?#].*)?$/i);
+        discovered.push({ ...item, url: urlMatch?.[0] || "", selected, actualCount: document.querySelectorAll(selector).length });
+      }
+      return discovered;
+    }
+  });
+  const discoveryManifest = discovery[0]?.result || [];
+  const urls = [...new Set(discoveryManifest.map((item) => item.url).filter(Boolean))];
+  if (!urls.length) throw new Error("No lorebook edit links found. Open Janitor's Lorebook Library, then run Backup Entire Library.");
+  const lorebooks = [];
+  const failures = discoveryManifest
+    .filter((item) => item.error || !item.url)
+    .map((item) => ({ url: item.url || `sidebar-index:${item.index}`, error: item.error || `No script URL recorded for ${item.name}` }));
+  if (urls.length !== discoveryManifest.length) {
+    failures.push({ url: sender.tab.url || "sidebar", error: `Discovery mismatch: ${discoveryManifest.length} cards produced ${urls.length} unique script URLs.` });
+  }
+  for (const url of urls) {
+    let tab;
+    try {
+      tab = await chrome.tabs.create({ url, active: false });
+      await waitForTabComplete(tab.id, 30000);
+      const response = await sendTabMessageWithRetry(tab.id, { type: "jm:exportLorebook" }, 20, 300);
+      if (!response?.ok || !response.backup) throw new Error(response?.error || "No backup returned.");
+      lorebooks.push(response.backup);
+    } catch (error) {
+      failures.push({ url, error: error.message || String(error) });
+    } finally {
+      if (tab?.id) await chrome.tabs.remove(tab.id).catch(() => {});
+    }
+  }
+  return {
+    ok: true,
+    bundle: {
+      schema: "janitor-lorebook-batch-backup/v1",
+      exportedAt: new Date().toISOString(),
+      sourcePage: sender.tab.url || "",
+      discovery: {
+        cardCount: discoveryManifest.length,
+        uniqueUrlCount: urls.length,
+        cards: discoveryManifest
+      },
+      lorebooks,
+      failures
+    }
+  };
+}
+
+function waitForTabComplete(tabId, timeoutMs) {
+  return new Promise((resolve, reject) => {
+    const timeout = setTimeout(() => finish(new Error("Timed out loading lorebook page.")), timeoutMs);
+    const listener = (updatedId, changeInfo) => {
+      if (updatedId === tabId && changeInfo.status === "complete") finish();
+    };
+    const finish = (error) => {
+      clearTimeout(timeout);
+      chrome.tabs.onUpdated.removeListener(listener);
+      error ? reject(error) : resolve();
+    };
+    chrome.tabs.onUpdated.addListener(listener);
+    chrome.tabs.get(tabId).then((tab) => {
+      if (tab.status === "complete") finish();
+    }).catch(finish);
+  });
+}
+
+async function sendTabMessageWithRetry(tabId, message, attempts, delayMs) {
+  let lastError;
+  for (let attempt = 0; attempt < attempts; attempt += 1) {
+    try {
+      return await chrome.tabs.sendMessage(tabId, message);
+    } catch (error) {
+      lastError = error;
+      await new Promise((resolve) => setTimeout(resolve, delayMs));
+    }
+  }
+  throw lastError || new Error("Could not reach lorebook page.");
+}
+
+async function readCodeMirrorDocuments(sender) {
+  if (!sender.tab?.id) throw new Error("CodeMirror read requires a Janitor page tab.");
+  const results = await chrome.scripting.executeScript({
+    target: { tabId: sender.tab.id },
+    world: "MAIN",
+    func: () => Array.from(document.querySelectorAll(".cm-editor")).map((editor) => {
+      const content = editor.querySelector(".cm-content");
+      const candidates = [content?.cmView, editor.cmView].filter(Boolean);
+      for (const candidate of candidates) {
+        let node = candidate;
+        for (let depth = 0; node && depth < 30; depth += 1) {
+          if (node.view?.state?.doc) return node.view.state.doc.toString();
+          node = node.parent;
+        }
+      }
+      return content?.innerText || content?.textContent || "";
+    })
+  });
+  return { ok: true, documents: results[0]?.result || [] };
 }
 
 async function getProfiles() {
@@ -84,7 +296,7 @@ async function fetchManifest(profileId) {
   validateManifest(manifest);
   const base = new URL(profile.manifestUrl);
   const files = [];
-  for (const item of manifest.files || []) {
+  for (const item of manifest.lorebooks || manifest.files || []) {
     const fileUrl = item.url?.startsWith("http") ? item.url : new URL(item.url || item.path, base).toString();
     const text = await fetchText(fileUrl);
     const hash = await sha256(text);
@@ -101,6 +313,31 @@ async function fetchManifest(profileId) {
       validation: validateLorebook(entries, text, profile)
     });
   }
+  const characters = [];
+  for (const item of manifest.characters || []) {
+    const fields = {};
+    for (const [fieldName, source] of Object.entries(item.fields || {})) {
+      if (source && typeof source === "object" && "text" in source) {
+        fields[fieldName] = String(source.text || "");
+        continue;
+      }
+      const path = typeof source === "string" ? source : source?.path || source?.url;
+      if (!path) continue;
+      const fieldUrl = path.startsWith("http") ? path : new URL(path, base).toString();
+      fields[fieldName] = await fetchText(fieldUrl);
+    }
+    characters.push({
+      id: item.id || slugify(item.name || `character-${characters.length + 1}`),
+      name: item.name || `Character ${characters.length + 1}`,
+      group: item.group || "",
+      editUrl: item.editUrl || item.sourceUrl || "",
+      fields,
+      changedFields: Array.isArray(item.changedFields) ? item.changedFields : [],
+      fieldHashes: item.fieldHashes || {},
+      validation: item.validation || { ok: true, errors: [], warnings: [] }
+      ,avatarUrl: item.avatar ? (String(item.avatar).startsWith("http") ? item.avatar : new URL(item.avatar, base).toString()) : ""
+    });
+  }
   const bundle = {
     source: "github",
     profileId: profile.id,
@@ -110,15 +347,18 @@ async function fetchManifest(profileId) {
     fetchedAt: new Date().toISOString(),
     warningBytes: manifest.warningBytes || profile.warningBytes,
     capBytes: manifest.capBytes || profile.capBytes,
-    files
+    files,
+    characters
   };
   await storeBundle(profile.id, bundle);
   return { ok: true, bundle: summarizeBundle(bundle) };
 }
 
 async function storeBundle(profileId, bundle) {
-  if (!bundle?.files?.length) throw new Error("Bundle has no lorebook files.");
+  if (!bundle?.files?.length && !bundle?.characters?.length) throw new Error("Bundle has no lorebooks or characters.");
   const profile = await getProfile(profileId);
+  bundle.files = bundle.files || [];
+  bundle.characters = bundle.characters || [];
   for (const file of bundle.files) {
     const entries = parseLorebook(file.text, file.filename || file.name);
     file.validation = validateLorebook(entries, file.text, profile);
@@ -170,7 +410,9 @@ async function fetchText(url) {
 
 function validateManifest(manifest) {
   if (!manifest || typeof manifest !== "object") throw new Error("Manifest is not an object.");
-  if (!Array.isArray(manifest.files) || manifest.files.length === 0) throw new Error("Manifest has no files.");
+  const lorebooks = manifest.lorebooks || manifest.files || [];
+  if (!Array.isArray(lorebooks) || !Array.isArray(manifest.characters || [])) throw new Error("Manifest collections must be arrays.");
+  if (!lorebooks.length && !(manifest.characters || []).length) throw new Error("Manifest has no lorebooks or characters.");
 }
 
 function parseLorebook(text, label) {
@@ -230,15 +472,28 @@ function summarizeBundle(bundle) {
     project: bundle.project,
     version: bundle.version,
     fetchedAt: bundle.fetchedAt,
-    files: bundle.files.map((file) => ({
+    files: (bundle.files || []).map((file) => ({
       name: file.name,
       filename: file.filename,
       bytes: file.bytes,
       entries: file.entries,
       sha256: file.sha256,
       validation: file.validation
+    })),
+    characters: (bundle.characters || []).map((character) => ({
+      id: character.id,
+      name: character.name,
+      group: character.group,
+      editUrl: character.editUrl || "",
+      fieldCount: Object.keys(character.fields || {}).length,
+      changedFieldCount: (character.changedFields || []).length,
+      validation: character.validation || { ok: true }
     }))
   };
+}
+
+function slugify(text) {
+  return String(text || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "") || "character";
 }
 
 async function sha256(text) {
