@@ -170,7 +170,30 @@ async function batchPublishCharacters(profileId, limit = Infinity) {
         character.editUrl = savedUrl;
         await persistBundle(profileId, bundle);
       }
-      results.push({ id: character.id, name: character.name, action: creating ? "created" : "updated", editUrl: savedUrl || result.createdUrl || character.editUrl, ok: true, savedAt: result.savedAt, skippedSave: result.skippedSave || false });
+      const release = buildCharacterRelease(character);
+      const publicUrl = toCharacterPublicUrl(savedUrl || result.createdUrl || character.editUrl, character.name);
+      if (!publicUrl) throw new Error("Could not construct the Janitor character page URL for release setup.");
+      await chrome.tabs.update(tab.id, { url: publicUrl });
+      await waitForTabComplete(tab.id, 30000);
+      const releaseResult = await sendTabMessageWithRetry(tab.id, {
+        type: "jm:autoReleaseCharacter",
+        release
+      }, 30, 500);
+      if (!releaseResult?.ok) {
+        const failure = new Error(releaseResult?.error || "Janitor did not confirm the release setup.");
+        failure.diagnostics = releaseResult?.diagnostics;
+        throw failure;
+      }
+      results.push({
+        id: character.id,
+        name: character.name,
+        action: creating ? "created" : "updated",
+        editUrl: savedUrl || result.createdUrl || character.editUrl,
+        ok: true,
+        savedAt: result.savedAt,
+        skippedSave: result.skippedSave || false,
+        ...releaseResult
+      });
     } catch (error) {
       results.push({ id: character.id, name: character.name, editUrl: character.editUrl, ok: false, error: error.message || String(error), diagnostics: error.diagnostics || null });
     } finally {
@@ -206,6 +229,41 @@ function toCharacterEditUrl(value) {
   } catch {
     return "";
   }
+}
+
+function toCharacterPublicUrl(value, name) {
+  if (!value) return "";
+  try {
+    const url = new URL(value);
+    const publicMatch = url.pathname.match(/^\/characters\/([0-9a-f-]+)_character-/i);
+    if (publicMatch) return url.toString();
+    const editMatch = url.pathname.match(/^\/edit_character\/([0-9a-f-]+)/i);
+    if (!editMatch) return "";
+    const slug = String(name || "character").toLowerCase()
+      .normalize("NFKD").replace(/[\u0300-\u036f]/g, "")
+      .replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+    return `${url.origin}/characters/${editMatch[1]}_character-${slug || "character"}`;
+  } catch {
+    return "";
+  }
+}
+
+function buildCharacterRelease(character) {
+  const planned = new Date(character.plannedDate);
+  if (Number.isNaN(planned.getTime())) return { mode: "now" };
+  const localNow = new Date();
+  const date = [
+    planned.getFullYear(),
+    String(planned.getMonth() + 1).padStart(2, "0"),
+    String(planned.getDate()).padStart(2, "0")
+  ].join("-");
+  const today = [
+    localNow.getFullYear(),
+    String(localNow.getMonth() + 1).padStart(2, "0"),
+    String(localNow.getDate()).padStart(2, "0")
+  ].join("-");
+  if (date <= today) return { mode: "now" };
+  return { mode: "schedule", scheduleType: "countdown", date, time: "12:00" };
 }
 
 async function persistBundle(profileId, bundle) {

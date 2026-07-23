@@ -26,6 +26,9 @@ async function handleMessage(message) {
   if (message?.type === "jm:autoUpdateCharacter") {
     return autoUpdateCharacter(message.profileId, message.characterId);
   }
+  if (message?.type === "jm:autoReleaseCharacter") {
+    return autoReleaseCharacter(message.release);
+  }
   if (message?.type === "jm:autoUpdateLorebook") {
     return autoUpdateLorebook(message.profileId, message.fileKey);
   }
@@ -302,6 +305,100 @@ async function autoUpdateCharacter(profileId, characterId) {
   saveButton.click();
   await waitForCharacterSaveConfirmation(saveButton);
   return { ok: true, savedAt: new Date().toISOString(), matched: plan.matched.length, unchanged: plan.unchanged.length };
+}
+
+async function autoReleaseCharacter(release) {
+  if (!/^\/characters\/[0-9a-f-]+_character-/i.test(location.pathname)) {
+    throw new Error("Automatic release setup only runs on a Janitor character page.");
+  }
+  const visibility = await waitForElement("#character-visibility", 15000);
+  if (!visibility) throw new Error("The Public visibility switch was not found.");
+
+  const statusText = () => Array.from(document.querySelectorAll("div, span"))
+    .map((element) => (element.textContent || "").trim().toLowerCase())
+    .find((text) => text === "public" || text === "private") || "";
+  if (visibility.checked && statusText() === "public") {
+    return { ok: true, releaseAction: "already-public", releasedAt: new Date().toISOString() };
+  }
+
+  visibility.click();
+  const dialog = await waitForElement('[role="dialog"]', 10000);
+  if (!dialog || !/make character public/i.test(dialog.textContent || "")) {
+    throw new Error("The Make Character Public dialog did not open.");
+  }
+
+  const mode = release?.mode === "schedule" ? "schedule" : "now";
+  clickButtonByText(dialog, mode === "schedule" ? "Schedule Release" : "Publish Now");
+
+  if (mode === "schedule") {
+    const scheduleType = release?.scheduleType === "silent" ? "Silent Schedule" : "Public Countdown";
+    clickButtonByText(dialog, scheduleType);
+    const dateInput = await waitForElement("#modal-schedule-date", 5000);
+    const timeInput = await waitForElement("#modal-schedule-time", 5000);
+    if (!dateInput || !timeInput) throw new Error("Janitor's release date/time inputs were not found.");
+    setNativeValue(dateInput, release.date);
+    setNativeValue(timeInput, release.time || "12:00");
+  }
+
+  const confirmText = mode === "schedule" ? "Schedule Release" : "Publish Now";
+  const confirm = await waitForEnabledButton(dialog, confirmText, 10000);
+  if (!confirm) throw new Error(`The ${confirmText} confirmation button did not become available.`);
+  confirm.click();
+
+  for (let attempt = 0; attempt < 100; attempt += 1) {
+    const scheduledStatus = readCharacterStatus("scheduled");
+    const visibilityStatus = readCharacterStatus("visibility");
+    if (mode === "schedule" && scheduledStatus && scheduledStatus !== "none") {
+      return { ok: true, releaseAction: "scheduled", releaseDate: release.date, releaseTime: release.time || "12:00" };
+    }
+    if (mode === "now" && visibilityStatus === "public") {
+      return { ok: true, releaseAction: "published", releasedAt: new Date().toISOString() };
+    }
+    await new Promise((resolve) => setTimeout(resolve, 200));
+  }
+  throw new Error(`Janitor did not confirm that the character was ${mode === "schedule" ? "scheduled" : "published"}.`);
+}
+
+function readCharacterStatus(key) {
+  const label = Array.from(document.querySelectorAll("span")).find((element) =>
+    (element.textContent || "").trim().toLowerCase() === `${key}:`
+  );
+  if (!label?.parentElement) return "";
+  const values = Array.from(label.parentElement.querySelectorAll("span"))
+    .map((element) => (element.textContent || "").trim().toLowerCase())
+    .filter((text) => text && text !== `${key}:`);
+  return values[0] || "";
+}
+
+function clickButtonByText(root, text) {
+  const button = Array.from(root.querySelectorAll("button")).find((item) =>
+    (item.textContent || "").trim().toLowerCase().includes(text.toLowerCase())
+  );
+  if (!button) throw new Error(`The ${text} option was not found.`);
+  button.click();
+}
+
+async function waitForEnabledButton(root, text, timeoutMs) {
+  const attempts = Math.ceil(timeoutMs / 100);
+  for (let attempt = 0; attempt < attempts; attempt += 1) {
+    const matches = Array.from(root.querySelectorAll("button")).filter((item) =>
+      (item.textContent || "").trim().toLowerCase() === text.toLowerCase()
+    );
+    const button = matches.reverse().find((item) => !item.disabled);
+    if (button) return button;
+    await new Promise((resolve) => setTimeout(resolve, 100));
+  }
+  return null;
+}
+
+async function waitForElement(selector, timeoutMs) {
+  const attempts = Math.ceil(timeoutMs / 100);
+  for (let attempt = 0; attempt < attempts; attempt += 1) {
+    const element = document.querySelector(selector);
+    if (element) return element;
+    await new Promise((resolve) => setTimeout(resolve, 100));
+  }
+  return null;
 }
 
 async function waitForCharacterForm() {
