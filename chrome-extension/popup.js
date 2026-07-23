@@ -15,6 +15,7 @@ const els = {
   characterSelect: document.getElementById("characterSelect"),
   sendCharacter: document.getElementById("sendCharacter"),
   publishCharacters: document.getElementById("publishCharacters"),
+  testCharacter: document.getElementById("testCharacter"),
   openCreate: document.getElementById("openCreate"),
   bundleSummary: document.getElementById("bundleSummary")
 };
@@ -32,6 +33,7 @@ async function init() {
   els.sendToPage.addEventListener("click", sendBundleToPage);
   els.sendCharacter.addEventListener("click", sendCharacterToPage);
   els.publishCharacters.addEventListener("click", publishCharacters);
+  els.testCharacter.addEventListener("click", testCharacter);
   els.openCreate.addEventListener("click", () => chrome.tabs.create({ url: "https://janitorai.com/create_character" }));
 }
 
@@ -50,6 +52,20 @@ async function publishCharacters() {
   }
 }
 
+async function testCharacter() {
+  els.testCharacter.disabled = true;
+  setStatus("Testing the first character only...");
+  try {
+    const response = await send({ type: "batch:testCharacter", profileId: activeProfileId });
+    if (!response.ok) return setStatus(response.error);
+    const item = response.results[0];
+    setStatus(item?.ok ? `Smoke test saved: ${item.name}.` : `Smoke test failed: ${item?.error || "Unknown error"}`);
+    els.bundleSummary.textContent = item ? `${item.ok ? "OK" : "FAILED"}: ${item.name}${item.error ? ` — ${item.error}` : ""}` : "No eligible character found.";
+  } finally {
+    els.testCharacter.disabled = false;
+  }
+}
+
 async function loadProfile() {
   const response = await send({ type: "profiles:get" });
   if (!response.ok) return setStatus(response.error);
@@ -58,6 +74,14 @@ async function loadProfile() {
   if (profile) {
     els.profileName.value = profile.name || "";
     els.manifestUrl.value = profile.manifestUrl || "";
+  }
+  const previous = await send({ type: "batch:getLastRun" });
+  if (previous.ok && previous.run?.results?.length) {
+    const run = previous.run;
+    els.bundleSummary.textContent = run.results.map((item) => `${item.ok ? "OK" : "FAILED"}: ${item.name}${item.error ? ` — ${item.error}` : ""}`).join("\n");
+    const failed = run.results.filter((item) => !item.ok).length;
+    setStatus(`Last ${run.mode || "production"} run: ${run.results.length - failed} saved, ${failed} failed.`);
+    return;
   }
   setStatus("Ready.");
 }
@@ -73,13 +97,19 @@ async function saveProfile() {
     warningBytes: 400 * 1024
   };
   const response = await send({ type: "profiles:save", profile });
-  if (!response.ok) return setStatus(response.error);
+  if (!response.ok) {
+    setStatus(response.error);
+    return false;
+  }
   activeProfileId = response.activeProfileId;
+  const saved = response.profiles.find((item) => item.id === activeProfileId);
+  if (saved) els.manifestUrl.value = saved.manifestUrl || "";
   setStatus("Profile saved.");
+  return true;
 }
 
 async function fetchGithub() {
-  await saveProfile();
+  if (!(await saveProfile())) return;
   setStatus("Fetching GitHub manifest...");
   const response = await send({ type: "github:fetchManifest", profileId: activeProfileId });
   if (!response.ok) return setStatus(response.error);

@@ -2,7 +2,8 @@ const STORE_KEYS = {
   profiles: "profiles",
   activeProfileId: "activeProfileId",
   bundles: "bundles",
-  backups: "backups"
+  backups: "backups",
+  lastRun: "lastRun"
 };
 
 const DEFAULT_PROFILE = {
@@ -66,6 +67,10 @@ async function handleMessage(message, sender) {
       return batchBackupLorebooks(sender);
     case "batch:publishProject":
       return batchPublishProject(message.profileId);
+    case "batch:testCharacter":
+      return testCharacter(message.profileId);
+    case "batch:getLastRun":
+      return getLastRun();
     default:
       throw new Error(`Unknown message type: ${message?.type}`);
   }
@@ -74,7 +79,38 @@ async function handleMessage(message, sender) {
 async function batchPublishProject(profileId) {
   const lorebookResult = await batchPublishLorebooks(profileId);
   const characterResult = await batchPublishCharacters(profileId);
-  return { ok: true, skipped: lorebookResult.skipped + characterResult.skipped, results: [...lorebookResult.results, ...characterResult.results] };
+  const result = { ok: true, mode: "bulk", skipped: lorebookResult.skipped + characterResult.skipped, results: [...lorebookResult.results, ...characterResult.results] };
+  await chrome.storage.local.set({ [STORE_KEYS.lastRun]: result });
+  await downloadRunLog(result);
+  return result;
+}
+
+async function testCharacter(profileId) {
+  const result = { ...(await batchPublishCharacters(profileId, 1)), mode: "smoke" };
+  await chrome.storage.local.set({ [STORE_KEYS.lastRun]: result });
+  await downloadRunLog(result);
+  return result;
+}
+
+async function getLastRun() {
+  const data = await chrome.storage.local.get([STORE_KEYS.lastRun]);
+  return { ok: true, run: data[STORE_KEYS.lastRun] || null };
+}
+
+async function downloadRunLog(result) {
+  const payload = {
+    schema: "janitor-manager-run-log/v1",
+    generatedAt: new Date().toISOString(),
+    ...result
+  };
+  const text = JSON.stringify(payload, null, 2);
+  const url = `data:application/json;charset=utf-8,${encodeURIComponent(text)}`;
+  await chrome.downloads.download({
+    url,
+    filename: "Janitor Manager Logs/janitor-manager-last-run.json",
+    conflictAction: "overwrite",
+    saveAs: false
+  });
 }
 
 async function batchPublishLorebooks(profileId) {
@@ -101,11 +137,13 @@ async function batchPublishLorebooks(profileId) {
   return { results, skipped: files.length - eligible.length };
 }
 
-async function batchPublishCharacters(profileId) {
+async function batchPublishCharacters(profileId, limit = Infinity) {
   const response = await getActiveBundle(profileId);
   const bundle = response.bundle;
   if (!bundle?.characters?.length) return { ok: true, attempted: 0, skipped: 0, results: [] };
-  const eligible = bundle.characters.filter((character) => character.validation?.ok !== false);
+  await applyRememberedCharacterUrls(bundle, profileId);
+  const allEligible = bundle.characters.filter((character) => character.validation?.ok !== false);
+  const eligible = allEligible.slice(0, limit);
   if (!eligible.length) return { ok: true, attempted: 0, skipped: bundle.characters.length, results: [] };
   const results = [];
   for (const character of eligible) {
@@ -122,15 +160,59 @@ async function batchPublishCharacters(profileId) {
         profileId,
         characterId: character.id
       }, 30, 500);
-      if (!result?.ok) throw new Error(result?.error || "Janitor did not confirm the update.");
-      results.push({ id: character.id, name: character.name, action: creating ? "created" : "updated", editUrl: result.createdUrl || character.editUrl, ok: true, savedAt: result.savedAt, skippedSave: result.skippedSave || false });
+      if (!result?.ok) {
+        const failure = new Error(result?.error || "Janitor did not confirm the update.");
+        failure.diagnostics = result?.diagnostics;
+        throw failure;
+      }
+      const savedUrl = toCharacterEditUrl(result.createdUrl || character.editUrl);
+      if (creating && savedUrl) {
+        character.editUrl = savedUrl;
+        await persistBundle(profileId, bundle);
+      }
+      results.push({ id: character.id, name: character.name, action: creating ? "created" : "updated", editUrl: savedUrl || result.createdUrl || character.editUrl, ok: true, savedAt: result.savedAt, skippedSave: result.skippedSave || false });
     } catch (error) {
-      results.push({ id: character.id, name: character.name, editUrl: character.editUrl, ok: false, error: error.message || String(error) });
+      results.push({ id: character.id, name: character.name, editUrl: character.editUrl, ok: false, error: error.message || String(error), diagnostics: error.diagnostics || null });
     } finally {
       if (tab?.id) await chrome.tabs.remove(tab.id).catch(() => {});
     }
   }
   return { ok: true, attempted: eligible.length, skipped: bundle.characters.length - eligible.length, results };
+}
+
+async function applyRememberedCharacterUrls(bundle, profileId) {
+  const data = await chrome.storage.local.get([STORE_KEYS.lastRun]);
+  const remembered = new Map((data[STORE_KEYS.lastRun]?.results || [])
+    .filter((item) => item.ok && item.id && item.editUrl)
+    .map((item) => [item.id, toCharacterEditUrl(item.editUrl)]));
+  let changed = false;
+  for (const character of bundle.characters || []) {
+    const editUrl = remembered.get(character.id);
+    if (!character.editUrl && editUrl) {
+      character.editUrl = editUrl;
+      changed = true;
+    }
+  }
+  if (changed) await persistBundle(profileId, bundle);
+}
+
+function toCharacterEditUrl(value) {
+  if (!value) return "";
+  try {
+    const url = new URL(value);
+    const publicMatch = url.pathname.match(/^\/characters\/([0-9a-f-]+)_character-/i);
+    if (publicMatch) return `${url.origin}/edit_character/${publicMatch[1]}`;
+    return url.toString();
+  } catch {
+    return "";
+  }
+}
+
+async function persistBundle(profileId, bundle) {
+  const data = await chrome.storage.local.get([STORE_KEYS.bundles]);
+  const bundles = data[STORE_KEYS.bundles] || {};
+  bundles[profileId] = bundle;
+  await chrome.storage.local.set({ [STORE_KEYS.bundles]: bundles });
 }
 
 async function batchBackupLorebooks(sender) {
@@ -269,7 +351,11 @@ async function readCodeMirrorDocuments(sender) {
 
 async function getProfiles() {
   const data = await chrome.storage.local.get([STORE_KEYS.profiles, STORE_KEYS.activeProfileId]);
-  const profiles = data[STORE_KEYS.profiles] || [DEFAULT_PROFILE];
+  const storedProfiles = data[STORE_KEYS.profiles] || [DEFAULT_PROFILE];
+  const profiles = storedProfiles.map((profile) => normalizeProfile(profile));
+  if (JSON.stringify(profiles) !== JSON.stringify(storedProfiles)) {
+    await chrome.storage.local.set({ [STORE_KEYS.profiles]: profiles });
+  }
   return { ok: true, profiles, activeProfileId: data[STORE_KEYS.activeProfileId] || profiles[0]?.id };
 }
 
@@ -278,7 +364,7 @@ async function saveProfile(profile) {
   const data = await chrome.storage.local.get([STORE_KEYS.profiles]);
   const profiles = data[STORE_KEYS.profiles] || [];
   const next = profiles.filter((item) => item.id !== profile.id);
-  next.push({ ...DEFAULT_PROFILE, ...profile });
+  next.push(normalizeProfile({ ...DEFAULT_PROFILE, ...profile }));
   next.sort((a, b) => a.name.localeCompare(b.name));
   await chrome.storage.local.set({ [STORE_KEYS.profiles]: next, [STORE_KEYS.activeProfileId]: profile.id });
   return { ok: true, profiles: next, activeProfileId: profile.id };
@@ -287,6 +373,42 @@ async function saveProfile(profile) {
 async function getProfile(profileId) {
   const { profiles, activeProfileId } = await getProfiles();
   return profiles.find((profile) => profile.id === (profileId || activeProfileId)) || profiles[0] || DEFAULT_PROFILE;
+}
+
+function normalizeProfile(profile) {
+  const normalized = { ...profile };
+  const value = String(normalized.manifestUrl || "").trim();
+
+  // Repair the production profile if text was pasted into the middle of its URL.
+  if (
+    normalized.id === DEFAULT_PROFILE.id &&
+    (!isValidManifestUrl(value) || value.includes("janitohttps://") || value.includes("github.com/Nyxxaa/janitor-lorebook-managerr-"))
+  ) {
+    normalized.manifestUrl = DEFAULT_PROFILE.manifestUrl;
+    return normalized;
+  }
+
+  normalized.manifestUrl = normalizeGitHubManifestUrl(value);
+  if (normalized.manifestUrl && !isValidManifestUrl(normalized.manifestUrl)) {
+    throw new Error("Manifest URL must be one complete HTTPS URL. Replace the field instead of pasting into the middle of it.");
+  }
+  return normalized;
+}
+
+function normalizeGitHubManifestUrl(value) {
+  if (!value) return "";
+  const match = value.match(/^https:\/\/github\.com\/([^/]+)\/([^/#?]+)\/blob\/([^/]+)\/(.+)$/i);
+  if (!match) return value;
+  return `https://raw.githubusercontent.com/${match[1]}/${match[2]}/${match[3]}/${match[4]}`;
+}
+
+function isValidManifestUrl(value) {
+  try {
+    const url = new URL(value);
+    return url.protocol === "https:" && !url.pathname.includes("https://");
+  } catch {
+    return false;
+  }
 }
 
 async function fetchManifest(profileId) {
@@ -321,6 +443,10 @@ async function fetchManifest(profileId) {
         fields[fieldName] = String(source.text || "");
         continue;
       }
+      if (typeof source === "string" && !isFieldPath(source)) {
+        fields[fieldName] = source;
+        continue;
+      }
       const path = typeof source === "string" ? source : source?.path || source?.url;
       if (!path) continue;
       const fieldUrl = path.startsWith("http") ? path : new URL(path, base).toString();
@@ -352,6 +478,11 @@ async function fetchManifest(profileId) {
   };
   await storeBundle(profile.id, bundle);
   return { ok: true, bundle: summarizeBundle(bundle) };
+}
+
+function isFieldPath(value) {
+  const text = String(value || "").trim();
+  return /^https:\/\//i.test(text) || /[\\/]/.test(text) || /\.(?:txt|md|html?|json)$/i.test(text);
 }
 
 async function storeBundle(profileId, bundle) {

@@ -1,6 +1,6 @@
 {
   "schema": "janitor-manager/production-manifest/v2",
-  "generatedAt": "2026-07-22",
+  "generatedAt": "2026-07-23",
   "cutoff": "2026-08-21",
   "characters": [
     {
@@ -9,7 +9,7 @@
       "group": "Aethraxis",
       "productionNumber": 6,
       "plannedDate": "July 28, 2026",
-      "editUrl": "",
+      "editUrl": "https://janitorai.com/edit_character/17757c2b-0c29-4bd3-a080-95464bde578e",
       "fields": {
         "characterName": "Erynd Voss",
         "characterCard": "characters/aethraxis-006-erynd-voss/character-card.txt",
@@ -21,12 +21,12 @@
         "creatorNotes": "characters/aethraxis-006-erynd-voss/creator-notes.txt"
       },
       "fieldHashes": {
-        "characterCard": "795cb5efe66e34e38ef424083e085e307f39422f34838d3fbe6923f35546c422",
+        "characterCard": "01ed84407068adb359bb996cedda0b7cc5169f711543ee316b83a75a7da9078c",
         "personality": "6522501491d5f47aa73e3a9ec365d3f735d3bb31f46ae516f66e5176d1fc15e7",
         "scenario": "44c6d709603b92aaf326f2551bcc82b8b7870a1f299f7d8eef16d1ef9738eb4c",
-        "initialMessage": "b93a6c86d38892321c2a370df32f9ee5c680d16b88c0c2a17395c26be9f73e3d",
+        "initialMessage": "f1096ffaa722881a8b5b3be1d9c9a422c0ff40f84b2374232abcdcc2044e8498",
         "exampleDialogs": "4030b855103f17b52c662e068cfc246b279fce93da8d7e3a894c4882b73208e7",
-        "tags": "b50a035579fe9231e8be4425b6ffe1b947a110f268538ee1680d02c15dc23dda",
+        "tags": "0c6a5fb7dd58054a2d03934449591061c48f67c6e0bfdfda63af39291560dfaa",
         "creatorNotes": "5fa12ff27e001f7855ef18a99ce30fc04b6fa2e7d7fe816a359c955d2f16e5c8"
       },
       "avatar": "characters/aethraxis-006-erynd-voss/avatar.png",

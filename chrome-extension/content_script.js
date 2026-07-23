@@ -2,13 +2,20 @@ const PANEL_ID = "jlm-panel";
 let activeBundle = null;
 let activeCharacter = null;
 let detectedTargets = [];
+let automationTrace = [];
 
 syncPanelForRoute();
 window.addEventListener("popstate", syncPanelForRoute);
 setInterval(syncPanelForRoute, 1000);
 
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
-  handleMessage(message).then(sendResponse).catch((error) => sendResponse({ ok: false, error: error.message }));
+  if (/^jm:auto/.test(message?.type || "")) automationTrace = [];
+  traceAutomation("message", { type: message?.type, path: location.pathname });
+  handleMessage(message).then(sendResponse).catch((error) => sendResponse({
+    ok: false,
+    error: error.message,
+    diagnostics: buildAutomationDiagnostics()
+  }));
   return true;
 });
 
@@ -43,6 +50,7 @@ async function handleMessage(message) {
 }
 
 async function autoCreateCharacter(profileId, characterId) {
+  traceAutomation("create:start", { characterId });
   if (!/^\/create_character\/?$/i.test(location.pathname)) throw new Error("Automatic creation only runs on Janitor's character creation page.");
   const response = await chrome.runtime.sendMessage({ type: "bundle:getActive", profileId });
   const character = response.bundle?.characters?.find((item) => item.id === characterId);
@@ -51,13 +59,23 @@ async function autoCreateCharacter(profileId, characterId) {
   if (!character.avatarUrl) throw new Error("Character has no compiled avatar.");
   activeCharacter = character;
   await waitForCharacterForm();
+  traceAutomation("form:ready", { controls: detectCharacterTargets().map((item) => `${item.canonical}:${item.label}`) });
   const plan = applyCharacter(false);
-  if (plan.unmatched.length) throw new Error(`Refusing to create with ${plan.unmatched.length} unmatched repository fields.`);
+  traceAutomation("fields:planned", { changed: plan.matched.map((item) => item.sourceName), unchanged: plan.unchanged.map((item) => item.sourceName), unmatched: plan.unmatched.map((item) => item.sourceName) });
+  const blocking = blockingCharacterFields(plan.unmatched);
+  if (blocking.length) {
+    const controls = detectCharacterTargets().map((target) => `${target.label}=>${target.canonical || "unclassified"}`).join(" | ");
+    throw new Error(`Refusing to create with unmatched repository fields: ${blocking.map((item) => item.sourceName).join(", ")}. Detected controls: ${controls || "none"}.`);
+  }
+  await setCharacterBioSource(character.fields?.characterCard || "");
+  await setCharacterTags(character.fields?.tags || "");
   await setCharacterAvatar(character.avatarUrl, character.name);
+  traceAutomation("avatar:set", { name: character.name });
   const createButton = findCharacterCreateButton();
   if (!createButton) throw new Error("A visible Create Character button was not found.");
   const startingUrl = location.href;
   createButton.scrollIntoView({ block: "center" });
+  traceAutomation("create:click", { text: createButton.textContent?.trim() || createButton.value || "" });
   createButton.click();
   await waitForCreationConfirmation(startingUrl, createButton);
   return { ok: true, savedAt: new Date().toISOString(), createdUrl: location.href, matched: plan.matched.length };
@@ -78,6 +96,106 @@ async function setCharacterAvatar(url, name) {
   input.dispatchEvent(new Event("change", { bubbles: true }));
 }
 
+async function setCharacterTags(value) {
+  const tags = String(value || "").split(/[\n,]+/).map((tag) => tag.trim()).filter(Boolean).slice(0, 10);
+  if (!tags.length) return;
+  if (!document.querySelector('#character-section-general input.react-select__input[role="combobox"]')) throw new Error("Janitor's Tags selector was not found.");
+  for (const tag of tags) {
+    const selected = Array.from(document.querySelectorAll("#character-section-general .react-select__multi-value__label"))
+      .map((label) => normalize((label.textContent || "").replace(/^#/, "")));
+    if (selected.includes(normalize(tag))) {
+      traceAutomation("tag:already-present", { tag });
+      continue;
+    }
+    traceAutomation("tag:start", { tag });
+    await new Promise((resolve) => setTimeout(resolve, 800));
+    const input = document.querySelector('#character-section-general input.react-select__input[role="combobox"]');
+    if (!input) throw new Error(`Janitor's Tags selector disappeared before tag: ${tag}.`);
+    input.focus();
+    const setter = Object.getOwnPropertyDescriptor(HTMLInputElement.prototype, "value")?.set;
+    if (setter) setter.call(input, "");
+    else input.value = "";
+    input.dispatchEvent(new InputEvent("input", { bubbles: true, inputType: "deleteContentBackward", data: null }));
+    document.execCommand("insertText", false, tag);
+    let option;
+    for (let attempt = 0; attempt < 25; attempt += 1) {
+      const options = Array.from(document.querySelectorAll(".react-select__option")).filter(isVisible);
+      option = options.find((item) => normalize(item.textContent).includes(normalize(tag))) || options[0];
+      if (option) break;
+      await new Promise((resolve) => setTimeout(resolve, 100));
+    }
+    if (option) {
+      traceAutomation("tag:option", { tag, option: (option.textContent || "").trim() });
+      option.dispatchEvent(new MouseEvent("mousedown", { bubbles: true, button: 0 }));
+      option.dispatchEvent(new MouseEvent("mouseup", { bubbles: true, button: 0 }));
+      option.click();
+    } else {
+      input.dispatchEvent(new KeyboardEvent("keydown", { key: "ArrowDown", code: "ArrowDown", keyCode: 40, which: 40, bubbles: true }));
+      input.dispatchEvent(new KeyboardEvent("keydown", { key: "Enter", code: "Enter", keyCode: 13, which: 13, bubbles: true }));
+    }
+    await new Promise((resolve) => setTimeout(resolve, 800));
+    const current = Array.from(document.querySelectorAll("#character-section-general .react-select__multi-value__label"))
+      .map((label) => normalize((label.textContent || "").replace(/^#/, "")));
+    if (!current.includes(normalize(tag))) throw new Error(`Janitor did not accept tag: ${tag}.`);
+    traceAutomation("tag:accepted", { tag, count: current.length });
+  }
+  document.querySelector('#character-section-general input.react-select__input[role="combobox"]')?.blur();
+}
+
+async function setCharacterBioSource(value) {
+  if (!String(value || "").trim()) return;
+  const section = document.querySelector("#character-section-general") || document;
+  const sourceButton = Array.from(section.querySelectorAll("button[aria-label='Source code']")).find(isVisible);
+  if (!sourceButton) throw new Error("Bio Source code button was not found.");
+  traceAutomation("bio:source-open", { button: sourceButton.getAttribute("aria-label") });
+  sourceButton.click();
+
+  let dialog;
+  for (let attempt = 0; attempt < 40; attempt += 1) {
+    dialog = Array.from(document.querySelectorAll("[role='dialog'], [aria-modal='true']")).find((candidate) =>
+      /edit source code/i.test(candidate.textContent || "")
+    );
+    if (dialog) break;
+    await new Promise((resolve) => setTimeout(resolve, 100));
+  }
+  if (!dialog) throw new Error("Bio Source code popup did not open.");
+
+  const editor = dialog.querySelector("textarea, [contenteditable='true']");
+  if (!editor) throw new Error("Bio Source code popup has no editable source field.");
+  traceAutomation("bio:source-editor", { tag: editor.tagName, length: String(value).length });
+  if ("value" in editor) {
+    const prototype = editor instanceof HTMLTextAreaElement ? HTMLTextAreaElement.prototype : HTMLInputElement.prototype;
+    const setter = Object.getOwnPropertyDescriptor(prototype, "value")?.set;
+    editor.focus();
+    if (setter) setter.call(editor, value);
+    else editor.value = value;
+    editor.dispatchEvent(new InputEvent("input", { bubbles: true, inputType: "insertText", data: value }));
+    editor.dispatchEvent(new Event("change", { bubbles: true }));
+  } else {
+    editor.focus();
+    editor.textContent = "";
+    document.execCommand("insertText", false, value);
+  }
+
+  const confirm = Array.from(dialog.querySelectorAll("button, [role='button']")).find((button) => {
+    if (button.disabled) return false;
+    const text = [button.textContent, button.getAttribute("aria-label"), button.getAttribute("title")].filter(Boolean).join(" ").trim();
+    return /^(?:save|apply|confirm|update|insert|done|ok)(?:\s+(?:changes|source|code))?$/i.test(text);
+  });
+  if (!confirm) {
+    const labels = Array.from(dialog.querySelectorAll("button, [role='button']")).filter(isVisible)
+      .map((button) => [button.textContent, button.getAttribute("aria-label")].filter(Boolean).join(" ").trim()).filter(Boolean);
+    throw new Error(`Bio Source code confirmation button was not found. Popup buttons: ${labels.join(" | ") || "none"}.`);
+  }
+  traceAutomation("bio:source-confirm", { text: confirm.textContent?.trim() || confirm.getAttribute("aria-label") || "" });
+  confirm.click();
+  await new Promise((resolve) => setTimeout(resolve, 300));
+  const close = dialog.querySelector("button[aria-label='Close']");
+  if (close) close.click();
+  traceAutomation("bio:source-close", { found: Boolean(close) });
+  await new Promise((resolve) => setTimeout(resolve, 300));
+}
+
 function findCharacterCreateButton() {
   return Array.from(document.querySelectorAll("button, [role='button'], input[type='submit']")).find((element) => {
     if (!isVisible(element) || element.disabled || element.closest(`#${PANEL_ID}`)) return false;
@@ -87,15 +205,18 @@ function findCharacterCreateButton() {
 }
 
 async function waitForCreationConfirmation(startingUrl, button) {
-  for (let attempt = 0; attempt < 150; attempt += 1) {
+  for (let attempt = 0; attempt < 300; attempt += 1) {
     if (location.href !== startingUrl && /\/(?:edit_character|characters?)\//i.test(location.pathname)) return;
     const status = Array.from(document.querySelectorAll("[role='alert'], [role='status'], [data-sonner-toast], [class*='toast']")).map((e) => e.textContent || "").join(" ");
     if (/created|published|success/i.test(status)) return;
     if (/error|failed|required/i.test(status)) throw new Error(`Janitor rejected creation: ${status.trim()}`);
-    if (!document.contains(button) && attempt > 5) return;
     await new Promise((resolve) => setTimeout(resolve, 200));
   }
-  throw new Error("Create was clicked, but Janitor did not confirm creation.");
+  const invalid = Array.from(document.querySelectorAll("input:invalid, textarea:invalid, select:invalid"))
+    .map((element) => `${element.id || element.name || element.type}=${String(element.value || "").slice(0, 80)}`);
+  const notices = Array.from(document.querySelectorAll("[role='alert'], [role='status'], [data-sonner-toast]"))
+    .map((element) => (element.textContent || "").trim()).filter(Boolean);
+  throw new Error(`Create was clicked, but Janitor did not confirm creation. Invalid controls: ${invalid.join(" | ") || "none"}. Button disabled: ${Boolean(button?.disabled)}. Notices: ${notices.join(" | ") || "none"}. Current URL: ${location.href}`);
 }
 
 async function autoUpdateLorebook(profileId, fileKey) {
@@ -144,7 +265,9 @@ async function autoUpdateCharacter(profileId, characterId) {
     }
   });
   const plan = applyCharacter(false);
-  if (plan.unmatched.length) throw new Error(`Refusing to save with ${plan.unmatched.length} unmatched repository fields.`);
+  const blocking = blockingCharacterFields(plan.unmatched);
+  if (blocking.length) throw new Error(`Refusing to save with unmatched repository fields: ${blocking.map((item) => item.sourceName).join(", ")}.`);
+  await setCharacterBioSource(character.fields?.characterCard || "");
   if (!plan.matched.length) return { ok: true, savedAt: "", matched: 0, unchanged: plan.unchanged.length, skippedSave: true };
   const saveButton = findCharacterSaveButton();
   if (!saveButton) throw new Error("A visible Save/Update Character button was not found.");
@@ -155,11 +278,14 @@ async function autoUpdateCharacter(profileId, characterId) {
 }
 
 async function waitForCharacterForm() {
-  for (let attempt = 0; attempt < 100; attempt += 1) {
-    if (detectCharacterTargets().length) return;
+  for (let attempt = 0; attempt < 150; attempt += 1) {
+    const name = document.querySelector('input#name[name="name"]');
+    const personality = document.querySelector('textarea#personality[name="personality"]');
+    const bio = document.querySelector('#character-section-general .tiptap.ProseMirror[contenteditable="true"][role="textbox"]');
+    if (name && personality && bio) return;
     await new Promise((resolve) => setTimeout(resolve, 200));
   }
-  throw new Error("Timed out waiting for Janitor's character form.");
+  throw new Error(`Timed out waiting for Janitor's character form. URL: ${location.href}. Title field: ${Boolean(document.querySelector("input#name"))}. Personality field: ${Boolean(document.querySelector("textarea#personality"))}. Bio editor: ${Boolean(document.querySelector(".tiptap.ProseMirror"))}.`);
 }
 
 function findCharacterSaveButton() {
@@ -413,13 +539,34 @@ function detectCharacterFields() {
 }
 
 function detectCharacterTargets() {
+  const exactSpecs = [
+    ['input#name[name="name"]', "Character Name"],
+    ['label[for="description"] ~ div div.tiptap.ProseMirror[contenteditable="true"][role="textbox"]', "Character Card"],
+    ['textarea#personality[name="personality"]', "Personality / Definition"],
+    ['textarea#scenario[name="scenario"]', "Scenario"],
+    ['textarea[id^="first_messages."][name^="first_messages."]', "Initial Message"],
+    ['textarea#example_dialogs[name="example_dialogs"]', "Example Dialogs"]
+  ];
+  const exact = exactSpecs.flatMap(([selector, canonical]) =>
+    Array.from(document.querySelectorAll(selector)).map((element) => ({
+      element,
+      label: inferLabel(element, 0).replace(/\s+/g, " ").trim(),
+      canonical,
+      value: getElementValue(element)
+    }))
+  );
+  const exactElements = new Set(exact.map((item) => item.element));
   const codeMirror = Array.from(document.querySelectorAll(".cm-editor .cm-content[contenteditable='true']"));
   const standard = Array.from(document.querySelectorAll("input, textarea, select, [contenteditable='true']"))
-    .filter((field) => !field.closest(".cm-editor"));
+    .filter((field) => !field.closest(".cm-editor") && !exactElements.has(field));
   const seen = new Set();
-  return [...codeMirror, ...standard]
-    .filter((field) => !field.closest(`#${PANEL_ID}`) && isExportableCharacterField(field))
+  return [...exact, ...codeMirror, ...standard]
+    .filter((field) => {
+      const element = field.element || field;
+      return !element.closest(`#${PANEL_ID}`) && (field.element || isExportableCharacterField(element));
+    })
     .map((field, index) => {
+      if (field.element) return field;
       const label = inferLabel(field, index).replace(/\s+/g, " ").trim();
       return { element: field, label, canonical: canonicalCharacterField(label), value: getElementValue(field) };
     })
@@ -442,8 +589,10 @@ function previewCharacter() {
 function applyCharacter(showFeedback = true) {
   if (!activeCharacter) throw new Error("Choose a repository character in the extension popup first.");
   const plan = buildCharacterPlan(activeCharacter, detectCharacterTargets());
-  if (!plan.matched.length) throw new Error("No matching Janitor character fields found on this page.");
-  for (const item of plan.matched) setTargetValue(item.target, item.value);
+  if (!plan.matched.length && !plan.unchanged.length) throw new Error("No matching Janitor character fields found on this page.");
+  for (const item of plan.matched) {
+    if (item.canonical !== "Character Card") setTargetValue(item.target, item.value);
+  }
   if (showFeedback) {
     setOutput(`${formatCharacterPlan(plan)}\n\nApplied to the page. Review every field, then manually save or publish.`);
     setStatus(`Applied ${plan.matched.length} changed fields; ${plan.unchanged.length} already matched. Manual Janitor save is still required.`);
@@ -490,6 +639,11 @@ function normalizeFieldValue(value) {
   return String(value ?? "").replace(/\r\n?/g, "\n").replace(/[ \t]+$/gm, "").trim();
 }
 
+function blockingCharacterFields(unmatched) {
+  const optional = new Set(["creatornotes", "tags"]);
+  return unmatched.filter((item) => !optional.has(String(item.sourceName).toLowerCase().replace(/[^a-z0-9]/g, "")));
+}
+
 function formatCharacterPlan(plan) {
   const lines = [`Character: ${plan.character.name}`, `Changed: ${plan.matched.length}`, `Already current: ${plan.unchanged.length}`, `Unmatched: ${plan.unmatched.length}`, ""];
   for (const item of plan.matched) lines.push(`- ${item.sourceName} -> ${item.target.label} (${item.value.length} chars)`);
@@ -513,16 +667,16 @@ function isExportableCharacterField(field) {
 function canonicalCharacterField(label) {
   const text = normalize(label);
   const aliases = [
-    ["Character Name", /^(character )?name$|display name/],
-    ["Character Card", /character card|description|appearance|character bio/],
+    ["Character Name", /^(?:character\s*)?name\b|display name/],
+    ["Character Card", /character card|description|appearance|character bio|\bbio\b|about (?:the )?character/],
     ["Personality / Definition", /personality|definition|persona|character prompt/],
     ["Scenario", /scenario|setting|context/],
     ["Initial Message", /initial message|first message|greeting/],
-    ["Example Dialogs", /example dialog|example conversation|dialogue example/],
-    ["Creator Notes", /creator note|author note|public note/],
+    ["Example Dialogs", /example dialog|example conversation|dialogue example|sample dialog/],
+    ["Creator Notes", /creator.*notes?|author.*notes?|public note/],
     ["System Prompt", /system prompt/],
     ["Post-History Instructions", /post history|jailbreak/],
-    ["Tags", /^tags?$|category/],
+    ["Tags", /^tags?\b|category/],
     ["Avatar / Image", /avatar|image|portrait/]
   ];
   return aliases.find(([, pattern]) => pattern.test(text))?.[0] || "";
@@ -737,15 +891,21 @@ function setTargetValue(target, value) {
   }
   if ("value" in element) {
     element.focus();
-    element.value = value;
+    const prototype = element instanceof HTMLTextAreaElement ? HTMLTextAreaElement.prototype : HTMLInputElement.prototype;
+    const setter = Object.getOwnPropertyDescriptor(prototype, "value")?.set;
+    if (setter) setter.call(element, value);
+    else element.value = value;
     element.dispatchEvent(new InputEvent("input", { bubbles: true, inputType: "insertText", data: value }));
     element.dispatchEvent(new Event("change", { bubbles: true }));
+    element.blur();
   } else {
     element.focus();
     if (!replaceContentEditableText(element, value)) {
       element.textContent = value;
       element.dispatchEvent(new InputEvent("input", { bubbles: true, inputType: "insertText", data: value.slice(0, 1000) }));
     }
+    element.dispatchEvent(new Event("change", { bubbles: true }));
+    element.blur();
   }
 }
 
@@ -777,7 +937,8 @@ function replaceContentEditableText(element, value) {
   range.selectNodeContents(element);
   selection.removeAllRanges();
   selection.addRange(range);
-  return document.execCommand("insertText", false, value);
+  const command = /<\/?[a-z][\s\S]*>/i.test(value) ? "insertHTML" : "insertText";
+  return document.execCommand(command, false, value);
 }
 
 function getLorebookSignature(text) {
@@ -808,10 +969,55 @@ function normalize(text) {
   return String(text || "").toLowerCase().replace(/\.json$/i, "").replace(/[^a-z0-9]+/g, " ").trim();
 }
 
+function traceAutomation(action, details = {}) {
+  automationTrace.push({ at: new Date().toISOString(), action, details });
+  if (automationTrace.length > 200) automationTrace.shift();
+}
+
+function buildAutomationDiagnostics() {
+  const root = document.querySelector("main") || document.querySelector("#character-section-general")?.parentElement || document.body;
+  const clone = root?.cloneNode(true);
+  if (clone) {
+    clone.querySelectorAll("script, style, noscript, iframe, svg, input[type='password']").forEach((node) => node.remove());
+    clone.querySelectorAll("*").forEach((node) => {
+      for (const attribute of Array.from(node.attributes || [])) {
+        if (/token|secret|authorization|api.?key|password|session|cookie/i.test(attribute.name)) node.setAttribute(attribute.name, "[REDACTED]");
+        if (/token|secret|authorization|api.?key|password|session|cookie/i.test(attribute.value)) node.setAttribute(attribute.name, "[REDACTED]");
+      }
+      if (node instanceof HTMLTextAreaElement) node.textContent = node.value;
+    });
+  }
+  const controls = Array.from(document.querySelectorAll("input, textarea, select, [contenteditable='true'], button"))
+    .map((element) => ({
+      tag: element.tagName,
+      id: element.id || "",
+      name: element.getAttribute("name") || "",
+      type: element.getAttribute("type") || "",
+      role: element.getAttribute("role") || "",
+      ariaLabel: element.getAttribute("aria-label") || "",
+      placeholder: element.getAttribute("placeholder") || "",
+      text: (element.textContent || "").trim().slice(0, 300),
+      valueLength: "value" in element ? String(element.value || "").length : (element.textContent || "").length,
+      visible: isVisible(element),
+      disabled: Boolean(element.disabled)
+    }));
+  return {
+    capturedAt: new Date().toISOString(),
+    url: location.href,
+    title: document.title,
+    trace: automationTrace,
+    controls,
+    invalidControls: Array.from(document.querySelectorAll("input:invalid, textarea:invalid, select:invalid")).map((element) => element.id || element.name || element.type),
+    notices: Array.from(document.querySelectorAll("[role='alert'], [role='status'], [data-sonner-toast]")).map((element) => (element.textContent || "").trim()).filter(Boolean),
+    dialogsHtml: Array.from(document.querySelectorAll("[role='dialog'], [aria-modal='true']")).map((element) => element.outerHTML.slice(0, 100000)),
+    sanitizedPageHtml: clone?.outerHTML?.slice(0, 350000) || ""
+  };
+}
+
 function isVisible(element) {
   const rect = element.getBoundingClientRect();
   const style = getComputedStyle(element);
-  return rect.width > 0 && rect.height > 0 && style.visibility !== "hidden" && style.display !== "none";
+  return rect.width > 0 && rect.height > 0 && style.visibility !== "hidden" && style.display !== "none" && style.opacity !== "0" && element.getAttribute("aria-hidden") !== "true";
 }
 
 function requireBundle() {
