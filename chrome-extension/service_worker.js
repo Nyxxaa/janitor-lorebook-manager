@@ -250,7 +250,7 @@ function toCharacterPublicUrl(value, name) {
 
 function buildCharacterRelease(character) {
   const planned = new Date(character.plannedDate);
-  if (Number.isNaN(planned.getTime())) return { mode: "now" };
+  if (Number.isNaN(planned.getTime())) throw new Error(`Refusing to release ${character.name || "character"} without a valid plannedDate.`);
   const localNow = new Date();
   const date = [
     planned.getFullYear(),
