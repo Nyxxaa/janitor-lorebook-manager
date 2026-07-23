@@ -977,14 +977,16 @@
         "personality": "characters/kpops-001-choi-san/personality-definition.txt",
         "scenario": "characters/kpops-001-choi-san/scenario.txt",
         "initialMessage": "characters/kpops-001-choi-san/initial-message.txt",
-        "exampleDialogs": "characters/kpops-001-choi-san/example-dialogs.txt"
+        "exampleDialogs": "characters/kpops-001-choi-san/example-dialogs.txt",
+        "tags": "characters/kpops-001-choi-san/tags.txt"
       },
       "fieldHashes": {
         "characterCard": "1864e2e53b91802bb4ede3577d5b977bcac25c961bc6750da0ad314695dddeb8",
         "personality": "e5b7dbcb999197a7f49a0a6f2e9e7d424ab9daa4a158c7d962ee23854ef03169",
         "scenario": "f20f33d0445c5684317f3ef0b18e854bd3c0028aefe175a6fc310dcb80d24cf8",
         "initialMessage": "f199b9c9f81d3434ea57d571d49b2d66992ba64399b2fe00606e6ae6659a3de0",
-        "exampleDialogs": "c5308b5269bbc7afad53edb84a447799fcca21fdef3cde330e8d3f816dbfc267"
+        "exampleDialogs": "c5308b5269bbc7afad53edb84a447799fcca21fdef3cde330e8d3f816dbfc267",
+        "tags": "c42d613d837990bfaa1706dfc322fe08f40d891201c7e06bf411aa8f03f37bbe"
       },
       "avatar": "characters/kpops-001-choi-san/avatar.png",
       "validation": {
