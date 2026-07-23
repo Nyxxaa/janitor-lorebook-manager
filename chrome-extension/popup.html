@@ -1,67 +1,104 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Janitor Manager</title>
     <link rel="stylesheet" href="popup.css">
   </head>
   <body>
     <main>
-      <header>
-        <h1>Janitor Manager</h1>
-        <p id="status">Loading...</p>
+      <header class="app-header">
+        <div>
+          <p class="eyebrow">PRODUCTION ASSISTANT</p>
+          <h1>Janitor Manager</h1>
+        </div>
+        <span class="version">v0.8</span>
       </header>
 
-      <section>
-        <label>Project name</label>
-        <input id="profileName" type="text" value="Kyber RPG">
-        <label>GitHub sync manifest URL</label>
-        <input id="manifestUrl" type="url" placeholder="https://raw.githubusercontent.com/.../janitor_sync_manifest.json">
-        <div class="row">
-          <button id="saveProfile">Save Project</button>
-          <button id="fetchGithub">Load From GitHub</button>
+      <div id="status" class="status" role="status" aria-live="polite">Loading…</div>
+
+      <section class="card primary-flow">
+        <div class="section-heading">
+          <div>
+            <p class="step">STEP 1</p>
+            <h2>Load the latest batch</h2>
+          </div>
         </div>
+        <button id="fetchGithub" class="button primary full">Refresh Production Batch</button>
+        <p class="hint">Downloads the current manifest, character fields, tags, cards, and avatars from GitHub.</p>
       </section>
 
-      <section>
-        <h2>Character From Repository</h2>
+      <section class="card primary-flow">
+        <div class="section-heading">
+          <div>
+            <p class="step">STEP 2</p>
+            <h2>Review one character</h2>
+          </div>
+        </div>
         <label for="characterSelect">Character package</label>
         <select id="characterSelect"><option value="">No characters loaded</option></select>
-        <div class="row">
-          <button id="sendCharacter">Load Character In Panel</button>
-          <button id="openCreate">Create New Character</button>
-        </div>
-        <button id="testCharacter">Test First Character Only</button>
-        <button id="publishCharacters">Bulk Create / Update Queue</button>
-        <div class="row">
-          <button id="compareCharacters">Compare My Characters</button>
-          <button id="stopRun" disabled>Stop Run</button>
-        </div>
-        <p class="warning">Creates missing approved characters, updates existing edit URLs, uploads compiled avatars, and stops individual failures without discarding successful work.</p>
-      </section>
-
-      <section>
-        <label>Local compiled project folder</label>
-        <input id="localProjectFiles" type="file" webkitdirectory multiple>
-        <button id="loadLocalProject">Load Local Project Build</button>
-      </section>
-
-      <section>
-        <label>Local lorebook JSON files</label>
-        <input id="localFiles" type="file" accept=".json,application/json" multiple>
-        <button id="loadLocal">Load Local Files</button>
-      </section>
-
-      <section>
-        <div class="row">
-          <button id="openJanitor">Open Lorebook Library</button>
-          <button id="sendToPage">Load Lorebooks In Panel</button>
+        <div class="actions">
+          <button id="sendCharacter" class="button">Open in Page Panel</button>
+          <button id="openCreate" class="button ghost">Open Create Page</button>
         </div>
       </section>
 
-      <section>
-        <h2>Loaded Project</h2>
-        <pre id="bundleSummary">No bundle loaded.</pre>
+      <section class="card primary-flow">
+        <div class="section-heading">
+          <div>
+            <p class="step">STEP 3</p>
+            <h2>Run the queue</h2>
+          </div>
+        </div>
+        <button id="testCharacter" class="button full">Test First Character</button>
+        <button id="publishCharacters" class="button danger full">Create / Update All Characters</button>
+        <button id="stopRun" class="button stop full" disabled>Stop After Current Character</button>
+        <p class="hint warning">Bulk mode saves changes and may publish or schedule characters. Run the single-character test first.</p>
+      </section>
+
+      <details class="card">
+        <summary>Inspection &amp; comparison</summary>
+        <div class="details-body">
+          <button id="compareCharacters" class="button full">Compare My Characters</button>
+          <p class="hint">Open Janitor’s <strong>My Characters</strong> page before comparing.</p>
+        </div>
+      </details>
+
+      <details class="card">
+        <summary>Local files &amp; lorebooks</summary>
+        <div class="details-body">
+          <label>Compiled project folder</label>
+          <input id="localProjectFiles" type="file" webkitdirectory multiple>
+          <button id="loadLocalProject" class="button full">Load Local Project</button>
+
+          <label>Lorebook JSON files</label>
+          <input id="localFiles" type="file" accept=".json,application/json" multiple>
+          <button id="loadLocal" class="button full">Load Lorebook Files</button>
+
+          <div class="actions">
+            <button id="openJanitor" class="button ghost">Open Scripts</button>
+            <button id="sendToPage" class="button ghost">Send to Panel</button>
+          </div>
+        </div>
+      </details>
+
+      <details class="card">
+        <summary>Repository settings</summary>
+        <div class="details-body">
+          <label for="profileName">Project name</label>
+          <input id="profileName" type="text" value="Production Queue">
+          <label for="manifestUrl">GitHub manifest URL</label>
+          <input id="manifestUrl" type="url" placeholder="https://raw.githubusercontent.com/.../janitor-manager-manifest.json">
+          <button id="saveProfile" class="button full">Save Repository Settings</button>
+        </div>
+      </details>
+
+      <section class="card summary-card">
+        <div class="section-heading">
+          <h2>Batch summary</h2>
+        </div>
+        <pre id="bundleSummary">No batch loaded.</pre>
       </section>
     </main>
     <script src="popup.js"></script>

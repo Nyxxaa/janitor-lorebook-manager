@@ -45,7 +45,7 @@ async function publishCharacters() {
   setRunning(true);
   setStatus("Updating existing Janitor characters...");
   try {
-    const response = await send({ type: "batch:publishProject", profileId: activeProfileId });
+    const response = await send({ type: "batch:publishCharacters", profileId: activeProfileId });
     if (!response.ok) return setStatus(response.error);
     const succeeded = response.results.filter((item) => item.ok).length;
     const failed = response.results.length - succeeded;

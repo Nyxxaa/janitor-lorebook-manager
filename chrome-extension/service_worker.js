@@ -31,11 +31,14 @@ chrome.runtime.onInstalled.addListener(async () => {
     const legacy = profiles.find((profile) => profile.id === "kyber-rpg" && !profile.manifestUrl);
     if (legacy) {
       Object.assign(legacy, DEFAULT_PROFILE);
-      await chrome.storage.local.set({
-        [STORE_KEYS.profiles]: profiles,
-        [STORE_KEYS.activeProfileId]: DEFAULT_PROFILE.id
-      });
     }
+    const production = profiles.find((profile) => profile.id === DEFAULT_PROFILE.id);
+    if (production) Object.assign(production, DEFAULT_PROFILE);
+    else profiles.unshift({ ...DEFAULT_PROFILE });
+    await chrome.storage.local.set({
+      [STORE_KEYS.profiles]: profiles,
+      [STORE_KEYS.activeProfileId]: DEFAULT_PROFILE.id
+    });
   }
 });
 
@@ -68,6 +71,8 @@ async function handleMessage(message, sender) {
       return batchBackupLorebooks(sender);
     case "batch:publishProject":
       return batchPublishProject(message.profileId);
+    case "batch:publishCharacters":
+      return runCharacterBatch(message.profileId);
     case "batch:testCharacter":
       return testCharacter(message.profileId);
     case "batch:compareCharacters":
@@ -89,6 +94,18 @@ async function batchPublishProject(profileId) {
     const lorebookResult = await batchPublishLorebooks(profileId);
     const characterResult = await batchPublishCharacters(profileId);
     const result = { ok: true, mode: "bulk", stopped: await isStopRequested(), skipped: lorebookResult.skipped + characterResult.skipped, results: [...lorebookResult.results, ...characterResult.results] };
+    await chrome.storage.local.set({ [STORE_KEYS.lastRun]: result });
+    await downloadRunLog(result);
+    return result;
+  } finally {
+    await finishRun();
+  }
+}
+
+async function runCharacterBatch(profileId) {
+  await beginRun("characters");
+  try {
+    const result = { ...(await batchPublishCharacters(profileId)), mode: "characters", stopped: await isStopRequested() };
     await chrome.storage.local.set({ [STORE_KEYS.lastRun]: result });
     await downloadRunLog(result);
     return result;

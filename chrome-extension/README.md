@@ -2,6 +2,15 @@
 
 Chrome Manifest V3 extension for assisted Janitor AI lorebook and character production.
 
+## Recommended Character Workflow
+
+1. Click **Refresh Production Batch**.
+2. Confirm the batch summary shows the expected character count.
+3. Click **Test First Character** and review the result.
+4. Only then click **Create / Update All Characters**.
+
+The character queue is isolated from lorebook publishing. Local-file, lorebook, comparison, and repository controls are kept in separate expandable sections.
+
 ## What It Does
 
 - Loads lorebooks from a public GitHub raw `janitor_sync_manifest.json`.
