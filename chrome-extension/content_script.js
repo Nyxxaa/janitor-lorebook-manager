@@ -152,10 +152,20 @@ async function setCharacterTags(value, replaceExisting = false) {
       if (current.includes(normalizeTag(tag))) break;
       await new Promise((resolve) => setTimeout(resolve, 100));
     }
-    if (!current.includes(normalizeTag(tag))) throw new Error(`Janitor did not accept tag: ${tag}.`);
-    traceAutomation("tag:accepted", { tag, count: current.length });
+    if (current.includes(normalizeTag(tag))) traceAutomation("tag:accepted", { tag, count: current.length });
+    else traceAutomation("tag:pending", { tag, count: current.length });
   }
   document.querySelector('#character-section-general input.react-select__input[role="combobox"]')?.blur();
+  let selected = [];
+  for (let attempt = 0; attempt < 50; attempt += 1) {
+    selected = Array.from(document.querySelectorAll("#character-section-general .react-select__multi-value__label"))
+      .map((label) => normalizeTag((label.textContent || "").replace(/^#/, "")));
+    if (tags.every((tag) => selected.includes(normalizeTag(tag)))) break;
+    await new Promise((resolve) => setTimeout(resolve, 100));
+  }
+  const missing = tags.filter((tag) => !selected.includes(normalizeTag(tag)));
+  if (missing.length) throw new Error(`Janitor did not retain tags: ${missing.join(", ")}.`);
+  traceAutomation("tags:verified", { count: selected.length });
 }
 
 async function setCharacterBioSource(value) {
