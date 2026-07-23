@@ -21,7 +21,7 @@
         "creatorNotes": "characters/aethraxis-006-erynd-voss/creator-notes.txt"
       },
       "fieldHashes": {
-        "characterCard": "01ed84407068adb359bb996cedda0b7cc5169f711543ee316b83a75a7da9078c",
+        "characterCard": "f52bf37b9a611cf76bfa284c37e9726597d74a5d3782b46c080eef634a430c3d",
         "personality": "6522501491d5f47aa73e3a9ec365d3f735d3bb31f46ae516f66e5176d1fc15e7",
         "scenario": "44c6d709603b92aaf326f2551bcc82b8b7870a1f299f7d8eef16d1ef9738eb4c",
         "initialMessage": "f1096ffaa722881a8b5b3be1d9c9a422c0ff40f84b2374232abcdcc2044e8498",
@@ -52,7 +52,7 @@
         "creatorNotes": "characters/aethraxis-007-ilyren-voss/creator-notes.txt"
       },
       "fieldHashes": {
-        "characterCard": "592d435b425ce2b9f67b006addee62c20b52606be3600f2ae9bf5b913c3ead4f",
+        "characterCard": "9be36c08c1ddc1a93a0fcb5b2a1d3f0aebad2c8b69f4fe22bb181a94b5d5051d",
         "personality": "9c762209c9db353532261fa2ee8d76dc49c802871715d3c2a0e2e58a7b049238",
         "scenario": "5f9f6af460c7d54d0f4b5fd9e66214de50fb9595067a1c97c50b2276f50c1ca0",
         "initialMessage": "717198149de98ddf26e6b17fc0e2072c2ebafca9a05e93fac558a0ad65b7e81c",
@@ -83,7 +83,7 @@
         "creatorNotes": "characters/aethraxis-008-nessa-veyr-calith/creator-notes.txt"
       },
       "fieldHashes": {
-        "characterCard": "98c03e0864dec1020e3fc1925347c7ce9c58e840aef9b849f43bcef3abe3b639",
+        "characterCard": "c0ad0af2b7bc142bc27288e03a6421c1f3a08e63f749979c100290063f223ba4",
         "personality": "8e9bc8a46613826731260b3c371f47331341046a1287f3291875363678ac1b0c",
         "scenario": "67f9967ccd5e63e41a4518b606ec265dc96050adce7869b5e8892d1d30555682",
         "initialMessage": "049a8a37beac452e59e66d0b6c1ffa26b3fa8cd56d65a0cecb3825d56c3a5b7b",
@@ -114,7 +114,7 @@
         "creatorNotes": "characters/aethraxis-009-varkai-sol-drathen/creator-notes.txt"
       },
       "fieldHashes": {
-        "characterCard": "ca61af5836f73b23adbf0631f94b6a89f8caf600ce3733ea51e892eaf820e65c",
+        "characterCard": "bfab61f902a259de23151d0a88fe0780d17169addfa0e8954ffc511b407f1c98",
         "personality": "c86e3df62e0f3f30cd2edfbf997e03e428f84412c886ba610f11cb0bd544e1b1",
         "scenario": "f39d4d4ba6a9a93787ff8abe6e0033c49ef557d35f54d21d9c4ca788b1389b7f",
         "initialMessage": "557e1e36ebb5b2f8a5241d19f3db2550cc19c9c65645b4bc81e03c7a3a114823",
@@ -145,7 +145,7 @@
         "creatorNotes": "characters/aethraxis-010-tavian-rime-orison/creator-notes.txt"
       },
       "fieldHashes": {
-        "characterCard": "1adaa30f7c4885b6dce9052c6f9d9c7ee63ab4811aaa25890c2bd2138a5fba39",
+        "characterCard": "8ab1560f6f244fbd378e6251bb72112678170128b6a6960de246816751c76cde",
         "personality": "c559558fe1abc96aa4af1313400fb03cf09b518653890b00fcb523790b9fd145",
         "scenario": "f5426e307108d51ff86ee6e820eb4654422c97e730d0f2c768d763dbe6d59ca4",
         "initialMessage": "0fcb980929c814a4653a0f8470d1a13aaef40df4d73a72be03bdbbdf72c559dd",
@@ -176,7 +176,7 @@
         "creatorNotes": "characters/apex-eidolon-006-the-nursery-edge/creator-notes.txt"
       },
       "fieldHashes": {
-        "characterCard": "9761805b698c3dca55cae59cdf48215884323fb02d777ad73eb7c69ad641e19d",
+        "characterCard": "90eaf457db3340c5508ab4a657ccded0e766b33ec85a696c9aa3213bf1a6d52e",
         "personality": "1834041de49dab47ecfc43486d84406f7853be4e7e0aef196a4970b11a94a7ea",
         "scenario": "c4ee7b6028ce5224201578acd8ceffc4bebe42b54b21977d02f84cbc74d0ee14",
         "initialMessage": "4c90f842ac7bab7d3856841727891925906728e5b8b40c81f7244627ca8556a0",
@@ -207,7 +207,7 @@
         "creatorNotes": "characters/apex-eidolon-007-the-harvester-route/creator-notes.txt"
       },
       "fieldHashes": {
-        "characterCard": "f41d65826c8e755b1d936a6c1811f1e17d7bb47a888b98925e26e3d8560ac55a",
+        "characterCard": "1ec9fa0d2e6b15b616579add9830097f6eabc04541b61ce0f1ade265eb58feee",
         "personality": "1d6197a6aafe22aba9efea1a2a039bc0291c208217f15b2eb85cd1acf0382fd3",
         "scenario": "bf998a03292a7fd549f4829f3d5aa10615f2a2c524c15162847900e3b9a6d852",
         "initialMessage": "5cfc52388d0cf00d7aaebdea17df73979dc75d73e005bb7bb0bdd2c528df464b",
@@ -238,7 +238,7 @@
         "creatorNotes": "characters/apex-eidolon-008-the-royal-signal/creator-notes.txt"
       },
       "fieldHashes": {
-        "characterCard": "f78a51135d8a1a43955209d9f1ee3037fc09567d7f290606d1529dda4e1301ac",
+        "characterCard": "51f880e0a187b39c719d4004256d2e6f5c0fdf337bd59a17851680b17c12cb33",
         "personality": "f2038ddcc819808dfeb8fd20d527d5d22b2c2ef483ca5867a9e7292ed91412bb",
         "scenario": "4276d5dcdc5a62cec265206fb1778aeabc31bd8a8c0f3e42598bc662d3115301",
         "initialMessage": "2c0619664de331d46a83f310c2f4934fce469384b84bdc74b59e718ec3216a51",
@@ -269,7 +269,7 @@
         "creatorNotes": "characters/apex-eidolon-009-the-colony-silence/creator-notes.txt"
       },
       "fieldHashes": {
-        "characterCard": "d6096341239b9ef9a6408dd78b58f3316ca410944d7bf8245c3e5aeadea6918c",
+        "characterCard": "42d0cd7c1222811fcd30f904c900542f9a01cc3eca0a8d892be6e32788434e6e",
         "personality": "5346960f82e19be932b211fc7bd938c88174e0eea5cfdf424344c4338f226504",
         "scenario": "ee7363b046394ee2e9d2df9d49aa074a8115868e1937892dab8b4d6272fc76f0",
         "initialMessage": "6e496f278398517cad1a1276a112a255269c2add98f23ad4f773261c887c94db",
@@ -300,7 +300,7 @@
         "creatorNotes": "characters/apex-eidolon-010-the-route-that-learned/creator-notes.txt"
       },
       "fieldHashes": {
-        "characterCard": "82b75abecbff8671dff2b0ef9fabb9416ed793bf5dd8e68be07c421dd632ab01",
+        "characterCard": "cdafa88264a8d66c8cf4a01ad68fe455c416f28adad26ab497e7300bc3ab1b65",
         "personality": "45543535e2dcda01593b648eafcc40cb0e8abf0bce6150f68f1e65570cb68a30",
         "scenario": "e5b56a8a33913a0685c6f2faa58450af239ca44e21fab9c9e66a8d8f939ad153",
         "initialMessage": "c94dc2c41f8f81ad935849615d9a75a6d783ad7f975812786d80ab07d190fb79",
@@ -331,7 +331,7 @@
         "creatorNotes": "characters/apex-eidolon-011-observation-asset-11/creator-notes.txt"
       },
       "fieldHashes": {
-        "characterCard": "6093924dcaea82e78bdbdd4e0c99a4625c38414919fbb265ad644e029ef8adef",
+        "characterCard": "da8336bf61a6f72f338a6bd7f8ba27dbf003cc077f3ebc195b261b4f9ab790cf",
         "personality": "c5810e524146213afa48370f803de119cf4f85aaafc42ad0df00321ea45c2d24",
         "scenario": "8d8a913cb64a1ca81c1899e7e965b9ea4fe5cc3280a6025919e5c4222b8c21d2",
         "initialMessage": "6a4adf1ee135998e548dc9f9d5b1bfb6a11f79b1a34c6e2ef617060a51a9db48",
@@ -362,7 +362,7 @@
         "creatorNotes": "characters/apex-eidolon-012-the-transfer-error/creator-notes.txt"
       },
       "fieldHashes": {
-        "characterCard": "015fb9694df01a0d8a7aa1d8e3671452cd70f06b01ba516a44818ade83533151",
+        "characterCard": "c3c98fd9fa91fddbb1495b20b51d7048df43c36bbe91bc336557a7981fdb0184",
         "personality": "210f3b88e316936dd486bcf899930ba54a216c6a0c86477685fda977b0552e7e",
         "scenario": "4d71a2da3a337751bf48b6e1a1d10b5af8aff202ccbf9c0388ce48905946333a",
         "initialMessage": "7232d341681bc47ac8e42298327e0c3ae5172ed9692339ece493306bcf0bc7f8",
@@ -393,7 +393,7 @@
         "creatorNotes": "characters/apex-eidolon-013-the-synthetic-s-priority/creator-notes.txt"
       },
       "fieldHashes": {
-        "characterCard": "7cbaba40e01b5aa85c59732da740e27f443a403dcb624d640cd45822ab4d9d10",
+        "characterCard": "071524c75f353bc6abc203dd4d6c5bbd7c242b2b715bfdf93d240f6c1d8d8a70",
         "personality": "4bdad14e865255cec9706516894c47bed0bbc92f73b33c56cdf482a3e7aceb71",
         "scenario": "cc3fa17619bed2ac646426ff65fa3143c64cebd91bf05eba1b9bb86c2dea9277",
         "initialMessage": "eedb2b074b6d214a14388072b58fc3a2712f4d2bf371bfa9e33efd1173f38e4f",
@@ -424,7 +424,7 @@
         "creatorNotes": "characters/apex-eidolon-014-the-black-lab-outbreak/creator-notes.txt"
       },
       "fieldHashes": {
-        "characterCard": "c14b2b6c34ebba6031dfbde0ec714441ee7d5058c28c6449e674759644dfaa12",
+        "characterCard": "93fb44f90705a37ae19b87c6056bee3fde1dd652c0d88a36ac9a07a20aae0a71",
         "personality": "999eb172233283aaab4632978fe5108f26e73a2c348781ef77a4782915ec2b99",
         "scenario": "661ee44d423337d24f6ff071ac0dc9504f9ef7fd4ae136d5bdb4c570756caf60",
         "initialMessage": "e41f5ae51cee4619458bcca3698d3d1490348ade7bc57b09d9ba5a7fa104018c",
@@ -455,7 +455,7 @@
         "creatorNotes": "characters/historical-030-attila-the-hun/creator-notes.txt"
       },
       "fieldHashes": {
-        "characterCard": "0bd20784cd981d34b30a2e1bf77cd7ad9e2e5f85e54758f73f051936efeb2fee",
+        "characterCard": "192b9cd3b1c09d53dbe91aa005965087ff38d5e6a73560c4cc8582ba66bce9bb",
         "personality": "54efa4d1db23a73602c05639ce32ebd2a13812628ab2cc232145b9362aa2baa1",
         "scenario": "348affbbcd5f7b340e4499c83456eae0480ed8b9bd71c81dfc961a31cbd08a72",
         "initialMessage": "4edf6c02423893da6ab20291d4f7de3236d18066332b1bc6802751c43c0742c5",
@@ -486,7 +486,7 @@
         "creatorNotes": "characters/historical-031-ambiorix/creator-notes.txt"
       },
       "fieldHashes": {
-        "characterCard": "72f82759376aeaa5fb57739935f91b689129fd18ef778ceab6091174395776b7",
+        "characterCard": "66c9ac801196b06c5af939c79d5b6410f305a4adc903c528512aa62bab2331b9",
         "personality": "930655160947f2802059c5c23954a166d6533200d7db5f766ef845e94408e416",
         "scenario": "9ba496a436ae5ea1dc4f461c97b995353b10052a731842b072a6781145bbe11d",
         "initialMessage": "c844968c818cf34cf36ade55862afc2a506fd47192ba147b30b0b2a69626c14b",
@@ -517,7 +517,7 @@
         "creatorNotes": "characters/historical-032-brennus/creator-notes.txt"
       },
       "fieldHashes": {
-        "characterCard": "874612cf2ed264b20cc15de0792b7995d5532460eeeecb665a5dc70c57f5e1d1",
+        "characterCard": "1848acc6032fcf6afd9e95f2df0268a339fe21e67263843dad88559ff98643b5",
         "personality": "af38ca0b5be20596adcea7561bfdfca7f771f505761c5454925629df3682e61f",
         "scenario": "9193874d4dfce402f162fff59267204308d239653256bee0abb6a446f0c71ec7",
         "initialMessage": "a66bf384c03fa4da6ccfc63233ab0e9bc6e8a49fdbb4d1c096fccf88c8aaf08f",
@@ -548,7 +548,7 @@
         "creatorNotes": "characters/historical-033-harald-bluetooth/creator-notes.txt"
       },
       "fieldHashes": {
-        "characterCard": "abdbec97afbc5cb4c4fda7ed1722da97f15e875c991b8e4ad5acb9c75224a7b9",
+        "characterCard": "ea5a91bbdbfc13ab386f7db95ffe418131ed36bc05d46fc9e676b9528cbf8bfc",
         "personality": "7f187a4644d2142605045c83f04098f0d9076d4ddbd3a1bf5d2c9bee527a5b55",
         "scenario": "e29a1f499df42b6a2e5e4ab039fa3492d429f0524d869b96fe4180ab04e87099",
         "initialMessage": "5e7684e8e731103b6f7a96b19fd5511b14b3dcbfc631ad9b88951cdf2d4e6fb3",
@@ -579,7 +579,7 @@
         "creatorNotes": "characters/historical-034-charlemagne/creator-notes.txt"
       },
       "fieldHashes": {
-        "characterCard": "391c5a7fd59c300b62c1511a06be0d0bd3f47c272c9356307ce9d81dd04b5b12",
+        "characterCard": "cad51c03ee9315c23fbd6218418f06eac9889fe51958be3f0bc244a3f6b477e9",
         "personality": "33846c563322134e149bc1bcb8507e9266ac725393c9299656876b17a84b7fa7",
         "scenario": "c626cc81240b40b28583c81de1da96b1559d94d6240addb81624003bb3858cdb",
         "initialMessage": "abb31216d288a5896b5c3edad8d9ab6846d762cfda7d84e3181e1b352726718c",
@@ -610,7 +610,7 @@
         "creatorNotes": "characters/historical-035-canute-the-great/creator-notes.txt"
       },
       "fieldHashes": {
-        "characterCard": "1a1c88e16e4e180f9ccea6eccdc144d42a4b68980ec25800b7b5bc25900704ec",
+        "characterCard": "c71b875e0464e0c9b85932b95d7cf3a9a4e83686631f2156bc3e37f025cfee03",
         "personality": "3b1ae52702c289b24cf8e35c3aa6498b0eae62e05d335dd0579f1c2becb859dc",
         "scenario": "b0ad5b35f28c674d58b46e248b2483f8c17bbb1a005c2557aac36719f912d99b",
         "initialMessage": "6b48ae21cc5fc7b9fe836c0d0db949312ea2b32b0ad4b226693a2486ab2cdfe5",
@@ -641,7 +641,7 @@
         "creatorNotes": "characters/historical-036-basil-ii/creator-notes.txt"
       },
       "fieldHashes": {
-        "characterCard": "2f54a0c1e4313e7e4097cfe8b79ff3a591b84fe3eee6448e96fd719848d82d68",
+        "characterCard": "cc04ab5411d44dad4e91970c2a962dcbbc8ab6cf08f77822de2cccdc2a35c627",
         "personality": "4aeeb34c6741dfeadfceb9da74baaae1b97c61d2913359337f513bd6cd6dba4c",
         "scenario": "995203f1c23bc75bae8f78746990c62a130051f637fc52b3546eb22040bdaaf3",
         "initialMessage": "b06f21124ae3d615e755017eb374e5efa824b485edca442cfc16bda6d848f4fe",
@@ -672,7 +672,7 @@
         "creatorNotes": "characters/historical-037-harald-hardrada/creator-notes.txt"
       },
       "fieldHashes": {
-        "characterCard": "ab19da05aa55ce3f0dfe83bc4cd0f14aacd1be382c77ef139d339a85d8ed920d",
+        "characterCard": "aee892058d6bfc0119bbb36e76cfe2f84e646789e56da079368e452d21fb504a",
         "personality": "f2fd873bba9d82f69472f3e93cdbc76ee9a74a323c6b254504ed9c6f4f7df387",
         "scenario": "4dc25141941fd3b3848a2f2011262b739ec072ca0b6eed357ba1f0df9f1fce39",
         "initialMessage": "0a21231aab96622e9f768bcfaf2155fe47b680793c51730e180347b5df21ca57",
@@ -703,7 +703,7 @@
         "creatorNotes": "characters/historical-038-william-of-orange/creator-notes.txt"
       },
       "fieldHashes": {
-        "characterCard": "5d2a727674ce4a5f945d33999aafd29b14c0f17d0909e7924f85f05654b06262",
+        "characterCard": "7ca64e9ade6eb5c8adf3de86a3d48842dab7886a3c330ec616f367eea1ecaa7c",
         "personality": "69826c6ed59dab7b9c24516f645d5f48c573fbe073181d46fb7147769c99b610",
         "scenario": "c062bac29fb41c73fe099e970977d60eff50eaec9d67e752823a9085095e1876",
         "initialMessage": "94db86a174da9223955c1e7ff50e802bf1c097a88c53fee2989dcbe9c89448cf",
@@ -734,7 +734,7 @@
         "creatorNotes": "characters/historical-039-robert-the-bruce/creator-notes.txt"
       },
       "fieldHashes": {
-        "characterCard": "77a49c1f7518a860c52dba70a31bb05c92bafe0ebdb4b87c76ff25837794f3a1",
+        "characterCard": "f3965a05593e48305821af6145ecf7032f705d874e4f12a474ca47d65abb731e",
         "personality": "6773bd931c43f3d35bff499020880f7732be2e53ee2a62042f2110483f274be8",
         "scenario": "3390cfdcfc17198846e7faa8261f541eaf0b0c4d939fede532015287986c7148",
         "initialMessage": "06bf990f74d4c7ef9ee152b6cad503326785d16b27f3f035eea44376948c7008",
@@ -765,7 +765,7 @@
         "creatorNotes": "characters/historical-040-saladin/creator-notes.txt"
       },
       "fieldHashes": {
-        "characterCard": "84a51d8ec158967b6408830a8433ac9c0000e9b5bdc1c4acefaaa217900a8af9",
+        "characterCard": "20973ec1476d07b66fddd2e1879e86f54f9be48f92498b1e9da87a6f21f56710",
         "personality": "475ea66c35df7e64647865db7886ef7a44fe94dea6cb43c4b0bdd2fd20df995a",
         "scenario": "1efa29449b645c7e7bf1306f73294b68b8f7be05d6c481ce9ad9fee80b360e96",
         "initialMessage": "df3a8266795e7efd0c9581969048fb820c2d587b5e17f65b8c535657e2f56926",
@@ -796,7 +796,7 @@
         "creatorNotes": "characters/historical-041-kublai-khan/creator-notes.txt"
       },
       "fieldHashes": {
-        "characterCard": "ee339202e34ba8c8cec34f7981ede0c0834897e91922051417a7212c5b2c61b0",
+        "characterCard": "22a77a637faf0998d429d9e5e787e00b58e330180beb79b9311c781de6773b2f",
         "personality": "06cfe8de2d25b46d7203fe73b10999d2b54a4b307e6e6386c2e4eff6d60f6fdf",
         "scenario": "85e91a209aa2e6e823c14948eafc7a6dff44d09ee0c014138dde0e4a87acc052",
         "initialMessage": "534c5f3445bdf19d49741208b3da9de5f6769cb4aef0e57e2b8d3d87b422d408",
@@ -827,7 +827,7 @@
         "creatorNotes": "characters/historical-042-tokugawa-ieyasu/creator-notes.txt"
       },
       "fieldHashes": {
-        "characterCard": "7090d57dba1ae9d31c138daf7d57ad7d462bf8e72258eda1cc5162cfd1c46d8c",
+        "characterCard": "6fc55c0fe0afca8f414db3c173ce37ce985eca2bdc2c5036eb9e24e1949006e8",
         "personality": "2bb1e443d3b88f96528ef4f2ac30ccdfdb2538187483239539256eacf90cba8f",
         "scenario": "463611ec1e1864fd343db6284a4d75ed731839a98d4574657d969abb57674c65",
         "initialMessage": "2c3f27eaab78f5e4dc225e61c04f935cc4efc7c795a831a5f61702743615c7fd",
@@ -858,7 +858,7 @@
         "creatorNotes": "characters/historical-043-hojo-tokimune/creator-notes.txt"
       },
       "fieldHashes": {
-        "characterCard": "bfebb8b058c26241222957734857cfa9e758e09b12f3f338bc2b2518ad7d5d3a",
+        "characterCard": "e187a1c4d80e87dcd912ef85d42364fc103d9cd9a4182409e35fe49a24e740aa",
         "personality": "ce277b9229ba8e442c9722ca82eadf4fecccc0a9540a8d7fb1654e7db43277ad",
         "scenario": "6a1a01ef79377b6d3a221b3c5eb2553d2859f601de0167d6f6ddc80ff1791085",
         "initialMessage": "06ad08c936e683c89fece01eb8e0fd57e990e2e8bb9448c17929be2026f19122",
@@ -889,7 +889,7 @@
         "creatorNotes": "characters/historical-044-sundiata-keita/creator-notes.txt"
       },
       "fieldHashes": {
-        "characterCard": "95477fa950f4bc49eaab4d67a609eb293afa57b9d169503cbc05f4e5e11ada95",
+        "characterCard": "48b4922ad1c0ddb32d983a0e09f2b9cbea857cd21fc88dc7c696071ea55450ef",
         "personality": "42160ecca931d88de7dcf3481688a48d5e75edd217078e97a4094f067248604a",
         "scenario": "6a8fa4d1351b83ebcc6e39ebb91d6fc62ca4949545d122f3e3e216a3050cc1ff",
         "initialMessage": "170b344354f66adf0e14bb547a2bd0dbbd011bc8fbb814efd22b3bab7cd735ab",
@@ -920,7 +920,7 @@
         "creatorNotes": "characters/historical-045-mansa-musa/creator-notes.txt"
       },
       "fieldHashes": {
-        "characterCard": "ed13c1d649de21e87875f8e19ef62ede958943472faf294d9cdd5f180c7bd7fe",
+        "characterCard": "0a4990e08862beca5c2b5ba2f7d097144dc4ec92d73ab2e21d1469786337f35f",
         "personality": "81725c075034a35e39ac6600e8ef5d1872f64c6b3940f91a4c446212b6e97819",
         "scenario": "115351f31bf5da51524b26c2d6df8f21e16f7d5ef29f10ca4397792e35bfbc5c",
         "initialMessage": "1275222dc16ddbf44649ba96e49dd74d8266ea668a8d2b121887b1010aad4167",
@@ -951,7 +951,7 @@
         "creatorNotes": "characters/historical-046-jayavarman-vii/creator-notes.txt"
       },
       "fieldHashes": {
-        "characterCard": "a2cf9a3e57028fcdc254b7b4cf4d1a4b222bba1e31ea966545023af983a9c74c",
+        "characterCard": "9068853d3c471ee21700c8724853f267e2e034a821dfdebae325ff2e1b9cd519",
         "personality": "d7bed62db90fa1424d097356c995dcbfbb1fb2a28ad272d652eb82c96a82b9dc",
         "scenario": "800edb4077828f1c81e9daa7e275b7682fa3468eeab78ea43582b9d5f2a40aa1",
         "initialMessage": "d1c68464ff6f6852ff1e7078b7ebeb84ed6f2ba709d1a4993712db2a04f503ce",
@@ -981,7 +981,7 @@
         "tags": "characters/kpops-001-choi-san/tags.txt"
       },
       "fieldHashes": {
-        "characterCard": "1864e2e53b91802bb4ede3577d5b977bcac25c961bc6750da0ad314695dddeb8",
+        "characterCard": "b1ab94ec9f4432b7c9b5e558f8f9c316d7962070d5e27da0e4f9197ccbf0d6b8",
         "personality": "e5b7dbcb999197a7f49a0a6f2e9e7d424ab9daa4a158c7d962ee23854ef03169",
         "scenario": "f20f33d0445c5684317f3ef0b18e854bd3c0028aefe175a6fc310dcb80d24cf8",
         "initialMessage": "f199b9c9f81d3434ea57d571d49b2d66992ba64399b2fe00606e6ae6659a3de0",
@@ -1011,7 +1011,7 @@
         "creatorNotes": "characters/kpops-002-hongjoong/creator-notes.txt"
       },
       "fieldHashes": {
-        "characterCard": "9b9ef848d93cc4bfb0afcb23a8a1017f735b68fc0e4eb45f5732ff9493f73ad5",
+        "characterCard": "aed77807099a23dddd658862176bdf2e1eef7a1f1a08b60ed24921b7b6a9d1d7",
         "personality": "b2b55b6c09e06eb78d785b663535c759b7e2bb1fdcf23c84ce574100ec912d31",
         "scenario": "e351126772b44d616c48ae1038b34176afadc0b17f2a39899bf764a6da4f6863",
         "initialMessage": "dfafafa65b1c5616285bcc312ea956b05370a14116f79c0fa8770a2d884515bd",
@@ -1042,7 +1042,7 @@
         "creatorNotes": "characters/kpops-003-seonghwa/creator-notes.txt"
       },
       "fieldHashes": {
-        "characterCard": "416503ef0a1449b08be795af21d31873af7116359bf9ec332725353eba51f6fe",
+        "characterCard": "f46978e71450399fcabd156ebf21b3fca73652dda85241730805483a43438462",
         "personality": "37c04c4f014a4972a2ee14fb4ac5b8e582c136101ec8fa831bd0bb3c56771378",
         "scenario": "fdff81a484ebd1fc12d22e3bb9bf7b5e1da5b7e7c3e42f0d6060e6e3f4aa3700",
         "initialMessage": "54a199712db48459c0b91a782acfd469dc471cc744ffef9337b7c4897ccbc9fa",
@@ -1073,7 +1073,7 @@
         "creatorNotes": "characters/kpops-004-yunho/creator-notes.txt"
       },
       "fieldHashes": {
-        "characterCard": "142f393f8a26f7495fb30a59d9efea03b06ad544a28e1c7f78242100ea1d6e7e",
+        "characterCard": "1bd3b24fce45ee516eab399a4d210943ed382b6261d4ceafe9bd8100c193f17c",
         "personality": "0e63d84a0ba4783bad3214bd7de787dc42cf95f8c187dde74ace83812a080e6c",
         "scenario": "60c00e2e1dd16a643218e90a44e050ee42d16a50ed2be9e6d077de0f855a6882",
         "initialMessage": "9007619a5ece22d85685241a5510975c2ae3a0ac5d8f17420b5c8110e155ac54",
@@ -1104,7 +1104,7 @@
         "creatorNotes": "characters/kpops-005-yeosang/creator-notes.txt"
       },
       "fieldHashes": {
-        "characterCard": "a8483f94b747c69933cf774fb0a943d94dacaeaaa20656d261bb8758122ca506",
+        "characterCard": "2cd2144966315c66fd90a80a4d6b6e532282d702973989463aea005fe66ec044",
         "personality": "7f406c9dbaa079f7b6d03d5a986662b42f435ba6840c25bf502ce692abfa04f8",
         "scenario": "6b781b11f9600ca2b10473b6836c6dfe835b352fb85177bc9ffc65db66405be7",
         "initialMessage": "8b90cefefa8aa81d156697842700626fbdcee2b181edeca37d05bbbe840e95f4",
@@ -1135,7 +1135,7 @@
         "creatorNotes": "characters/kpops-006-wooyoung/creator-notes.txt"
       },
       "fieldHashes": {
-        "characterCard": "b9aa8c0823772f523970a77d7af95f2b022659018fe8788edab660b2179d0aee",
+        "characterCard": "5d821c024cdaf1918500ced24b7eb1331f8079002c1e7f6fd17ba741d1627f3f",
         "personality": "74395af456e9e465497c169e12569fe5b791e3e534b7834bf3ac40e7c49322b1",
         "scenario": "2e24f0f98b5bf84871a3158ad70d2a25a743ba6fca5cd7a08674a8398a5dc59b",
         "initialMessage": "4d7ba81aa7f09bb48aa6e36b13cfc5ddf12f5a976edf2e78761a79a1c6d79285",
@@ -1166,7 +1166,7 @@
         "creatorNotes": "characters/kpops-007-jongho/creator-notes.txt"
       },
       "fieldHashes": {
-        "characterCard": "0e5e4ac0168a1988f76a281c9a7f09604ee71a4ff7eb93d93cf2ae544397c70c",
+        "characterCard": "c8a048c206bf42c1e1bd8c97d990b2cf153b0cdc95516b3dbe2a0baab5add86b",
         "personality": "3cd52f446d716fdba381c39c6e1fc5a4fd3f0ec073f7da09e46d6dad6736beb4",
         "scenario": "d4d7aece053eb4e3e2dce28caf16e226ba42ffe0a5f98c64b99c5161bc01359d",
         "initialMessage": "80aff2a09ad28edea845a65ad9ae9a13dd05c5b4ef4ce758562123f39671e529",
