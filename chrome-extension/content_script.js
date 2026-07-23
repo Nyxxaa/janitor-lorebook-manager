@@ -32,6 +32,21 @@ async function handleMessage(message) {
   if (message?.type === "jm:autoUpdateLorebook") {
     return autoUpdateLorebook(message.profileId, message.fileKey);
   }
+  if (message?.type === "jm:compareCharacter") {
+    const response = await chrome.runtime.sendMessage({ type: "bundle:getActive", profileId: message.profileId });
+    const character = response.bundle?.characters?.find((item) => item.id === message.characterId);
+    if (!character) throw new Error("Character package was not found in the active bundle.");
+    await waitForCharacterForm();
+    const plan = buildCharacterPlan(character, detectCharacterTargets());
+    return {
+      ok: true,
+      comparison: {
+        different: plan.matched.map((item) => item.sourceName),
+        current: plan.unchanged.map((item) => item.sourceName),
+        unmatched: plan.unmatched.map((item) => item.sourceName)
+      }
+    };
+  }
   if (message?.type === "jm:loadCharacter") {
     const response = await chrome.runtime.sendMessage({ type: "bundle:getActive", profileId: message.profileId });
     activeCharacter = response.bundle?.characters?.find((character) => character.id === message.characterId) || null;

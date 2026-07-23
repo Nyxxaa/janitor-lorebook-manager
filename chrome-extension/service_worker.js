@@ -3,7 +3,8 @@ const STORE_KEYS = {
   activeProfileId: "activeProfileId",
   bundles: "bundles",
   backups: "backups",
-  lastRun: "lastRun"
+  lastRun: "lastRun",
+  runControl: "runControl"
 };
 
 const DEFAULT_PROFILE = {
@@ -69,6 +70,12 @@ async function handleMessage(message, sender) {
       return batchPublishProject(message.profileId);
     case "batch:testCharacter":
       return testCharacter(message.profileId);
+    case "batch:compareCharacters":
+      return compareCharacters(message.profileId, message.sourceTabId);
+    case "batch:stop":
+      return requestStop();
+    case "batch:getRunState":
+      return getRunState();
     case "batch:getLastRun":
       return getLastRun();
     default:
@@ -77,19 +84,55 @@ async function handleMessage(message, sender) {
 }
 
 async function batchPublishProject(profileId) {
-  const lorebookResult = await batchPublishLorebooks(profileId);
-  const characterResult = await batchPublishCharacters(profileId);
-  const result = { ok: true, mode: "bulk", skipped: lorebookResult.skipped + characterResult.skipped, results: [...lorebookResult.results, ...characterResult.results] };
-  await chrome.storage.local.set({ [STORE_KEYS.lastRun]: result });
-  await downloadRunLog(result);
-  return result;
+  await beginRun("bulk");
+  try {
+    const lorebookResult = await batchPublishLorebooks(profileId);
+    const characterResult = await batchPublishCharacters(profileId);
+    const result = { ok: true, mode: "bulk", stopped: await isStopRequested(), skipped: lorebookResult.skipped + characterResult.skipped, results: [...lorebookResult.results, ...characterResult.results] };
+    await chrome.storage.local.set({ [STORE_KEYS.lastRun]: result });
+    await downloadRunLog(result);
+    return result;
+  } finally {
+    await finishRun();
+  }
 }
 
 async function testCharacter(profileId) {
-  const result = { ...(await batchPublishCharacters(profileId, 1)), mode: "smoke" };
-  await chrome.storage.local.set({ [STORE_KEYS.lastRun]: result });
-  await downloadRunLog(result);
-  return result;
+  await beginRun("smoke");
+  try {
+    const result = { ...(await batchPublishCharacters(profileId, 1)), mode: "smoke", stopped: await isStopRequested() };
+    await chrome.storage.local.set({ [STORE_KEYS.lastRun]: result });
+    await downloadRunLog(result);
+    return result;
+  } finally {
+    await finishRun();
+  }
+}
+
+async function beginRun(mode) {
+  const state = await getRunState();
+  if (state.running) throw new Error(`A ${state.mode || "batch"} run is already active.`);
+  await chrome.storage.local.set({ [STORE_KEYS.runControl]: { running: true, stopRequested: false, mode, startedAt: new Date().toISOString() } });
+}
+
+async function finishRun() {
+  await chrome.storage.local.set({ [STORE_KEYS.runControl]: { running: false, stopRequested: false, finishedAt: new Date().toISOString() } });
+}
+
+async function getRunState() {
+  const data = await chrome.storage.local.get([STORE_KEYS.runControl]);
+  return { ok: true, running: false, stopRequested: false, ...(data[STORE_KEYS.runControl] || {}) };
+}
+
+async function requestStop() {
+  const state = await getRunState();
+  if (!state.running) return { ok: false, error: "No batch run is active." };
+  await chrome.storage.local.set({ [STORE_KEYS.runControl]: { ...state, stopRequested: true, stopRequestedAt: new Date().toISOString() } });
+  return { ok: true };
+}
+
+async function isStopRequested() {
+  return (await getRunState()).stopRequested;
 }
 
 async function getLastRun() {
@@ -119,6 +162,7 @@ async function batchPublishLorebooks(profileId) {
   const eligible = files.filter((file) => file.editUrl);
   const results = [];
   for (const file of eligible) {
+    if (await isStopRequested()) break;
     let tab;
     try {
       const url = new URL(file.editUrl);
@@ -147,6 +191,7 @@ async function batchPublishCharacters(profileId, limit = Infinity) {
   if (!eligible.length) return { ok: true, attempted: 0, skipped: bundle.characters.length, results: [] };
   const results = [];
   for (const character of eligible) {
+    if (await isStopRequested()) break;
     let tab;
     try {
       const creating = !character.editUrl;
@@ -200,7 +245,96 @@ async function batchPublishCharacters(profileId, limit = Infinity) {
       if (tab?.id) await chrome.tabs.remove(tab.id).catch(() => {});
     }
   }
-  return { ok: true, attempted: eligible.length, skipped: bundle.characters.length - eligible.length, results };
+  return { ok: true, attempted: results.length, skipped: bundle.characters.length - results.length, results };
+}
+
+async function compareCharacters(profileId, sourceTabId) {
+  await beginRun("compare");
+  try {
+    const sourceTab = await chrome.tabs.get(sourceTabId);
+    if (!/^https:\/\/(?:www\.)?janitorai\.com\/my_characters/i.test(sourceTab.url || "")) throw new Error("Open Janitor's My Characters page before comparing.");
+    const [{ result: inventory }] = await chrome.scripting.executeScript({
+      target: { tabId: sourceTabId },
+      world: "MAIN",
+      func: async () => {
+        const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+        const found = new Map();
+        const startPage = document.querySelector('button[class*="pageButtonActive"]')?.textContent?.trim() || "1";
+        for (let page = 0; page < 20; page += 1) {
+          for (const card of document.querySelectorAll(".pp-cc-wrapper")) {
+            const edit = card.querySelector('a[href^="/edit_character/"]');
+            const publicLink = card.querySelector('a.profile-character-card-stack-link-component[href^="/characters/"]');
+            const match = (edit?.getAttribute("href") || publicLink?.getAttribute("href") || "").match(/(?:edit_character\/|characters\/)([0-9a-f-]+)/i);
+            if (!match) continue;
+            found.set(match[1], {
+              uuid: match[1],
+              name: card.querySelector(".pp-cc-name")?.textContent?.trim() || "",
+              editUrl: new URL(edit?.getAttribute("href") || `/edit_character/${match[1]}`, location.origin).href,
+              publicUrl: publicLink ? new URL(publicLink.getAttribute("href"), location.origin).href : "",
+              tags: Array.from(card.querySelectorAll(".pp-cc-tags-item")).map((node) => node.textContent.trim()).filter(Boolean)
+            });
+          }
+          const next = document.querySelector('button[aria-label="Next Page"]');
+          if (!next || next.disabled) break;
+          const signature = document.querySelector('a[href^="/edit_character/"]')?.getAttribute("href") || "";
+          next.click();
+          for (let attempt = 0; attempt < 40; attempt += 1) {
+            await sleep(250);
+            const current = document.querySelector('a[href^="/edit_character/"]')?.getAttribute("href") || "";
+            if (current && current !== signature) break;
+          }
+        }
+        const returnButton = Array.from(document.querySelectorAll("button")).find((button) => button.textContent.trim() === startPage && !button.disabled);
+        if (returnButton && !returnButton.matches('[class*="pageButtonActive"]')) returnButton.click();
+        return Array.from(found.values());
+      }
+    });
+    const bundle = (await getActiveBundle(profileId)).bundle;
+    await applyRememberedCharacterUrls(bundle, profileId);
+    const byUuid = new Map((inventory || []).map((item) => [item.uuid.toLowerCase(), item]));
+    const results = [];
+    for (const character of bundle.characters || []) {
+      if (await isStopRequested()) break;
+      const uuid = String(character.editUrl || "").match(/edit_character\/([0-9a-f-]+)/i)?.[1]?.toLowerCase();
+      const live = uuid ? byUuid.get(uuid) : null;
+      if (!live) {
+        results.push({ id: character.id, name: character.name, present: false, ok: true });
+        continue;
+      }
+      let tab;
+      try {
+        tab = await chrome.tabs.create({ url: live.editUrl, active: false });
+        await waitForTabComplete(tab.id, 30000);
+        const inspected = await sendTabMessageWithRetry(tab.id, { type: "jm:compareCharacter", profileId, characterId: character.id }, 30, 500);
+        if (!inspected?.ok) throw new Error(inspected?.error || "Could not inspect the character editor.");
+        results.push({
+          id: character.id, name: character.name, liveName: live.name, editUrl: live.editUrl, present: true, ok: true,
+          different: inspected.comparison.different.length,
+          current: inspected.comparison.current.length,
+          unmatched: inspected.comparison.unmatched.length,
+          fields: inspected.comparison,
+          liveTags: live.tags
+        });
+      } catch (error) {
+        results.push({ id: character.id, name: character.name, editUrl: live.editUrl, present: true, ok: false, error: error.message || String(error) });
+      } finally {
+        if (tab?.id) await chrome.tabs.remove(tab.id).catch(() => {});
+      }
+    }
+    const result = {
+      ok: true,
+      mode: "compare",
+      stopped: await isStopRequested(),
+      inventoryCount: inventory?.length || 0,
+      missing: results.filter((item) => !item.present).length,
+      results
+    };
+    await chrome.storage.local.set({ [STORE_KEYS.lastRun]: result });
+    await downloadRunLog(result);
+    return result;
+  } finally {
+    await finishRun();
+  }
 }
 
 async function applyRememberedCharacterUrls(bundle, profileId) {

@@ -16,6 +16,8 @@ const els = {
   sendCharacter: document.getElementById("sendCharacter"),
   publishCharacters: document.getElementById("publishCharacters"),
   testCharacter: document.getElementById("testCharacter"),
+  compareCharacters: document.getElementById("compareCharacters"),
+  stopRun: document.getElementById("stopRun"),
   openCreate: document.getElementById("openCreate"),
   bundleSummary: document.getElementById("bundleSummary")
 };
@@ -34,11 +36,13 @@ async function init() {
   els.sendCharacter.addEventListener("click", sendCharacterToPage);
   els.publishCharacters.addEventListener("click", publishCharacters);
   els.testCharacter.addEventListener("click", testCharacter);
+  els.compareCharacters.addEventListener("click", compareCharacters);
+  els.stopRun.addEventListener("click", stopRun);
   els.openCreate.addEventListener("click", () => chrome.tabs.create({ url: "https://janitorai.com/create_character" }));
 }
 
 async function publishCharacters() {
-  els.publishCharacters.disabled = true;
+  setRunning(true);
   setStatus("Updating existing Janitor characters...");
   try {
     const response = await send({ type: "batch:publishProject", profileId: activeProfileId });
@@ -48,12 +52,12 @@ async function publishCharacters() {
     setStatus(`Project update finished: ${succeeded} saved, ${failed} failed, ${response.skipped || 0} skipped.`);
     els.bundleSummary.textContent = response.results.map((item) => `${item.ok ? "OK" : "FAILED"}: ${item.name}${item.error ? ` — ${item.error}` : ""}`).join("\n");
   } finally {
-    els.publishCharacters.disabled = false;
+    setRunning(false);
   }
 }
 
 async function testCharacter() {
-  els.testCharacter.disabled = true;
+  setRunning(true);
   setStatus("Testing the first character only...");
   try {
     const response = await send({ type: "batch:testCharacter", profileId: activeProfileId });
@@ -62,8 +66,45 @@ async function testCharacter() {
     setStatus(item?.ok ? `Smoke test saved: ${item.name}.` : `Smoke test failed: ${item?.error || "Unknown error"}`);
     els.bundleSummary.textContent = item ? `${item.ok ? "OK" : "FAILED"}: ${item.name}${item.error ? ` — ${item.error}` : ""}` : "No eligible character found.";
   } finally {
-    els.testCharacter.disabled = false;
+    setRunning(false);
   }
+}
+
+async function compareCharacters() {
+  const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
+  if (!tab?.id || !/^https:\/\/(?:www\.)?janitorai\.com\/my_characters/i.test(tab.url || "")) {
+    setStatus("Open Janitor's My Characters page, then run Compare.");
+    return;
+  }
+  setRunning(true);
+  setStatus("Reading every My Characters page, then checking matched editors...");
+  try {
+    const response = await send({ type: "batch:compareCharacters", profileId: activeProfileId, sourceTabId: tab.id });
+    if (!response.ok) return setStatus(response.error);
+    const present = response.results.filter((item) => item.present).length;
+    const different = response.results.filter((item) => item.present && item.different > 0).length;
+    setStatus(`Comparison finished: ${present} present, ${response.missing} missing, ${different} with differences${response.stopped ? " (stopped)" : ""}.`);
+    els.bundleSummary.textContent = response.results.map((item) => {
+      if (!item.present) return `MISSING: ${item.name}`;
+      if (!item.ok) return `FAILED: ${item.name} — ${item.error}`;
+      return `${item.different ? "DIFF" : "CURRENT"}: ${item.name} (${item.different} different, ${item.current} current, ${item.unmatched} unmatched)`;
+    }).join("\n");
+  } finally {
+    setRunning(false);
+  }
+}
+
+async function stopRun() {
+  els.stopRun.disabled = true;
+  const response = await send({ type: "batch:stop" });
+  setStatus(response.ok ? "Stop requested — finishing the current character safely." : response.error);
+}
+
+function setRunning(running) {
+  els.publishCharacters.disabled = running;
+  els.testCharacter.disabled = running;
+  els.compareCharacters.disabled = running;
+  els.stopRun.disabled = !running;
 }
 
 async function loadProfile() {
@@ -80,9 +121,13 @@ async function loadProfile() {
     const run = previous.run;
     els.bundleSummary.textContent = run.results.map((item) => `${item.ok ? "OK" : "FAILED"}: ${item.name}${item.error ? ` — ${item.error}` : ""}`).join("\n");
     const failed = run.results.filter((item) => !item.ok).length;
-    setStatus(`Last ${run.mode || "production"} run: ${run.results.length - failed} saved, ${failed} failed.`);
+    setStatus(`Last ${run.mode || "production"} run: ${run.results.length - failed} succeeded, ${failed} failed.`);
+    const state = await send({ type: "batch:getRunState" });
+    setRunning(Boolean(state.running));
     return;
   }
+  const state = await send({ type: "batch:getRunState" });
+  setRunning(Boolean(state.running));
   setStatus("Ready.");
 }
 
