@@ -114,8 +114,8 @@ async function setCharacterTags(value, replaceExisting = false) {
   }
   for (const tag of tags) {
     const selected = Array.from(document.querySelectorAll("#character-section-general .react-select__multi-value__label"))
-      .map((label) => normalize((label.textContent || "").replace(/^#/, "")));
-    if (selected.includes(normalize(tag))) {
+      .map((label) => normalizeTag((label.textContent || "").replace(/^#/, "")));
+    if (selected.includes(normalizeTag(tag))) {
       traceAutomation("tag:already-present", { tag });
       continue;
     }
@@ -132,7 +132,7 @@ async function setCharacterTags(value, replaceExisting = false) {
     let option;
     for (let attempt = 0; attempt < 25; attempt += 1) {
       const options = Array.from(document.querySelectorAll(".react-select__option")).filter(isVisible);
-      option = options.find((item) => normalize(item.textContent).includes(normalize(tag))) || options[0];
+      option = options.find((item) => normalizeTag(item.textContent).includes(normalizeTag(tag))) || options[0];
       if (option) break;
       await new Promise((resolve) => setTimeout(resolve, 100));
     }
@@ -147,8 +147,8 @@ async function setCharacterTags(value, replaceExisting = false) {
     }
     await new Promise((resolve) => setTimeout(resolve, 800));
     const current = Array.from(document.querySelectorAll("#character-section-general .react-select__multi-value__label"))
-      .map((label) => normalize((label.textContent || "").replace(/^#/, "")));
-    if (!current.includes(normalize(tag))) throw new Error(`Janitor did not accept tag: ${tag}.`);
+      .map((label) => normalizeTag((label.textContent || "").replace(/^#/, "")));
+    if (!current.includes(normalizeTag(tag))) throw new Error(`Janitor did not accept tag: ${tag}.`);
     traceAutomation("tag:accepted", { tag, count: current.length });
   }
   document.querySelector('#character-section-general input.react-select__input[role="combobox"]')?.blur();
@@ -989,6 +989,10 @@ function significantFileWords(file) {
 
 function normalize(text) {
   return String(text || "").toLowerCase().replace(/\.json$/i, "").replace(/[^a-z0-9]+/g, " ").trim();
+}
+
+function normalizeTag(text) {
+  return String(text || "").toLowerCase().replace(/[^a-z0-9]+/g, "");
 }
 
 function traceAutomation(action, details = {}) {
