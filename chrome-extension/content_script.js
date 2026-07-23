@@ -68,7 +68,7 @@ async function autoCreateCharacter(profileId, characterId) {
     throw new Error(`Refusing to create with unmatched repository fields: ${blocking.map((item) => item.sourceName).join(", ")}. Detected controls: ${controls || "none"}.`);
   }
   await setCharacterBioSource(character.fields?.characterCard || "");
-  await setCharacterTags(character.fields?.tags || "");
+  await setCharacterTags(character.fields?.tags || "", false);
   await setCharacterAvatar(character.avatarUrl, character.name);
   traceAutomation("avatar:set", { name: character.name });
   const createButton = findCharacterCreateButton();
@@ -96,10 +96,22 @@ async function setCharacterAvatar(url, name) {
   input.dispatchEvent(new Event("change", { bubbles: true }));
 }
 
-async function setCharacterTags(value) {
+async function setCharacterTags(value, replaceExisting = false) {
   const tags = String(value || "").split(/[\n,]+/).map((tag) => tag.trim()).filter(Boolean).slice(0, 10);
   if (!tags.length) return;
   if (!document.querySelector('#character-section-general input.react-select__input[role="combobox"]')) throw new Error("Janitor's Tags selector was not found.");
+  if (replaceExisting && document.querySelector("#character-section-general .react-select__multi-value")) {
+    const clear = document.querySelector("#character-section-general .react-select__clear-indicator");
+    if (clear) {
+      clear.dispatchEvent(new MouseEvent("mousedown", { bubbles: true, button: 0 }));
+      clear.dispatchEvent(new MouseEvent("mouseup", { bubbles: true, button: 0 }));
+      clear.click();
+    } else {
+      for (const remove of Array.from(document.querySelectorAll("#character-section-general .react-select__multi-value__remove"))) remove.click();
+    }
+    await new Promise((resolve) => setTimeout(resolve, 800));
+    traceAutomation("tags:cleared", { remaining: document.querySelectorAll("#character-section-general .react-select__multi-value").length });
+  }
   for (const tag of tags) {
     const selected = Array.from(document.querySelectorAll("#character-section-general .react-select__multi-value__label"))
       .map((label) => normalize((label.textContent || "").replace(/^#/, "")));
@@ -268,8 +280,9 @@ async function autoUpdateCharacter(profileId, characterId) {
   const blocking = blockingCharacterFields(plan.unmatched);
   if (blocking.length) throw new Error(`Refusing to save with unmatched repository fields: ${blocking.map((item) => item.sourceName).join(", ")}.`);
   await setCharacterBioSource(character.fields?.characterCard || "");
+  await setCharacterTags(character.fields?.tags || "", true);
   if (!plan.matched.length) return { ok: true, savedAt: "", matched: 0, unchanged: plan.unchanged.length, skippedSave: true };
-  const saveButton = findCharacterSaveButton();
+  const saveButton = await waitForCharacterSaveButton();
   if (!saveButton) throw new Error("A visible Save/Update Character button was not found.");
   saveButton.scrollIntoView({ block: "center" });
   saveButton.click();
@@ -294,6 +307,15 @@ function findCharacterSaveButton() {
     const text = [element.textContent, element.value, element.getAttribute("aria-label"), element.getAttribute("title")].filter(Boolean).join(" ").trim();
     return /^(save|update)(?:\s+(?:changes|character))?$/i.test(text);
   }) || null;
+}
+
+async function waitForCharacterSaveButton() {
+  for (let attempt = 0; attempt < 100; attempt += 1) {
+    const button = findCharacterSaveButton();
+    if (button) return button;
+    await new Promise((resolve) => setTimeout(resolve, 100));
+  }
+  return null;
 }
 
 function findExistingRecordSaveButton() {

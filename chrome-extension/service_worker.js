@@ -414,7 +414,8 @@ function isValidManifestUrl(value) {
 async function fetchManifest(profileId) {
   const profile = await getProfile(profileId);
   if (!profile.manifestUrl) throw new Error("Set a public GitHub raw manifest URL first.");
-  const manifest = await fetchJson(profile.manifestUrl);
+  const manifestUrl = withCacheBust(profile.manifestUrl, Date.now());
+  const manifest = await fetchJson(manifestUrl);
   validateManifest(manifest);
   const base = new URL(profile.manifestUrl);
   const files = [];
@@ -449,7 +450,8 @@ async function fetchManifest(profileId) {
       }
       const path = typeof source === "string" ? source : source?.path || source?.url;
       if (!path) continue;
-      const fieldUrl = path.startsWith("http") ? path : new URL(path, base).toString();
+      const rawFieldUrl = path.startsWith("http") ? path : new URL(path, base).toString();
+      const fieldUrl = withCacheBust(rawFieldUrl, item.fieldHashes?.[fieldName] || manifest.generatedAt || Date.now());
       fields[fieldName] = await fetchText(fieldUrl);
     }
     characters.push({
@@ -478,6 +480,12 @@ async function fetchManifest(profileId) {
   };
   await storeBundle(profile.id, bundle);
   return { ok: true, bundle: summarizeBundle(bundle) };
+}
+
+function withCacheBust(value, version) {
+  const url = new URL(value);
+  url.searchParams.set("_jm", String(version));
+  return url.toString();
 }
 
 function isFieldPath(value) {
