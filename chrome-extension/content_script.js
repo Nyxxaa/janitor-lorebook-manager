@@ -145,9 +145,13 @@ async function setCharacterTags(value, replaceExisting = false) {
       input.dispatchEvent(new KeyboardEvent("keydown", { key: "ArrowDown", code: "ArrowDown", keyCode: 40, which: 40, bubbles: true }));
       input.dispatchEvent(new KeyboardEvent("keydown", { key: "Enter", code: "Enter", keyCode: 13, which: 13, bubbles: true }));
     }
-    await new Promise((resolve) => setTimeout(resolve, 800));
-    const current = Array.from(document.querySelectorAll("#character-section-general .react-select__multi-value__label"))
-      .map((label) => normalizeTag((label.textContent || "").replace(/^#/, "")));
+    let current = [];
+    for (let attempt = 0; attempt < 30; attempt += 1) {
+      current = Array.from(document.querySelectorAll("#character-section-general .react-select__multi-value__label"))
+        .map((label) => normalizeTag((label.textContent || "").replace(/^#/, "")));
+      if (current.includes(normalizeTag(tag))) break;
+      await new Promise((resolve) => setTimeout(resolve, 100));
+    }
     if (!current.includes(normalizeTag(tag))) throw new Error(`Janitor did not accept tag: ${tag}.`);
     traceAutomation("tag:accepted", { tag, count: current.length });
   }
