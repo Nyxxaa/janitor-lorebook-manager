@@ -299,13 +299,37 @@ async function compareCharacters(profileId, sourceTabId) {
     const bundle = (await getActiveBundle(profileId)).bundle;
     await applyRememberedCharacterUrls(bundle, profileId);
     const byUuid = new Map((inventory || []).map((item) => [item.uuid.toLowerCase(), item]));
+    const normalizeInventoryName = (value) => String(value || "").toLowerCase()
+      .normalize("NFKD").replace(/[\u0300-\u036f]/g, "")
+      .replace(/[^a-z0-9]+/g, " ").trim();
+    const byName = new Map();
+    for (const item of inventory || []) {
+      const key = normalizeInventoryName(item.name);
+      if (!key) continue;
+      if (!byName.has(key)) byName.set(key, []);
+      byName.get(key).push(item);
+    }
     const results = [];
     for (const character of bundle.characters || []) {
       if (await isStopRequested()) break;
       const uuid = String(character.editUrl || "").match(/edit_character\/([0-9a-f-]+)/i)?.[1]?.toLowerCase();
-      const live = uuid ? byUuid.get(uuid) : null;
+      const uuidMatch = uuid ? byUuid.get(uuid) : null;
+      const nameMatches = byName.get(normalizeInventoryName(character.name)) || [];
+      const live = uuidMatch || (nameMatches.length === 1 ? nameMatches[0] : null);
       if (!live) {
-        results.push({ id: character.id, name: character.name, present: false, ok: true });
+        results.push({
+          id: character.id,
+          name: character.name,
+          present: false,
+          ok: true,
+          matchMethod: "none",
+          nameCandidates: nameMatches.map((item) => ({
+            uuid: item.uuid,
+            name: item.name,
+            editUrl: item.editUrl,
+            publicUrl: item.publicUrl
+          }))
+        });
         continue;
       }
       let tab;
@@ -316,6 +340,7 @@ async function compareCharacters(profileId, sourceTabId) {
         if (!inspected?.ok) throw new Error(inspected?.error || "Could not inspect the character editor.");
         results.push({
           id: character.id, name: character.name, liveName: live.name, editUrl: live.editUrl, present: true, ok: true,
+          matchMethod: uuidMatch ? "uuid" : "unique-exact-name",
           different: inspected.comparison.different.length,
           current: inspected.comparison.current.length,
           unmatched: inspected.comparison.unmatched.length,
@@ -334,6 +359,20 @@ async function compareCharacters(profileId, sourceTabId) {
       stopped: await isStopRequested(),
       inventoryCount: inventory?.length || 0,
       missing: results.filter((item) => !item.present).length,
+      duplicateNameGroups: Array.from(byName.entries())
+        .filter(([, items]) => items.length > 1)
+        .map(([normalizedName, items]) => ({
+          normalizedName,
+          characters: items.map((item) => ({
+            uuid: item.uuid,
+            name: item.name,
+            editUrl: item.editUrl,
+            publicUrl: item.publicUrl
+          }))
+        })),
+      unmatchedInventory: (inventory || []).filter((item) =>
+        !results.some((result) => result.present && result.editUrl === item.editUrl)
+      ),
       results
     };
     await chrome.storage.local.set({ [STORE_KEYS.lastRun]: result });
