@@ -673,6 +673,8 @@ async function fetchManifest(profileId) {
       id: item.id || slugify(item.name || `character-${characters.length + 1}`),
       name: item.name || `Character ${characters.length + 1}`,
       group: item.group || "",
+      productionNumber: item.productionNumber ?? null,
+      plannedDate: item.plannedDate || "",
       editUrl: item.editUrl || item.sourceUrl || "",
       fields,
       changedFields: Array.isArray(item.changedFields) ? item.changedFields : [],
