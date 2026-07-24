@@ -336,9 +336,22 @@ async function autoReleaseCharacter(release) {
     return { ok: true, releaseAction: "already-public", releasedAt: new Date().toISOString() };
   }
 
-  visibility.click();
-  const dialog = await waitForElement('[role="dialog"]', 10000);
-  if (!dialog || !/make character public/i.test(dialog.textContent || "")) {
+  const visibilityControl = visibility.closest("label") || document.querySelector('label[for="character-visibility"]') || visibility;
+  visibilityControl.scrollIntoView({ block: "center" });
+  visibilityControl.click();
+
+  let dialog = null;
+  for (let attempt = 0; attempt < 100; attempt += 1) {
+    dialog = Array.from(document.querySelectorAll('[role="dialog"], [aria-modal="true"]')).find((candidate) =>
+      isVisible(candidate) && /make character public/i.test(candidate.textContent || "")
+    ) || null;
+    if (dialog) break;
+    if (readCharacterStatus("visibility") === "public") {
+      return { ok: true, releaseAction: "published", releasedAt: new Date().toISOString() };
+    }
+    await new Promise((resolve) => setTimeout(resolve, 100));
+  }
+  if (!dialog) {
     throw new Error("The Make Character Public dialog did not open.");
   }
 

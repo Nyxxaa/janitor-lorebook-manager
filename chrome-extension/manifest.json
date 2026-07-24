@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Janitor Manager",
   "description": "Back up and assist-sync Janitor AI lorebooks and character fields from GitHub or local files.",
-  "version": "0.8.2",
+  "version": "0.8.3",
   "permissions": [
     "storage",
     "activeTab",
