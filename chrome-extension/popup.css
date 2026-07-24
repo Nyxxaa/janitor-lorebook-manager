@@ -116,7 +116,13 @@ input:focus, select:focus {
 }
 
 .button:hover { background: #30415b; }
-.button:disabled { opacity: .42; cursor: not-allowed; }
+.button:disabled {
+  border-color: #2a3443;
+  background: #171d27;
+  color: #657286;
+  opacity: 1;
+  cursor: not-allowed;
+}
 .button.full { width: 100%; margin-top: 8px; }
 .button.primary { border-color: #66a6f5; background: var(--accent-strong); }
 .button.primary:hover { background: #65a6f6; }

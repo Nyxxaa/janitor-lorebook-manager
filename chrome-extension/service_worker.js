@@ -37,7 +37,13 @@ chrome.runtime.onInstalled.addListener(async () => {
     else profiles.unshift({ ...DEFAULT_PROFILE });
     await chrome.storage.local.set({
       [STORE_KEYS.profiles]: profiles,
-      [STORE_KEYS.activeProfileId]: DEFAULT_PROFILE.id
+      [STORE_KEYS.activeProfileId]: DEFAULT_PROFILE.id,
+      [STORE_KEYS.runControl]: {
+        running: false,
+        stopRequested: false,
+        resetAt: new Date().toISOString(),
+        resetReason: "extension-installed-or-updated"
+      }
     });
   }
 });
