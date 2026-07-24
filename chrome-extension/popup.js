@@ -278,6 +278,7 @@ async function sendCharacterToPage() {
 
 function renderSummary(bundle) {
   const files = bundle.files || [];
+  const characters = bundle.characters || [];
   const invalid = files.filter((file) => file.validation && !file.validation.ok).length;
   const warnings = files.filter((file) => file.validation?.warning).length;
   els.bundleSummary.textContent = [
@@ -286,11 +287,13 @@ function renderSummary(bundle) {
     `Files: ${files.length}`,
     `Invalid: ${invalid}`,
     `Warnings: ${warnings}`,
-    `Characters: ${(bundle.characters || []).length}`,
+    `Characters: ${characters.length}`,
+    `Verified update URLs: ${characters.filter((character) => character.editUrl).length}`,
+    `Skipped from bulk: ${characters.filter((character) => !character.editUrl).length}`,
     "",
     ...files.map((file) => `${file.filename || file.name}: ${file.entries || 0} entries, ${Math.round((file.bytes || 0) / 1024)} KB${file.validation?.ok === false ? " INVALID" : ""}`)
   ].join("\n");
-  renderCharacters(bundle.characters || []);
+  renderCharacters(characters);
 }
 
 function renderCharacters(characters) {

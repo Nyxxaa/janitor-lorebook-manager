@@ -7,7 +7,7 @@ Chrome Manifest V3 extension for assisted Janitor AI lorebook and character prod
 1. Click **Refresh Production Batch**.
 2. Confirm the batch summary shows the expected character count.
 3. Click **Test First Character** and review the result.
-4. Only then click **Create / Update All Characters**.
+4. Only then click **Update Verified Characters**.
 
 The character queue is isolated from lorebook publishing. Local-file, lorebook, comparison, and repository controls are kept in separate expandable sections.
 
@@ -23,7 +23,8 @@ The character queue is isolated from lorebook publishing. Local-file, lorebook, 
 - Downloads a self-contained HTML backup of visible Janitor character fields, including the character card, personality/definition, scenario, initial message, and example dialogs when present.
 - Keeps manual single-record fills review-first; the explicit project updater can save existing records unattended.
 - Loads character packages from a GitHub manifest, including avatars, and fills Janitor character creation/edit forms.
-- **Bulk Create / Update Queue** creates packages without an `editUrl`, updates packages with one, and captures each new character URL for the run report.
+- **Update Verified Characters** updates only packages with exact Janitor `editUrl` values.
+- Packages without verified edit URLs are skipped, never auto-created. This prevents duplicates when an existing Janitor character has not yet been reconciled with the repository.
 - Existing-character updates preserve their current visibility. Release scheduling runs only for newly created characters.
 - **Stop Run** safely finishes the character currently being saved/released, then prevents the next queue item from starting.
 - **Compare My Characters** reads every page of an open Janitor **My Characters** library, matches repository records by Janitor UUID, and performs a read-only field comparison in matched editors.
@@ -62,7 +63,7 @@ The manifest may contain `lorebooks` (or the legacy `files` array), `characters`
 }
 ```
 
-Field values can use a relative/absolute path string, `{ "path": "..." }`, `{ "url": "..." }`, or inline `{ "text": "..." }`. Add `"avatar": "characters/example-character/avatar.png"` for creation. **Bulk Create / Update Queue** routes new records through `/create_character` and existing records through their exact `editUrl`; it refuses new records without an avatar and fails closed when required controls cannot be matched.
+Field values can use a relative/absolute path string, `{ "path": "..." }`, `{ "url": "..." }`, or inline `{ "text": "..." }`. Bulk updates require an exact Janitor `editUrl`. New characters must be opened and reviewed individually from the popup.
 
 ## Workspace Compiler
 
@@ -113,5 +114,5 @@ If only one lorebook editor is open, the extension can match it by the existing 
 
 - The extension does not know or store Janitor credentials.
 - The extension does not use a Janitor API.
-- Automatic saving and creation happen only after the explicit **Bulk Create / Update Queue** click.
+- Automatic bulk saving happens only after the explicit **Update Verified Characters** click. Bulk creation is disabled.
 - If Janitor changes its editor UI, field detection may fail closed.

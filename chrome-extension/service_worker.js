@@ -209,7 +209,9 @@ async function batchPublishCharacters(profileId, limit = Infinity) {
   const bundle = response.bundle;
   if (!bundle?.characters?.length) return { ok: true, attempted: 0, skipped: 0, results: [] };
   await applyRememberedCharacterUrls(bundle, profileId);
-  const allEligible = bundle.characters.filter((character) => character.validation?.ok !== false);
+  const allEligible = bundle.characters.filter((character) =>
+    character.validation?.ok !== false && Boolean(character.editUrl)
+  );
   const eligible = allEligible.slice(0, limit);
   if (!eligible.length) return { ok: true, attempted: 0, skipped: bundle.characters.length, results: [] };
   const results = [];
@@ -217,14 +219,13 @@ async function batchPublishCharacters(profileId, limit = Infinity) {
     if (await isStopRequested()) break;
     let tab;
     try {
-      const creating = !character.editUrl;
-      if (creating && !character.avatarUrl) throw new Error("Refusing to create a character without an avatar.");
-      const url = new URL(creating ? "https://janitorai.com/create_character" : character.editUrl);
-      if (!/^https:\/\/(?:www\.)?janitorai\.com$/i.test(url.origin) || (!creating && !/^\/edit_character\/[0-9a-f-]+\/?$/i.test(url.pathname))) throw new Error("Refusing an invalid Janitor character URL.");
+      const creating = false;
+      const url = new URL(character.editUrl);
+      if (!/^https:\/\/(?:www\.)?janitorai\.com$/i.test(url.origin) || !/^\/edit_character\/[0-9a-f-]+\/?$/i.test(url.pathname)) throw new Error("Refusing an invalid Janitor character edit URL.");
       tab = await chrome.tabs.create({ url: url.toString(), active: false });
       await waitForTabComplete(tab.id, 30000);
       const result = await sendTabMessageWithRetry(tab.id, {
-        type: creating ? "jm:autoCreateCharacter" : "jm:autoUpdateCharacter",
+        type: "jm:autoUpdateCharacter",
         profileId,
         characterId: character.id
       }, 30, 500);
@@ -234,31 +235,11 @@ async function batchPublishCharacters(profileId, limit = Infinity) {
         throw failure;
       }
       const savedUrl = toCharacterEditUrl(result.createdUrl || character.editUrl);
-      if (creating && savedUrl) {
-        character.editUrl = savedUrl;
-        await persistBundle(profileId, bundle);
-      }
       let releaseResult = { releaseAction: "visibility-preserved" };
-      if (creating) {
-        const release = buildCharacterRelease(character);
-        const publicUrl = toCharacterPublicUrl(savedUrl || result.createdUrl || character.editUrl, character.name);
-        if (!publicUrl) throw new Error("Could not construct the Janitor character page URL for release setup.");
-        await chrome.tabs.update(tab.id, { url: publicUrl });
-        await waitForTabComplete(tab.id, 30000);
-        releaseResult = await sendTabMessageWithRetry(tab.id, {
-          type: "jm:autoReleaseCharacter",
-          release
-        }, 30, 500);
-        if (!releaseResult?.ok) {
-          const failure = new Error(releaseResult?.error || "Janitor did not confirm the release setup.");
-          failure.diagnostics = releaseResult?.diagnostics;
-          throw failure;
-        }
-      }
       results.push({
         id: character.id,
         name: character.name,
-        action: creating ? "created" : "updated",
+        action: "updated",
         editUrl: savedUrl || result.createdUrl || character.editUrl,
         ok: true,
         savedAt: result.savedAt,
