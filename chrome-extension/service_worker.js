@@ -238,19 +238,22 @@ async function batchPublishCharacters(profileId, limit = Infinity) {
         character.editUrl = savedUrl;
         await persistBundle(profileId, bundle);
       }
-      const release = buildCharacterRelease(character);
-      const publicUrl = toCharacterPublicUrl(savedUrl || result.createdUrl || character.editUrl, character.name);
-      if (!publicUrl) throw new Error("Could not construct the Janitor character page URL for release setup.");
-      await chrome.tabs.update(tab.id, { url: publicUrl });
-      await waitForTabComplete(tab.id, 30000);
-      const releaseResult = await sendTabMessageWithRetry(tab.id, {
-        type: "jm:autoReleaseCharacter",
-        release
-      }, 30, 500);
-      if (!releaseResult?.ok) {
-        const failure = new Error(releaseResult?.error || "Janitor did not confirm the release setup.");
-        failure.diagnostics = releaseResult?.diagnostics;
-        throw failure;
+      let releaseResult = { releaseAction: "visibility-preserved" };
+      if (creating) {
+        const release = buildCharacterRelease(character);
+        const publicUrl = toCharacterPublicUrl(savedUrl || result.createdUrl || character.editUrl, character.name);
+        if (!publicUrl) throw new Error("Could not construct the Janitor character page URL for release setup.");
+        await chrome.tabs.update(tab.id, { url: publicUrl });
+        await waitForTabComplete(tab.id, 30000);
+        releaseResult = await sendTabMessageWithRetry(tab.id, {
+          type: "jm:autoReleaseCharacter",
+          release
+        }, 30, 500);
+        if (!releaseResult?.ok) {
+          const failure = new Error(releaseResult?.error || "Janitor did not confirm the release setup.");
+          failure.diagnostics = releaseResult?.diagnostics;
+          throw failure;
+        }
       }
       results.push({
         id: character.id,

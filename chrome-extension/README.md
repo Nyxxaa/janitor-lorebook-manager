@@ -24,6 +24,7 @@ The character queue is isolated from lorebook publishing. Local-file, lorebook, 
 - Keeps manual single-record fills review-first; the explicit project updater can save existing records unattended.
 - Loads character packages from a GitHub manifest, including avatars, and fills Janitor character creation/edit forms.
 - **Bulk Create / Update Queue** creates packages without an `editUrl`, updates packages with one, and captures each new character URL for the run report.
+- Existing-character updates preserve their current visibility. Release scheduling runs only for newly created characters.
 - **Stop Run** safely finishes the character currently being saved/released, then prevents the next queue item from starting.
 - **Compare My Characters** reads every page of an open Janitor **My Characters** library, matches repository records by Janitor UUID, and performs a read-only field comparison in matched editors.
 - Updates an existing project unattended when manifest lorebooks and characters include exact Janitor `editUrl` values: backup, fill, save, verify, and continue past individual failures.
